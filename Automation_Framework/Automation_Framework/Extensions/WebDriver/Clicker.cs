@@ -6,6 +6,8 @@ namespace Automation_Framework.Extensions.WebDriver
 {
     public static class Clicker
     {
+     
+        
         public static void ClickOnElement(this IWebDriver driver, By by)
         {
             driver.WaitForClickable(by);

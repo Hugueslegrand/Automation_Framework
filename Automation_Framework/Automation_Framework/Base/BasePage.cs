@@ -10,5 +10,6 @@ namespace Automation_Framework.Base
             {
                 Driver = driver;
             }
+     
     }
 }

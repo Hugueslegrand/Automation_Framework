@@ -19,9 +19,10 @@ namespace Automation_Framework.Helpers
             options.AddArgument("--disable-save-password-bubble");
             options.AddArgument("ignore-certificate-errors");
             options.AddArgument("start-maximized");
+           
             options.AddArgument($"--lang={config.BrowserLanguage}");
             options.AddUserProfilePreference("intl.accept_languages", config.BrowserLanguage);
-
+          
             return options;
         }
         public static FirefoxOptions FirefoxOptions(WebDriverConfiguration config)
@@ -29,7 +30,7 @@ namespace Automation_Framework.Helpers
             var options = new FirefoxOptions { AcceptInsecureCertificates = true };
             options.AddArgument("start-maximized");
             options.SetPreference("intl.accept_languages", config.BrowserLanguage);
-
+            
             return options;
         }
 

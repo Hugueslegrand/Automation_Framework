@@ -11,7 +11,10 @@ namespace Automation_Framework.Extensions.WebDriver
             driver.FindElement(by).Clear();
             driver.FindElement(by).SendKeys(text);
         }
-
+        public static void SendKeys(this IWebDriver driver, string text)
+        {
+            driver.SendKeys(text);
+        }
         public static void FillFormByElement(this IWebDriver driver, IWebElement element, string text)
         {
             driver.WaitForClickable(element);

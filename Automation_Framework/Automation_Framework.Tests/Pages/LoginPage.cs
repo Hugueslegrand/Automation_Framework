@@ -14,20 +14,23 @@ namespace Automation_Framework.Tests.Pages
         public LoginPage(IWebDriver driver) : base(driver)
         {
         }
-        public IWebElement SignInEmail => Driver.FindElement(By.XPath("//input[@id='SignInEmail']"));
+        public InputField SignInEmail => new InputField(Driver, By.XPath("//input[@id='SignInEmail']"));
+        public InputField SignInPassword => new InputField(Driver, By.XPath("//input[@id='SignInEmail']"));
+        public Button SignInButtonComplete => new Button(Driver, By.XPath("//button[@id='SignInButtonComplete']"));
+        /*public IWebElement SignInEmail => Driver.FindElement(By.XPath("//input[@id='SignInEmail']"));
         public IWebElement SignInPassword => Driver.FindElement(By.XPath("//input[@id='SignInPassword']"));
-        public IWebElement SignInButtonComplete => Driver.FindElement(By.XPath("//button[@id='SignInButtonComplete']"));
+        public IWebElement SignInButtonComplete => Driver.FindElement(By.XPath("//button[@id='SignInButtonComplete']"));*/
 
-        public void ClickLogin() => Driver.ClickOnElement(SignInButtonComplete);
+        public void ClickLogin() => SignInButtonComplete.ClickOnElement();
+            //Driver.ClickOnElement(SignInButtonComplete);
 
         public void Login(string userName, string password)
         {
-            Driver.FillFormByElement(SignInEmail,userName);
-            //SignInEmail.SendKeys(userName);
-            Driver.FillFormByElement(SignInPassword, password);
-           // SignInPassword.SendKeys(password);
-            SignInButtonComplete.Click(); // Or ClickLogin();
-
+            SignInEmail.ClickOnElement();
+            SignInEmail.SendKeys(userName);
+            SignInPassword.ClickOnElement();
+            SignInPassword.SendKeys(password);
+            SignInButtonComplete.ClickOnElement();
         }
     }
 }

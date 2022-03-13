@@ -8,7 +8,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace Automation_Framework.Extensions.WebDriver
 {
-    public static class Locator
+    public static class Populator
     {
         public static List<string> TextReaderFromRow(this IList<IWebElement> elementList)
         {

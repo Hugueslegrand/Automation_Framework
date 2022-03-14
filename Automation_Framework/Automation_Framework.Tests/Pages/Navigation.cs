@@ -18,7 +18,7 @@ namespace Automation_Framework.Tests.Pages
         public Button SignInButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
         public InputField SearchBar => new InputField(Driver, By.XPath("//button[@id='SignInButton']"));
         public Button Logo => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
-        public Button RegisterButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
+        public Button RegisterButton => new Button(Driver, By.XPath("//button[@id='RegisterButton']"));
         public Button MyMovieButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
         public Button ProfileButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
         public Button SignOutButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));

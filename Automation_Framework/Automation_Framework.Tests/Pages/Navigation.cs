@@ -16,13 +16,13 @@ namespace Automation_Framework.Tests.Pages
         {
         }
         public Button SignInButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
-        public InputField SearchBar => new InputField(Driver, By.XPath("//button[@id='SignInButton']"));
-        public Button Logo => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
+        public InputField SearchBar => new InputField(Driver, By.XPath("//input[@id='mui-68877']"));
+        public Button Logo => new Button(Driver, By.XPath("//img[@id='Logo']"));
         public Button RegisterButton => new Button(Driver, By.XPath("//button[@id='RegisterButton']"));
-        public Button MyMovieButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
-        public Button ProfileButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
-        public Button SignOutButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
-        public Button SettingsButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
+        public Button MyMovieButton => new Button(Driver, By.XPath("//a[@href='#/orders']//button[@id='OrdersPageButton']"));
+        public Button ProfileButton => new Button(Driver, By.XPath("//a[@href='#/profile']//button[@id='OrdersPageButton']"));
+        public Button SignOutButton => new Button(Driver, By.XPath("//button[@id='SignOutButton']"));
+        public Button SettingsButton => new Button(Driver, By.XPath("//*[name()='path' and contains(@d,'M413.967 2')]"));
 
         /*public IWebElement SearchBar => Driver.FindElement(By.XPath("//input[@id='mui-68877']"));
         public IWebElement Logo => Driver.FindElement(By.XPath("//img[@id='Logo']"));

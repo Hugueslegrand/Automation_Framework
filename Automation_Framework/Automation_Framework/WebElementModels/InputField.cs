@@ -9,39 +9,42 @@ namespace Automation_Framework.Extensions.WebDriver
 {
     public class InputField
     {
+        private readonly IWebElement _webElement;
+        private readonly IWebDriver _webDriver;
         public InputField(IWebDriver driver, IWebElement webElement)
         {
-            WebElement = webElement;
-            WebDriver = driver;
+            _webElement = webElement;
+            _webDriver = driver;
         }
 
 
 
         public InputField(IWebDriver driver, By by)
         {
-            WebDriver = driver;
-            WebElement = driver.FindElement(by);
+            _webDriver = driver;
+            _webElement = driver.FindElement(by);
         }
 
-        private IWebElement WebElement { get; }
+        
 
-        private IWebDriver WebDriver { get; }
+
 
         public void SendKeys(string text)
         {
-            WebElement.SendKeys(text);
+            _webElement.SendKeys(text);
         }
+
         public void ClickOnElement()
         {
 
-            WebDriver.ClickOnElement(WebElement);
+            _webDriver.ClickOnElement(_webElement);
         }
 
 
 
         public bool Displayed()
         {
-            return WebElement.Displayed;
+            return _webElement.Displayed;
         }
     }
 }

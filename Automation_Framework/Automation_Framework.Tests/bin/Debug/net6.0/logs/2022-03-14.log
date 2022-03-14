@@ -1,0 +1,22 @@
+2022-03-14 11:13:27 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 11:13:34 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 11:13:34 INFO  Clicking on the button `SIGN IN` Element (id = 8254a9aa-22fc-4d84-8d7d-7a59191e8420)
+2022-03-14 11:13:34 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 11:13:34 INFO  Clicking on the input `` Element (id = b2badbb6-a80b-4329-9213-a9bea6658c9d)
+2022-03-14 11:13:34 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 11:13:34 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 11:13:34 INFO  Clicking on the input `` Element (id = 55744450-0264-44ca-b049-dceb51cae053)
+2022-03-14 11:13:35 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 11:13:35 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 11:13:35 INFO  Clicking on the button `LOGIN` Element (id = d4074ab2-c515-4d08-9aef-339f1dc2d94a)
+2022-03-14 11:19:40 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 11:19:46 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 11:19:47 INFO  Clicking on the button `SIGN IN` Element (id = 70f3c05d-dc48-4eb5-9107-118fb54db258)
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 11:19:48 INFO  Clicking on the input `` Element (id = 5792b6f5-4456-4cbd-b54a-9907285e2ce1)
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 11:19:48 INFO  Clicking on the input `` Element (id = 3abac000-e65d-4f6e-803a-fc03bf8ae82f)
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 11:19:48 INFO  Clicking on the button `LOGIN` Element (id = 1f9d344a-c945-4e5f-a96d-4a871770cd33)

@@ -26,8 +26,6 @@ namespace Automation_Framework.Extensions.WebDriver
             _webElement = driver.FindElement(by);
         }
 
-        
- 
 
        
         public void ClickOnElement()

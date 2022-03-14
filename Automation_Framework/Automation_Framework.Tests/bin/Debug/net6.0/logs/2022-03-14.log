@@ -20,3 +20,43 @@
 2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
 2022-03-14 11:19:48 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
 2022-03-14 11:19:48 INFO  Clicking on the button `LOGIN` Element (id = 1f9d344a-c945-4e5f-a96d-4a871770cd33)
+2022-03-14 11:56:42 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 11:56:49 INFO  Finding element `By.XPath: //button[@id='RegisterButton']`
+2022-03-14 11:56:50 INFO  Clicking on the button `REGISTER` Element (id = 25c90a46-ccd6-468d-be83-07e43a1991e4)
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterFirstName']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterLastName']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterEmail']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterPassword']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterRePassword']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //button[@id='RegisterButtonComplete']`
+2022-03-14 11:56:50 INFO  Clicking on the button `JOIN US` Element (id = b3a5dea5-b6a0-44ac-9230-1508fd514a5a)
+2022-03-14 12:02:01 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 12:03:28 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 12:03:34 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 12:03:34 INFO  Clicking on the button `SIGN IN` Element (id = 83b49e84-1317-472b-b937-eafa1d4beb12)
+2022-03-14 12:03:34 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 12:03:35 INFO  Clicking on the input `` Element (id = b848f6ea-64e4-4416-a368-fff4fc14c294)
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 12:03:35 INFO  Clicking on the input `` Element (id = d95d0ddc-5461-495d-aeea-205909c1ab34)
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 12:03:35 INFO  Clicking on the button `LOGIN` Element (id = 30a2b640-30ad-47ad-aa27-dd58f31a3f96)
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 12:06:05 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 12:06:12 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 12:06:13 INFO  Clicking on the button `SIGN IN` Element (id = 48cda3d4-9a13-4661-aa1b-5f01f1e60cea)
+2022-03-14 12:06:13 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 12:06:14 INFO  Clicking on the input `` Element (id = 223759d6-2a8b-498b-b512-89f6d928be2a)
+2022-03-14 12:06:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 12:06:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 12:06:14 INFO  Clicking on the input `` Element (id = d8240525-3fac-4f88-808e-e59d45a26fe6)
+2022-03-14 12:06:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 12:06:14 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 12:06:14 INFO  Clicking on the button `LOGIN` Element (id = b41cba38-9117-4eca-b570-dfc86449fd4c)
+2022-03-14 12:06:16 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 12:06:16 INFO  Clicking on the button `MY MOVIES` Element (id = c663d0b3-adf5-4f51-ad15-c513b7a27214)
+2022-03-14 12:06:18 INFO  Finding element `By.XPath: //button[normalize-space()='Watch now']`
+2022-03-14 12:06:18 INFO  Clicking on the button `WATCH NOW` Element (id = 7d1bda5e-329e-4465-b95f-27f0fae2c154)
+2022-03-14 12:06:20 INFO  Finding element `By.XPath: //div[@class='css-ce9ngx']//button[@id='CloseModal']`
+2022-03-14 12:06:20 INFO  Clicking on the button `x` Element (id = 3898e5c2-eceb-432b-a6fb-efdce73cc303)

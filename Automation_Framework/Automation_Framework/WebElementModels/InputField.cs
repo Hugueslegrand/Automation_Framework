@@ -29,7 +29,7 @@ namespace Automation_Framework.Extensions.WebDriver
 
         public void SendKeys(string text)
         {
-            WebDriver.SendKeys(text);
+            WebElement.SendKeys(text);
         }
         public void ClickOnElement()
         {

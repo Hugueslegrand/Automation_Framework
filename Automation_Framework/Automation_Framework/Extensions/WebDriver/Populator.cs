@@ -16,10 +16,10 @@ namespace Automation_Framework.Extensions.WebDriver
             return allRowsText;
         }
         
-        public static List<string> GetAllRowValuesForColumn(this IList<IWebElement> elementList, int columnIndex)
+        public static List<string> GetAllRowValuesForColumn(this IList<IWebElement> elementList, int columnIndex, By by)
         {
             List<string> allRowsText = elementList
-                                       .Select(x => x.FindElements(By.CssSelector(""))
+                                       .Select(x => x.FindElements(by)
                                        .ElementAt(columnIndex).Text).ToList();
             return allRowsText;
         }

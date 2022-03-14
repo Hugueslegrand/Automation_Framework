@@ -1,0 +1,68 @@
+{
+  "uuid": "39c99953-f239-4ab6-9d0c-7834deec86d6-tr-0-1001",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdmin_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdmin_POM",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='SignInEmail']\"}\n  (Session info: chrome=99.0.4844.51)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at Automation_Framework.Tests.Pages.LoginPage.get_SignInEmail() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 17\r\n   at Automation_Framework.Tests.Pages.LoginPage.Login(String userName, String password) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 25\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 26"
+  },
+  "stage": "finished",
+  "description": "Login as administrator\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdmin_POM",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='SignInEmail']\"}\n  (Session info: chrome=99.0.4844.51)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at Automation_Framework.Tests.Pages.LoginPage.get_SignInEmail() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 17\r\n   at Automation_Framework.Tests.Pages.LoginPage.Login(String userName, String password) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 25\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 26"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a3bfd5b60f764b74b42840ab20253e40-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647095826380,
+      "stop": 1647095838781
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647095826379,
+  "stop": 1647095838790
+}

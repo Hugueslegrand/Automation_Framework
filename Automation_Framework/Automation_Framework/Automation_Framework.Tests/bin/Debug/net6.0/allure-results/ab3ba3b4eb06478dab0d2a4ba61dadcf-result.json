@@ -1,0 +1,67 @@
+{
+  "uuid": "cb671bf2-97ae-45d0-af66-7e2a82400d4a-tr-0-1001",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdmin_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdmin_POM",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Unable to locate element: //button[@id='SignInButton']",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at Automation_Framework.Tests.Pages.Navigation.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 20\r\n   at Automation_Framework.Tests.Pages.Navigation.ClickSignIn() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 36\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 17"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdmin_POM",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Unable to locate element: //button[@id='SignInButton']",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at Automation_Framework.Tests.Pages.Navigation.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 20\r\n   at Automation_Framework.Tests.Pages.Navigation.ClickSignIn() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 36\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 17"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "575312b3ea45421e874b4ecafab91e8a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1646769232621,
+      "stop": 1646769244981
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1646769232621,
+  "stop": 1646769244983
+}

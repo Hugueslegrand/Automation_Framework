@@ -1,0 +1,48 @@
+{
+  "uuid": "50d4bbb1-c4d6-4539-819f-c26c304cbd6c-tc-0-1000",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "children": [
+    "4b189269-0711-4f43-b50c-b10ed8c13080-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.FileNotFoundException : The configuration file 'Automation_Framework.Tests\u0007ppSettings.json' was not found and is not optional.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()\r\n   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)\r\n   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()\r\n   at Automation_Framework.Helpers.Configuration.Load[T](String sectionName) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Helpers\\Configuration.cs:line 23\r\n   at Automation_Framework.Helpers.Configuration.get_WebDriver() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Helpers\\Configuration.cs:line 16\r\n   at Automation_Framework.Base.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 16\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1646768449043,
+      "stop": 1646768449043
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.FileNotFoundException : The configuration file 'Automation_Framework.Tests\u0007ppSettings.json' was not found and is not optional.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()\r\n   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)\r\n   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()\r\n   at Automation_Framework.Helpers.Configuration.Load[T](String sectionName) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Helpers\\Configuration.cs:line 23\r\n   at Automation_Framework.Helpers.Configuration.get_WebDriver() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Helpers\\Configuration.cs:line 16\r\n   at Automation_Framework.Base.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 16\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1646768449043,
+      "stop": 1646768449043
+    }
+  ],
+  "links": [],
+  "start": 1646768449001,
+  "stop": 1646768449073
+}

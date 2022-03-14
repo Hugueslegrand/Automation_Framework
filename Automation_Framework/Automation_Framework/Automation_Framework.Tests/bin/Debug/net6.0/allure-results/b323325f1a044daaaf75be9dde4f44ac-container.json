@@ -1,0 +1,48 @@
+{
+  "uuid": "420f1733-8456-4deb-82b0-d114859ee01a-tc-0-1000",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "children": [
+    "8d9a820b-2370-4fbb-94cf-c660bf08eb95-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.FileNotFoundException : The configuration file 'appSettings.json' was not found and is not optional. The expected physical path was 'C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework.Tests\\bin\\Debug\\net6.0\\appSettings.json'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()\r\n   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)\r\n   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()\r\n   at Automation_Framework.Helpers.Configuration.Load[T](String sectionName) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Helpers\\Configuration.cs:line 23\r\n   at Automation_Framework.Helpers.Configuration.get_WebDriver() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Helpers\\Configuration.cs:line 16\r\n   at Automation_Framework.Base.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 16\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1646768626694,
+      "stop": 1646768626694
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.FileNotFoundException : The configuration file 'appSettings.json' was not found and is not optional. The expected physical path was 'C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework.Tests\\bin\\Debug\\net6.0\\appSettings.json'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)\r\n   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()\r\n   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)\r\n   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()\r\n   at Automation_Framework.Helpers.Configuration.Load[T](String sectionName) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Helpers\\Configuration.cs:line 23\r\n   at Automation_Framework.Helpers.Configuration.get_WebDriver() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Helpers\\Configuration.cs:line 16\r\n   at Automation_Framework.Base.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 16\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\setuo_test\\Nieuwe map\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1646768626695,
+      "stop": 1646768626695
+    }
+  ],
+  "links": [],
+  "start": 1646768626646,
+  "stop": 1646768626722
+}

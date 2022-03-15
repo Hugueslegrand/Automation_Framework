@@ -1,5 +1,7 @@
 ﻿using Automation_Framework.Models;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Appium;
+using OpenQA.Selenium.Appium.Enums;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
@@ -63,6 +65,14 @@ namespace Automation_Framework.Helpers
             options.PageLoadStrategy = PageLoadStrategy.Normal;
 
 
+            return options;
+        }
+        public static AppiumOptions AndroidOptions(AndroidDriverConfiguration config)
+        {
+            var options = new AppiumOptions();
+            options.AddAdditionalCapability(MobileCapabilityType.PlatformName, config.PlatformName);
+            options.AddAdditionalCapability(MobileCapabilityType.DeviceName, config.DeviceName);
+            options.AddAdditionalCapability(MobileCapabilityType.App, config.App);
             return options;
         }
     }

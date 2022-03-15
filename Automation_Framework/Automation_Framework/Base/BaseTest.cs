@@ -3,6 +3,8 @@ using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using LLibrary;
+using OpenQA.Selenium.Appium.Android;
+using OpenQA.Selenium.Appium;
 
 namespace Automation_Framework.Base
 {
@@ -19,6 +21,7 @@ namespace Automation_Framework.Base
             var url = Configuration.Environment;
            
             var logger = new L(directory: @"C:\LogsTest");
+            AndroidDriver = new WebDriverFactory().GetAndroidDriver(androidConfig, logger);
             Driver = new WebDriverFactory().GetWebDriver(driverConfig, logger);
             Driver.Manage().Window.Maximize();
             Driver.Navigate().GoToUrl(url.ApplicationUrl);
@@ -31,6 +34,7 @@ namespace Automation_Framework.Base
         }
 
         protected IWebDriver Driver { get; set; }
+        protected AppiumDriver<AndroidElement> AndroidDriver { get; set; }
     }
 
 }

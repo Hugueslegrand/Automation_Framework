@@ -1,6 +1,7 @@
 ﻿using System;
 using Automation_Framework.Models;
 using LLibrary;
+using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
@@ -43,6 +44,12 @@ namespace Automation_Framework.Helpers
                         Configuration.WebDriver.BrowserName,
                         null);
             }
+        }
+        public AndroidDriver<AndroidElement> GetAndroidDriver (AndroidDriverConfiguration driverconfig, L logger)
+        {
+          
+            var androidDriver = new AndroidDriver<AndroidElement>(WebDriverSettings.AndroidOptions(driverconfig));
+            return androidDriver;
         }
     }
 }

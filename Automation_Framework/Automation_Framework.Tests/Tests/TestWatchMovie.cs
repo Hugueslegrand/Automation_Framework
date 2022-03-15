@@ -25,7 +25,7 @@ namespace Automation_Framework.Tests.Tests
             LoginPage loginPage = new LoginPage(Driver);
 
             loginPage.Login("brent.dar@ap.be", "hond");
-            //loginPage.ScreenShot();
+            loginPage.ScreenShot();
 
             
             Thread.Sleep(2000);

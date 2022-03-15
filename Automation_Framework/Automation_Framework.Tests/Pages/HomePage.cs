@@ -60,6 +60,8 @@ namespace Automation_Framework.Tests.Pages
         public void ClickMoreInfo() => MoreInfoButton.ClickOnElement();
         //Driver.ClickOnElement(MoreInfoButton);
         public void ClickCloseModal() => CloseModalButton.ClickOnElement();
-            //Driver.ClickOnElement(CloseModalButton);
+        //Driver.ClickOnElement(CloseModalButton);
+
+        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "HomeScreenshot");
     }
 }

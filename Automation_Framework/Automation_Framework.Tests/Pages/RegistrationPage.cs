@@ -37,6 +37,7 @@ namespace Automation_Framework.Tests.Pages
             RegisterButtonComplete.ClickOnElement(); // Or ClickRegister();
         }
 
+        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "RegistrationScreenshot");
 
     }
 }

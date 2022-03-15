@@ -69,5 +69,7 @@ namespace Automation_Framework.Tests.Pages
         //Driver.ClickOnElement(SettingsButton);
 
         public void Wait() => WaitExtension.Wait(Driver);
+
+        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "NavigationScreenshot");
     }
 }

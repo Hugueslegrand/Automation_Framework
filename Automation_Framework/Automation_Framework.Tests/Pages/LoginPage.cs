@@ -35,6 +35,6 @@ namespace Automation_Framework.Tests.Pages
             SignInPassword.SendKeys(password);
             SignInButtonComplete.ClickOnElement();
         }
-        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "FirstScreenshot");
+        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "LoginScreenshot");
     }
 }

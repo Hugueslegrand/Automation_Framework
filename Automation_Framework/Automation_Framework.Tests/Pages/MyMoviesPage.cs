@@ -27,6 +27,7 @@ namespace Automation_Framework.Tests.Pages
 
         public void ClickWatchNow() => WatchNowButton.ClickOnElement();
         public void ClickCloseModal() => CloseModalButton.ClickOnElement();
+        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "MyMoviesScreenshot");
 
     }
 }

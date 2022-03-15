@@ -40,6 +40,12 @@ namespace Automation_Framework.Tests.Pages
 
        
         //Functions
+
+        public void WaitTemp()
+        {
+            WaitExtension.WaitTemp(Driver);
+        }
+
         public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
 
         public void ClickSearchBar() => SearchBar.ClickOnElement();
@@ -60,6 +66,8 @@ namespace Automation_Framework.Tests.Pages
         public void ClickSignOut() => SignOutButton.ClickOnElement();
         //Driver.ClickOnElement(SignOutButton);
         public void ClickSettings() => SettingsButton.ClickOnElement();
-            //Driver.ClickOnElement(SettingsButton);
+        //Driver.ClickOnElement(SettingsButton);
+
+        public void Wait() => WaitExtension.Wait(Driver);
     }
 }

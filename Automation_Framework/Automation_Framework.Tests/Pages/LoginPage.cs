@@ -17,10 +17,13 @@ namespace Automation_Framework.Tests.Pages
         public InputField SignInEmail => new InputField(Driver, By.XPath("//input[@id='SignInEmail']"));
         public InputField SignInPassword => new InputField(Driver, By.XPath("//input[@id='SignInPassword']"));
         public Button SignInButtonComplete => new Button(Driver, By.XPath("//button[@id='SignInButtonComplete']"));
+
+
         /*public IWebElement SignInEmail => Driver.FindElement(By.XPath("//input[@id='SignInEmail']"));
         public IWebElement SignInPassword => Driver.FindElement(By.XPath("//input[@id='SignInPassword']"));
         public IWebElement SignInButtonComplete => Driver.FindElement(By.XPath("//button[@id='SignInButtonComplete']"));*/
 
+        public void Wait() => WaitExtension.Wait(Driver);
         public void ClickLogin() => SignInButtonComplete.ClickOnElement();
             //Driver.ClickOnElement(SignInButtonComplete);
 
@@ -32,5 +35,6 @@ namespace Automation_Framework.Tests.Pages
             SignInPassword.SendKeys(password);
             SignInButtonComplete.ClickOnElement();
         }
+        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "FirstScreenshot");
     }
 }

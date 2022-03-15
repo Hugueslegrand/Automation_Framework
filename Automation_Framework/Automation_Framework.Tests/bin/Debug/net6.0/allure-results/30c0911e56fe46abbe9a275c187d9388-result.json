@@ -1,0 +1,65 @@
+{
+  "uuid": "07ce2bd3-2479-4295-9bbb-75f143d6e942-tr-0-1005",
+  "historyId": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_WatchMovie",
+  "fullName": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_WatchMovie",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_WatchMovie"
+    },
+    {
+      "name": "testClass",
+      "value": "TestWatchMovie"
+    }
+  ],
+  "links": [],
+  "name": "Test_WatchMovie",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_WatchMovie"
+  },
+  "stage": "finished",
+  "description": "Test: WatchMovie\n",
+  "steps": [
+    {
+      "name": "Test_WatchMovie",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b5de06bf63e64f8a9878c2890835996b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647332826877,
+      "stop": 1647332846003
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647332826876,
+  "stop": 1647332846008
+}

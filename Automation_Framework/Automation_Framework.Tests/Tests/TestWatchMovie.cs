@@ -1,5 +1,6 @@
 ﻿using Automation_Framework.Base;
 using Automation_Framework.Tests.Pages;
+using Automation_Framework.Extensions;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -18,20 +19,22 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(Driver);
             navigation.surfToUrl();
-            Thread.Sleep(6000);
+            navigation.WaitTemp();
             navigation.ClickSignIn();
 
             LoginPage loginPage = new LoginPage(Driver);
 
             loginPage.Login("brent.dar@ap.be", "hond");
+            //loginPage.ScreenShot();
 
+            
             Thread.Sleep(2000);
             navigation.ClickMyMovie();
-            Thread.Sleep(2000);
-
+            //Thread.Sleep(2000);
+            navigation.WaitTemp();
             MyMoviesPage watchMovie = new MyMoviesPage(Driver);
             watchMovie.ClickWatchNow();
-            Thread.Sleep(2000);
+            //Thread.Sleep(2000);
 
             watchMovie.ClickCloseModal();
         }

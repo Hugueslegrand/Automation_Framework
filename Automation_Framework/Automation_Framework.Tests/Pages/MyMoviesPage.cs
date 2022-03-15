@@ -1,6 +1,7 @@
 ﻿using Automation_Framework.Base;
 using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Linq;

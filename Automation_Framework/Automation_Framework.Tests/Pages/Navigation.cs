@@ -41,12 +41,6 @@ namespace Automation_Framework.Tests.Pages
        
         //Functions
 
-        public void WaitTemp()
-        {
-            WaitExtension.WaitTemp(Driver);
-        }
-
-        public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
 
         public void ClickSearchBar() => SearchBar.ClickOnElement();
         //Driver.ClickOnElement(SearchBar);

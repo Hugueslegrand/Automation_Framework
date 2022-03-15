@@ -17,7 +17,7 @@ namespace Automation_Framework.Tests.Tests
         public void Test_LoginAsAdmin_POM()
         {
             Navigation navigation = new Navigation(Driver);
-            navigation.surfToUrl();
+          
             Thread.Sleep(6000);
             navigation.ClickSignIn();
 

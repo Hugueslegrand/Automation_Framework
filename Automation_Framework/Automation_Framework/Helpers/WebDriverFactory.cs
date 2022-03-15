@@ -13,8 +13,9 @@ namespace Automation_Framework.Helpers
 {
     public class WebDriverFactory
     {
-        public WebDriverListener GetWebDriver(WebDriverConfiguration driverConfig, L logger)
-        {
+        public WebDriverListener GetWebDriver(WebDriverConfiguration driverConfig, L logger )
+        { 
+
             switch (driverConfig.BrowserName)
             {
                 case BrowserName.Chrome:

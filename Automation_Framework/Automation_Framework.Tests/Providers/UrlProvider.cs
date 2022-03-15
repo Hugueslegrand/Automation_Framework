@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.Tests.Providers
 {
+    //OBSOLETE CLASS
     public class UrlProvider
     {
         private static Uri BaseUrl => new Uri(Configuration.Environment.ApplicationUrl);

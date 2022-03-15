@@ -1,6 +1,8 @@
 ﻿using Automation_Framework.Base;
 using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Appium;
+using OpenQA.Selenium.Appium.Android;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +16,22 @@ namespace Automation_Framework.Tests.Pages
         public HomePage(IWebDriver driver) : base(driver)
         {
         }
-        //id: Comedy Movies and id: 531219 => Dynamic
+        public HomePage(AppiumDriver<AndroidElement> driver) : base(driver)
+        {
+        }
+
+        //Mobile elements
+        public AndroidElement Logo => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"logo\"]/android.widget.ImageView");
+        public AndroidElement SignInButton => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"loginIcon\"]/android.widget.TextView");
+        public AndroidElement SignOutButton => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"logoutIcon\"]/android.widget.TextView");
+        public AndroidElement SettingsButton => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"settingsIcon\"]/android.widget.TextView");
+
+
+        public AndroidElement MovieTitle => AndroidDriver.FindElementByXPath("(//android.view.ViewGroup[@content-desc=\"moviesRow\"])[1]/android.widget.TextView");
+        public AndroidElement MovieBanner => AndroidDriver.FindElementByXPath("(//android.view.ViewGroup[@content-desc=\"moviePoster\"])[1]/android.widget.ImageView");
+
+
+        //Desktop elements
         public Button MovieBannerButton => new Button(Driver,By.XPath("//div[@id='Comedy Movies']//img[@id='531219']"));
         public Button deHorizontalScrollBarrs => new Button(Driver, By.XPath("//div[@id='Comedy Movies']//div[@class='css-nlgfro']"));
         public Button BrightestOfficalSite => new Button(Driver, By.XPath("//a[@class='css-mi3e9x']"));
@@ -60,6 +77,14 @@ namespace Automation_Framework.Tests.Pages
         public void ClickMoreInfo() => MoreInfoButton.ClickOnElement();
         //Driver.ClickOnElement(MoreInfoButton);
         public void ClickCloseModal() => CloseModalButton.ClickOnElement();
-            //Driver.ClickOnElement(CloseModalButton);
+        //Driver.ClickOnElement(CloseModalButton);
+
+
+
+        //Mobile methods
+        public void ClickLogo() => Logo.Click();
+        public void ClickSignInButton() => SignInButton.Click();
+        public void ClickSignOutButton() => SignOutButton.Click();
+        public void ClickSettingsButton() => SettingsButton.Click();
     }
 }

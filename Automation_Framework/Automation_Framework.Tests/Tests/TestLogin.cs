@@ -26,5 +26,15 @@ namespace Automation_Framework.Tests.Tests
             loginPage.Login("brent.dar@ap.be", "hond");
 
         }
+        [Test]
+        public void LoginWithAdmin()
+        {
+            Thread.Sleep(10000);
+            HomePage homeScreen = new HomePage(AndroidDriver);
+            homeScreen.ClickSignInButton();
+
+            LoginPage loginScreen = new LoginPage(AndroidDriver);
+            loginScreen.Login("brent.dar@ap.be", "hond");
+        }
     }
 }

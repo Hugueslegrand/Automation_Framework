@@ -70,9 +70,10 @@ namespace Automation_Framework.Helpers
         public static AppiumOptions AndroidOptions(AndroidDriverConfiguration config)
         {
             var options = new AppiumOptions();
-            options.AddAdditionalCapability(MobileCapabilityType.PlatformName, config.PlatformName);
-            options.AddAdditionalCapability(MobileCapabilityType.DeviceName, config.DeviceName);
-            options.AddAdditionalCapability(MobileCapabilityType.App, config.App);
+            options.AddAdditionalOption(MobileCapabilityType.PlatformName, config.PlatformName);
+            options.AddAdditionalOption(MobileCapabilityType.PlatformName, config.PlatformName);
+            options.AddAdditionalOption(MobileCapabilityType.DeviceName, config.DeviceName);
+            options.AddAdditionalOption(MobileCapabilityType.App, config.App);
             return options;
         }
     }

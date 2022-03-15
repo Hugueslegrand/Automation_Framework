@@ -45,7 +45,7 @@ namespace Automation_Framework.Helpers
                         null);
             }
         }
-        public AndroidDriver<AndroidElement> GetAndroidDriver (AndroidDriverConfiguration driverconfig, L logger)
+        public AndroidDriver<AndroidElement> GetAndroidDriver (AndroidDriverConfiguration driverconfig)
         {
           
             var androidDriver = new AndroidDriver<AndroidElement>(WebDriverSettings.AndroidOptions(driverconfig));

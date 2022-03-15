@@ -384,3 +384,4 @@ C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framewo
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework.Tests\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework.Tests\bin\Debug\net6.0\Automation_Framework.runtimeconfig.dev.json

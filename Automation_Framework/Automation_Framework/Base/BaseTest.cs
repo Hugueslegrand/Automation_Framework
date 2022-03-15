@@ -21,7 +21,7 @@ namespace Automation_Framework.Base
             var url = Configuration.Environment;
            
             var logger = new L(directory: @"C:\LogsTest");
-            AndroidDriver = new WebDriverFactory().GetAndroidDriver(androidConfig, logger);
+            AndroidDriver = new WebDriverFactory().GetAndroidDriver(androidConfig);
             Driver = new WebDriverFactory().GetWebDriver(driverConfig, logger);
             Driver.Manage().Window.Maximize();
             Driver.Navigate().GoToUrl(url.ApplicationUrl);

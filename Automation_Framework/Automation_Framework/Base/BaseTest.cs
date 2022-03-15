@@ -14,7 +14,7 @@ namespace Automation_Framework.Base
         public void Setup()
         {
             var driverConfig = Configuration.WebDriver;
-            var logger = new L();
+            var logger = new L(directory: @"C:\LogsTest");
             Driver = new WebDriverFactory().GetWebDriver(driverConfig, logger);
             Driver.Manage().Window.Maximize();
         }

@@ -1,4 +1,5 @@
 ﻿
+using Automation_Framework.Extensions.WebDriver;
 using LLibrary;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.Events;
@@ -20,6 +21,9 @@ namespace Automation_Framework.Helpers
             ElementClicking += WebDriverListener_ElementClicking;
             ElementClicked += WebDriverListener_ElementClicked;
             ElementValueChanged += WebDriverListener_ElementValueChanged;
+
+            
+           
         }
         private void WebDriverListener_Navigating(object sender,
             WebDriverNavigationEventArgs e)
@@ -48,13 +52,15 @@ namespace Automation_Framework.Helpers
         private void WebDriverListener_ElementValueChanged(object sender,
             WebElementValueEventArgs e)
         {
-            LogScreenshot($"Value of the {e.Element} changed to `{e.Value}`");
+            LogMessage($"Value of the {e.Element} changed to `{e.Value}`");
+            LogScreenshot($"Value: `{e.Value}` entered in `{e.Element}`");
         }
 
         private void WebDriverListener_Navigated(object sender,
             WebDriverNavigationEventArgs e)
         {
-            LogScreenshot($"Navigated to [{e.Driver.Title}]({e.Url})");
+           
+            LogMessage($"Navigated to [{e.Driver.Title}]({e.Url})");
         }
 
         private void LogMessage(string text)
@@ -64,7 +70,7 @@ namespace Automation_Framework.Helpers
 
         private void LogScreenshot(string text)
         {
-            // _driver.TakeStandardScreenshot(text);
+             ScreenshotTaker.TakeStandardScreenshot(_driver,text);
         }
     }
 }

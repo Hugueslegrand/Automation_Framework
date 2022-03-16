@@ -16,7 +16,7 @@ namespace Automation_Framework.Helpers
         public static ChromeOptions ChromeOptions(WebDriverConfiguration config)
         {
             var options = new ChromeOptions();
-          
+         
             options.AddExcludedArgument("enable-automation");
             options.AddArgument("--disable-save-password-bubble");
             options.AddArgument("ignore-certificate-errors");
@@ -50,7 +50,7 @@ namespace Automation_Framework.Helpers
         public static EdgeOptions EdgeOptions()
         {
             var options = new EdgeOptions();
-            options.AddArgument("start-maximized");
+           // options.AddArgument("start-maximized");
 
             options.PageLoadStrategy = PageLoadStrategy.Normal;
 
@@ -67,13 +67,15 @@ namespace Automation_Framework.Helpers
 
             return options;
         }
+
+            
         public static AppiumOptions AndroidOptions(AndroidDriverConfiguration config)
         {
-            var options = new AppiumOptions();
-            options.AddAdditionalOption(MobileCapabilityType.PlatformName, config.PlatformName);
-            options.AddAdditionalOption(MobileCapabilityType.PlatformName, config.PlatformName);
-            options.AddAdditionalOption(MobileCapabilityType.DeviceName, config.DeviceName);
-            options.AddAdditionalOption(MobileCapabilityType.App, config.App);
+            AppiumOptions options = new AppiumOptions();
+            
+            options.AddAdditionalCapability(MobileCapabilityType.PlatformName, config.PlatformName);
+            options.AddAdditionalCapability(MobileCapabilityType.DeviceName, config.DeviceName);
+            options.AddAdditionalCapability(MobileCapabilityType.App, config.App);
             return options;
         }
     }

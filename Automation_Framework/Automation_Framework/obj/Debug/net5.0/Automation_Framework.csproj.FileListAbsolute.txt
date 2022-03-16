@@ -17,8 +17,6 @@ C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framewo
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\AngleSharp.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Appium.Net.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\AspectInjector.Broker.dll
-C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Castle.Core.dll
-C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\SeleniumExtras.PageObjects.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\L.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -45,7 +43,6 @@ C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framewo
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\NUnit.Allure.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\WebDriver.Support.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\WebDriver.dll
-C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Selenium.WebDriver.Extensions.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\ICSharpCode.SharpZipLib.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\System.Drawing.Common.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
@@ -130,3 +127,5 @@ C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framewo
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\obj\Debug\net5.0\ref\Automation_Framework.dll
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\obj\Debug\net5.0\Automation_Framework.pdb
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\obj\Debug\net5.0\Automation_Framework.genruntimeconfig.cache
+C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\SeleniumExtras.PageObjects.dll

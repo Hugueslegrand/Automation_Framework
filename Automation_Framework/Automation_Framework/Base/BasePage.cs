@@ -8,7 +8,7 @@ namespace Automation_Framework.Base
     {
             protected readonly IWebDriver Driver;
             protected readonly AppiumDriver<AndroidElement> AndroidDriver;
-            protected BasePage(IWebDriver driver)
+           protected BasePage(IWebDriver driver)
             {
                 Driver = driver;
             }

@@ -19,7 +19,7 @@ namespace Automation_Framework.Tests.Tests
         public void Test_LoginAsAdmin_POM()
         {
             Navigation navigation = new Navigation(Driver);
-          
+            navigation.surfToUrl();
             Thread.Sleep(6000);
             navigation.ClickSignIn();
 
@@ -36,7 +36,7 @@ namespace Automation_Framework.Tests.Tests
             homeScreen.ClickSignInButton();
 
             LoginPage loginScreen = new LoginPage(AndroidDriver);
-            loginScreen.Login("brent.dar@ap.be", "hond");
+            loginScreen.Login1("brent.dar@ap.be", "hond");
         }
     }
 }

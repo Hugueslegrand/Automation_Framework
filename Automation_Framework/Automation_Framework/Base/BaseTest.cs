@@ -18,19 +18,20 @@ namespace Automation_Framework.Base
             var driverConfig = Configuration.WebDriver;
             var androidConfig = Configuration.AndroidDriver;
             var iosConfig = Configuration.IOSDriver;
-            var url = Configuration.Environment;
+          
            
             var logger = new L(directory: @"C:\LogsTest");
             AndroidDriver = new WebDriverFactory().GetAndroidDriver(androidConfig);
             Driver = new WebDriverFactory().GetWebDriver(driverConfig, logger);
             Driver.Manage().Window.Maximize();
-            Driver.Navigate().GoToUrl(url.ApplicationUrl);
+           
         }
 
         [TearDown]
         public void TearDown()
         {
             Driver.Quit();
+            AndroidDriver.Quit();
         }
 
         protected IWebDriver Driver { get; set; }

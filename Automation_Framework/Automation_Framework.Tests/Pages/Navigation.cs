@@ -38,10 +38,10 @@ namespace Automation_Framework.Tests.Pages
         public IWebElement SettingsButton => Driver.FindElement(By.XPath("//*[name()='path' and contains(@d,'M413.967 2')]"));
         */
 
-       
+
         //Functions
 
-
+        public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
         public void ClickSearchBar() => SearchBar.ClickOnElement();
         //Driver.ClickOnElement(SearchBar);
         public void FillSearchBar(string searchBar) => SearchBar.SendKeys(searchBar);

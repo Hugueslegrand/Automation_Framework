@@ -1,6 +1,7 @@
 ﻿using System;
 using Automation_Framework.Models;
 using LLibrary;
+using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
@@ -9,6 +10,7 @@ using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Opera;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
+
 
 namespace Automation_Framework.Helpers
 {
@@ -44,11 +46,12 @@ namespace Automation_Framework.Helpers
                         Configuration.WebDriver.BrowserName,
                         null);
             }
+           
         }
-        public AndroidDriver<AndroidElement> GetAndroidDriver (AndroidDriverConfiguration driverconfig)
+       public AppiumDriver<AndroidElement> GetAndroidDriver (AndroidDriverConfiguration driverconfig)
         {
-          
-            var androidDriver = new AndroidDriver<AndroidElement>(WebDriverSettings.AndroidOptions(driverconfig));
+         
+            var androidDriver = new AndroidDriver<AndroidElement>(new Uri("http://localhost:4723/wd/hub"), WebDriverSettings.AndroidOptions(driverconfig));
             return androidDriver;
         }
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q1fv7UHmtW8yROVfXPLmSlVOHYZWt7ABDriXMLrGhHBO5iDvxgj01mYWmhxlqVGNeMG/+c6JCezrBdPTvUxcvw==",
+  "dgSpecHash": "45skB1ZCIo9jsZJ0I0mRZI6tfZqDhOfdJokPEOyNniqL21LmYmQ3ekhyk/frQhOPB2zOE8J+BER17dxURjTPQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
   "expectedPackageFiles": [
@@ -38,9 +38,8 @@
     "C:\\Users\\hugue\\.nuget\\packages\\nunit.allure\\1.2.1.1\\nunit.allure.1.2.1.1.nupkg.sha512",
     "C:\\Users\\hugue\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512",
     "C:\\Users\\hugue\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
-    "C:\\Users\\hugue\\.nuget\\packages\\selenium.support\\4.1.0\\selenium.support.4.1.0.nupkg.sha512",
-    "C:\\Users\\hugue\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
-    "C:\\Users\\hugue\\.nuget\\packages\\selenium.webdriver.extensions\\4.1.0\\selenium.webdriver.extensions.4.1.0.nupkg.sha512",
+    "C:\\Users\\hugue\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
+    "C:\\Users\\hugue\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
     "C:\\Users\\hugue\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\hugue\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\hugue\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

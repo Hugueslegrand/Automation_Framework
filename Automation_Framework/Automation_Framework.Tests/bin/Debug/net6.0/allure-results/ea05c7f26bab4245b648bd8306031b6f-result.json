@@ -1,0 +1,65 @@
+{
+  "uuid": "dc27c3e0-846d-4497-b789-965ca5942cc4-tr-0-1007",
+  "historyId": "Automation_Framework.Tests.Tests.TestMoreInfo.Test_MoreInfo",
+  "fullName": "Automation_Framework.Tests.Tests.TestMoreInfo.Test_MoreInfo",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_MoreInfo"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMoreInfo"
+    }
+  ],
+  "links": [],
+  "name": "Test_MoreInfo",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_MoreInfo"
+  },
+  "stage": "finished",
+  "description": "Test: MoreInfo\n",
+  "steps": [
+    {
+      "name": "Test_MoreInfo",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6fc854b9508a48d7a768e16e8be6be44-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647428426389,
+      "stop": 1647428445313
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647428426389,
+  "stop": 1647428445316
+}

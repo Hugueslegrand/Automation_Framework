@@ -1,0 +1,70 @@
+{
+  "uuid": "52240505-30e4-4e2b-b13b-43a8084cae37-tr-0-1003",
+  "historyId": "Automation_Framework.Tests.Tests.TestCancelPayment.Test_CancelPayment",
+  "fullName": "Automation_Framework.Tests.Tests.TestCancelPayment.Test_CancelPayment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_CancelPayment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCancelPayment"
+    }
+  ],
+  "links": [],
+  "name": "Test_CancelPayment",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_CancelPayment"
+  },
+  "stage": "finished",
+  "description": "Test: CancelPayment\n",
+  "steps": [
+    {
+      "name": "Test_CancelPayment",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "LoginScreenshot",
+          "source": "e8a907b60ccb4a07b4db41c0245465eb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "00e261b189364a43bb3777564d9eeac2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647418959117,
+      "stop": 1647418982641
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647418959116,
+  "stop": 1647418982644
+}

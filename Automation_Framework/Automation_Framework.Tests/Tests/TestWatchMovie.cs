@@ -19,7 +19,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(Driver);
             navigation.surfToUrl();
-            navigation.WaitTemp();
+            Thread.Sleep(6000);
             navigation.ClickSignIn();
 
             LoginPage loginPage = new LoginPage(Driver);
@@ -31,10 +31,10 @@ namespace Automation_Framework.Tests.Tests
             Thread.Sleep(2000);
             navigation.ClickMyMovie();
             //Thread.Sleep(2000);
-            navigation.WaitTemp();
+            //navigation.WaitTemp();
             MyMoviesPage watchMovie = new MyMoviesPage(Driver);
             watchMovie.ClickWatchNow();
-            //Thread.Sleep(2000);
+            Thread.Sleep(2000);
 
             watchMovie.ClickCloseModal();
         }

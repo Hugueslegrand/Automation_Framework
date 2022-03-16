@@ -1,0 +1,65 @@
+{
+  "uuid": "cddd702e-effa-444c-a98c-dce5a392a394-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterAnUser_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterAnUser_POM",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RegisterAnUser_POM"
+  },
+  "stage": "finished",
+  "description": "Register an user\n",
+  "steps": [
+    {
+      "name": "Test_RegisterAnUser_POM",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "51327c74327d481caabbcd5a9a97f9f1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647426444063,
+      "stop": 1647426454402
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647426444063,
+  "stop": 1647426454405
+}

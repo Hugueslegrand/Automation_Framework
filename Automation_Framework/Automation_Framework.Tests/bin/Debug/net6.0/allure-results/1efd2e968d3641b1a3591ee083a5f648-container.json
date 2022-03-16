@@ -1,0 +1,44 @@
+{
+  "uuid": "39e3e986-6671-47db-b577-3e91aa1af1b9-tc-0-1010",
+  "name": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_WatchMovie",
+  "children": [
+    "48a66096-b4f0-421f-bb81-683fc5dbb8b1-tr-0-1011"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647427498440,
+      "stop": 1647427498440
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647427498440,
+      "stop": 1647427498440
+    }
+  ],
+  "links": [],
+  "start": 1647427495813,
+  "stop": 1647427498466
+}

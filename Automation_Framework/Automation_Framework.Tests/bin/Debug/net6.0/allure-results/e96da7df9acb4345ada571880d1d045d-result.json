@@ -1,0 +1,68 @@
+{
+  "uuid": "610ffd4e-7c41-42d8-9a45-5804a5c708ac-tr-0-1007",
+  "historyId": "Automation_Framework.Tests.Tests.TestMoreInfo.Test_MoreInfo",
+  "fullName": "Automation_Framework.Tests.Tests.TestMoreInfo.Test_MoreInfo",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_MoreInfo"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMoreInfo"
+    }
+  ],
+  "links": [],
+  "name": "Test_MoreInfo",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id='Comedy Movies']//img[@id='531219']\"}\n  (Session info: chrome=99.0.4844.51)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at Automation_Framework.Extensions.WebDriver.Button..ctor(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\Button.cs:line 26\r\n   at Automation_Framework.Tests.Pages.HomePage.get_MovieBannerButton() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 18\r\n   at Automation_Framework.Tests.Pages.HomePage.ClickMovieBanner() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 46\r\n   at Automation_Framework.Tests.Tests.TestMoreInfo.Test_MoreInfo() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMoreInfo.cs:line 31"
+  },
+  "stage": "finished",
+  "description": "Test: MoreInfo\n",
+  "steps": [
+    {
+      "name": "Test_MoreInfo",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id='Comedy Movies']//img[@id='531219']\"}\n  (Session info: chrome=99.0.4844.51)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at Automation_Framework.Extensions.WebDriver.Button..ctor(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\Button.cs:line 26\r\n   at Automation_Framework.Tests.Pages.HomePage.get_MovieBannerButton() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 18\r\n   at Automation_Framework.Tests.Pages.HomePage.ClickMovieBanner() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 46\r\n   at Automation_Framework.Tests.Tests.TestMoreInfo.Test_MoreInfo() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMoreInfo.cs:line 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4553a043b70d421f84ea4543d88f21ac-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647428320787,
+      "stop": 1647428331884
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647428320787,
+  "stop": 1647428331887
+}

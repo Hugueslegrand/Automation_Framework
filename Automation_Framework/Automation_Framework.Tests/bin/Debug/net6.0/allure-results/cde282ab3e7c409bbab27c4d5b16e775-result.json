@@ -1,0 +1,70 @@
+{
+  "uuid": "99a50913-a961-4d85-a427-809eedb44da9-tr-0-1001",
+  "historyId": "Automation_Framework.Tests.Tests.TestAddCredits.Test_AddCredits",
+  "fullName": "Automation_Framework.Tests.Tests.TestAddCredits.Test_AddCredits",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AddCredits"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAddCredits"
+    }
+  ],
+  "links": [],
+  "name": "Test_AddCredits",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_AddCredits"
+  },
+  "stage": "finished",
+  "description": "Test: AddCredits\n",
+  "steps": [
+    {
+      "name": "Test_AddCredits",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "LoginScreenshot",
+          "source": "98f33e21e2a649bfbbec75e48e460553-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "57149e6084374ecf976f112ba0c089ba-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647427541194,
+      "stop": 1647427562500
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647427541193,
+  "stop": 1647427562502
+}

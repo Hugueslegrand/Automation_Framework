@@ -1,0 +1,70 @@
+{
+  "uuid": "0bf36cca-9fec-41a7-8e20-c8511d743c8a-tr-0-1007",
+  "historyId": "Automation_Framework.Tests.Tests.Test_add_credits.Test_WatchMovie",
+  "fullName": "Automation_Framework.Tests.Tests.Test_add_credits.Test_WatchMovie",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_WatchMovie"
+    },
+    {
+      "name": "testClass",
+      "value": "Test_add_credits"
+    }
+  ],
+  "links": [],
+  "name": "Test_WatchMovie",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_WatchMovie"
+  },
+  "stage": "finished",
+  "description": "Test: WatchMovie\n",
+  "steps": [
+    {
+      "name": "Test_WatchMovie",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "LoginScreenshot",
+          "source": "0155dbf7fc974fe5a8b6efc8f0b5d602-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e153c29ec3ce44648c5d513132e9c3f6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647418145922,
+      "stop": 1647418168096
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647418145921,
+  "stop": 1647418168098
+}

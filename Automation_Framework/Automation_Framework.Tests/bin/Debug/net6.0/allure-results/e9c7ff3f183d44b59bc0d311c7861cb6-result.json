@@ -1,0 +1,73 @@
+{
+  "uuid": "7a3b41af-ecf8-4636-b93b-a39d7958462f-tr-0-1007",
+  "historyId": "Automation_Framework.Tests.Tests.TestMoreInfo.Test_AddCredits",
+  "fullName": "Automation_Framework.Tests.Tests.TestMoreInfo.Test_AddCredits",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AddCredits"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMoreInfo"
+    }
+  ],
+  "links": [],
+  "name": "Test_AddCredits",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='mui-68877']\"}\n  (Session info: chrome=99.0.4844.51)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at Automation_Framework.Extensions.WebDriver.InputField..ctor(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\InputField.cs:line 25\r\n   at Automation_Framework.Tests.Pages.Navigation.get_SearchBar() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 19\r\n   at Automation_Framework.Tests.Pages.Navigation.ClickSearchBar() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 51\r\n   at Automation_Framework.Tests.Tests.TestMoreInfo.Test_AddCredits() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMoreInfo.cs:line 31"
+  },
+  "stage": "finished",
+  "description": "Test: MoreInfo\n",
+  "steps": [
+    {
+      "name": "Test_AddCredits",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='mui-68877']\"}\n  (Session info: chrome=99.0.4844.51)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at Automation_Framework.Extensions.WebDriver.InputField..ctor(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\InputField.cs:line 25\r\n   at Automation_Framework.Tests.Pages.Navigation.get_SearchBar() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 19\r\n   at Automation_Framework.Tests.Pages.Navigation.ClickSearchBar() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 51\r\n   at Automation_Framework.Tests.Tests.TestMoreInfo.Test_AddCredits() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMoreInfo.cs:line 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "LoginScreenshot",
+          "source": "061725d7c33f4d09b0baa055b10003e2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "706fc78f475f494ca9ddd8585d58eaa9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647422359844,
+      "stop": 1647422371548
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647422359843,
+  "stop": 1647422371551
+}

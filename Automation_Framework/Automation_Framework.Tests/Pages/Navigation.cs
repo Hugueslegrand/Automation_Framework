@@ -16,7 +16,7 @@ namespace Automation_Framework.Tests.Pages
         {
         }
         public Button SignInButton => new Button(Driver, By.XPath("//button[@id='SignInButton']"));
-        public InputField SearchBar => new InputField(Driver, By.XPath("//input[@id='mui-68877']"));
+        public InputField SearchBar => new InputField(Driver, By.XPath("/html/body/div/div/div[2]/header/div[2]/div/div/div/div/input"));
         public Button Logo => new Button(Driver, By.XPath("//img[@id='Logo']"));
         public Button RegisterButton => new Button(Driver, By.XPath("//button[@id='RegisterButton']"));
         public Button MyMovieButton => new Button(Driver, By.XPath("//a[@href='#/orders']//button[@id='OrdersPageButton']"));
@@ -46,6 +46,9 @@ namespace Automation_Framework.Tests.Pages
             WaitExtension.WaitTemp(Driver);
         }
 
+        public void Wait() => WaitExtension.Wait(Driver);
+      
+
         public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
 
         public void ClickSearchBar() => SearchBar.ClickOnElement();
@@ -68,7 +71,7 @@ namespace Automation_Framework.Tests.Pages
         public void ClickSettings() => SettingsButton.ClickOnElement();
         //Driver.ClickOnElement(SettingsButton);
 
-        public void Wait() => WaitExtension.Wait(Driver);
+
 
         public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "NavigationScreenshot");
     }

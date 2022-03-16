@@ -18,7 +18,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(Driver);
             navigation.surfToUrl();
-            Thread.Sleep(6000);
+            //Thread.Sleep(6000);
             navigation.ClickRegister();
 
             RegistrationPage registrationPage = new RegistrationPage(Driver);

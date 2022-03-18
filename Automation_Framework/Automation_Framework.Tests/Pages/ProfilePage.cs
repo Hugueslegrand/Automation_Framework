@@ -1,4 +1,6 @@
 ﻿using Automation_Framework.Base;
+using Automation_Framework.Enums;
+using Automation_Framework.WebElementModels;
 using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
 using System;
@@ -15,10 +17,10 @@ namespace Automation_Framework.Tests.Pages
         {
         }
 
-        public Button AddCreditsButton => new Button(Driver, By.XPath("//button[normalize-space()='add credits']"));
-        public Button BuyCreditsButton => new Button(Driver, By.XPath("//button[normalize-space()='buy']"));
-        public Button CancelPaymentButton => new Button(Driver, By.XPath("//a[normalize-space()='Cancel payment']"));
-        public InputField AmountOfCredits => new InputField(Driver, By.XPath("//input[@placeholder='5']"));
+        public IButton AddCreditsButton => new WebElement(Driver,"//button[normalize-space()='add credits']",Selector.Xpath);
+        public IButton BuyCreditsButton => new WebElement(Driver, "//button[normalize-space()='buy']",Selector.Xpath);
+        public IButton CancelPaymentButton => new WebElement(Driver, "//a[normalize-space()='Cancel payment']", Selector.Xpath);
+        public IInputField AmountOfCredits => new WebElement(Driver, "//input[@placeholder='5']", Selector.Xpath);
 
 
 

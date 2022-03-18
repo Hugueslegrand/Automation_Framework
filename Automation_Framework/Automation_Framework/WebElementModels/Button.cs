@@ -1,4 +1,8 @@
-﻿using Automation_Framework.Helpers;
+﻿
+//Can be deleted
+
+
+/*using Automation_Framework.Helpers;
 using Automation_Framework.Base;
 using LLibrary;
 using OpenQA.Selenium;
@@ -7,10 +11,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Automation_Framework.WebElementModels;
 
 namespace Automation_Framework.Extensions.WebDriver
 {
-    public class Button
+    public class Button 
     {
         private readonly IWebElement _webElement;
         private readonly IWebDriver _webDriver;
@@ -27,17 +32,21 @@ namespace Automation_Framework.Extensions.WebDriver
         }
 
 
-       
+        
         public void ClickOnElement()
         {
             _webDriver.ClickOnElement(_webElement);
         }
 
       
-
+        public IWebElement GetWebElement()
+        {
+            return _webElement;
+        }
         public bool Displayed()
         {
             return _webElement.Displayed;
         }
     }
 }
+*/

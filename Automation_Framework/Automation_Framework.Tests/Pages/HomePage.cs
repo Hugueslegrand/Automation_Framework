@@ -1,5 +1,7 @@
 ﻿using Automation_Framework.Base;
+using Automation_Framework.Enums;
 using Automation_Framework.Extensions.WebDriver;
+using Automation_Framework.WebElementModels;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
@@ -32,17 +34,19 @@ namespace Automation_Framework.Tests.Pages
 
 
         //Desktop elements
-        public Button MovieBannerButton => new Button(Driver,By.XPath("//div[@id='Comedy Movies']//img[@id='531219']"));
-        public Button deHorizontalScrollBarrs => new Button(Driver, By.XPath("//div[@id='Comedy Movies']//div[@class='css-nlgfro']"));
-        public Button BrightestOfficalSite => new Button(Driver, By.XPath("//a[@class='css-mi3e9x']"));
-        public Button BrightestFaceBookSocials => new Button(Driver, By.XPath("//a[@href='https://www.facebook.com/BrightestNV']"));
-        public Button BrightestTwitterSocials => new Button(Driver, By.XPath("//a[@href='https://twitter.com/brightestnv']"));
-        public Button BrightestInstagramSocials => new Button(Driver, By.XPath("//a[@href='https://www.instagram.com/brightestsoftwarequality/']"));
-        public Button BrightestLinkedInSocials => new Button(Driver, By.XPath("//a[@href='https://www.linkedin.com/company/brightest-nv/']"));
-        public Button RentThisMovieButton => new Button(Driver, By.XPath("//button[@id='RentMovieButton']"));
-        public Button MoreInfoButton => new Button(Driver, By.XPath("//a[@class='css-14nkc1e']"));
-        public Button CloseModalButton => new Button(Driver, By.XPath("//div[@class='css-ce9ngx']//button[@id='CloseModal']"));
 
+        public IButton MovieBannerButton => new WebElement(Driver,"//div[@id='Comedy Movies']//img[@id='531219']",Selector.Xpath);
+        public IButton deHorizontalScrollBarrs => new WebElement(Driver,"//div[@id='Comedy Movies']//div[@class='css-nlgfro']", Selector.Xpath);
+        public IButton BrightestOfficalSite => new WebElement(Driver,"//a[@class='css-mi3e9x']", Selector.Xpath);
+        public IButton BrightestFaceBookSocials => new WebElement(Driver, "//a[@href='https://www.facebook.com/BrightestNV']",Selector.Xpath);
+        public IButton BrightestTwitterSocials => new WebElement(Driver,"//a[@href='https://twitter.com/brightestnv']", Selector.Xpath);
+        public IButton BrightestInstagramSocials => new WebElement(Driver,"//a[@href='https://www.instagram.com/brightestsoftwarequality/']",Selector.Xpath);
+        public IButton BrightestLinkedInSocials => new WebElement(Driver,"//a[@href='https://www.linkedin.com/company/brightest-nv/']", Selector.Xpath);
+        public IButton RentThisMovieButton => new WebElement(Driver,"//button[@id='RentMovieButton']", Selector.Xpath);
+        public IButton MoreInfoButton => new WebElement(Driver,"//a[@class='css-14nkc1e']",Selector.Xpath);
+        public IButton CloseModalButton => new WebElement(Driver,"//div[@class='css-ce9ngx']//button[@id='CloseModal']",Selector.Xpath);
+
+       
         /* public IWebElement MovieBannerButton => Driver.FindElement(By.XPath("//div[@id='Comedy Movies']//img[@id='531219']"));
 
          public IWebElement HorizontalScrollBar => Driver.FindElement(By.XPath("//div[@id='Comedy Movies']//div[@class='css-nlgfro']"));

@@ -1,4 +1,6 @@
 ﻿using Automation_Framework.Base;
+using Automation_Framework.Enums;
+using Automation_Framework.WebElementModels;
 using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
 using System;
@@ -15,12 +17,12 @@ namespace Automation_Framework.Tests.Pages
         {
         }
 
-        public InputField RegisterFirstName => new InputField(Driver, By.XPath("//input[@id='RegisterFirstName']"));
-        public InputField RegisterLastName => new InputField(Driver, By.XPath("//input[@id='RegisterLastName']"));
-        public InputField RegisterEmail => new InputField(Driver, By.XPath("//input[@id='RegisterEmail']"));
-        public InputField RegisterPassword => new InputField(Driver, By.XPath("//input[@id='RegisterPassword']"));
-        public InputField RegisterRePassword => new InputField(Driver, By.XPath("//input[@id='RegisterRePassword']"));
-        public Button RegisterButtonComplete => new Button(Driver, By.XPath("//button[@id='RegisterButtonComplete']"));
+        public IInputField RegisterFirstName => new WebElement(Driver, "//input[@id='RegisterFirstName']", Selector.Xpath);
+        public IInputField RegisterLastName => new WebElement(Driver,"//input[@id='RegisterLastName']", Selector.Xpath);
+        public IInputField RegisterEmail => new WebElement(Driver,"//input[@id='RegisterEmail']", Selector.Xpath);
+        public IInputField RegisterPassword => new WebElement(Driver, "//input[@id='RegisterPassword']", Selector.Xpath);
+        public IInputField RegisterRePassword => new WebElement(Driver, "//input[@id='RegisterRePassword']", Selector.Xpath);
+        public IButton RegisterButtonComplete => new WebElement(Driver, "//button[@id='RegisterButtonComplete']",Selector.Xpath);
 
 
         //Functions

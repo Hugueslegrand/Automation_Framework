@@ -1,4 +1,6 @@
 ﻿using Automation_Framework.Base;
+using Automation_Framework.Enums;
+using Automation_Framework.WebElementModels;
 using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
@@ -17,8 +19,8 @@ namespace Automation_Framework.Tests.Pages
         }
 
 
-        public Button WatchNowButton => new Button(Driver, By.XPath("//button[normalize-space()='Watch now']"));
-        public Button CloseModalButton => new Button(Driver, By.XPath("//div[@class='css-ce9ngx']//button[@id='CloseModal']"));
+        public IButton WatchNowButton => new WebElement(Driver, "//button[normalize-space()='Watch now']", Selector.Xpath);
+        public IButton CloseModalButton => new WebElement(Driver,"//div[@class='css-ce9ngx']//button[@id='CloseModal']",Selector.Xpath);
 
 
 

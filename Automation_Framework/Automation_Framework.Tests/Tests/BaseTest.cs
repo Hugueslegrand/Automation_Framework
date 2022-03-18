@@ -1,6 +1,7 @@
 ﻿using Automation_Framework.Builders;
 using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,8 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.Tests.Tests
 {
+    [TestFixture]
+    [AllureNUnit]
     public class BaseTest
     {
         public DriverBuilder builder = new DriverBuilder();

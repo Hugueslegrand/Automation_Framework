@@ -19,12 +19,12 @@ namespace Automation_Framework.Tests.Tests
         [Description("Login as administrator")]
         public void Test_LoginAsAdmin_POM()
         {
-            Navigation navigation = new Navigation(builder._webDriver);
+            Navigation navigation = new Navigation(builder);
             navigation.surfToUrl();
             Thread.Sleep(6000);
             navigation.ClickSignIn();
 
-            LoginPage loginPage = new LoginPage(builder._webDriver);
+            LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login("brent.dar@ap.be", "hond");
 

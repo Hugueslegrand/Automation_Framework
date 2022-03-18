@@ -17,12 +17,12 @@ namespace Automation_Framework.Tests.Tests
         [Description("Register an user")]
         public void Test_RegisterAnUser_POM()
         {
-            Navigation navigation = new Navigation(builder._webDriver);
+            Navigation navigation = new Navigation(builder);
             navigation.surfToUrl();
             Thread.Sleep(6000);
             navigation.ClickRegister();
 
-            RegistrationPage registrationPage = new RegistrationPage(builder._webDriver);
+            RegistrationPage registrationPage = new RegistrationPage(builder);
 
             registrationPage.Register("firstName", "lastName", "email@brightest.be", "passwoord", "passwoord");
 

@@ -18,12 +18,12 @@ namespace Automation_Framework.Tests.Tests
         [Description("Test: WatchMovie")]
         public void Test_WatchMovie()
         {
-            Navigation navigation = new Navigation(builder._webDriver);
+            Navigation navigation = new Navigation(builder);
             navigation.surfToUrl();
             Thread.Sleep(6000);
             navigation.ClickSignIn();
 
-            LoginPage loginPage = new LoginPage(builder._webDriver);
+            LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login("brent.dar@ap.be", "hond");
             //loginPage.ScreenShot();
@@ -33,7 +33,7 @@ namespace Automation_Framework.Tests.Tests
             navigation.ClickMyMovie();
             //Thread.Sleep(2000);
            
-            MyMoviesPage watchMovie = new MyMoviesPage(builder._webDriver);
+            MyMoviesPage watchMovie = new MyMoviesPage(builder);
             watchMovie.ClickWatchNow();
             //Thread.Sleep(2000);
 

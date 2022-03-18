@@ -1,4 +1,5 @@
-﻿using Automation_Framework.Base;
+﻿
+using Automation_Framework.Base;
 using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
 using System;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.Tests.Tests
 {
-    public class TestLogin:BaseTest
+    public class TestLogin : BaseTest
     {
 
 
@@ -18,12 +19,12 @@ namespace Automation_Framework.Tests.Tests
         [Description("Login as administrator")]
         public void Test_LoginAsAdmin_POM()
         {
-            Navigation navigation = new Navigation(Driver);
+            Navigation navigation = new Navigation(builder._webDriver);
             navigation.surfToUrl();
             Thread.Sleep(6000);
             navigation.ClickSignIn();
 
-            LoginPage loginPage = new LoginPage(Driver);
+            LoginPage loginPage = new LoginPage(builder._webDriver);
 
             loginPage.Login("brent.dar@ap.be", "hond");
 

@@ -1,4 +1,5 @@
-﻿using Automation_Framework.Base;
+﻿
+using Automation_Framework.Base;
 using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
 using System;
@@ -16,12 +17,12 @@ namespace Automation_Framework.Tests.Tests
         [Description("Register an user")]
         public void Test_RegisterAnUser_POM()
         {
-            Navigation navigation = new Navigation(Driver);
+            Navigation navigation = new Navigation(builder._webDriver);
             navigation.surfToUrl();
             Thread.Sleep(6000);
             navigation.ClickRegister();
 
-            RegistrationPage registrationPage = new RegistrationPage(Driver);
+            RegistrationPage registrationPage = new RegistrationPage(builder._webDriver);
 
             registrationPage.Register("firstName", "lastName", "email@brightest.be", "passwoord", "passwoord");
 

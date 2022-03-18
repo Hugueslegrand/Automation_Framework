@@ -8,7 +8,7 @@ using OpenQA.Selenium.Appium;
 
 namespace Automation_Framework.Base
 {
-    [TestFixture]
+    /*[TestFixture]
     [AllureNUnit]
     public class BaseTest
     {
@@ -34,8 +34,8 @@ namespace Automation_Framework.Base
           //  AndroidDriver.Quit();
         }
 
-        protected IWebDriver Driver { get; set; }
-      //  protected AppiumDriver<AndroidElement> AndroidDriver { get; set; }
-    }
+       protected IWebDriver Driver { get; set; }
+     protected AppiumDriver<AndroidElement> AndroidDriver { get; set; }
+    }*/
 
 }

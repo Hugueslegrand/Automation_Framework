@@ -1,4 +1,5 @@
-﻿using Automation_Framework.Base;
+﻿using Automation_Framework.Builders;
+using Automation_Framework.Base;
 using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;
 using Automation_Framework.Extensions.WebDriver;
@@ -12,13 +13,11 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.Tests.Pages
 {
-    internal class Navigation : BasePage
+    internal class Navigation :BasePage
     {
-        public Navigation(IWebDriver driver) : base(driver)
-        {
-        }
+        public Navigation(DriverBuilder driver) : base(driver) { }
         public IButton SignInButton => new WebElement(Driver, "//button[@id='SignInButton']",Selector.Xpath);
-        public IInputField SearchBar => new WebElement(Driver,"//input[@id='mui-68877']", Selector.Xpath);
+        public IInputField SearchBar => new WebElement(Driver, "//input[@id='mui-68877']", Selector.Xpath);
         public IButton Logo => new WebElement(Driver, "//img[@id='Logo']", Selector.Xpath);
         public IButton RegisterButton => new WebElement(Driver, "//button[@id='RegisterButton']", Selector.Xpath);
         public IButton MyMovieButton => new WebElement(Driver, "//a[@href='#/orders']//button[@id='OrdersPageButton']", Selector.Xpath);
@@ -64,6 +63,6 @@ namespace Automation_Framework.Tests.Pages
         public void ClickSettings() => SettingsButton.ClickOnElement();
         //Driver.ClickOnElement(SettingsButton);
 
-        public void Wait() => WaitExtension.Wait(Driver);
+      //  public void Wait() => WaitExtension.Wait(Driver);
     }
 }

@@ -9,10 +9,6 @@ namespace Automation_Framework.Extensions.WebDriver
 {
     public static class WaitExtension
     {
-        public static void WaitTemp(this IWebDriver driver)
-        {
-            Thread.Sleep(6000);
-        }
         public static WebDriverWait Wait(this IWebDriver driver)
         {
             return new WebDriverWait(driver,
@@ -20,18 +16,18 @@ namespace Automation_Framework.Extensions.WebDriver
         }
         public static void WaitForClickable(this IWebDriver driver, By by)
         {
-            //Thread.Sleep(5000);
-            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            waitFunc.Until(ExpectedConditions.ElementToBeClickable(by));
+            driver.Wait().Until(ExpectedConditions.ElementToBeClickable(by));
         }
 
-        public static IWebElement WaitForClickable(this IWebDriver driver, IWebElement element)
+        public static void WaitForClickable(this IWebDriver driver, IWebElement element)
         {
-            //Thread.Sleep(5000);
-            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            IWebElement el = driver.Wait().Until(ExpectedConditions.ElementToBeClickable(element));
-            return el;
+            driver.Wait().Until(ExpectedConditions.ElementToBeClickable(element));
         }
-
+        public static void WaitTemp(this IWebDriver driver)
+        {
+            Thread.Sleep(6000);
+        }
     }
 }
+
+

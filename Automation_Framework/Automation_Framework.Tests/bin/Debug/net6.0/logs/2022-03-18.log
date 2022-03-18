@@ -1,0 +1,168 @@
+2022-03-18 10:18:53 INFO  Navigating to https://google.com/login
+2022-03-18 10:18:53 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:23:15 INFO  Navigating to https://google.com/login
+2022-03-18 10:23:15 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:24:32 INFO  Navigating to https://google.com/login
+2022-03-18 10:24:32 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:27:06 INFO  Navigating to https://google.com/
+2022-03-18 10:27:07 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:27:07 INFO  Clicking on the button `Ik ga akkoord` Element (id = a084f00b-9085-4689-8370-2caa8c759627)
+2022-03-18 10:27:07 INFO  Finding element `By.Name: q`
+2022-03-18 10:27:08 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:35:41 INFO  Navigating to https://google.com/
+2022-03-18 10:35:42 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:35:43 INFO  Clicking on the button `Ik ga akkoord` Element (id = c7e6b360-6a36-430a-b291-60096ffbfa80)
+2022-03-18 10:35:43 INFO  Finding element `By.Name: q`
+2022-03-18 10:35:44 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:36:54 INFO  Navigating to https://google.com/
+2022-03-18 10:36:55 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:36:55 INFO  Clicking on the button `Ik ga akkoord` Element (id = 85f9a201-905e-4c65-8ecc-898369ab30f9)
+2022-03-18 10:36:55 INFO  Finding element `By.Name: q`
+2022-03-18 10:36:56 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:40:10 INFO  Navigating to https://google.com/
+2022-03-18 10:40:11 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:40:11 INFO  Clicking on the button `Ik ga akkoord` Element (id = 1612ba33-5116-4cec-b9c4-5f38f6dfcc04)
+2022-03-18 10:40:11 INFO  Finding element `By.Name: q`
+2022-03-18 10:40:13 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:26 INFO  Navigating to https://google.com/
+2022-03-18 10:42:27 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:42:27 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:42:27 INFO  Clicking on the button `Ik ga akkoord` Element (id = 3148a7e0-4d70-4a5f-83fe-503683726086)
+2022-03-18 10:42:27 INFO  Finding element `By.Name: q`
+2022-03-18 10:42:29 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:31 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:31 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:32 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:32 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:33 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:33 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:34 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:34 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:35 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:36 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:42:36 INFO  Clicking on the h3 `LambdaTest Reviews, Ratings, and Features - Gartner 2022` Element (id = 67c2e386-b5b4-4065-94a0-980784c23666)
+2022-03-18 10:52:01 INFO  Navigating to https://google.com/
+2022-03-18 10:52:02 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:52:02 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:52:02 INFO  Clicking on the button `Ik ga akkoord` Element (id = 7785040c-a294-420a-8349-d42366bec990)
+2022-03-18 10:52:02 INFO  Finding element `By.Name: q`
+2022-03-18 10:52:03 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:04 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:05 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:05 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:06 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:06 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:07 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:07 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:08 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:08 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:09 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:09 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:10 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:10 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:11 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:11 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:12 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:12 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:13 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:13 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:14 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:14 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:15 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:15 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:16 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:16 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:17 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:17 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:18 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:18 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:19 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:19 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:20 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:20 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:21 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:21 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:22 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:22 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:23 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:23 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:24 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:24 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:25 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:25 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:26 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:26 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:27 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:27 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:28 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:28 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:29 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:31 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:31 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:32 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:32 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:33 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:33 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:34 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:34 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:35 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:35 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:36 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:36 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:37 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:37 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:52:37 INFO  Clicking on the h3 `LambdaTest Reviews, Ratings, and Features - Gartner 2022` Element (id = a18f1407-242a-49ab-a0f9-4b9c63ea08de)
+2022-03-18 10:53:22 INFO  Navigating to https://google.com/
+2022-03-18 10:53:23 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:53:23 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:53:23 INFO  Clicking on the button `Ik ga akkoord` Element (id = 97baa84b-0f63-4572-9f97-d87c02f6d4e4)
+2022-03-18 10:53:23 INFO  Finding element `By.Name: q`
+2022-03-18 10:53:25 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:25 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:26 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:26 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:27 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:27 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:28 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:28 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:29 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:29 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:31 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:31 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:32 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:32 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:33 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:33 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:34 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:34 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:53:35 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:19 INFO  Navigating to https://google.com/
+2022-03-18 10:54:20 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:54:20 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 10:54:20 INFO  Clicking on the button `Ik ga akkoord` Element (id = e3b7686b-b7cf-445f-a249-b8654ca4a92b)
+2022-03-18 10:54:20 INFO  Finding element `By.Name: q`
+2022-03-18 10:54:22 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:22 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:23 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:23 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:24 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:24 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:25 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:25 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:26 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:26 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:27 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:27 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:28 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:28 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:29 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:29 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 10:54:30 INFO  Clicking on the h3 `LambdaTest + Asana integration: archiveer bugs in Asana ...` Element (id = 8a5e02e4-599f-4e59-bf30-8a886b54c5dc)

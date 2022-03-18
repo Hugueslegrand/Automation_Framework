@@ -23,6 +23,7 @@ namespace Automation_Framework.Extensions.WebDriver
         public Button(IWebDriver driver,By by)
         {
             _webDriver = driver;
+            driver.WaitForClickable(by);
             _webElement = driver.FindElement(by);
         }
 

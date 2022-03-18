@@ -1,0 +1,73 @@
+{
+  "uuid": "cc521817-19de-4402-b271-bb26c543959f-tr-0-1001",
+  "historyId": "Automation_Framework.Tests.Tests.TestAddCredits.Test_AddCredits",
+  "fullName": "Automation_Framework.Tests.Tests.TestAddCredits.Test_AddCredits",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AddCredits"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAddCredits"
+    }
+  ],
+  "links": [],
+  "name": "Test_AddCredits",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=99.0.4844.51)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.get_TagName()\r\n   at Automation_Framework.Helpers.WebDriverListener.WebDriverListener_ElementClicking(Object sender, WebElementEventArgs e) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverListener.cs:line 39\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.OnElementClicking(WebElementEventArgs e)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()\r\n   at Automation_Framework.Extensions.WebDriver.Clicker.ClickOnElement(IWebDriver driver, IWebElement element) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\Clicker.cs:line 20\r\n   at Automation_Framework.Extensions.WebDriver.InputField.ClickOnElement() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\InputField.cs:line 40\r\n   at Automation_Framework.Tests.Pages.ProfilePage.ClickAmountOfCredits() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 32\r\n   at Automation_Framework.Tests.Tests.TestAddCredits.Test_AddCredits() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestAddCredits.cs:line 36"
+  },
+  "stage": "finished",
+  "description": "Test: AddCredits\n",
+  "steps": [
+    {
+      "name": "Test_AddCredits",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=99.0.4844.51)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.get_TagName()\r\n   at Automation_Framework.Helpers.WebDriverListener.WebDriverListener_ElementClicking(Object sender, WebElementEventArgs e) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverListener.cs:line 39\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.OnElementClicking(WebElementEventArgs e)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()\r\n   at Automation_Framework.Extensions.WebDriver.Clicker.ClickOnElement(IWebDriver driver, IWebElement element) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\Clicker.cs:line 20\r\n   at Automation_Framework.Extensions.WebDriver.InputField.ClickOnElement() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\InputField.cs:line 40\r\n   at Automation_Framework.Tests.Pages.ProfilePage.ClickAmountOfCredits() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 32\r\n   at Automation_Framework.Tests.Tests.TestAddCredits.Test_AddCredits() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestAddCredits.cs:line 36"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "LoginScreenshot",
+          "source": "ac007b2b516848809f577a54ef7694da-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a625e591443c461f8ba465407f5598bf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647529838210,
+      "stop": 1647529850439
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647529838209,
+  "stop": 1647529850443
+}

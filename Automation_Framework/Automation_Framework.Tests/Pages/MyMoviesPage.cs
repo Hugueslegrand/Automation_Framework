@@ -19,6 +19,7 @@ namespace Automation_Framework.Tests.Pages
 
         public Button WatchNowButton => new Button(Driver, By.XPath("//button[normalize-space()='Watch now']"));
         public Button CloseModalButton => new Button(Driver, By.XPath("//div[@class='css-ce9ngx']//button[@id='CloseModal']"));
+        public Button HierLink => new Button(Driver, By.XPath("//a[normalize-space()='hier']"));
 
 
 
@@ -27,6 +28,7 @@ namespace Automation_Framework.Tests.Pages
 
         public void ClickWatchNow() => WatchNowButton.ClickOnElement();
         public void ClickCloseModal() => CloseModalButton.ClickOnElement();
+        public void ClickHierLink() => HierLink.ClickOnElement();
         public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "MyMoviesScreenshot");
 
     }

@@ -1,0 +1,44 @@
+{
+  "uuid": "4e476298-63e8-41c6-85a3-86086c7025bb-tc-0-1000",
+  "name": "Automation_Framework.Tests.Tests.TestAddCredits.Test_AddCredits",
+  "children": [
+    "84e0996d-f1a8-4c37-b34f-7e3bcf5081e8-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647529807889,
+      "stop": 1647529807889
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647529807889,
+      "stop": 1647529807889
+    }
+  ],
+  "links": [],
+  "start": 1647529786273,
+  "stop": 1647529807919
+}

@@ -1,0 +1,65 @@
+{
+  "uuid": "b669b1fc-83f1-41ff-bc65-dfc56f509a60-tr-0-1001",
+  "historyId": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "fullName": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_GoogleSearch"
+    },
+    {
+      "name": "testClass",
+      "value": "ExternTestGoogle"
+    }
+  ],
+  "links": [],
+  "name": "Test_GoogleSearch",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_GoogleSearch"
+  },
+  "stage": "finished",
+  "description": "Test: GoogleSearch\n",
+  "steps": [
+    {
+      "name": "Test_GoogleSearch",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "76c51b262c2e4ca385baecda1db95d5f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647596543416,
+      "stop": 1647596564539
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647596543414,
+  "stop": 1647596564542
+}

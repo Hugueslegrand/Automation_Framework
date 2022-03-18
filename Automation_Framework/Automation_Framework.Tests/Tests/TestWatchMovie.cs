@@ -18,7 +18,8 @@ namespace Automation_Framework.Tests.Tests
         public void Test_WatchMovie()
         {
             Navigation navigation = new Navigation(Driver);
-     
+            navigation.surfToUrl();
+            Thread.Sleep(6000);
             navigation.ClickSignIn();
 
             LoginPage loginPage = new LoginPage(Driver);
@@ -27,7 +28,7 @@ namespace Automation_Framework.Tests.Tests
             //loginPage.ScreenShot();
 
             
-            Thread.Sleep(2000);
+          
             navigation.ClickMyMovie();
             //Thread.Sleep(2000);
            

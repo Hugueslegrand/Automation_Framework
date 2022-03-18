@@ -18,12 +18,12 @@ namespace Automation_Framework.Tests.Pages
         public HomePage(IWebDriver driver) : base(driver)
         {
         }
-        public HomePage(AppiumDriver<AndroidElement> driver) : base(driver)
+       /* public HomePage(AppiumDriver<AndroidElement> driver) : base(driver)
         {
-        }
+        }*/
 
         //Mobile elements
-        public AndroidElement Logo => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"logo\"]/android.widget.ImageView");
+       /* public AndroidElement Logo => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"logo\"]/android.widget.ImageView");
         public AndroidElement SignInButton => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"loginIcon\"]/android.widget.TextView");
         public AndroidElement SignOutButton => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"logoutIcon\"]/android.widget.TextView");
         public AndroidElement SettingsButton => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"settingsIcon\"]/android.widget.TextView");
@@ -31,7 +31,7 @@ namespace Automation_Framework.Tests.Pages
 
         public AndroidElement MovieTitle => AndroidDriver.FindElementByXPath("(//android.view.ViewGroup[@content-desc=\"moviesRow\"])[1]/android.widget.TextView");
         public AndroidElement MovieBanner => AndroidDriver.FindElementByXPath("(//android.view.ViewGroup[@content-desc=\"moviePoster\"])[1]/android.widget.ImageView");
-
+       */
 
         //Desktop elements
 
@@ -86,9 +86,9 @@ namespace Automation_Framework.Tests.Pages
 
 
         //Mobile methods
-        public void ClickLogo() => Logo.Click();
+     /*   public void ClickLogo() => Logo.Click();
         public void ClickSignInButton() => SignInButton.Click();
         public void ClickSignOutButton() => SignOutButton.Click();
-        public void ClickSettingsButton() => SettingsButton.Click();
+        public void ClickSettingsButton() => SettingsButton.Click();*/
     }
 }

@@ -7,15 +7,15 @@ namespace Automation_Framework.Base
     public abstract class BasePage
     {
             protected readonly IWebDriver Driver;
-            protected readonly AppiumDriver<AndroidElement> AndroidDriver;
+          //  protected readonly AppiumDriver<AndroidElement> AndroidDriver;
            protected BasePage(IWebDriver driver)
             {
                 Driver = driver;
             }
-            protected BasePage(AppiumDriver<AndroidElement> driver)
+        /*   protected BasePage(AppiumDriver<AndroidElement> driver)
             {
              AndroidDriver = driver;
-            }
+            }*/
 
     }
 }

@@ -21,7 +21,7 @@ namespace Automation_Framework.Base
           
            
             var logger = new L(directory: @"C:\LogsTest");
-            AndroidDriver = new WebDriverFactory().GetAndroidDriver(androidConfig);
+          //  AndroidDriver = new WebDriverFactory().GetAndroidDriver(androidConfig);
             Driver = new WebDriverFactory().GetWebDriver(driverConfig, logger);
             Driver.Manage().Window.Maximize();
            
@@ -31,11 +31,11 @@ namespace Automation_Framework.Base
         public void TearDown()
         {
             Driver.Quit();
-            AndroidDriver.Quit();
+          //  AndroidDriver.Quit();
         }
 
         protected IWebDriver Driver { get; set; }
-        protected AppiumDriver<AndroidElement> AndroidDriver { get; set; }
+      //  protected AppiumDriver<AndroidElement> AndroidDriver { get; set; }
     }
 
 }

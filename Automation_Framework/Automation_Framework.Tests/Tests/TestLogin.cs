@@ -28,7 +28,7 @@ namespace Automation_Framework.Tests.Tests
             loginPage.Login("brent.dar@ap.be", "hond");
 
         }
-        [Test]
+      /*  [Test]
         public void LoginWithAdmin()
         {
             Thread.Sleep(10000);
@@ -37,6 +37,6 @@ namespace Automation_Framework.Tests.Tests
 
             LoginPage loginScreen = new LoginPage(AndroidDriver);
             loginScreen.Login1("brent.dar@ap.be", "hond");
-        }
+        }*/
     }
 }

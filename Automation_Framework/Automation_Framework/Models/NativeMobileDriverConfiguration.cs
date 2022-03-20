@@ -1,7 +1,7 @@
 ﻿
 namespace Automation_Framework.Models
 {
-    public class AndroidDriverConfiguration
+    public class NativeMobileDriverConfiguration
     {
         public string AutomationName { get; set; }
         public string PlatformName { get; set; }

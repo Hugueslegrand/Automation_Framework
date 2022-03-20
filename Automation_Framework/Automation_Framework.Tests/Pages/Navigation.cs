@@ -4,16 +4,10 @@ using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;
 using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.Tests.Providers;
-using OpenQA.Selenium;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Automation_Framework.Tests.Pages
 {
-    internal class Navigation :BasePage
+    public class Navigation :BasePage
     {
         public Navigation(DriverBuilder driver) : base(driver) { }
         public IButton SignInButton => new WebElement(Driver, "//button[@id='SignInButton']",Selector.Xpath);

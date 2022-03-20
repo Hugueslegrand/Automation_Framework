@@ -1,5 +1,4 @@
 ﻿
-
 namespace Automation_Framework.Models
 {
    public class WebMobileDriverConfiguration

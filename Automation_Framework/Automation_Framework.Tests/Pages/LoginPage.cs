@@ -3,14 +3,7 @@ using Automation_Framework.Enums;
 using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.WebElementModels;
 using Automation_Framework.Base;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Appium;
-using OpenQA.Selenium.Appium.Android;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Automation_Framework.Tests.Pages
 {

@@ -69,13 +69,25 @@ namespace Automation_Framework.Helpers
         }
 
             
-        public static AppiumOptions AndroidOptions(AndroidDriverConfiguration config)
+        public static AppiumOptions NativeMobileOptions(NativeMobileDriverConfiguration config)
         {
             AppiumOptions options = new AppiumOptions();
             
             options.AddAdditionalCapability(MobileCapabilityType.PlatformName, config.PlatformName);
+            options.AddAdditionalCapability(MobileCapabilityType.AutomationName, config.AutomationName);
             options.AddAdditionalCapability(MobileCapabilityType.DeviceName, config.DeviceName);
             options.AddAdditionalCapability(MobileCapabilityType.App, config.App);
+            return options;
+        }
+
+        public static AppiumOptions WebMobileOptions(WebMobileDriverConfiguration config)
+        {
+            AppiumOptions options = new AppiumOptions();
+
+            options.AddAdditionalCapability(MobileCapabilityType.PlatformName, config.PlatformName);
+            options.AddAdditionalCapability(MobileCapabilityType.AutomationName, config.AutomationName);
+            options.AddAdditionalCapability(MobileCapabilityType.DeviceName, config.DeviceName);
+            options.AddAdditionalCapability(MobileCapabilityType.BrowserName, config.BrowserName);
             return options;
         }
     }

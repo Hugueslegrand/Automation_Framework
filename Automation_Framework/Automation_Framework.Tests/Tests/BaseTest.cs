@@ -20,13 +20,13 @@ namespace Automation_Framework.Tests.Tests
         [SetUp]
         public void Setup()
         {
-           builder.BuildDesktopDriver();
+           builder.BuildDriver(PlatformType.Desktop);
         }
 
         [TearDown]
         public void TearDown()
         {
-            builder.CloseDriver();
+            builder.CloseDriver(PlatformType.Desktop);
         }
     }
 }

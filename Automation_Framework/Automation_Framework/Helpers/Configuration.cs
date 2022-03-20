@@ -8,15 +8,15 @@ namespace Automation_Framework.Helpers
     {
         private const string WebDriverConfigSectionName = "webdriver";
         private const string EnvironmentConfigSectionName = "environment";
-        private const string AndroidDriverConfigSectionName = "android";
-        private const string IOSDriverConfigSectionName = "ios";
+        private const string NativeMobileDriverConfigSectionName = "nativeMobile";
+        private const string WebMobileDriverConfigSectionName = "webMobile";
 
         public static WebDriverConfiguration WebDriver =>
             Load<WebDriverConfiguration>(WebDriverConfigSectionName);
-        public static AndroidDriverConfiguration AndroidDriver =>
-           Load<AndroidDriverConfiguration>(AndroidDriverConfigSectionName);
-        public static IOSDriverConfiguration IOSDriver =>
-             Load<IOSDriverConfiguration>(IOSDriverConfigSectionName);
+        public static NativeMobileDriverConfiguration NativeMobileDriver =>
+           Load<NativeMobileDriverConfiguration>(NativeMobileDriverConfigSectionName);
+        public static WebMobileDriverConfiguration WebMobileDriver =>
+             Load<WebMobileDriverConfiguration>(WebMobileDriverConfigSectionName);
         public static EnvironmentConfiguration Environment =>
          Load<EnvironmentConfiguration>(EnvironmentConfigSectionName);
         public static string DriverPath =>

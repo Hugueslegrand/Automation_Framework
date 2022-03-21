@@ -1,0 +1,68 @@
+{
+  "uuid": "18c5f6b2-93c3-422c-b2f0-1960ca61097e-tr-0-1002",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithAdmin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithAdmin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Automation_Framework.Tests.Pages.HomePage.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 25\r\n   at Automation_Framework.Tests.Pages.HomePage.ClickSignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 86\r\n   at Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 36\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 33"
+  },
+  "stage": "finished",
+  "description": "\nTearDown TearDown method failed\n",
+  "steps": [
+    {
+      "name": "LoginWithAdmin",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Automation_Framework.Tests.Pages.HomePage.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 25\r\n   at Automation_Framework.Tests.Pages.HomePage.ClickSignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 86\r\n   at Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 36\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 33"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4f25356fd27e448b9da700a02f521eaf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647428023885,
+      "stop": 1647428035725
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647428023884,
+  "stop": 1647428035728
+}

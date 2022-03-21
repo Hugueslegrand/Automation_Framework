@@ -1,0 +1,46 @@
+{
+  "uuid": "1610f034-8dae-4df8-b579-c77e8c165cc2-tc-0-1000",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "children": [
+    "02030cf7-ac11-434f-9543-4c6b094193e9-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647429592851,
+      "stop": 1647429592851
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeLoadException : Access is denied: 'OpenQA.Selenium.Remote.DesiredCapabilities'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Appium.AppiumOptions..ctor()\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647429592851,
+      "stop": 1647429592851
+    }
+  ],
+  "links": [],
+  "start": 1647429510203,
+  "stop": 1647429592886
+}

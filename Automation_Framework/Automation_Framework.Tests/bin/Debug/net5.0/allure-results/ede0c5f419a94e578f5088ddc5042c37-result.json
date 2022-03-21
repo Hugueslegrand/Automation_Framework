@@ -1,0 +1,68 @@
+{
+  "uuid": "62b77bb9-b907-4066-a4d9-813e222db567-tr-0-1002",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithAdmin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithAdmin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeLoadException : Access is denied: 'OpenQA.Selenium.Remote.DesiredCapabilities'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at OpenQA.Selenium.Appium.AppiumOptions..ctor()\r\n   at Automation_Framework.Helpers.WebDriverSettings.AndroidOptions(AndroidDriverConfiguration config) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverSettings.cs:line 74\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetAndroidDriver(AndroidDriverConfiguration driverconfig) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 51\r\n   at Automation_Framework.Base.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 23\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 32"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\n\nTearDown TearDown method failed\n",
+  "steps": [
+    {
+      "name": "LoginWithAdmin skipped because of Setup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeLoadException : Access is denied: 'OpenQA.Selenium.Remote.DesiredCapabilities'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Appium.AppiumOptions..ctor()\r\n   at Automation_Framework.Helpers.WebDriverSettings.AndroidOptions(AndroidDriverConfiguration config) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverSettings.cs:line 74\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetAndroidDriver(AndroidDriverConfiguration driverconfig) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 51\r\n   at Automation_Framework.Base.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 23\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "68b19f59bf8441aba940bc1a56447f7b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647420976548,
+      "stop": 1647420976977
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647420976544,
+  "stop": 1647420976988
+}

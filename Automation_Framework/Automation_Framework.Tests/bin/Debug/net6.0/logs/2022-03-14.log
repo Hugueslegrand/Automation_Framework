@@ -1,0 +1,183 @@
+2022-03-14 11:13:27 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 11:13:34 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 11:13:34 INFO  Clicking on the button `SIGN IN` Element (id = 8254a9aa-22fc-4d84-8d7d-7a59191e8420)
+2022-03-14 11:13:34 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 11:13:34 INFO  Clicking on the input `` Element (id = b2badbb6-a80b-4329-9213-a9bea6658c9d)
+2022-03-14 11:13:34 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 11:13:34 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 11:13:34 INFO  Clicking on the input `` Element (id = 55744450-0264-44ca-b049-dceb51cae053)
+2022-03-14 11:13:35 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 11:13:35 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 11:13:35 INFO  Clicking on the button `LOGIN` Element (id = d4074ab2-c515-4d08-9aef-339f1dc2d94a)
+2022-03-14 11:19:40 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 11:19:46 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 11:19:47 INFO  Clicking on the button `SIGN IN` Element (id = 70f3c05d-dc48-4eb5-9107-118fb54db258)
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 11:19:48 INFO  Clicking on the input `` Element (id = 5792b6f5-4456-4cbd-b54a-9907285e2ce1)
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 11:19:48 INFO  Clicking on the input `` Element (id = 3abac000-e65d-4f6e-803a-fc03bf8ae82f)
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 11:19:48 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 11:19:48 INFO  Clicking on the button `LOGIN` Element (id = 1f9d344a-c945-4e5f-a96d-4a871770cd33)
+2022-03-14 11:56:42 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 11:56:49 INFO  Finding element `By.XPath: //button[@id='RegisterButton']`
+2022-03-14 11:56:50 INFO  Clicking on the button `REGISTER` Element (id = 25c90a46-ccd6-468d-be83-07e43a1991e4)
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterFirstName']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterLastName']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterEmail']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterPassword']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //input[@id='RegisterRePassword']`
+2022-03-14 11:56:50 INFO  Finding element `By.XPath: //button[@id='RegisterButtonComplete']`
+2022-03-14 11:56:50 INFO  Clicking on the button `JOIN US` Element (id = b3a5dea5-b6a0-44ac-9230-1508fd514a5a)
+2022-03-14 12:02:01 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 12:03:28 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 12:03:34 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 12:03:34 INFO  Clicking on the button `SIGN IN` Element (id = 83b49e84-1317-472b-b937-eafa1d4beb12)
+2022-03-14 12:03:34 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 12:03:35 INFO  Clicking on the input `` Element (id = b848f6ea-64e4-4416-a368-fff4fc14c294)
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 12:03:35 INFO  Clicking on the input `` Element (id = d95d0ddc-5461-495d-aeea-205909c1ab34)
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 12:03:35 INFO  Clicking on the button `LOGIN` Element (id = 30a2b640-30ad-47ad-aa27-dd58f31a3f96)
+2022-03-14 12:03:35 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 12:06:05 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 12:06:12 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 12:06:13 INFO  Clicking on the button `SIGN IN` Element (id = 48cda3d4-9a13-4661-aa1b-5f01f1e60cea)
+2022-03-14 12:06:13 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 12:06:14 INFO  Clicking on the input `` Element (id = 223759d6-2a8b-498b-b512-89f6d928be2a)
+2022-03-14 12:06:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 12:06:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 12:06:14 INFO  Clicking on the input `` Element (id = d8240525-3fac-4f88-808e-e59d45a26fe6)
+2022-03-14 12:06:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 12:06:14 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 12:06:14 INFO  Clicking on the button `LOGIN` Element (id = b41cba38-9117-4eca-b570-dfc86449fd4c)
+2022-03-14 12:06:16 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 12:06:16 INFO  Clicking on the button `MY MOVIES` Element (id = c663d0b3-adf5-4f51-ad15-c513b7a27214)
+2022-03-14 12:06:18 INFO  Finding element `By.XPath: //button[normalize-space()='Watch now']`
+2022-03-14 12:06:18 INFO  Clicking on the button `WATCH NOW` Element (id = 7d1bda5e-329e-4465-b95f-27f0fae2c154)
+2022-03-14 12:06:20 INFO  Finding element `By.XPath: //div[@class='css-ce9ngx']//button[@id='CloseModal']`
+2022-03-14 12:06:20 INFO  Clicking on the button `x` Element (id = 3898e5c2-eceb-432b-a6fb-efdce73cc303)
+2022-03-14 13:49:18 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 13:49:41 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 13:49:42 INFO  Clicking on the button `SIGN IN` Element (id = c2da232a-6787-425d-bc3d-474c267afbc2)
+2022-03-14 13:49:42 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 13:49:42 INFO  Clicking on the input `` Element (id = f1e6e332-eb4c-4621-ab3a-b9f4b8f9746a)
+2022-03-14 13:49:42 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 13:49:43 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 13:49:43 INFO  Clicking on the input `` Element (id = ce8f1aad-ed9a-49eb-a5b0-01a037216a79)
+2022-03-14 13:49:43 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 13:49:43 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 13:49:43 INFO  Clicking on the button `LOGIN` Element (id = 0e0e59bc-f970-497f-b7fd-7fe6390bb6c1)
+2022-03-14 13:49:45 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 13:49:45 INFO  Clicking on the button `MY MOVIES` Element (id = 1bac96ab-c35d-4301-a8cb-2b5da94bac90)
+2022-03-14 13:49:47 INFO  Finding element `By.XPath: //button[normalize-space()='Watch now']`
+2022-03-14 13:49:47 INFO  Clicking on the button `WATCH NOW` Element (id = 271a300a-93ea-4d2e-9d1e-f5b51b62e500)
+2022-03-14 13:49:49 INFO  Finding element `By.XPath: //div[@class='css-ce9ngx']//button[@id='CloseModal']`
+2022-03-14 13:49:49 INFO  Clicking on the button `x` Element (id = 1491f19a-7607-4139-84e3-4ae9795fb412)
+2022-03-14 13:50:25 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 13:50:32 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 13:50:32 INFO  Clicking on the button `SIGN IN` Element (id = 978f4d67-2ab2-451a-a1aa-723d740482ad)
+2022-03-14 13:50:32 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 13:50:32 INFO  Clicking on the input `` Element (id = 5d8ec6a9-0568-4046-89cb-48825b2963f3)
+2022-03-14 13:50:33 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 13:50:33 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 13:50:33 INFO  Clicking on the input `` Element (id = 810efd66-52a1-44a2-bdfa-d0b999e6737c)
+2022-03-14 13:50:33 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 13:50:33 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 13:50:33 INFO  Clicking on the button `LOGIN` Element (id = 00bf2c18-fb6b-4aba-a5b7-32c9ff852edb)
+2022-03-14 13:50:33 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 14:04:36 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 14:04:54 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 14:04:54 INFO  Clicking on the button `SIGN IN` Element (id = 42a8fe89-4691-4dd6-8332-d102fcea555c)
+2022-03-14 14:05:02 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:05:02 INFO  Clicking on the input `` Element (id = fde38e48-808f-405e-ad15-6ec36dc200d9)
+2022-03-14 14:05:02 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:05:02 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:05:02 INFO  Clicking on the input `` Element (id = 14b9328e-d58d-4f82-b0b7-903b53e38bf5)
+2022-03-14 14:05:02 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:05:02 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 14:05:02 INFO  Clicking on the button `LOGIN` Element (id = 22fa84ed-0d98-451b-92ab-ad7ea82bcea3)
+2022-03-14 14:05:11 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 14:05:11 INFO  Clicking on the button `MY MOVIES` Element (id = 39858a55-b7e6-4406-995f-02dbc63160ea)
+2022-03-14 14:05:32 INFO  Finding element `By.XPath: //button[normalize-space()='Watch now']`
+2022-03-14 14:05:32 INFO  Clicking on the button `WATCH NOW` Element (id = eabed030-1597-4c0d-8999-2276b434ce18)
+2022-03-14 14:05:43 INFO  Finding element `By.XPath: //div[@class='css-ce9ngx']//button[@id='CloseModal']`
+2022-03-14 14:05:43 INFO  Clicking on the button `x` Element (id = d998b4e0-b62b-4d79-a356-c6bbcfc9fbbc)
+2022-03-14 14:11:52 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 14:11:59 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 14:11:59 INFO  Clicking on the button `SIGN IN` Element (id = 419e1b89-9b83-4587-a763-22da01f10eab)
+2022-03-14 14:11:59 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:11:59 INFO  Clicking on the input `` Element (id = c97f34a1-c0fb-426f-a766-19362681096c)
+2022-03-14 14:11:59 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:11:59 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:11:59 INFO  Clicking on the input `` Element (id = a78d3e84-1808-4407-8f02-b7301c83ce15)
+2022-03-14 14:11:59 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:11:59 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 14:11:59 INFO  Clicking on the button `LOGIN` Element (id = bee0bd18-f16e-4e49-921b-0b07cdcc0ecb)
+2022-03-14 14:12:00 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 14:13:08 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 14:13:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 14:13:15 INFO  Clicking on the button `SIGN IN` Element (id = 9dc2b523-b358-4589-83ea-b0fe963c1439)
+2022-03-14 14:13:15 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:13:15 INFO  Clicking on the input `` Element (id = 1dfc9c80-8cd1-4d97-a52f-9780d659ccf3)
+2022-03-14 14:13:15 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:13:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:13:15 INFO  Clicking on the input `` Element (id = 81da38d2-5625-48f3-a9d7-d5958f4b9bb8)
+2022-03-14 14:13:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:13:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 14:13:15 INFO  Clicking on the button `LOGIN` Element (id = ee14a486-85da-451c-a3b3-50bae1dd674a)
+2022-03-14 14:13:15 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 14:15:23 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 14:15:30 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 14:15:30 INFO  Clicking on the button `SIGN IN` Element (id = c9c4c975-a94f-47cf-ab21-029d13a286b2)
+2022-03-14 14:15:30 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:15:30 INFO  Clicking on the input `` Element (id = 9ef3df15-fde9-449c-8401-de306785257c)
+2022-03-14 14:15:30 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:15:30 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:15:30 INFO  Clicking on the input `` Element (id = 532eca5b-f53a-437e-b4ba-686325b73b07)
+2022-03-14 14:15:30 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:15:30 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 14:15:30 INFO  Clicking on the button `LOGIN` Element (id = 2698bf33-f152-450e-90cd-0b12754d7bab)
+2022-03-14 14:15:32 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 14:15:33 INFO  Clicking on the button `MY MOVIES` Element (id = 699bfef9-c357-4183-a968-75a0232c5187)
+2022-03-14 14:15:35 INFO  Finding element `By.XPath: //button[normalize-space()='Watch now']`
+2022-03-14 14:15:35 INFO  Clicking on the button `WATCH NOW` Element (id = 1aba449d-749f-43e0-92cc-ade33e739969)
+2022-03-14 14:15:37 INFO  Finding element `By.XPath: //div[@class='css-ce9ngx']//button[@id='CloseModal']`
+2022-03-14 14:15:37 INFO  Clicking on the button `x` Element (id = 6c7324c4-2a2c-4023-9e98-8390a25b1915)
+2022-03-14 14:28:25 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 14:28:32 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 14:28:32 INFO  Clicking on the button `SIGN IN` Element (id = 32f711f4-09dc-4928-b961-58e6d2c7702b)
+2022-03-14 14:28:32 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:28:32 INFO  Clicking on the input `` Element (id = 6112beaa-430d-45a2-ae59-ca38129aeaad)
+2022-03-14 14:28:32 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:28:32 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:28:32 INFO  Clicking on the input `` Element (id = 280666ba-4a02-41b0-bae1-1936efa00880)
+2022-03-14 14:28:32 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:28:32 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 14:28:32 INFO  Clicking on the button `LOGIN` Element (id = 96a08891-b0b1-46c6-ba17-5fb9bdcedb3d)
+2022-03-14 14:28:34 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 14:28:34 INFO  Clicking on the button `MY MOVIES` Element (id = 02f351d9-04d8-4f12-bd0d-571aeec6ad73)
+2022-03-14 14:28:36 INFO  Finding element `By.XPath: //button[normalize-space()='Watch now']`
+2022-03-14 14:28:36 INFO  Clicking on the button `WATCH NOW` Element (id = 0369af4d-9c0c-47f6-997d-f231bfd87ece)
+2022-03-14 14:28:38 INFO  Finding element `By.XPath: //div[@class='css-ce9ngx']//button[@id='CloseModal']`
+2022-03-14 14:28:38 INFO  Clicking on the button `x` Element (id = 2326e0c1-9cb2-4728-a860-ea8bf4d344fe)
+2022-03-14 14:47:08 INFO  Navigating to https://brightshopapp.herokuapp.com/login
+2022-03-14 14:47:15 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-03-14 14:47:15 INFO  Clicking on the button `SIGN IN` Element (id = 90fc6677-4f2d-49ae-b344-f71afa21734d)
+2022-03-14 14:47:15 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:47:15 INFO  Clicking on the input `` Element (id = bf7e53a7-f378-4c01-9b25-f9c0158b9256)
+2022-03-14 14:47:15 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-03-14 14:47:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:47:15 INFO  Clicking on the input `` Element (id = b38df52e-e470-4248-954f-0f01cdb70574)
+2022-03-14 14:47:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-03-14 14:47:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-03-14 14:47:15 INFO  Clicking on the button `LOGIN` Element (id = 5f2ac3d3-3f05-459e-a652-ddbd467d6997)
+2022-03-14 14:47:19 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-03-14 14:47:19 INFO  Clicking on the button `MY MOVIES` Element (id = 0270a055-1707-45c1-b207-04fb8c82b0e1)
+2022-03-14 14:47:21 INFO  Finding element `By.XPath: //button[normalize-space()='Watch now']`
+2022-03-14 14:47:21 INFO  Clicking on the button `WATCH NOW` Element (id = 1a223356-b7d8-4a38-820d-2b6006dcb897)
+2022-03-14 14:47:23 INFO  Finding element `By.XPath: //div[@class='css-ce9ngx']//button[@id='CloseModal']`
+2022-03-14 14:47:23 INFO  Clicking on the button `x` Element (id = 5b377e54-374e-4b85-9551-ad14d0739da0)

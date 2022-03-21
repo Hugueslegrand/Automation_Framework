@@ -1,0 +1,68 @@
+{
+  "uuid": "02030cf7-ac11-434f-9543-4c6b094193e9-tr-0-1002",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "14"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithAdmin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithAdmin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeLoadException : Access is denied: 'OpenQA.Selenium.Remote.DesiredCapabilities'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at OpenQA.Selenium.Appium.AppiumOptions..ctor()\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 32"
+  },
+  "stage": "finished",
+  "description": "\nTearDown TearDown method failed\n",
+  "steps": [
+    {
+      "name": "LoginWithAdmin",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeLoadException : Access is denied: 'OpenQA.Selenium.Remote.DesiredCapabilities'.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Appium.AppiumOptions..ctor()\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bfb2b7f1a5cb47418d4008e1ee1f98ae-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647429510208,
+      "stop": 1647429592854
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647429510207,
+  "stop": 1647429592857
+}

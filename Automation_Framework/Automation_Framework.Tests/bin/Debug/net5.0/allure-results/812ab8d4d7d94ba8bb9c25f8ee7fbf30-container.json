@@ -1,0 +1,46 @@
+{
+  "uuid": "7b5c7348-294c-4d75-956b-48afdff1bbb6-tc-0-1000",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "children": [
+    "6c1ef3f0-11ff-4c5b-9879-fd89ae2c11b6-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647427094786,
+      "stop": 1647427094786
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Automation_Framework.Extensions.WebDriver.InputField..ctor(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\InputField.cs:line 25\r\n   at Automation_Framework.Tests.Pages.LoginPage.get_SignInEmail() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 32\r\n   at Automation_Framework.Tests.Pages.LoginPage.Login(String userName, String password) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 47\r\n   at Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 39\r\n--TearDown\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 33"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647427094786,
+      "stop": 1647427094786
+    }
+  ],
+  "links": [],
+  "start": 1647427083060,
+  "stop": 1647427094826
+}

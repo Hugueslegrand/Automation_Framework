@@ -1,0 +1,67 @@
+{
+  "uuid": "904cf459-87ef-4b31-8545-92e264391146-tr-0-1002",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithAdmin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithAdmin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Automation_Framework.Tests.Pages.HomePage.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 25\r\n   at Automation_Framework.Tests.Pages.HomePage.ClickSignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 86\r\n   at Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 36"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginWithAdmin",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Automation_Framework.Tests.Pages.HomePage.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 25\r\n   at Automation_Framework.Tests.Pages.HomePage.ClickSignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 86\r\n   at Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 36"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cef2816305cf4bc38a1d71b34799cf2a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647355605142,
+      "stop": 1647355617636
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647355605141,
+  "stop": 1647355617640
+}

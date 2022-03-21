@@ -8,6 +8,7 @@ namespace Automation_Framework.Models
         Firefox,
         InternetExplorer,
         Edge,
-        Opera
+        Opera,
+        Safari
     }
 }

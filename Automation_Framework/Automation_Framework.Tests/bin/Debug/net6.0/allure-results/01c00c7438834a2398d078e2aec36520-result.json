@@ -1,0 +1,90 @@
+{
+  "uuid": "7ed17758-6345-45e4-b765-d957fc23d22c-tr-0-1001",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdmin_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdmin_POM",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_LoginAsAdmin_POM"
+  },
+  "stage": "finished",
+  "description": "Login as administrator\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdmin_POM",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Navigated to [B-Tube](httpsbrightshopapp.herokuapp.comlogin)",
+          "source": "d1ae2daae61b4ec7ac4d1fcfc013cc48-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 28b1a150-8fcc-4fea-9a62-291263318206) clicked",
+          "source": "18d9ed34050a41ef859763a2e3bfb97c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ffc26410-937c-4c72-a808-ee36c2e52f1b) clicked",
+          "source": "61fc32486eb541349c6a534d2774cac5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5e532f99-64e4-432e-8b84-4757d0711772) clicked",
+          "source": "14325d886e7e4262a533664653f1109f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cde2707d-9023-4ebe-8003-48e942076e35) clicked",
+          "source": "2aea554f52e2403abcb56ae5d7a6e674-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "7e98cda2235c45c9b1863beace62a0e0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647341846131,
+      "stop": 1647341856578
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647341846131,
+  "stop": 1647341856583
+}

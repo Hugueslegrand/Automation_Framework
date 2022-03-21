@@ -8,10 +8,15 @@ namespace Automation_Framework.Helpers
     {
         private const string WebDriverConfigSectionName = "webdriver";
         private const string EnvironmentConfigSectionName = "environment";
+        private const string NativeMobileDriverConfigSectionName = "nativeMobile";
+        private const string WebMobileDriverConfigSectionName = "webMobile";
 
-      
         public static WebDriverConfiguration WebDriver =>
             Load<WebDriverConfiguration>(WebDriverConfigSectionName);
+        public static NativeMobileDriverConfiguration NativeMobileDriver =>
+           Load<NativeMobileDriverConfiguration>(NativeMobileDriverConfigSectionName);
+        public static WebMobileDriverConfiguration WebMobileDriver =>
+             Load<WebMobileDriverConfiguration>(WebMobileDriverConfigSectionName);
         public static EnvironmentConfiguration Environment =>
          Load<EnvironmentConfiguration>(EnvironmentConfigSectionName);
         public static string DriverPath =>
@@ -21,5 +26,6 @@ namespace Automation_Framework.Helpers
             return new ConfigurationBuilder().AddJsonFile("appSettings.json")
                           .Build().GetSection(sectionName).Get<T>();
         }
+
     }
 }

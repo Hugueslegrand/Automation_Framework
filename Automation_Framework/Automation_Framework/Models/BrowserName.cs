@@ -9,5 +9,6 @@ namespace Automation_Framework.Models
         InternetExplorer,
         Edge,
         Opera,
+        Safari
     }
 }

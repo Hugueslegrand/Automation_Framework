@@ -9,6 +9,7 @@ using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Opera;
+using OpenQA.Selenium.Safari;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 
@@ -36,12 +37,16 @@ namespace Automation_Framework.Helpers
                     return new WebDriverListener(ieDriver, logger);
                 case BrowserName.Edge:
                     new DriverManager().SetUpDriver(new EdgeConfig());
-                    EdgeDriver edgeDriver = new EdgeDriver(WebDriverSettings.EdgeOptions());
+                    EdgeDriver edgeDriver = new EdgeDriver(@"C:\Webdrivers");
                     return new WebDriverListener(edgeDriver, logger);
                 case BrowserName.Opera:
                     new DriverManager().SetUpDriver(new OperaConfig());
                     OperaDriver operaDriver = new OperaDriver(WebDriverSettings.OperaOptions());
                     return new WebDriverListener(operaDriver, logger);
+                case BrowserName.Safari:
+                    new DriverManager().SetUpDriver(new OperaConfig());
+                    SafariDriver safariDriver = new SafariDriver(WebDriverSettings.SafariOptions(driverConfig));
+                    return new WebDriverListener(safariDriver, logger);
                 default:
                     throw new ArgumentOutOfRangeException(nameof(Configuration.WebDriver.BrowserName),
                         Configuration.WebDriver.BrowserName,

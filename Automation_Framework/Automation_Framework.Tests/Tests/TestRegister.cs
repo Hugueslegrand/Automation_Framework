@@ -12,7 +12,7 @@ namespace Automation_Framework.Tests.Tests
         public void Test_RegisterAnUser_POM()
         {
             Navigation navigation = new Navigation(builder);
-            navigation.surfToUrl();
+           
             Thread.Sleep(6000);
             navigation.ClickRegister();
 

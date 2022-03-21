@@ -36,7 +36,7 @@ namespace Automation_Framework.Tests.Pages
 
         //Functions
 
-        public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
+       // public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
         public void ClickSearchBar() => SearchBar.ClickOnElement();
         //Driver.ClickOnElement(SearchBar);
         public void FillSearchBar(string searchBar) => SearchBar.SendKeys(searchBar);

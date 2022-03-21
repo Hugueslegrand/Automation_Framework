@@ -1,0 +1,75 @@
+{
+  "uuid": "48db11a3-f05a-4dd0-be3b-2d7fb34f2a82-tr-0-1002",
+  "historyId": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "fullName": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_GoogleSearch"
+    },
+    {
+      "name": "testClass",
+      "value": "ExternTestGoogle"
+    }
+  ],
+  "links": [],
+  "name": "Test_GoogleSearch",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_GoogleSearch"
+  },
+  "stage": "finished",
+  "description": "Test: GoogleSearch\n",
+  "steps": [
+    {
+      "name": "Test_GoogleSearch",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 5cc8516b-eb84-447e-81cf-f278e1eb5b48) clicked",
+          "source": "812632cc44684fdfbd4437528d48015b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `LambdaTest` entered in `Element (id = 91793f65-7933-46e0-aa96-9280d6932ac4)`",
+          "source": "15964d24429948a1ae28c8a077be6061-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5d7245acec3b48cebbbeb0594239149d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647846641951,
+      "stop": 1647846671468
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647846641944,
+  "stop": 1647846671477
+}

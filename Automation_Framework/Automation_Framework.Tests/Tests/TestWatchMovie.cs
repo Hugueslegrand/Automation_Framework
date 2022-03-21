@@ -11,7 +11,7 @@ namespace Automation_Framework.Tests.Tests
         public void Test_WatchMovie()
         {
             Navigation navigation = new Navigation(builder);
-            navigation.surfToUrl();
+          
             Thread.Sleep(6000);
             navigation.ClickSignIn();
 

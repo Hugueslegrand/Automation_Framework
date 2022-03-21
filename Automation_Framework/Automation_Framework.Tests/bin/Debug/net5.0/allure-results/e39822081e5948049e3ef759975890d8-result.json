@@ -1,0 +1,125 @@
+{
+  "uuid": "4d4753bc-de8d-4af2-bcd2-acf2b7f93bfc-tr-0-1004",
+  "historyId": "Automation_Framework.Tests.Tests.TestCancelPayment.Test_CancelPayment",
+  "fullName": "Automation_Framework.Tests.Tests.TestCancelPayment.Test_CancelPayment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "14"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_CancelPayment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCancelPayment"
+    }
+  ],
+  "links": [],
+  "name": "Test_CancelPayment",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_CancelPayment"
+  },
+  "stage": "finished",
+  "description": "Test: CancelPayment\n",
+  "steps": [
+    {
+      "name": "Test_CancelPayment",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 8308a20c-7446-48b7-a6e3-52ab3593fc36) clicked",
+          "source": "d931eab5f8a1419ba2b85a35adf0857e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 37cf1e49-35d0-4cfb-9c68-7c799ad25647) clicked",
+          "source": "4d0f6775e60f4130a50544cee6755f8e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 37cf1e49-35d0-4cfb-9c68-7c799ad25647)`",
+          "source": "4aeaee31fe1142278f490aa50df297fa-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f668ab33-f938-4253-9426-dc48ec5dd846) clicked",
+          "source": "d6e3154adc344b5a959b603a86820847-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = f668ab33-f938-4253-9426-dc48ec5dd846)`",
+          "source": "ab5834ba29ff48c8bc6af44b737fdb20-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9554ea19-64b7-4f20-907b-acab87423334) clicked",
+          "source": "4c66370ada874399ac0a4cc6feb0c93e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "FirstScreenshot",
+          "source": "2f870bf307b94e218cc7bde79cd5521b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ba41c496-93fe-4172-aa0e-2414cbf5cb84) clicked",
+          "source": "1db8ba7e57694f9293b93d2acca52027-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c9b64de3-7632-4690-ba3d-603147bc458d) clicked",
+          "source": "5251a72c747746989ac8c4fb3f08943e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ea3dd4b7-1eb0-4179-b6e6-1880a63772ae) clicked",
+          "source": "15bf0b933c4f418492eac3896ace528e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `30` entered in `Element (id = ea3dd4b7-1eb0-4179-b6e6-1880a63772ae)`",
+          "source": "05ee0631acde4925a09e0e5f6552599c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = a8482074-253c-4579-8739-28d9f2c8610f) clicked",
+          "source": "f115b6cefc6346bc88ef29d4604c4fbe-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "01537402c8d942ae8c9b236a54d6705b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647904818569,
+      "stop": 1647904856558
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647904818568,
+  "stop": 1647904856562
+}

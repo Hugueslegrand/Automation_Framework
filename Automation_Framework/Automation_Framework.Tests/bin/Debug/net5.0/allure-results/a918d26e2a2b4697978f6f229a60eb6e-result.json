@@ -1,0 +1,125 @@
+{
+  "uuid": "93a4d81b-0236-41b0-97b5-acfd4bcd93b5-tr-0-1015",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUpperCaseAndLogIn",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUpperCaseAndLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterUpperCaseAndLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterUpperCaseAndLogIn",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RegisterUpperCaseAndLogIn"
+  },
+  "stage": "finished",
+  "description": "Register an user only uppercase and log in to verify registration\n",
+  "steps": [
+    {
+      "name": "Test_RegisterUpperCaseAndLogIn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = fc32e215-796b-494e-8944-e488c07bd252) clicked",
+          "source": "4eb9c513b6e14b8081d646a092868079-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `MAJIN` entered in `Element (id = 0ae544da-37ad-4d03-b16c-5a1937673c5f)`",
+          "source": "eb5633cb646f45fd857933c21c76aeeb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `BUU` entered in `Element (id = 27451ee7-e3c4-490b-a91d-7def5f3084d0)`",
+          "source": "24c15c628548459eb25d87eeb8ab3b13-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `MAJIN.BUU@PINK.COM` entered in `Element (id = bf8d98ee-aeb2-49f7-b1d4-dd4a57052c9d)`",
+          "source": "38820199fee24ad9915e7d86fa754935-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `KATANAZEBEST` entered in `Element (id = 57089ea1-d641-45d1-85c6-a350ab8ebadb)`",
+          "source": "7d5a22f561d344dea734595604443794-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `KATANAZEBEST` entered in `Element (id = 2ce03d8f-35e0-400a-8d70-fe1ddcee352c)`",
+          "source": "374b8e83ca324626836237a970f75a0c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e351e7cc-ace2-439c-8978-9bf91f3ec7c3) clicked",
+          "source": "4e247d1205ca4e0684a631d4bcf0192c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 67e3203c-acd5-4d12-a56a-0fd6856ad4dd) clicked",
+          "source": "a4ff6cc89024468789873aed32976842-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `MAJIN.BUU@PINK.COM` entered in `Element (id = 67e3203c-acd5-4d12-a56a-0fd6856ad4dd)`",
+          "source": "a7617b0f33344afc8b47cb32bba9489a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 96a3dbe4-c6f8-457a-bc9b-a7180c388c7d) clicked",
+          "source": "4c4f7ec403a540baa6590f3859a5a877-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `KATANAZEBEST` entered in `Element (id = 96a3dbe4-c6f8-457a-bc9b-a7180c388c7d)`",
+          "source": "400e9c74822740109a3d76b399cbdcd4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2dbc8b21-fb6d-492d-bf5d-dc1b8027671c) clicked",
+          "source": "001e71a06e8340629a292a1721db449a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9c344e9d4a244a148fe64f72d2d0b556-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647903549152,
+      "stop": 1647903568759
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647903549152,
+  "stop": 1647903568759
+}

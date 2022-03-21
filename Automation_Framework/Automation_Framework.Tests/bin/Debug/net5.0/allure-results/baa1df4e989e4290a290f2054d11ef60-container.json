@@ -1,0 +1,44 @@
+{
+  "uuid": "3660eec7-8298-4a94-86e0-dda832331424-tc-0-1001",
+  "name": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "children": [
+    "5ddb0446-3036-428d-8809-5819b7b945c6-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647899363717,
+      "stop": 1647899363717
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647899363718,
+      "stop": 1647899363718
+    }
+  ],
+  "links": [],
+  "start": 1647899350964,
+  "stop": 1647899363747
+}

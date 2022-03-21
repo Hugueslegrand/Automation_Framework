@@ -1,0 +1,98 @@
+{
+  "uuid": "841a7b2a-0cd5-44c9-8e4f-641ce0d43c37-tr-0-1005",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Not_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Not_Existing_User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : Assert.Equals should not be used. Use Assert.AreEqual instead.",
+    "trace": "   at NUnit.Framework.Assert.Equals(Object a, Object b)\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 77"
+  },
+  "stage": "finished",
+  "description": "Login as an NOT existing user\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Not_Existing_User",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : Assert.Equals should not be used. Use Assert.AreEqual instead.",
+        "trace": "   at NUnit.Framework.Assert.Equals(Object a, Object b)\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 77"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = e7699244-a7f4-402b-a05c-6e545a2f4e55) clicked",
+          "source": "44889f3ccc1443879474f5a79f20755b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cba0c242-0593-423a-9f3e-79043b421cd8) clicked",
+          "source": "10c68eb210c44ba3a6fbd552f2e57425-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `UserNotExist@brightest.be` entered in `Element (id = cba0c242-0593-423a-9f3e-79043b421cd8)`",
+          "source": "a7689f17940c4043ae25a0f6819a6b58-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 31142935-cb30-4b24-98dc-e7e62e809c64) clicked",
+          "source": "1b7de8dd37e745598a19812bf40231d6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `UserNotExist` entered in `Element (id = 31142935-cb30-4b24-98dc-e7e62e809c64)`",
+          "source": "603f05eb380244e8afbcdbbd48d3b322-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 23b3f6a5-ecd3-443d-bf0e-364b1ea310f4) clicked",
+          "source": "faa567215be04789855e450f4333f685-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "0973a697c830415bb5efd5ae9bb59502-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647862086032,
+      "stop": 1647862101000
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647862086031,
+  "stop": 1647862101002
+}

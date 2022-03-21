@@ -1,0 +1,125 @@
+{
+  "uuid": "66e75139-f72a-4c18-bc5b-b39ca8812fad-tr-0-1014",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterLowerCaseAndLogIn",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterLowerCaseAndLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterLowerCaseAndLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterLowerCaseAndLogIn",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RegisterLowerCaseAndLogIn"
+  },
+  "stage": "finished",
+  "description": "Register an user only lowercase and log in to verify registration\n",
+  "steps": [
+    {
+      "name": "Test_RegisterLowerCaseAndLogIn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 8c6ae2eb-f02a-4238-bef2-6b8bb81d6e38) clicked",
+          "source": "d286bfa390304c95ace0e3e87956143e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `goku` entered in `Element (id = 3f4bfa7d-2ff6-4d5e-9736-097ff7e2d3bd)`",
+          "source": "1211a20958b94d6cb383382d11a48f35-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `ssblu` entered in `Element (id = 526189f6-ca5d-4d18-be70-81d5fed5b41f)`",
+          "source": "32b16c4310e74bf8a85e4efa3a34c49a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `sowieso@goku.com` entered in `Element (id = 6ece9865-bda9-4c5a-befe-fa06afa82b95)`",
+          "source": "10323700c9164629acd2f8ca3369d992-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `kamehameha` entered in `Element (id = f3e73d4b-e127-4c81-91b9-07c73ec4d3a3)`",
+          "source": "dbccc4dc80c1446e85223c4a83e012f3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `kamehameha` entered in `Element (id = ab637be9-8225-45a1-bbd2-b8d2110d3b03)`",
+          "source": "d8eb0f608afb4283a1ce64a1d36fbe4f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 38f0d377-3ff8-4edc-b2f7-c3abb2a0945a) clicked",
+          "source": "e5bebf4d3d6e462aaba301733e4c98ad-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 93bbc1c5-e121-49c1-a542-0d84468ff84d) clicked",
+          "source": "c5325638633a45f79f0af8a2a102394d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `sowieso@goku.com` entered in `Element (id = 93bbc1c5-e121-49c1-a542-0d84468ff84d)`",
+          "source": "696c2e0736eb4f94919d10a5a11d0c99-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c7cb7757-a96b-4302-9846-755a776aa325) clicked",
+          "source": "c4be8771ea594fb2b4d18697f89dc7b4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `kamehameha` entered in `Element (id = c7cb7757-a96b-4302-9846-755a776aa325)`",
+          "source": "09062cc955fa406183f405f48b1cc9d0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 3e5ffa21-4e80-432a-91eb-8c8cc154492f) clicked",
+          "source": "8b9a4184b36d4d47befeda46166b949a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1073b623db8447c08c33e76da02e0b1b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647903495760,
+      "stop": 1647903517110
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647903495760,
+  "stop": 1647903517110
+}

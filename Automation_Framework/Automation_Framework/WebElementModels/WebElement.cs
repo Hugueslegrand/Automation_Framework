@@ -69,5 +69,11 @@ namespace Automation_Framework.WebElementModels
         {
             _webElement.SendKeys(text);
         }
+
+        public string GetInnerHTML()
+        {
+            return _webElement.GetAttribute("innerHTML");
+        }
+
     }
 }

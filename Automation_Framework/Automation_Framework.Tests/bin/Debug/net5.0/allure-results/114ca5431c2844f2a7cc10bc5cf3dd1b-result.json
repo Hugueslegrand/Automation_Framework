@@ -1,0 +1,100 @@
+{
+  "uuid": "7a1ec6eb-2696-41fa-9428-840411533aa3-tr-0-1013",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUnmatchingPasswords",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUnmatchingPasswords",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterUnmatchingPasswords"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterUnmatchingPasswords",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RegisterUnmatchingPasswords"
+  },
+  "stage": "finished",
+  "description": "Register an user with no matching passwords\n",
+  "steps": [
+    {
+      "name": "Test_RegisterUnmatchingPasswords",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = a8c1fe0e-6239-4545-9080-fa13969a5e9b) clicked",
+          "source": "de53bda211814f14a2232f00c8df6a64-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Luffy-san` entered in `Element (id = 001b5060-5ac0-4925-8ea2-5298e1024c13)`",
+          "source": "10dab4efcd3d4be09461487e8913e6bf-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `D. Monkey` entered in `Element (id = b9ca9940-8d17-4723-9326-3f14c80778c1)`",
+          "source": "918d4d1b7eb34850a04395e896439e28-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `elPirate@King.com` entered in `Element (id = 612e22f1-6820-4ead-abdd-35c13fc8dc79)`",
+          "source": "aa634d0bef7f4d8fa97a5e64e34d9283-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = 7e0cfd55-a92a-4a15-a9f3-a18c6efe1b70)`",
+          "source": "04655b40064d44ecba20915e7ed0fc21-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece11rzezrzerzerzrzerz1` entered in `Element (id = add4ceb0-7087-4597-9eff-209918328745)`",
+          "source": "33430bb34df4457495871eb8626c775a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0cf6b18d-4fea-45aa-bccd-c0af0f20962d) clicked",
+          "source": "3a890bdd4d1a4d4fae19b2a7f0358e1f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "19b18c7272954da6a80a60da3cba42a4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647902694884,
+      "stop": 1647902711430
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647902694884,
+  "stop": 1647902711430
+}

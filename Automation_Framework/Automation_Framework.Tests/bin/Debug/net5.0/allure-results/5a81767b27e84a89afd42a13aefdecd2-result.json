@@ -1,0 +1,95 @@
+{
+  "uuid": "bb448742-d1be-4b1e-b813-f3ef0cd96f3b-tr-0-1006",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_EmailAdress",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_EmailAdress",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_With_An_Incorrect_EmailAdress"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_With_An_Incorrect_EmailAdress",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_With_An_Incorrect_EmailAdress"
+  },
+  "stage": "finished",
+  "description": "Login with an Incorrect Email adress\n",
+  "steps": [
+    {
+      "name": "Test_Login_With_An_Incorrect_EmailAdress",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 25650e5b-06d0-47fe-99e2-b1e74d9c92a6) clicked",
+          "source": "9b9682887b614fd782f1fc145bc58603-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 019068e0-c82e-4a23-bb28-61c76dd66903) clicked",
+          "source": "385aa9ced549416a860c0ac9027c2f43-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `IncorrectEmailAdress` entered in `Element (id = 019068e0-c82e-4a23-bb28-61c76dd66903)`",
+          "source": "5b7a81da0caa4627a93a782583cc2485-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = fcede530-6ef4-467c-8407-bf89e302f709) clicked",
+          "source": "408ce259c2544b4389f455e9ad2bea1e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `IncorrectEmailAdress` entered in `Element (id = fcede530-6ef4-467c-8407-bf89e302f709)`",
+          "source": "748c709f9cc942c9aac3dee266cf9fe7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d2eb4976-aa70-484c-acfa-4b534000c611) clicked",
+          "source": "5919b0cb5a9247e78aa67757ea877393-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2b3a86ff0cc5416999ff5399adc4d28d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647860992290,
+      "stop": 1647861008833
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647860992289,
+  "stop": 1647861008836
+}

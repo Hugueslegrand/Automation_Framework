@@ -1,0 +1,98 @@
+{
+  "uuid": "bbccd719-2563-4d7e-9967-1c24565e8b2d-tr-0-1008",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_Email_Or_Password",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_Email_Or_Password",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_With_An_Incorrect_Email_Or_Password"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_With_An_Incorrect_Email_Or_Password",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected loginPage.IncorrectEmailOrPasswoord() to be \"Email or password incorrect.\" with a length of 28, but \"Please fill in a correct email-adress.\" has a length of 38, differs near \"Ple\" (index 0).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_Email_Or_Password() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 141\r\n"
+  },
+  "stage": "finished",
+  "description": "Login with an Incorrect Email adress or Password\n",
+  "steps": [
+    {
+      "name": "Test_Login_With_An_Incorrect_Email_Or_Password",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected loginPage.IncorrectEmailOrPasswoord() to be \"Email or password incorrect.\" with a length of 28, but \"Please fill in a correct email-adress.\" has a length of 38, differs near \"Ple\" (index 0).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_Email_Or_Password() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 141\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = a88054c3-04e9-4674-a675-deb4e22f6da4) clicked",
+          "source": "b9e8d737dda24875900a3aaf40cde7eb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cce58186-d638-48e9-aea9-1b91f4904a68) clicked",
+          "source": "826214a8afd54e75a53b2847f00fe1b7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `IncorrectEmailAdress` entered in `Element (id = cce58186-d638-48e9-aea9-1b91f4904a68)`",
+          "source": "3fa454b273b648feba6a921e2a36aafe-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f37a3c9d-bd67-43d1-ada8-6163efd98b99) clicked",
+          "source": "cdd6ae2f08c243ef91b726cb11c48191-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `IncorrectEmailAdress` entered in `Element (id = f37a3c9d-bd67-43d1-ada8-6163efd98b99)`",
+          "source": "9a023866db9342b1bc8640333b43b6a2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b327df8e-0f5f-49e3-b093-edb4e4afb4e0) clicked",
+          "source": "f100129a3cc4421e92a43f1b333ee33a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "211741d786134c149017ada7aef57313-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647898975435,
+      "stop": 1647898989361
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647898975435,
+  "stop": 1647898989361
+}

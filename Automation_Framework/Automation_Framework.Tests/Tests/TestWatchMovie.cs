@@ -4,8 +4,11 @@ using System.Threading;
 
 namespace Automation_Framework.Tests.Tests
 {
+
     public class TestWatchMovie : BaseTest
     {
+
+
         [Test]
         [Description("Test: WatchMovie")]
         public void Test_WatchMovie()
@@ -20,8 +23,6 @@ namespace Automation_Framework.Tests.Tests
             loginPage.Login("brent.dar@ap.be", "hond");
             //loginPage.ScreenShot();
 
-            
-          
             navigation.ClickMyMovie();
             //Thread.Sleep(2000);
            

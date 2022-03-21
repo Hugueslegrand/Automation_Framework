@@ -1,0 +1,98 @@
+{
+  "uuid": "946ed06b-78b4-495c-bbfc-f125a62e89bb-tr-0-1005",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Not_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Not_Existing_User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected loginPage.getInnerText() to refer to \"This email has not been registered.\", but found \"This email has not been registered.\".",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.ReferenceTypeAssertions`2.BeSameAs(TSubject expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 76\r\n"
+  },
+  "stage": "finished",
+  "description": "Login as an NOT existing user\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Not_Existing_User",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected loginPage.getInnerText() to refer to \"This email has not been registered.\", but found \"This email has not been registered.\".",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.ReferenceTypeAssertions`2.BeSameAs(TSubject expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 76\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 84516a2f-53cf-4af3-a696-3e029917ba18) clicked",
+          "source": "5cbdd4b4e3654479a4acf64ec3e624b7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 888e6412-f832-4287-b1f3-2383c9404fbd) clicked",
+          "source": "de924b95abac4db8822d264ee4299f62-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `UserNotExist@brightest.be` entered in `Element (id = 888e6412-f832-4287-b1f3-2383c9404fbd)`",
+          "source": "cb13e5773c4a4c1d9a4dcfae998d8007-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 73b25469-8cbd-4eeb-8ef4-409f1aadc76b) clicked",
+          "source": "aa1d735ae728484ba1ec33921db7f750-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `UserNotExist` entered in `Element (id = 73b25469-8cbd-4eeb-8ef4-409f1aadc76b)`",
+          "source": "6a7b3da2d25245609a696c016135bc21-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b292a3ef-15ee-42c5-a59a-643cd25bebe2) clicked",
+          "source": "bbf891b247cd47218c0db04665cc6c5b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "46628c1c4883480dad63e1e15b649283-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647862511867,
+      "stop": 1647862527351
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647862511867,
+  "stop": 1647862527354
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "f77eeaf1-c964-4e5b-9ede-2266f8fa6638-tc-0-1003",
+  "name": "Automation_Framework.Tests.Tests.TestCancelPayment.Test_CancelPayment",
+  "children": [
+    "4d4753bc-de8d-4af2-bcd2-acf2b7f93bfc-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647904856555,
+      "stop": 1647904856555
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647904856556,
+      "stop": 1647904856556
+    }
+  ],
+  "links": [],
+  "start": 1647904818565,
+  "stop": 1647904856577
+}

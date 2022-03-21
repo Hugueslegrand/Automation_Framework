@@ -23,17 +23,33 @@ namespace Automation_Framework.Tests.Pages
           public AndroidElement SignInButtonComplete1 => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"submitBtn\"]");
           public AndroidElement GoToRegisterScreen => AndroidDriver.FindElementByXPath("//android.view.ViewGroup[@content-desc=\"not registered yet button\"]/android.widget.TextView");
         */
+
         //Desktop elements
         public IInputField SignInEmail => new WebElement(Driver, "//input[@id='SignInEmail']", Selector.Xpath);
         public IInputField SignInPassword => new WebElement(Driver, "//input[@id='SignInPassword']", Selector.Xpath);
         public IButton SignInButtonComplete => new WebElement(Driver, "//button[@id='SignInButtonComplete']", Selector.Xpath);
+
+        public IButton FailedLoginMessage => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
+
+        public string NoneExistingEmail()
+        {
+            return FailedLoginMessage.GetInnerHTML();
+        }
+        public string IncorrectEmail()
+        {
+            return FailedLoginMessage.GetInnerHTML();
+        }
+        public string IncorrectEmailOrPasswoord()
+        {
+            return FailedLoginMessage.GetInnerHTML();
+        }
 
 
         /*public IWebElement SignInEmail => Driver.FindElement(By.XPath("//input[@id='SignInEmail']"));
         public IWebElement SignInPassword => Driver.FindElement(By.XPath("//input[@id='SignInPassword']"));
         public IWebElement SignInButtonComplete => Driver.FindElement(By.XPath("//button[@id='SignInButtonComplete']"));*/
 
-     
+
         public void ClickLogin() => SignInButtonComplete.ClickOnElement();
             //Driver.ClickOnElement(SignInButtonComplete);
 

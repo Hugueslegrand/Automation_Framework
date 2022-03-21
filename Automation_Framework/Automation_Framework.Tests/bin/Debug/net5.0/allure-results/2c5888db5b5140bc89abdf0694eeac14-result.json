@@ -1,0 +1,103 @@
+{
+  "uuid": "b15a9d3d-25c1-4cad-b9c2-e497830411e6-tr-0-1015",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUpperCaseAndLogIn",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUpperCaseAndLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterUpperCaseAndLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterUpperCaseAndLogIn",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='SignInEmail']\"}\n  (Session info: chrome=99.0.4844.74)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 47\r\n   at Automation_Framework.Tests.Pages.LoginPage.get_SignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 28\r\n   at Automation_Framework.Tests.Pages.LoginPage.Login(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 58\r\n   at Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUpperCaseAndLogIn() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegister.cs:line 185\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Register an user only uppercase and log in to verify registration\n",
+  "steps": [
+    {
+      "name": "Test_RegisterUpperCaseAndLogIn",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='SignInEmail']\"}\n  (Session info: chrome=99.0.4844.74)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 47\r\n   at Automation_Framework.Tests.Pages.LoginPage.get_SignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 28\r\n   at Automation_Framework.Tests.Pages.LoginPage.Login(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 58\r\n   at Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUpperCaseAndLogIn() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegister.cs:line 185\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 91d130d7-6d4d-4098-8c28-f1e036f9dff3) clicked",
+          "source": "83a8608a85c841078176f1fa9373a89c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `MAJIN` entered in `Element (id = 3e04a886-ccdc-47e6-8021-4bbb130b30c9)`",
+          "source": "081899c33fae441b83200d297c9674c4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `BUU` entered in `Element (id = 6585f730-3420-4be2-a5a4-0a847cd2cf80)`",
+          "source": "2102de3a140a4b319511a23c67e9e668-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `MAJIN.BUU@PINK.COM` entered in `Element (id = 14f81cbb-1110-462d-8a89-952d08f357c8)`",
+          "source": "dae970b93d854c3fb9d5cb9dba6aa3f8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `KATANAZEBEST` entered in `Element (id = 87e85908-0643-4e86-8983-5370c38464c7)`",
+          "source": "48b0d55b09b94e8082b4385e6dec5878-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `KATANAZEBEST` entered in `Element (id = cde24222-3af5-4a37-b543-e32eecc39085)`",
+          "source": "34fc46249afa40b4811d8d0b315327d6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 3b780c1b-0b22-496d-9c89-9c4c7f318083) clicked",
+          "source": "ea6729499aee4d4488e88f89d8e9afca-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9df1174cf95b43858e2ebf73b6fb3c39-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647902711432,
+      "stop": 1647902737714
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647902711432,
+  "stop": 1647902737714
+}

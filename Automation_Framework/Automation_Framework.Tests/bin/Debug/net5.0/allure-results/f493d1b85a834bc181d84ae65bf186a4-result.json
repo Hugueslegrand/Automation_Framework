@@ -1,0 +1,100 @@
+{
+  "uuid": "68029496-6dbc-406e-a847-aa9924e39807-tr-0-1010",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterAnUser"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterAnUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RegisterAnUser"
+  },
+  "stage": "finished",
+  "description": "Register an user\n",
+  "steps": [
+    {
+      "name": "Test_RegisterAnUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 66faa7f0-7857-4893-a317-00536cca8c21) clicked",
+          "source": "172fc02913d8410994d788e2836b153e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Goku` entered in `Element (id = 6236333b-1673-4735-b899-71f4eb65249a)`",
+          "source": "aee917c8c05d496a94e40d8c5b3afccf-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Kakarot` entered in `Element (id = 0b2df395-aab4-49ee-b4ef-46dcba7745d7)`",
+          "source": "0cdcd02703d2426ba2785b805e243897-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `DragonBallZ@King.com` entered in `Element (id = ffcb0d11-dbf2-41af-9177-73d15b5472e2)`",
+          "source": "635e7fde57704ae4a9ff2e860dab3e6b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = bd8de501-2c37-4da8-9013-053aef90fe9e)`",
+          "source": "bb7273b66ec04599bbe16a3869c0297c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = a6d4d195-12f6-4e89-ae7c-e25b0eb690f8)`",
+          "source": "adc16dbeeb684443a495cfea159455f8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5cc4356c-8690-4881-9ef1-9def44164c38) clicked",
+          "source": "9f2601f38f4a45988bc03f5533ebb835-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "dae291457efc4b87999159dd3c692fb5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647903480049,
+      "stop": 1647903495729
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647903480049,
+  "stop": 1647903495732
+}

@@ -1,0 +1,98 @@
+{
+  "uuid": "09423959-c587-43c1-8599-9169f55b666f-tr-0-1005",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Not_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Not_Existing_User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 35 but was 36. Strings differ at index 0.\r\n  Expected: \"This email has not been registered.\"\r\n  But was:  \"OThis email has not been registered.\"\r\n  -----------^\r\n",
+    "trace": "   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 77\r\n"
+  },
+  "stage": "finished",
+  "description": "Login as an NOT existing user\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Not_Existing_User",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 35 but was 36. Strings differ at index 0.\r\n  Expected: \"This email has not been registered.\"\r\n  But was:  \"OThis email has not been registered.\"\r\n  -----------^\r\n",
+        "trace": "   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 77\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 3456a6c8-088b-43e4-9324-f878ebfec26f) clicked",
+          "source": "886526b50ccd4f6688482d06c6db9742-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4c2d2716-e19d-4a9f-8712-be3b561da951) clicked",
+          "source": "8d3288625d884493991c82eec8135a1c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `UserNotExist@brightest.be` entered in `Element (id = 4c2d2716-e19d-4a9f-8712-be3b561da951)`",
+          "source": "ea53a08fcdab48ecab0fe9a4a82b6909-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e4d2d479-c180-4fc5-8c90-f134af81f363) clicked",
+          "source": "58b0b1f57e50454e879bcb67ba6ed520-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `UserNotExist` entered in `Element (id = e4d2d479-c180-4fc5-8c90-f134af81f363)`",
+          "source": "afa711ec2ee344f4becc60788710d254-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f7f54cee-2c04-41a5-a525-e5690b75828b) clicked",
+          "source": "fad1da606f274ab89c9b2297038d7d78-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8469eac6483d4988a9076468da4f0365-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647862152363,
+      "stop": 1647862169015
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647862152362,
+  "stop": 1647862169018
+}

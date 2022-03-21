@@ -11,5 +11,8 @@ namespace Automation_Framework.WebElementModels
     {
       
         void ClickOnElement();
+
+        public string GetInnerHTML();
+
     }
 }

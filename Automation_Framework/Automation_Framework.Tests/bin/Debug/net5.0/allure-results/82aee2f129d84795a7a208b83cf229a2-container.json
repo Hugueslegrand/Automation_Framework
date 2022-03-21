@@ -1,0 +1,44 @@
+{
+  "uuid": "dfa144a8-6bf7-4356-a6a4-1c5c28e753a5-tc-0-1003",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_EmailAdress",
+  "children": [
+    "a3a30b9e-89c2-4227-ba4f-499afda78e3f-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647862062813,
+      "stop": 1647862062813
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647862062813,
+      "stop": 1647862062813
+    }
+  ],
+  "links": [],
+  "start": 1647862046720,
+  "stop": 1647862062833
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "6f97e881-6f69-464d-a499-79f57b6927ed-tc-0-1003",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_Email_Or_Password",
+  "children": [
+    "bbccd719-2563-4d7e-9967-1c24565e8b2d-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647898989361,
+      "stop": 1647898989361
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647898989361,
+      "stop": 1647898989361
+    }
+  ],
+  "links": [],
+  "start": 1647898975435,
+  "stop": 1647898989363
+}

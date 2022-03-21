@@ -1,0 +1,100 @@
+{
+  "uuid": "bed9821a-0033-4e0f-9838-d4aa5785e646-tr-0-1012",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUserWithSpaceBar",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterUserWithSpaceBar",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterUserWithSpaceBar"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterUserWithSpaceBar",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RegisterUserWithSpaceBar"
+  },
+  "stage": "finished",
+  "description": "Register an user with a spacebar leading inputforms\n",
+  "steps": [
+    {
+      "name": "Test_RegisterUserWithSpaceBar",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 758d96c4-070f-49f2-823c-2045d2f48d4b) clicked",
+          "source": "ca3956ede1884dae98522ff233dd009e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` Vegata` entered in `Element (id = fbe6f5df-f359-4499-8367-8695e4556cbb)`",
+          "source": "026ec9d0159240ea800437173e8fc99d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` PrinceSayan` entered in `Element (id = ff12ec91-3500-4dfc-9861-01e6de735588)`",
+          "source": "9d9fb7d43fe746d181ead6a538e3314a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` Strongest.Saiyan@mail.com` entered in `Element (id = 96dd8c2d-3616-4431-ae6b-9717e49c6c6d)`",
+          "source": "a9c5c80ca2fb4e5388aa31d5cde15d18-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` FreezaSucks` entered in `Element (id = c2ed0f74-a32a-4391-8ef2-844f2a6317aa)`",
+          "source": "e095fc1caa114fc0bf023c9b81ab60b2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` FreezaSucks` entered in `Element (id = db806a84-4ff0-4112-83f7-928011e7392a)`",
+          "source": "a2c067046ec245a6be744aee3a695460-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 24bcc6ee-f0bb-4ea8-9f47-dd3facfb4f93) clicked",
+          "source": "8de1fe3254d34fa78e823547104d01be-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ca8f81fc740d404fa5feace27b58b804-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647903568761,
+      "stop": 1647903584946
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647903568761,
+  "stop": 1647903584946
+}

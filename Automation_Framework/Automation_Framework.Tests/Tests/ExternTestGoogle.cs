@@ -23,7 +23,14 @@ namespace Automation_Framework.Tests.Tests
             externGooglePage.FillGoogleSearchbar("LambdaTest");
             externGooglePage.ClickRandomLink();
 
+            /*externGooglePage.surfToUrl()
+                            .ClickIkGaAkoordBtn()
+                            .FillGoogleSearchbar("LambdaTest")
+                            .ClickRandomLink();*/
+
+
             Thread.Sleep(6000);
+
 
 
         }

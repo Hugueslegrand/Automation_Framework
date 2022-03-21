@@ -166,3 +166,24 @@
 2022-03-18 10:54:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
 2022-03-18 10:54:30 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
 2022-03-18 10:54:30 INFO  Clicking on the h3 `LambdaTest + Asana integration: archiveer bugs in Asana ...` Element (id = 8a5e02e4-599f-4e59-bf30-8a886b54c5dc)
+2022-03-18 17:51:57 INFO  Navigating to https://google.com/
+2022-03-18 17:51:58 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 17:51:58 INFO  Finding element `By.Id: L2AGLb`
+2022-03-18 17:51:58 INFO  Clicking on the button `Ik ga akkoord` Element (id = d10e34a8-6980-4ade-a6b9-6b115d862a1a)
+2022-03-18 17:51:58 INFO  Finding element `By.Name: q`
+2022-03-18 17:51:58 INFO  Finding element `By.Name: q`
+2022-03-18 17:52:00 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:00 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:01 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:01 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:02 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:02 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:03 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:03 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:04 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:04 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:05 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:05 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:06 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:07 INFO  Finding element `By.XPath: //*[@id="rso"]/div[1]/div/div[1]/div/a/h3`
+2022-03-18 17:52:07 INFO  Clicking on the h3 `LambdaTest - GitHub` Element (id = c7af59b8-8a50-4696-a8a6-77aea5345ea0)

@@ -18,7 +18,7 @@ namespace Automation_Framework.Tests.Tests
         {
 
             ExternGooglePage externGooglePage = new ExternGooglePage(builder);
-            //externGooglePage.surfToUrl();
+       
             externGooglePage.ClickIkGaAkoordBtn();
             externGooglePage.FillGoogleSearchbar("LambdaTest");
             externGooglePage.ClickRandomLink();

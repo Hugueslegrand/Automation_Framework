@@ -2,7 +2,7 @@
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
 using Automation_Framework.Extensions.WebDriver;
-using Automation_Framework.Tests.Providers;
+
 using Automation_Framework.WebElementModels;
 using OpenQA.Selenium;
 using System;
@@ -34,7 +34,7 @@ namespace Automation_Framework.Tests.Pages
         }
         public void ClickRandomLink() => RandomLink.ClickOnElement();
 
-      // public void surfToUrl() => Driver.OpenLink(UrlProvider.Default);
+     
 
     }
 }

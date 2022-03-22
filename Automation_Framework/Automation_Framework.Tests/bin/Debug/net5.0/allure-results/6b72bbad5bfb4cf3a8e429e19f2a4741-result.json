@@ -1,0 +1,95 @@
+{
+  "uuid": "2b9e8c07-1d10-4805-afb2-da89a475075d-tr-0-1004",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdmin_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdmin_POM",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_LoginAsAdmin_POM"
+  },
+  "stage": "finished",
+  "description": "Login as administrator\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdmin_POM",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 1a8a9877-0078-4eb5-b7d2-a38ef6f69bb3) clicked",
+          "source": "6120257a6a734cd180deee8b7a3acbfe-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = af702003-590a-4b63-98b5-42d82505f4ed) clicked",
+          "source": "5900b2959bd2472eb44422c05c2bea85-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = af702003-590a-4b63-98b5-42d82505f4ed)`",
+          "source": "d70ff4fc3cf14b4780b625b11295f281-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 3eeb3baf-b56a-4490-9274-b2062c8eda15) clicked",
+          "source": "46c49ebf5b8e4beea23c09dae2795b82-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 3eeb3baf-b56a-4490-9274-b2062c8eda15)`",
+          "source": "355869f5b9144fd39e5aa2264fed1523-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0101f8f6-9ec7-40bc-bfb7-c2c03f6f69a3) clicked",
+          "source": "d3329809aa29493493e64c5a2a2860cd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d2977ca743db41198178f67015d6916b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647933829119,
+      "stop": 1647933842618
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647933829118,
+  "stop": 1647933842625
+}

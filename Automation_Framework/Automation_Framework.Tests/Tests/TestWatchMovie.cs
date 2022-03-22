@@ -18,16 +18,16 @@ namespace Automation_Framework.Tests.Tests
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login("brent.dar@ap.be", "hond");
-            //loginPage.ScreenShot();
+
 
             
           
             navigation.ClickMyMovie();
-            //Thread.Sleep(2000);
+    
            
             MyMoviesPage watchMovie = new MyMoviesPage(builder);
             watchMovie.ClickWatchNow();
-            //Thread.Sleep(2000);
+        
 
             watchMovie.ClickCloseModal();
         }

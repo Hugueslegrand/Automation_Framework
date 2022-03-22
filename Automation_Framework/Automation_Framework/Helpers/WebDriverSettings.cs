@@ -31,6 +31,7 @@ namespace Automation_Framework.Helpers
         public static FirefoxOptions FirefoxOptions(WebDriverConfiguration config)
         {
             FirefoxOptions options = new FirefoxOptions { AcceptInsecureCertificates = true };
+            
             options.AddArgument("start-maximized");
             options.SetPreference("intl.accept_languages", config.BrowserLanguage);
             

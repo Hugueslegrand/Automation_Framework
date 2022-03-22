@@ -1,0 +1,93 @@
+{
+  "uuid": "72f89226-b670-416e-b8a9-98275be1ca53-tr-0-1006",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterAnUser_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterAnUser_POM",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 47\r\n   at Automation_Framework.Tests.Pages.RegistrationPage.get_RegisterRePassword() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\RegistrationPage.cs:line 17\r\n   at Automation_Framework.Tests.Pages.RegistrationPage.Register(String firstName, String lastName, String email, String passwoord, String rePasswoord) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\RegistrationPage.cs:line 31\r\n   at Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegister.cs:line 21"
+  },
+  "stage": "finished",
+  "description": "Register an user\n",
+  "steps": [
+    {
+      "name": "Test_RegisterAnUser_POM",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 47\r\n   at Automation_Framework.Tests.Pages.RegistrationPage.get_RegisterRePassword() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\RegistrationPage.cs:line 17\r\n   at Automation_Framework.Tests.Pages.RegistrationPage.Register(String firstName, String lastName, String email, String passwoord, String rePasswoord) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\RegistrationPage.cs:line 31\r\n   at Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegister.cs:line 21"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 12a9b632-619d-4fc8-920d-4e3f14908717) clicked",
+          "source": "193665ad1443428ebf28116ddc0960e9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `firstName` entered in `Element (id = 8abb387a-5846-40df-b454-ca08452a81d5)`",
+          "source": "c19e3b3c29c143f7818d7f8a87232322-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `lastName` entered in `Element (id = 5fa98c5b-5409-4fb5-8de4-ef358370ed94)`",
+          "source": "cc66b50b9979495cbdbd6a2fa29bcae6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `email@brightest.be` entered in `Element (id = 1761f75c-89cc-4607-9325-60d09b0fb8e6)`",
+          "source": "7dafe4387bdd498284cf6c527117bf36-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `passwoord` entered in `Element (id = 2f2c96fc-22d6-45db-b18b-1cb8e6ff699c)`",
+          "source": "3966e1a611ee4edebf1d5b8e0248d4b5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5f5b83e25e384754bbb985d51bf843aa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647857281079,
+      "stop": 1647857416958
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647857281076,
+  "stop": 1647857416990
+}

@@ -1,4 +1,7 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Appium;
+using OpenQA.Selenium.Appium.Android;
+using OpenQA.Selenium.Appium.iOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +14,7 @@ namespace Automation_Framework.WebElementModels
     {
       
         void ClickOnElement();
+        public string getInnerHtml();
+
     }
 }

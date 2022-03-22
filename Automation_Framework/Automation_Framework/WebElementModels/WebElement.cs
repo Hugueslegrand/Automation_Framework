@@ -1,12 +1,14 @@
 ﻿using Automation_Framework.Base;
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
+using Automation_Framework.Extensions.MobileDriver;
 using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.Helpers;
 using LLibrary;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
+using OpenQA.Selenium.Appium.iOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,13 +20,13 @@ namespace Automation_Framework.WebElementModels
 
     public class WebElement :  IButton, IInputField
     {
-        private readonly DriverBuilder _driverBuilder;
-        private  IWebElement _webElement;
-        private  IWebDriver _webDriver;
-        private  AppiumDriver<AndroidElement> _androidDriver;
-    
+        private readonly DriverBuilder? _driverBuilder;
+        private  IWebElement? _webElement;
+        private  IWebDriver? _webDriver;
 
-   
+     
+
+
         public WebElement(IWebDriver driver, string element, Selector selector)
         {
             _webDriver = driver;
@@ -57,7 +59,12 @@ namespace Automation_Framework.WebElementModels
             }
 
         }
+       
 
+        public string getInnerHtml()
+        {
+            return _webElement.GetAttribute("innerHTML");
+        }
         public void ClickOnElement()
         {
             _webDriver.ClickOnElement(_webElement);
@@ -69,5 +76,7 @@ namespace Automation_Framework.WebElementModels
         {
             _webElement.SendKeys(text);
         }
+
+  
     }
 }

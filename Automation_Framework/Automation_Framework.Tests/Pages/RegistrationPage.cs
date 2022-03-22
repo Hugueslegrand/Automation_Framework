@@ -10,6 +10,8 @@ namespace Automation_Framework.Tests.Pages
     {
         public RegistrationPage(DriverBuilder driver) : base(driver) { }
 
+       
+        //Desktop elements
         public IInputField RegisterFirstName => new WebElement(Driver, "//input[@id='RegisterFirstName']", Selector.Xpath);
         public IInputField RegisterLastName => new WebElement(Driver, "//input[@id='RegisterLastName']", Selector.Xpath);
         public IInputField RegisterEmail => new WebElement(Driver, "//input[@id='RegisterEmail']", Selector.Xpath);
@@ -18,7 +20,7 @@ namespace Automation_Framework.Tests.Pages
         public IButton RegisterButtonComplete => new WebElement(Driver, "//button[@id='RegisterButtonComplete']",Selector.Xpath);
 
 
-        //Functions
+        //Desktop Functions
 
         public void ClickRegister() => RegisterButtonComplete.ClickOnElement();
 
@@ -32,6 +34,6 @@ namespace Automation_Framework.Tests.Pages
             RegisterButtonComplete.ClickOnElement(); // Or ClickRegister();
         }
 
-
+        
     }
 }

@@ -11,16 +11,20 @@ namespace Automation_Framework.Tests.Pages
 
         public MyMoviesPage(DriverBuilder driver) : base(driver) { }
 
+      
+        //Desktop elements
         public IButton WatchNowButton => new WebElement(Driver, "//button[normalize-space()='Watch now']", Selector.Xpath);
         public IButton CloseModalButton => new WebElement(Driver, "//div[@class='css-ce9ngx']//button[@id='CloseModal']",Selector.Xpath);
 
 
 
 
-        //Functions
+        //Desktop Functions
 
         public void ClickWatchNow() => WatchNowButton.ClickOnElement();
         public void ClickCloseModal() => CloseModalButton.ClickOnElement();
+
+        
 
     }
 }

@@ -1,0 +1,67 @@
+{
+  "uuid": "a05802c3-8346-4a8a-9af9-ff59c4115e51-tr-0-1005",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithAdmin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithAdmin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 41\r\n   at Automation_Framework.Tests.Pages.HomePage.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 16\r\n   at Automation_Framework.Tests.Pages.HomePage.ClickSignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 65\r\n   at Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 34"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginWithAdmin",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 41\r\n   at Automation_Framework.Tests.Pages.HomePage.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 16\r\n   at Automation_Framework.Tests.Pages.HomePage.ClickSignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\HomePage.cs:line 65\r\n   at Automation_Framework.Tests.Tests.TestLogin.LoginWithAdmin() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 34"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "648112e292c24bfab1c06c28cfe6eedb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647933850944,
+      "stop": 1647933874329
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647933850943,
+  "stop": 1647933874336
+}

@@ -18,9 +18,9 @@ namespace Automation_Framework.Builders
     public class DriverBuilder
     {
         
-        public IWebDriver _webDriver;
-        public AndroidDriver<AndroidElement> _androidDriver;
-        public IOSDriver<IOSElement> _iosDriver;
+        public IWebDriver? _webDriver;
+        public AndroidDriver<AndroidElement>? _androidDriver;
+        public IOSDriver<IOSElement>? _iosDriver;
 
         private WebDriverConfiguration driverConfig = Configuration.WebDriver;
         private NativeMobileDriverConfiguration nativeMobileConfig = Configuration.NativeMobileDriver;
@@ -34,7 +34,6 @@ namespace Automation_Framework.Builders
             {
                 case Enums.PlatformType.Desktop:
                     _webDriver = new WebDriverFactory().GetWebDriver(driverConfig, logger);
-
                     _webDriver.Manage().Window.Maximize();
                     _webDriver.Navigate().GoToUrl(url);
 

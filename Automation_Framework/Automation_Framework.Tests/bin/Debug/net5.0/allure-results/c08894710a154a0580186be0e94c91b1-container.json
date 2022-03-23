@@ -1,0 +1,44 @@
+{
+  "uuid": "9ba3f8f8-8219-4fc4-986a-9b9cb844bfb0-tc-0-1012",
+  "name": "Automation_Framework.Tests.Tests.TestProfile.Test_AddPayment",
+  "children": [
+    "0affd5ea-f0a2-4308-932c-c442ef037f7d-tr-0-1013"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647939919293,
+      "stop": 1647939919293
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1647939919293,
+      "stop": 1647939919293
+    }
+  ],
+  "links": [],
+  "start": 1647939894364,
+  "stop": 1647939919316
+}

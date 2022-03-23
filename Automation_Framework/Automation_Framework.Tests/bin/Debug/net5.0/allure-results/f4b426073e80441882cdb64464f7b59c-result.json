@@ -1,0 +1,80 @@
+{
+  "uuid": "3a242e3d-b6ed-4e01-8dd3-80a64335a8b6-tr-0-1002",
+  "historyId": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "fullName": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_GoogleSearch"
+    },
+    {
+      "name": "testClass",
+      "value": "ExternTestGoogle"
+    }
+  ],
+  "links": [],
+  "name": "Test_GoogleSearch",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_GoogleSearch"
+  },
+  "stage": "finished",
+  "description": "Test: GoogleSearch\n",
+  "steps": [
+    {
+      "name": "Test_GoogleSearch",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 0dd2bf86-b7d2-4363-909b-f5ac4737edec) clicked",
+          "source": "ea9784aa898548c7a3f310d464e48198-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `LambdaTest` entered in `Element (id = ea3db180-562f-4f98-bba6-a7b177d834bb)`",
+          "source": "c3109dfc26774ed1b5d8db90d2376ab3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4927325f-0ebe-4e52-940b-2e1616dfb148) clicked",
+          "source": "8e42c18d7b014c8f9deb9301805b458e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a28577753e8541ecbf77f495a4386f36-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647932417878,
+      "stop": 1647932438523
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647932417877,
+  "stop": 1647932438526
+}

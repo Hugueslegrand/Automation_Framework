@@ -1,0 +1,95 @@
+{
+  "uuid": "436282e7-c6a9-49de-a991-81e5251906ba-tr-0-1006",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Not_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Not_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Not_Existing_User",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_As_Not_Existing_User"
+  },
+  "stage": "finished",
+  "description": "Login as an NOT existing user\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Not_Existing_User",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 889eb159-2066-42f2-90d4-1d5380a7da7a) clicked",
+          "source": "d1765d86fbcc4ff8b46672d57e151e5d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e09b09a2-dde1-4713-b02b-5fd24c76405f) clicked",
+          "source": "52ee91aebd084913b5b0015d49d708a9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `UserNotExist@brightest.be` entered in `Element (id = e09b09a2-dde1-4713-b02b-5fd24c76405f)`",
+          "source": "426e788cd9714cc1bf7b84faf89fe2a9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 352c121d-f1a1-4e9c-a3d2-b707f1d470a7) clicked",
+          "source": "bb6669edf2c2474b83add12dd6bf94ae-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `UserNotExist` entered in `Element (id = 352c121d-f1a1-4e9c-a3d2-b707f1d470a7)`",
+          "source": "8186e24cb3a547ffab844639a2af2065-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9222f1b7-da53-4e52-bae7-e42f2c81510c) clicked",
+          "source": "3ab662b6823045fa972d88802e6bd033-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "25c620ccbc2f4478a4c5f10b2e7b2eff-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647932800694,
+      "stop": 1647932816931
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647932800694,
+  "stop": 1647932816931
+}

@@ -1,0 +1,108 @@
+{
+  "uuid": "c8e72fc0-b019-473c-8d83-c94866c5e5d6-tr-0-1012",
+  "historyId": "Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented",
+  "fullName": "Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RentMovieButton_NotYetRented"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMovieModal"
+    }
+  ],
+  "links": [],
+  "name": "Test_RentMovieButton_NotYetRented",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected homePage.GetInnerText_Warning() to start with \"Jackpot!\", but \"<div class=\"notification\" style=\"height: 115px; width: 100%; transition: height 10ms ease 0s;\"><div class=\"animate__animated animate__fadeIn notification__item notification__item--success\"><div class=\"notification__content\"><div class=\"notification__title\">Jackpot!</div><div class=\"notification__message\">Roald Dahl's The Witches added to My Movies!</div><div class=\"notification__timer\"><div class=\"notification__timer-filler\" style=\"animation-name: timer; animation-duration: 5000ms; animation-timing-function: linear; animation-fill-mode: forwards; animation-play-state: running;\"></div></div></div></div></div>\" differs near \"<di\" (index 0).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringStartValidator.ValidateAgainstMismatch()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.StartWith(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMovieModal.cs:line 103\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton\n",
+  "steps": [
+    {
+      "name": "Test_RentMovieButton_NotYetRented",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected homePage.GetInnerText_Warning() to start with \"Jackpot!\", but \"<div class=\"notification\" style=\"height: 115px; width: 100%; transition: height 10ms ease 0s;\"><div class=\"animate__animated animate__fadeIn notification__item notification__item--success\"><div class=\"notification__content\"><div class=\"notification__title\">Jackpot!</div><div class=\"notification__message\">Roald Dahl's The Witches added to My Movies!</div><div class=\"notification__timer\"><div class=\"notification__timer-filler\" style=\"animation-name: timer; animation-duration: 5000ms; animation-timing-function: linear; animation-fill-mode: forwards; animation-play-state: running;\"></div></div></div></div></div>\" differs near \"<di\" (index 0).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringStartValidator.ValidateAgainstMismatch()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.StartWith(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMovieModal.cs:line 103\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 96f8d868-5487-492e-aea6-43b47b9b18d1) clicked",
+          "source": "2abf2e48ffe148eebeed56d39bb7f264-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = fd7a0c1a-7e1c-45fc-99ed-06ca08ff88ce) clicked",
+          "source": "2fb466ab1cea4bb6978d9cac2be49257-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Leaf-Village@King.com` entered in `Element (id = fd7a0c1a-7e1c-45fc-99ed-06ca08ff88ce)`",
+          "source": "6f4ad35811be49cf8130677e1bdce870-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cf331fa1-a014-4761-a136-abffd5b348b1) clicked",
+          "source": "6465e15f63054ebe952b087577af59de-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = cf331fa1-a014-4761-a136-abffd5b348b1)`",
+          "source": "8b9b66964c0746e2838316bc496fffcf-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cfb06032-b7b7-45e6-b76d-d2f5fc0c2407) clicked",
+          "source": "ee4a4b2257da4875a247d64a3802938f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 1c705a97-223d-4df1-ba60-1a37bcd435ee) clicked",
+          "source": "3c7f180dd0894eb3b1c30c8a42da38ef-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d76fa91c-827d-4cbd-a3c4-fb6615ceea21) clicked",
+          "source": "6eca22090e184fc3a3200ae49f320b35-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "74b60cb1f0c54f8c841dfc0efcccc8da-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647943104356,
+      "stop": 1647943126350
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647943104355,
+  "stop": 1647943126353
+}

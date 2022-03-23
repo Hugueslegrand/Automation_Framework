@@ -3,11 +3,11 @@ using Automation_Framework.Enums;
 using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.WebElementModels;
 using Automation_Framework.Base;
-
+using System.Threading;
 
 namespace Automation_Framework.Tests.Pages
 {
-    public class LoginPage :BasePage
+    public class LoginPage : BasePage
     {
 
         public LoginPage(DriverBuilder driver) : base(driver) { }
@@ -29,20 +29,26 @@ namespace Automation_Framework.Tests.Pages
         public IInputField SignInPassword => new WebElement(Driver, "//input[@id='SignInPassword']", Selector.Xpath);
         public IButton SignInButtonComplete => new WebElement(Driver, "//button[@id='SignInButtonComplete']", Selector.Xpath);
 
-        public IButton FailedLoginMessage => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
+        public string scroller = "'div[class=\"css-nlgfro\"]'";
+        public IButton LoginWarning => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
 
-        public string NoneExistingEmail()
+        public string GetInnerText_Warning()
         {
-            return FailedLoginMessage.GetInnerHTML();
+            return LoginWarning.GetInnerHTML();
         }
-        public string IncorrectEmail()
-        {
-            return FailedLoginMessage.GetInnerHTML();
-        }
-        public string IncorrectEmailOrPasswoord()
-        {
-            return FailedLoginMessage.GetInnerHTML();
-        }
+
+        // public string NoneExistingEmail()
+        // {
+        //     return FailedLoginMessage.GetInnerHTML();
+        // }
+        // public string IncorrectEmail()
+        // {
+        //     return FailedLoginMessage.GetInnerHTML();
+        // }
+        // public string IncorrectEmailOrPasswoord()
+        // {
+        //     return FailedLoginMessage.GetInnerHTML();
+        // }
 
 
         /*public IWebElement SignInEmail => Driver.FindElement(By.XPath("//input[@id='SignInEmail']"));
@@ -51,10 +57,20 @@ namespace Automation_Framework.Tests.Pages
 
 
         public void ClickLogin() => SignInButtonComplete.ClickOnElement();
-            //Driver.ClickOnElement(SignInButtonComplete);
+        //Driver.ClickOnElement(SignInButtonComplete);
 
+        public void scrollMofo () {
+            Thread.Sleep(3000);
+            Driver.GetElementAndScrollTo(scroller,500);
+            Thread.Sleep(3000);
+            Driver.GetElementAndScrollTo(scroller, 1200);
+            Thread.Sleep(3000);
+            Driver.GetElementAndScrollTo(scroller, -600);
+
+        }
         public void Login(string userName, string password)
         {
+            
             SignInEmail.ClickOnElement();
             SignInEmail.SendKeys(userName);
             SignInPassword.ClickOnElement();

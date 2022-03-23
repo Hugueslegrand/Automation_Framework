@@ -1,0 +1,95 @@
+{
+  "uuid": "70adb801-316f-4961-a5a3-948c0d167876-tr-0-1008",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_Email_Or_Password",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_With_An_Incorrect_Email_Or_Password",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_With_An_Incorrect_Email_Or_Password"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_With_An_Incorrect_Email_Or_Password",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_With_An_Incorrect_Email_Or_Password"
+  },
+  "stage": "finished",
+  "description": "Login with an Incorrect Email adress or Password\n",
+  "steps": [
+    {
+      "name": "Test_Login_With_An_Incorrect_Email_Or_Password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 17582ede-b70c-4a5c-8285-a979e067d718) clicked",
+          "source": "44049b6d2ae44abab92393ca4933686b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e8760258-f194-44d2-ad38-474207080966) clicked",
+          "source": "5a0b8d786491472b8b24913617bf96e9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Pirate@King.com` entered in `Element (id = e8760258-f194-44d2-ad38-474207080966)`",
+          "source": "0f7a510813e44819a0a267e572c4e85f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = fc3036dd-2b1d-4e1b-9764-aac291a53190) clicked",
+          "source": "d25c2eae0eaa432e8c27da7e78d0651c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `IncorrectPassword` entered in `Element (id = fc3036dd-2b1d-4e1b-9764-aac291a53190)`",
+          "source": "24f58759fccc40e8b7ca13ccdd89b745-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d51c4e3c-687c-4cce-953a-4cffb8c5624f) clicked",
+          "source": "852522048e91427ba31dddfcee7b3fa2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "011b612389d847df865507a8e30ead07-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647932816934,
+      "stop": 1647932832512
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647932816934,
+  "stop": 1647932832512
+}

@@ -1,0 +1,103 @@
+{
+  "uuid": "39d32d09-0b2a-4079-aa70-6ed4e2cd386e-tr-0-1014",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Analysing_Elements"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Analysing_Elements",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected profilePage.GetInnerText_LastName() to be \"Dar\" with a length of 3, but \"Brent\" has a length of 5, differs near \"Bre\" (index 0).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 47\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: Analysing Elements\n",
+  "steps": [
+    {
+      "name": "Test_Analysing_Elements",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected profilePage.GetInnerText_LastName() to be \"Dar\" with a length of 3, but \"Brent\" has a length of 5, differs near \"Bre\" (index 0).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 47\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = a0d0bbce-21e1-4e64-94bd-05e55aedcd22) clicked",
+          "source": "d53d4891d47945458ca0db38f754a7d8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b46ce13b-80ce-45cd-8086-7407cecf1266) clicked",
+          "source": "0364b9a08f1844dea69aabfdb68cc755-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = b46ce13b-80ce-45cd-8086-7407cecf1266)`",
+          "source": "e606b69ec38b4deb97a18f610d5e50e4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4868978a-59fa-4094-9608-21b67507439d) clicked",
+          "source": "0ffe0b73b2b8448cbf8425b3faf7754c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 4868978a-59fa-4094-9608-21b67507439d)`",
+          "source": "8e0ec9f1f1014292bc51203f76e9e99a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 458260f2-2f7e-479f-8e57-a29b5c3b86de) clicked",
+          "source": "079940ce96804430972af288d172f1f3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 11b5e590-371c-4585-ba1a-644d0ade85b4) clicked",
+          "source": "82b8b11b017b43d981ddbfdbbbb4472a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e5cbaa7acc4b44f580c56cc394fd04e4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647954741852,
+      "stop": 1647954760695
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647954741852,
+  "stop": 1647954760698
+}

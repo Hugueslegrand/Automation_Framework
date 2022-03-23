@@ -52,6 +52,10 @@ namespace Automation_Framework.WebElementModels
                     _webDriver.WaitForClickable(By.LinkText(element));
                     _webElement = _webDriver.FindElement(By.LinkText(element));
                     break;
+                case Selector.ClassName:
+                    _webDriver.WaitForClickable(By.ClassName(element));
+                    _webElement = _webDriver.FindElement(By.ClassName(element));
+                    break;
                 default:
                     break;
             }
@@ -72,7 +76,7 @@ namespace Automation_Framework.WebElementModels
 
         public string GetInnerHTML()
         {
-            return _webElement.GetAttribute("innerHTML");
+            return _webElement.Text;
         }
 
     }

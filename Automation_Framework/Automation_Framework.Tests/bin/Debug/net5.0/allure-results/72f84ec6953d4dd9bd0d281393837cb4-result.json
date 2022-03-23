@@ -1,0 +1,120 @@
+{
+  "uuid": "cb209ab3-ab38-436b-a143-2dbdb0b46762-tr-0-1018",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_nonNumberInput",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_nonNumberInput",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_nonNumberInput"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_nonNumberInput",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Add_Credits_To_Profile_nonNumberInput"
+  },
+  "stage": "finished",
+  "description": "Test: Add credits to profile (non-number input)  \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_nonNumberInput",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 0a556334-5b52-4d28-a516-6c8f2e40085e) clicked",
+          "source": "a4e255322690402b8a2c3a7325f11612-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c176ddc4-c5b5-4bee-bfb2-7398e11a7346) clicked",
+          "source": "0abcd8089b6c48fc9d32f26ca6462969-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = c176ddc4-c5b5-4bee-bfb2-7398e11a7346)`",
+          "source": "396c1a02e1b04c06a77a5177fddaf20f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = a7f892fa-f5b2-453f-9489-82879d9f8168) clicked",
+          "source": "24721f2f5b924850ab0a2f03b34d9941-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = a7f892fa-f5b2-453f-9489-82879d9f8168)`",
+          "source": "189c68c4cf9f46daa00c2617c260b1d3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4bda94ec-3beb-45fb-a4aa-87619f874388) clicked",
+          "source": "8124a34938094ba088f0cadb285d0be9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8ba2aab2-3754-4a3c-8b2b-ecc79b925fd0) clicked",
+          "source": "2970f33532064278a71d5bcd4544ba83-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 09d96e5f-68f3-4afd-890e-6aada522ad78) clicked",
+          "source": "26ebb9f5e85347c581acbb3c2762bc7c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9a7952f5-8366-4cdc-9e84-455003261b4f) clicked",
+          "source": "1baf61641e514a9796ce70b8432fbc91-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `notNumberInput` entered in `Element (id = 9a7952f5-8366-4cdc-9e84-455003261b4f)`",
+          "source": "cc11a6fb454041b2b47a8de2a7a6e080-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 39a74145-3f6e-4fd0-9684-eb87228bd0fd) clicked",
+          "source": "ae3e53cb5f404d4391c898be930b4664-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e9b7fe3f1b464e2e8f5f7b5856a065e0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648041014130,
+      "stop": 1648041045146
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648041014129,
+  "stop": 1648041045148
+}

@@ -1,0 +1,95 @@
+{
+  "uuid": "f11293f8-7d71-4e4b-8391-fcd6dea4ab27-tr-0-1005",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_UserAdmin",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_UserAdmin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Existing_UserAdmin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Existing_UserAdmin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_As_Existing_UserAdmin"
+  },
+  "stage": "finished",
+  "description": "Login as an existing userAdmin\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Existing_UserAdmin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 7eaa4012-f253-44e7-8ec6-a501015baa2b) clicked",
+          "source": "aab6addb15404ff79975ec6bdbdf83e1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b8c935d9-5727-4dad-bf8b-d2192330774e) clicked",
+          "source": "597952d931c54200876a7589be0aafd5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = b8c935d9-5727-4dad-bf8b-d2192330774e)`",
+          "source": "305a6e22ab9a4c7c954ae988e8109f34-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b07c263e-1317-4a29-b475-1e3babde3595) clicked",
+          "source": "fb457f5a8d394397a382ed5cf21d902f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = b07c263e-1317-4a29-b475-1e3babde3595)`",
+          "source": "2b9fd0c003934a25bc400231cddf24dc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 76f07cc5-4db8-4eb5-9232-f58b8350e74b) clicked",
+          "source": "20731eb8845c4ca4be2d246fb9b29602-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "31769d9ab87a46baa725e09b8c57cd1e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647932783482,
+      "stop": 1647932800689
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647932783482,
+  "stop": 1647932800689
+}

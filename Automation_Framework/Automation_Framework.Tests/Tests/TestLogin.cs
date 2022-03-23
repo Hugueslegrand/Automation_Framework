@@ -3,6 +3,7 @@ using NUnit.Framework;
 using System.Threading;
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
+using OpenQA.Selenium;
 
 namespace Automation_Framework.Tests.Tests
 {
@@ -53,7 +54,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
 
-
+  
 
          [Test]
          [Description("Login as an existing user")]
@@ -88,6 +89,15 @@ namespace Automation_Framework.Tests.Tests
             navigation.SettingsButton.Should();
 
         }
+        [Test]
+        public void Test_Scroller()
+        {
+            LoginPage loginPage = new LoginPage(builder);
+            Thread.Sleep(6000);
+            loginPage.scrollMofo();
+          
+       
+        }
 
 
         [Test]
@@ -104,7 +114,7 @@ namespace Automation_Framework.Tests.Tests
 
             loginPage.Login(userLogin.email, userLogin.password);
 
-            loginPage.NoneExistingEmail().Should().Be("This email has not been registered.");
+            loginPage.GetInnerText_Warning().Should().Be("This email has not been registered.");
 
             // Assert.AreEqual(loginPage.GetInnerText(),"This email has not been registered.");
         }
@@ -124,7 +134,7 @@ namespace Automation_Framework.Tests.Tests
         
             loginPage.Login(userLogin.email, userLogin.password);
 
-            loginPage.IncorrectEmail().Should().Be("Please fill in a correct email-adress.");
+            loginPage.GetInnerText_Warning().Should().Be("Please fill in a correct email-adress.");
 
         }  
         
@@ -142,7 +152,7 @@ namespace Automation_Framework.Tests.Tests
         
             loginPage.Login(userLogin.email, userLogin.password);
 
-            loginPage.IncorrectEmailOrPasswoord().Should().Be("Email or password incorrect.");
+            loginPage.GetInnerText_Warning().Should().Be("Email or password incorrect.");
 
         }
         

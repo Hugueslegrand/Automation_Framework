@@ -4,6 +4,7 @@ using OpenQA.Selenium.Support.UI;
 using Automation_Framework.Helpers;
 using ExpectedConditions = SeleniumExtras.WaitHelpers.ExpectedConditions;
 using System.Threading;
+using Automation_Framework.WebElementModels;
 
 namespace Automation_Framework.Extensions.WebDriver
 {
@@ -31,6 +32,11 @@ namespace Automation_Framework.Extensions.WebDriver
             //Thread.Sleep(5000);
             WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             waitFunc.Until(ExpectedConditions.ElementToBeClickable(element));
+        }
+        public static void GetElementAndScrollTo(this IWebDriver driver, string element,int moveLength)
+        {
+            var js = driver as IJavaScriptExecutor;
+            js.ExecuteScript($"document.querySelector({element}).scrollLeft = {moveLength}");
         }
 
     }

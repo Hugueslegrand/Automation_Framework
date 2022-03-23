@@ -1,0 +1,105 @@
+{
+  "uuid": "34be8ed0-d22c-424d-ac26-40fe27ba974c-tr-0-1012",
+  "historyId": "Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented",
+  "fullName": "Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RentMovieButton_NotYetRented"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMovieModal"
+    }
+  ],
+  "links": [],
+  "name": "Test_RentMovieButton_NotYetRented",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RentMovieButton_NotYetRented"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton\n",
+  "steps": [
+    {
+      "name": "Test_RentMovieButton_NotYetRented",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 9de38652-3fb6-44b4-9402-ae3b1c2207d0) clicked",
+          "source": "c7ff70e4df534d4686735398cf3f1373-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d1a8dd6b-17f8-486f-9107-a5d08f3a99e7) clicked",
+          "source": "d028c94ed7ab43a99bd906e7a2c9e38c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Leaf-Village@King.com` entered in `Element (id = d1a8dd6b-17f8-486f-9107-a5d08f3a99e7)`",
+          "source": "b83cbe760b194d8d82716f565b714e89-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c39b308d-7e8b-45bd-9d0f-184a990b87f2) clicked",
+          "source": "85baacee98e64cb999d67cbd1730399a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = c39b308d-7e8b-45bd-9d0f-184a990b87f2)`",
+          "source": "219874a2b5a94262b9f5d5d8967a64f0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 036cdaac-f9e2-4007-8e91-a3dd14d7423c) clicked",
+          "source": "3f95290202ac4e0fa71e44524b0c38c1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4f71c6d9-b7b5-4670-90bf-1128decc8189) clicked",
+          "source": "e7e4fbf41f2043afa2f28446a2aa874f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = a20b8bbe-4667-4313-b389-57bda8a0604c) clicked",
+          "source": "faecdf01f37d4550abddbe473c31b3a2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9f497fdaa69a45e990d7c8a483294637-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647943443606,
+      "stop": 1647943467031
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647943443606,
+  "stop": 1647943467035
+}

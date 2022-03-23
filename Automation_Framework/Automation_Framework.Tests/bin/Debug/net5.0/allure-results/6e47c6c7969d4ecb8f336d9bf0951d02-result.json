@@ -1,0 +1,64 @@
+{
+  "uuid": "b726c899-5dfb-4e79-bcc3-d22ce4c960bb-tr-0-1006",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Scroller",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Scroller",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Scroller"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Scroller",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Scroller"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Test_Scroller",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f23baa1e7ed24fa091dab6674ea04279-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648038082548,
+      "stop": 1648038124051
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648038082547,
+  "stop": 1648038124055
+}

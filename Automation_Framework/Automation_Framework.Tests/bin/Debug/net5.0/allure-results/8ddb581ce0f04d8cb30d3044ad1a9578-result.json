@@ -1,0 +1,108 @@
+{
+  "uuid": "e8f6912e-4b3d-4f97-a16a-b3ee925101ed-tr-0-1012",
+  "historyId": "Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented",
+  "fullName": "Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RentMovieButton_NotYetRented"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMovieModal"
+    }
+  ],
+  "links": [],
+  "name": "Test_RentMovieButton_NotYetRented",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected homePage.GetInnerText_Warning() to start with \"Jackpot!\", but \"<div class=\"notification\" style=\"height: 94px; width: 100%; transition: height 10ms ease 0s;\"><div class=\"animate__animated animate__fadeIn notification__item notification__item--danger\"><div class=\"notification__content\"><div class=\"notification__title\">Woopsie!</div><div class=\"notification__message\">Insufficient credits.</div><div class=\"notification__timer\"><div class=\"notification__timer-filler\" style=\"animation-name: timer; animation-duration: 5000ms; animation-timing-function: linear; animation-fill-mode: forwards; animation-play-state: running;\"></div></div></div></div></div>\" differs near \"<di\" (index 0).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringStartValidator.ValidateAgainstMismatch()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.StartWith(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMovieModal.cs:line 103\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton\n",
+  "steps": [
+    {
+      "name": "Test_RentMovieButton_NotYetRented",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected homePage.GetInnerText_Warning() to start with \"Jackpot!\", but \"<div class=\"notification\" style=\"height: 94px; width: 100%; transition: height 10ms ease 0s;\"><div class=\"animate__animated animate__fadeIn notification__item notification__item--danger\"><div class=\"notification__content\"><div class=\"notification__title\">Woopsie!</div><div class=\"notification__message\">Insufficient credits.</div><div class=\"notification__timer\"><div class=\"notification__timer-filler\" style=\"animation-name: timer; animation-duration: 5000ms; animation-timing-function: linear; animation-fill-mode: forwards; animation-play-state: running;\"></div></div></div></div></div>\" differs near \"<di\" (index 0).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringStartValidator.ValidateAgainstMismatch()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.StartWith(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMovieModal.cs:line 103\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 021ac18b-7a3e-4f07-ad47-4ebfc9bf586d) clicked",
+          "source": "0c3a7f3d37a34789adb914a3235e602d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ce327583-adae-48e1-b747-6d1ff0eeb946) clicked",
+          "source": "5d30d9c9f52d40d8b683e82d978f6e03-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Leaf-Village@King.com` entered in `Element (id = ce327583-adae-48e1-b747-6d1ff0eeb946)`",
+          "source": "c969b75577ef40ec8446098c87b6033c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 497aa8eb-938e-41bd-811c-c6c8fdc28b48) clicked",
+          "source": "d059468da07741cc9140e1756229a356-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = 497aa8eb-938e-41bd-811c-c6c8fdc28b48)`",
+          "source": "0d99356c871c4e2492da323f5db474c4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cdc2daae-c51c-41ba-9473-5a53c766a5cd) clicked",
+          "source": "1e0a72339afc4c62b4d923a8383d93ef-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 6910e31d-29a8-439a-82d7-11f61ae895c4) clicked",
+          "source": "de07adc4a9c14414941c59e943945242-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 92ca0234-dba5-4a80-a2e2-23b17d62aa40) clicked",
+          "source": "744af2922bc54e95873ae6ab382e598f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ce5fd68d90d543719253d730ab09d0f3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647943031880,
+      "stop": 1647943050146
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647943031880,
+  "stop": 1647943050151
+}

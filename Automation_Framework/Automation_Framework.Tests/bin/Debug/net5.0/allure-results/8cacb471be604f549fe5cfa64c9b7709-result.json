@@ -1,0 +1,67 @@
+{
+  "uuid": "437ff442-3006-4a8a-b157-7a6aaeb84f58-tr-0-1006",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Scroller",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Scroller",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Scroller"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Scroller",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : javascript error: Automation_Framework is not defined\n  (Session info: chrome=99.0.4844.82)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.GetElementAndScrollTo(IWebDriver driver, IButton element, Int32 moveLength) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 39\r\n   at Automation_Framework.Tests.Pages.LoginPage.scrollMofo() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 64\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Scroller() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 97"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Test_Scroller",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : javascript error: Automation_Framework is not defined\n  (Session info: chrome=99.0.4844.82)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.GetElementAndScrollTo(IWebDriver driver, IButton element, Int32 moveLength) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 39\r\n   at Automation_Framework.Tests.Pages.LoginPage.scrollMofo() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\LoginPage.cs:line 64\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Scroller() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 97"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ab9df21edc1b4475978871b51c6bdb1c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648039032291,
+      "stop": 1648039038879
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648039032291,
+  "stop": 1648039038881
+}

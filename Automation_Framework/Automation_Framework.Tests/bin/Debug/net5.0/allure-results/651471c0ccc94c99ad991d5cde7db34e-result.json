@@ -1,0 +1,108 @@
+{
+  "uuid": "f9a4c5e6-30f3-4231-aab1-8cacceb46932-tr-0-1012",
+  "historyId": "Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented",
+  "fullName": "Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RentMovieButton_NotYetRented"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMovieModal"
+    }
+  ],
+  "links": [],
+  "name": "Test_RentMovieButton_NotYetRented",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected homePage.GetInnerText_Warning() \"<div class=\"notification\" style=\"height: 94px; width: 100%; transition: height 10ms ease 0s;\"><div class=\"animate__animated animate__fadeIn notification__item notification__item--success\"><div class=\"notification__content\"><div class=\"notification__title\">Jackpot!</div><div class=\"notification__message\">Happiest Season added to My Movies!</div><div class=\"notification__timer\"><div class=\"notification__timer-filler\" style=\"animation-name: timer; animation-duration: 5000ms; animation-timing-function: linear; animation-fill-mode: forwards; animation-play-state: running;\"></div></div></div></div></div>\" to end with \"added to My Movies!\".",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.EndWith(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMovieModal.cs:line 103\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton\n",
+  "steps": [
+    {
+      "name": "Test_RentMovieButton_NotYetRented",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected homePage.GetInnerText_Warning() \"<div class=\"notification\" style=\"height: 94px; width: 100%; transition: height 10ms ease 0s;\"><div class=\"animate__animated animate__fadeIn notification__item notification__item--success\"><div class=\"notification__content\"><div class=\"notification__title\">Jackpot!</div><div class=\"notification__message\">Happiest Season added to My Movies!</div><div class=\"notification__timer\"><div class=\"notification__timer-filler\" style=\"animation-name: timer; animation-duration: 5000ms; animation-timing-function: linear; animation-fill-mode: forwards; animation-play-state: running;\"></div></div></div></div></div>\" to end with \"added to My Movies!\".",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.EndWith(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMovieModal.Test_RentMovieButton_NotYetRented() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMovieModal.cs:line 103\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 3526b61f-161c-4f00-a23d-d868f727093f) clicked",
+          "source": "f8ce6473cd9348b0a3a76980a85c86d8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 175580c2-0730-4697-9ceb-a465a0aa81a4) clicked",
+          "source": "b1ca6172b6bc4b4ea48b232282ca533d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Leaf-Village@King.com` entered in `Element (id = 175580c2-0730-4697-9ceb-a465a0aa81a4)`",
+          "source": "15b62148de9a44bfa52835c103d80a53-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b128d617-556b-4835-94e2-8a969c250c39) clicked",
+          "source": "e18cb5b023914fe1af787b8bf9eeb295-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = b128d617-556b-4835-94e2-8a969c250c39)`",
+          "source": "08db58ead59c49afb56cdbcf43e9e1d1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5d4391bd-b953-4207-81e5-095f26f536a0) clicked",
+          "source": "59ab42f150a44230a26b54946cd2e61f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ea976688-5101-4f0a-92b0-b86763dfafd2) clicked",
+          "source": "9282b78f73464c8797e3461c0c35b0f5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b5f57716-d42b-40b0-b311-24ba98e6c751) clicked",
+          "source": "136cb54b9fb9443fbe4d397287a76f63-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "24e42d725c1b447784ffae0bf136668b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647943280261,
+      "stop": 1647943300538
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647943280261,
+  "stop": 1647943300542
+}

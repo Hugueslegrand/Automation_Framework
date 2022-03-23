@@ -1,0 +1,103 @@
+{
+  "uuid": "dbef6898-616c-4ede-8c0d-ca62f6d64b29-tr-0-1014",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Analysing_Elements"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Analysing_Elements",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected profilePage.Firstname to be <null>, but found Automation_Framework.WebElementModels.WebElement\r\n{\r\n}.",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.ObjectAssertions`2.Be(TSubject expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 44\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: Analysing Elements\n",
+  "steps": [
+    {
+      "name": "Test_Analysing_Elements",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected profilePage.Firstname to be <null>, but found Automation_Framework.WebElementModels.WebElement\r\n{\r\n}.",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.ObjectAssertions`2.Be(TSubject expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 44\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 60105e70-6f32-4f76-8d17-ab5b59a21297) clicked",
+          "source": "8e84c00e3d0148f98223cc800cdcb9d9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5ef580d8-280c-4259-badb-65bd4e5a435f) clicked",
+          "source": "9fe8ecabee3d446fab449942739fb5e3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 5ef580d8-280c-4259-badb-65bd4e5a435f)`",
+          "source": "2ce0af0ba76745f6876cd6b402a7c2e5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 176fa39c-054d-4b78-a73a-287b52c35d0e) clicked",
+          "source": "efa8ab679bf54a89b4acdc342178f0e4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 176fa39c-054d-4b78-a73a-287b52c35d0e)`",
+          "source": "4826769ca1c943e7956a29e7103d04be-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 92e6f5a5-7b03-4af1-94f4-1bddafbcc7b8) clicked",
+          "source": "09556c3e4f6745bc99a9e2d620eb8f46-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 926853fc-4560-464f-be4d-6a6efdc1acfa) clicked",
+          "source": "b65ae1d67fa84627aa8f940761174a78-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3a833eb5768144a98e04ebadca380f9e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1647951545313,
+      "stop": 1647951572808
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1647951545313,
+  "stop": 1647951572811
+}

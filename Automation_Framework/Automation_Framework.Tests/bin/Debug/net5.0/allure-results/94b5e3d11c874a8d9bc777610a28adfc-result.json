@@ -1,0 +1,103 @@
+{
+  "uuid": "e7d4cbd5-55b4-45a7-8955-a29025221f3e-tr-0-1007",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterAnUser_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterAnUser_POM",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoAlertPresentException : no such alert\n  (Session info: chrome=99.0.4844.82)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringTargetLocator.Alert()\r\n   at Automation_Framework.Tests.Pages.RegistrationPage.Register(String firstName, String lastName, String email, String passwoord, String rePasswoord) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\RegistrationPage.cs:line 36\r\n   at Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegister.cs:line 21"
+  },
+  "stage": "finished",
+  "description": "Register an user\n",
+  "steps": [
+    {
+      "name": "Test_RegisterAnUser_POM",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoAlertPresentException : no such alert\n  (Session info: chrome=99.0.4844.82)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringTargetLocator.Alert()\r\n   at Automation_Framework.Tests.Pages.RegistrationPage.Register(String firstName, String lastName, String email, String passwoord, String rePasswoord) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\RegistrationPage.cs:line 36\r\n   at Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegister.cs:line 21"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 0fb2ee76-08dd-4be0-9ac3-91fe62f78d77) clicked",
+          "source": "1082691de09b4675835e287fe10e2c35-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `` entered in `Element (id = 21c72f32-c9e6-42f5-91d6-3a7cec699635)`",
+          "source": "b5b9cd8de1904a0a8fca8adbe57b9720-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `lastName` entered in `Element (id = 8c7f094d-04ce-4f3d-b548-a28bb9204a99)`",
+          "source": "3a59482b726b4d62b182a120bbd82941-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `email@brightest.be` entered in `Element (id = a0e29f52-9601-4116-a0c4-a1695bca5280)`",
+          "source": "1d140386cf8e44d7a1aa59dd1d749265-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `passwoord` entered in `Element (id = 4d9b4f49-4478-423d-ae12-3fe847f1f54d)`",
+          "source": "ac2de0443587498fbd90b0393cf8174e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `passwoord` entered in `Element (id = 9125474b-1f4d-480d-9e6b-f98930f58415)`",
+          "source": "eac0a9e6dbc24bd8b8bf6888be20b571-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 87709ea1-ab75-41ad-a493-5e21b7fe7865) clicked",
+          "source": "cb5162da4c5f4b4184cf889c1942464a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "76f78830ca5a4ee1a49e2f9810d0ce68-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648045666369,
+      "stop": 1648045680541
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648045666368,
+  "stop": 1648045680547
+}

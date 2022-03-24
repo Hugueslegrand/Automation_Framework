@@ -87,6 +87,9 @@ namespace Automation_Framework.WebElementModels
                     _iosElement = _iosDriver.FindElementByClassName(element);
                     break;
                 default:
+                    new ArgumentOutOfRangeException(nameof(MobileSelector),
+                       $"No valid SelectorType given. Selector must be of either types {MobileSelector.AccessibilityID}, {MobileSelector.ClassName}, {MobileSelector.Css}, {MobileSelector.Id}, {MobileSelector.Name}, {MobileSelector.Xpath}.",
+                       null);
                     break;
             }
         }

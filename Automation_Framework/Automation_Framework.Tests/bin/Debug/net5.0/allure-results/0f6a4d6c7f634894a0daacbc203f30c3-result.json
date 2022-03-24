@@ -1,0 +1,103 @@
+{
+  "uuid": "f16f4464-f50c-4b42-9322-4fad7585d295-tr-0-1007",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterAnUser_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterAnUser_POM",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentException : Argument is of an illegal typeAutomation_Framework.WebElementModels.WebElement (Parameter 'arg')",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.ConvertObjectToJavaScriptObject(Object arg)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ConvertArgumentsToJavaScriptObjects(Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)\r\n   at Automation_Framework.Tests.Pages.RegistrationPage.Register(String firstName, String lastName, String email, String passwoord, String rePasswoord) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\RegistrationPage.cs:line 41\r\n   at Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegister.cs:line 21"
+  },
+  "stage": "finished",
+  "description": "Register an user\n",
+  "steps": [
+    {
+      "name": "Test_RegisterAnUser_POM",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentException : Argument is of an illegal typeAutomation_Framework.WebElementModels.WebElement (Parameter 'arg')",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.ConvertObjectToJavaScriptObject(Object arg)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ConvertArgumentsToJavaScriptObjects(Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.ExecuteScript(String script, Object[] args)\r\n   at Automation_Framework.Tests.Pages.RegistrationPage.Register(String firstName, String lastName, String email, String passwoord, String rePasswoord) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\RegistrationPage.cs:line 41\r\n   at Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegister.cs:line 21"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = e321be97-61d1-4382-8919-2411bba3c11a) clicked",
+          "source": "5e60fa3e94a841d28a9533d3cc0821fa-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `` entered in `Element (id = b9ce5c3b-728b-42af-8e5d-358c70bcb76e)`",
+          "source": "aa293900cf2c482e9a29497e756c71ba-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `lastName` entered in `Element (id = a481fb00-fa6d-4fbd-8d41-f89541d95762)`",
+          "source": "43391eeaffc0461a848f5c8c23627bd6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `email@brightest.be` entered in `Element (id = f44b4111-2d2a-4b4f-b6d5-479f6e11476e)`",
+          "source": "4cb166fcfd2e4d72a86c4e205d342985-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `passwoord` entered in `Element (id = 574517c6-90ee-4069-8014-32c9b4f90bc1)`",
+          "source": "f844737ffe5542b388fff20f9b09b50a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `passwoord` entered in `Element (id = eee21c2a-686c-4a8f-97aa-b9e6eb9ac54e)`",
+          "source": "cf902c680a4e4674ab12190f7ad33371-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 191fae3e-d85d-4010-9dd6-ab1b0d57af1c) clicked",
+          "source": "a0ed1380edc54aa493469b2206c4f119-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "095a88b4df1c4e248356cd742b6b42c8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648046270486,
+      "stop": 1648046284075
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648046270485,
+  "stop": 1648046284084
+}

@@ -30,6 +30,7 @@ namespace Automation_Framework.Tests.Pages
 
         public void Login(string userName, string password)
         {
+           
             SignInEmail.ClickOnElement();
             SignInEmail.SendKeys(userName);
             SignInPassword.ClickOnElement();
@@ -38,7 +39,7 @@ namespace Automation_Framework.Tests.Pages
         }
         public string getInnerText()
         {
-          return  SignInButtonComplete.getInnerHtml();
+            return SignInButtonComplete.Text;
         }
         public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "FirstScreenshot");
 

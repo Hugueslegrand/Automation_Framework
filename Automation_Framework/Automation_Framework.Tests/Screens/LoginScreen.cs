@@ -27,6 +27,7 @@ namespace Automation_Framework.Tests.Screens
 
         public void AndroidLogin(string userName, string password)
         {
+            
             AndroidSignInEmail.AndroidSendKeys(userName);
             AndroidSignInPassword.AndroidSendKeys(password);
             AndroidSignInButtonComplete.AndroidClick();

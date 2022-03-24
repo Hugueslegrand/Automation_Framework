@@ -1,0 +1,44 @@
+{
+  "uuid": "fda1e810-e30f-4d98-b767-092e6c42b6c5-tc-0-1006",
+  "name": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "children": [
+    "0d612045-23c4-495b-a6b9-ef28ebdf67b7-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1648045788780,
+      "stop": 1648045788780
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1648045788781,
+      "stop": 1648045788781
+    }
+  ],
+  "links": [],
+  "start": 1648045775220,
+  "stop": 1648045788854
+}

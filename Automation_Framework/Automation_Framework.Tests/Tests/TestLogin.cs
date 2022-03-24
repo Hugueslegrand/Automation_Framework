@@ -1,4 +1,5 @@
 ﻿using Automation_Framework.Tests.Pages;
+using Automation_Framework.Tests.Screens;
 using NUnit.Framework;
 using System;
 using System.Threading;
@@ -30,10 +31,10 @@ namespace Automation_Framework.Tests.Tests
         public void LoginWithAdmin()
         {
             Thread.Sleep(20000);
-            HomePage homeScreen = new HomePage(builder);
+            HomeScreen homeScreen = new HomeScreen(builder);
             homeScreen.ClickSignInButton();
 
-            LoginPage loginScreen = new LoginPage(builder);
+            LoginScreen loginScreen = new LoginScreen(builder);
             loginScreen.AndroidLogin("brent.dar@ap.be", "hond");
         }
     }

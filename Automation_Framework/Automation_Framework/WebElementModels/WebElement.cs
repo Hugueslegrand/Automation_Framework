@@ -24,8 +24,15 @@ namespace Automation_Framework.WebElementModels
         private  IWebElement? _webElement;
         private  IWebDriver? _webDriver;
 
-     
+        public string TagName => _webElement.TagName;
 
+        public string Text => _webElement.Text;
+
+        public bool Enabled =>  _webElement.Enabled;
+
+        public bool Selected => _webElement.Selected;
+
+        public bool Displayed => _webElement.Displayed;
 
         public WebElement(IWebDriver driver, string element, Selector selector)
         {
@@ -34,6 +41,7 @@ namespace Automation_Framework.WebElementModels
             {
                 case Selector.Name:
                     _webDriver.WaitForClickable(By.Name(element));
+
                     _webElement = _webDriver.FindElement(By.Name(element));
                     break;
                 case Selector.Id:
@@ -54,16 +62,24 @@ namespace Automation_Framework.WebElementModels
                     _webDriver.WaitForClickable(By.LinkText(element));
                     _webElement = _webDriver.FindElement(By.LinkText(element));
                     break;
+
+                case Selector.ClassName:
+                    _webDriver.WaitForClickable(By.ClassName(element));
+                    _webElement = _webDriver.FindElement(By.ClassName(element));
+                    break;
                 default:
+                    new ArgumentOutOfRangeException(nameof(Selector),
+                       $"No valid SelectorType given. Selector must be of either types {Selector.LinkText}, {Selector.ClassName}, {Selector.Css}, {Selector.Id}, {Selector.Name}, {Selector.Xpath}.",
+                       null);
                     break;
             }
 
         }
        
 
-        public string getInnerHtml()
+      public IWebElement getElement()
         {
-            return _webElement.GetAttribute("innerHTML");
+            return _webElement;
         }
         public void ClickOnElement()
         {
@@ -77,6 +93,24 @@ namespace Automation_Framework.WebElementModels
             _webElement.SendKeys(text);
         }
 
-  
+        public void GetCssValue(string propertyName)
+        {
+            _webElement.GetCssValue(propertyName);
+        }
+
+        public void GetAttribute(string attributeName)
+        {
+            _webElement.GetAttribute(attributeName);
+        }
+
+        public void GetProperty(string propertyName)
+        {
+            _webElement.GetProperty(propertyName);
+        }
+
+        public void ClearInput()
+        {
+            _webElement.Clear();
+        }
     }
 }

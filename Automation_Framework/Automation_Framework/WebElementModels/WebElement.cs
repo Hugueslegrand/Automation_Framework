@@ -79,5 +79,14 @@ namespace Automation_Framework.WebElementModels
             return _webElement.Text;
         }
 
+        public string GetAttribute(string attribute)
+        {
+            return _webElement.GetAttribute(attribute);
+        }
+        public bool ElementIsVisible()
+        {
+            return _webElement.Displayed;
+        }
+
     }
 }

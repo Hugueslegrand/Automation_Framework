@@ -1,0 +1,103 @@
+{
+  "uuid": "1340c9ec-286a-406a-9e77-1c8f142b0ccc-tr-0-1015",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Analysing_Elements"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Analysing_Elements",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected src not to be <null>.",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message)\r\n   at FluentAssertions.Primitives.ReferenceTypeAssertions`2.NotBeNull(String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 51\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: Analysing Elements\n",
+  "steps": [
+    {
+      "name": "Test_Analysing_Elements",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected src not to be <null>.",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message)\r\n   at FluentAssertions.Primitives.ReferenceTypeAssertions`2.NotBeNull(String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 51\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 1ae1f422-e26d-40e8-a909-bf80d17f8b63) clicked",
+          "source": "7051690933db4e1eab551b7ca9c6cf08-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e49c8ae9-d5a3-4a3b-81c5-17775066c950) clicked",
+          "source": "4528e7480825460e849909bb081f701a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = e49c8ae9-d5a3-4a3b-81c5-17775066c950)`",
+          "source": "d6839ce55cb74a3490d7deacfcab0eca-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f4aa70ce-0c14-4670-bbe9-131860407301) clicked",
+          "source": "f0504dcbf23246dbae7d3189a84cede2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = f4aa70ce-0c14-4670-bbe9-131860407301)`",
+          "source": "1fa29f723e764e0e8e7c754cdf05ae78-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8f5112a3-812f-406a-af10-8115833dc1a6) clicked",
+          "source": "1f25a178cac94afe93e3dc8a875030d2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c90f5ba0-dc27-4ae8-9288-c1b12d3fe052) clicked",
+          "source": "704d35728ac94201a9526c7a12617eaa-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "f8c296e144f24af8ae96fdc98cd93d57-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648208446368,
+      "stop": 1648208463309
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648208446367,
+  "stop": 1648208463312
+}

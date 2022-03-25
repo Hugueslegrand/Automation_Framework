@@ -14,5 +14,9 @@ namespace Automation_Framework.WebElementModels
 
         public string GetInnerHTML();
 
+        public string GetAttribute(string attribute);
+
+        public bool ElementIsVisible();
+
     }
 }

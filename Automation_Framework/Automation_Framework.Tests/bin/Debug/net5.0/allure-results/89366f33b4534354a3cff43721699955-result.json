@@ -1,0 +1,103 @@
+{
+  "uuid": "0e4d5008-b22f-4362-829d-80e43e044699-tr-0-1015",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Analysing_Elements"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Analysing_Elements",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#SignIn > div > p:nth-child(2)\"}\n  (Session info: chrome=99.0.4844.82)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 26\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 42\r\n   at Automation_Framework.Tests.Pages.ProfilePage.get_LastName() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 29\r\n   at Automation_Framework.Tests.Pages.ProfilePage.GetInnerText_LastName() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 59\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 48\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Test: Analysing Elements\n",
+  "steps": [
+    {
+      "name": "Test_Analysing_Elements",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#SignIn > div > p:nth-child(2)\"}\n  (Session info: chrome=99.0.4844.82)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 26\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 42\r\n   at Automation_Framework.Tests.Pages.ProfilePage.get_LastName() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 29\r\n   at Automation_Framework.Tests.Pages.ProfilePage.GetInnerText_LastName() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 59\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 48\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 85207219-69c6-44c1-930b-8b68278d19a1) clicked",
+          "source": "b4d8803566634ba4abebc1181d0457f3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 1529f5e1-26dc-4a91-ba2b-27606ef4b154) clicked",
+          "source": "b05d0b91f65041f49cd6d41c9466c496-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 1529f5e1-26dc-4a91-ba2b-27606ef4b154)`",
+          "source": "bebc9686b5e24d488ab1383ea4d4fed7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5813dc40-c9e0-488c-99ed-e2d0c8732b2d) clicked",
+          "source": "a9e905a94cc640c09b0167d92c8beb32-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 5813dc40-c9e0-488c-99ed-e2d0c8732b2d)`",
+          "source": "dfaf1d593e474750bc6b9dcc228da4ce-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2395c9fb-9649-4816-9f97-3cb3a77c67b9) clicked",
+          "source": "83741a7e659b4fcbba93afa8bbe1d4aa-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e175a0d3-c325-4ccd-b13d-90e39c8ba5c3) clicked",
+          "source": "e9a186e7d2e34690b29ab7b892968d74-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "7e728fe2e45a45cdb9b4f67629d3a20f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648118872828,
+      "stop": 1648118898265
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648118872828,
+  "stop": 1648118898269
+}

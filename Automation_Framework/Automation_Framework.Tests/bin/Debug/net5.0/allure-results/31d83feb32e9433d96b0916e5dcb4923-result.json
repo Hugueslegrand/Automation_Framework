@@ -1,0 +1,123 @@
+{
+  "uuid": "f797ad84-be4d-42fe-9d7b-bbe3da66a2cb-tr-0-1018",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_CancelPayment",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_CancelPayment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_CancelPayment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_CancelPayment",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[normalize-space()='buy']\"}\n  (Session info: chrome=99.0.4844.82)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 26\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 47\r\n   at Automation_Framework.Tests.Pages.ProfilePage.get_BuyCreditsButton() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 20\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_CancelPayment() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 140\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Test: CancelPayment (3,7)\n",
+  "steps": [
+    {
+      "name": "Test_CancelPayment",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[normalize-space()='buy']\"}\n  (Session info: chrome=99.0.4844.82)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 26\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 47\r\n   at Automation_Framework.Tests.Pages.ProfilePage.get_BuyCreditsButton() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 20\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_CancelPayment() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 140\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 54571d7c-bbf1-4401-bc82-d97ef8cabbb8) clicked",
+          "source": "9c4c6fa7a5614044ae7972208cd18d29-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = df421f42-7046-4a30-90a2-8349a9d0b5cc) clicked",
+          "source": "34f6633417a64368abc58a3c53a4561b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = df421f42-7046-4a30-90a2-8349a9d0b5cc)`",
+          "source": "e9d49416972d42b482ebb04f6973ce29-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ac656651-5a5e-4b7b-a5a5-364d7b84db11) clicked",
+          "source": "3e835f552a8b41bdae0523b08fb3ccf2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = ac656651-5a5e-4b7b-a5a5-364d7b84db11)`",
+          "source": "94bb845008f945b38cc770b1cbd2fd16-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0e8e58a8-a019-482c-8e6a-59755e7dd329) clicked",
+          "source": "98e15e32bbb04dd8a6f365e9900a7677-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 80db3259-fdf8-4a71-aaa5-418b84d4100e) clicked",
+          "source": "d99c0a19429f430db51b9bd3827e3038-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = bb9373fe-0908-43f5-8ccf-f2b80549e9f3) clicked",
+          "source": "47536e4944234aceb12246d2d92f3225-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0ee5c295-f67b-4497-af4d-7185496d9076) clicked",
+          "source": "59d4727b61ce4a42b55725b210fc3580-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `30` entered in `Element (id = 0ee5c295-f67b-4497-af4d-7185496d9076)`",
+          "source": "ebefb2fbb07b4d76b4acf65cbf26025c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 29f95218-7a73-4cc4-9561-0629fc8ed0c2) clicked",
+          "source": "67fab04266114f1695757df6510ce913-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "7598e74bb20341f6af3150753efa95f2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648213877474,
+      "stop": 1648213917773
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648213877474,
+  "stop": 1648213917776
+}

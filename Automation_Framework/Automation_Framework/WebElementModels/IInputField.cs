@@ -10,5 +10,7 @@ namespace Automation_Framework.WebElementModels
     {
         void SendKeys(string text);
         void ClickOnElement();
+
+        public string GetAttribute(string attribute);
     }
 }

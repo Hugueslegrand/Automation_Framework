@@ -1,0 +1,103 @@
+{
+  "uuid": "7371e2cb-c0f2-4771-a670-21d759675780-tr-0-1015",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Analysing_Elements"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Analysing_Elements",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Analysing_Elements",
+    "trace": "   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 54\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: Analysing Elements\n",
+  "steps": [
+    {
+      "name": "Test_Analysing_Elements",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "",
+        "trace": "   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 54\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 88a4860c-ff16-4050-b3bb-de3efd040761) clicked",
+          "source": "a12c3b51279c424794e7cc99681b1903-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b985800f-678e-4c77-9676-d2baa1de901b) clicked",
+          "source": "c7df145218cf4e5eb7df44835e2194c8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = b985800f-678e-4c77-9676-d2baa1de901b)`",
+          "source": "67e1a036c9ae4143862899590f3676f2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c35029cd-0b04-4508-b05c-8c64daaca46d) clicked",
+          "source": "bb323bf8f15649c8aaded81e080584b9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = c35029cd-0b04-4508-b05c-8c64daaca46d)`",
+          "source": "0c244bce9ab046d197e05279a85ae002-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 7ef89396-1764-480f-af4c-a65a9653dd39) clicked",
+          "source": "5d5ac0e47abf41d7ae0de63ff8fe10aa-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ffb3ce0a-7294-4d41-928a-7ef8fcf1714c) clicked",
+          "source": "f3cfb626872b4e32b964f847cf8261f7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "857023014c994749a20d00101c3ebe42-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648205219131,
+      "stop": 1648205233855
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648205219130,
+  "stop": 1648205233858
+}

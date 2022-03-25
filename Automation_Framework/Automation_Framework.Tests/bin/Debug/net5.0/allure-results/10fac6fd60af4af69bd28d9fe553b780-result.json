@@ -1,0 +1,103 @@
+{
+  "uuid": "d7c7c069-c976-4aa0-b400-257a37cf4f82-tr-0-1015",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Analysing_Elements"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Analysing_Elements",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 26\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 56\r\n   at Automation_Framework.Tests.Pages.ProfilePage.get_FirstName() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 28\r\n   at Automation_Framework.Tests.Pages.ProfilePage.GetInnerText_FirstName() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 55\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 47\r\n--InvalidSelectorException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass20_0.<ClassName>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Test: Analysing Elements\n",
+  "steps": [
+    {
+      "name": "Test_Analysing_Elements",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 26\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 56\r\n   at Automation_Framework.Tests.Pages.ProfilePage.get_FirstName() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 28\r\n   at Automation_Framework.Tests.Pages.ProfilePage.GetInnerText_FirstName() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ProfilePage.cs:line 55\r\n   at Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestProfile.cs:line 47\r\n--InvalidSelectorException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass20_0.<ClassName>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = cd1622d1-fdf5-40ba-a4a9-bac3a331bf52) clicked",
+          "source": "928ff6285317474ea165e589aaba7831-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5ed3f718-c927-497f-907f-6af561373230) clicked",
+          "source": "30974110593f478a8f4967379c489689-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 5ed3f718-c927-497f-907f-6af561373230)`",
+          "source": "50f82735b91249ecad4418310b57f2b9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 6406903b-4d98-4264-aa30-c3706d50a1aa) clicked",
+          "source": "d28e37f5ca6d49fbbb8f88a4eeeac20e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 6406903b-4d98-4264-aa30-c3706d50a1aa)`",
+          "source": "3e6ceb615f9c4ee9bfda554f5ffd6d57-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4d126121-8163-4eae-aa44-b7dd6f46b2dc) clicked",
+          "source": "75e2a69eb86d4ba8a51f6d2a86488ca6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e1d270c6-6b7a-4f31-a610-3d0fe599409f) clicked",
+          "source": "cf748d080ff446b7ac5114cd4f5a0397-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "dd414d29c37443c5bc4e7fee80aa628b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648118750432,
+      "stop": 1648118776553
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648118750432,
+  "stop": 1648118776555
+}

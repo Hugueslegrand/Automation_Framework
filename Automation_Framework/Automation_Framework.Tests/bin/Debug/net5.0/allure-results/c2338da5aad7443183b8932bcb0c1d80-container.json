@@ -1,0 +1,44 @@
+{
+  "uuid": "2f2f69bf-17d3-4a1a-afcd-6dcdadfbbfb1-tc-0-1014",
+  "name": "Automation_Framework.Tests.Tests.TestProfile.Test_Analysing_Elements",
+  "children": [
+    "0e4d5008-b22f-4362-829d-80e43e044699-tr-0-1015"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1648118898262,
+      "stop": 1648118898262
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1648118898262,
+      "stop": 1648118898262
+    }
+  ],
+  "links": [],
+  "start": 1648118872826,
+  "stop": 1648118898284
+}

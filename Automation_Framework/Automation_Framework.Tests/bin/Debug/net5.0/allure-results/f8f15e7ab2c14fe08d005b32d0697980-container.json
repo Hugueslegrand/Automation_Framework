@@ -1,0 +1,44 @@
+{
+  "uuid": "bfddeee8-e321-40ab-91ae-a37c23c15aa6-tc-0-1014",
+  "name": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "children": [
+    "d5593f69-bc7c-4ba0-aa36-74355ed2dbe3-tr-0-1017"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1648460815528,
+      "stop": 1648460815528
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1648460815528,
+      "stop": 1648460815528
+    }
+  ],
+  "links": [],
+  "start": 1648460787301,
+  "stop": 1648460815554
+}

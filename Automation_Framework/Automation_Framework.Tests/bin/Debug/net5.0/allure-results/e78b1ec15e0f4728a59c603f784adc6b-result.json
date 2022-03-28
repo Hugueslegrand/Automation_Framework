@@ -1,0 +1,120 @@
+{
+  "uuid": "d5593f69-bc7c-4ba0-aa36-74355ed2dbe3-tr-0-1017",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_Decimal_Numbers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Add_Credits_To_Profile_Decimal_Numbers"
+  },
+  "stage": "finished",
+  "description": "Test: Add credits to profile (decimal numbers input) (3,5)  \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_Decimal_Numbers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = d329b705-f8c6-4592-90cc-d0654f7c952c) clicked",
+          "source": "3b28c823a8c045ad8da190ec3b14086d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cabeebf2-3e6f-465c-9578-f8ac6516fbcc) clicked",
+          "source": "39096595715c4e2d85f56286849adbe9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = cabeebf2-3e6f-465c-9578-f8ac6516fbcc)`",
+          "source": "d56932ce98ee450fba3f2fe601f11dfd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 881886b3-20c2-464b-a5d1-1a9e4706875e) clicked",
+          "source": "352d59499a0543b19e7d8d1a9b36249a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 881886b3-20c2-464b-a5d1-1a9e4706875e)`",
+          "source": "3a2bb7807841433e909eec77010d094f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0c52046c-e6cb-4549-9e50-9fc9a7f3bfdb) clicked",
+          "source": "95ef287d14f649289074fa1475b4efbf-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 490ffb59-4bc1-4b4f-a973-d15f978231d0) clicked",
+          "source": "e291c54853c14d858fdc2e64fa72028b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 00874584-dced-436b-bfc5-ff32b2806779) clicked",
+          "source": "3dfda00b4a524b1d9d19454f297c162c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 490b067e-15bf-4d87-8f9e-0e6a2a9b8caa) clicked",
+          "source": "56f1fc04ba5d4075a06010d677cf56f2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `7.566` entered in `Element (id = 490b067e-15bf-4d87-8f9e-0e6a2a9b8caa)`",
+          "source": "135d8e758ee940ef8eb2949cf8c03a56-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 308bda1d-63d4-48c7-ba17-bcc16142401d) clicked",
+          "source": "759651ea699b49abbebdfa5a3ba02363-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2a9edcefefc4431f96c6612a60f70f65-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648460787304,
+      "stop": 1648460815530
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648460787303,
+  "stop": 1648460815533
+}

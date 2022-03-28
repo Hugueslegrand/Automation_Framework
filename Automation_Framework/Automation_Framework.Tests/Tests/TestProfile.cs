@@ -85,9 +85,8 @@ namespace Automation_Framework.Tests.Tests
 
         }
 
-
         [Test]
-        [Description("Test: Add credits to profile (non-number input) (3,4)  ")]
+        [Description("Test: Add credits to profile (not-number input) (3,4)  ")]
         public void Test_Add_Credits_To_Profile_nonNumberInput()
         {
             User user = UserAdminLogin_Exist();
@@ -111,6 +110,66 @@ namespace Automation_Framework.Tests.Tests
             profilePage.ClickBuyCredits();
             Thread.Sleep(2000);
         }
+
+
+
+        [Test]
+        [Description("Test: Add credits to profile (decimal numbers input) (3,5)  ")]
+        public void Test_Add_Credits_To_Profile_Decimal_Numbers()
+        {
+            User user = UserAdminLogin_Exist();
+            Navigation navigation = new Navigation(builder);
+            Thread.Sleep(6000);
+            navigation.ClickSignIn();
+
+            LoginPage loginPage = new LoginPage(builder);
+
+            loginPage.Login(user.email, user.password);
+            //loginPage.ScreenShot();
+
+
+            navigation.ClickProfile();
+            ProfilePage profilePage = new ProfilePage(builder);
+
+
+            profilePage.ClickAddCredits();
+            profilePage.ClickAmountOfCredits();
+            profilePage.FillAmountOfCredits("7.566");
+            profilePage.ClickBuyCredits();
+
+            //ASSERT
+            Thread.Sleep(2000);
+        }
+
+        [Test]
+        [Description("Test: Add credits to profile (negative integer) (3,6)  ")]
+        public void Test_Add_Credits_To_Profile_Negative_Integer()
+        {
+            User user = UserAdminLogin_Exist();
+            Navigation navigation = new Navigation(builder);
+            Thread.Sleep(6000);
+            navigation.ClickSignIn();
+
+            LoginPage loginPage = new LoginPage(builder);
+
+            loginPage.Login(user.email, user.password);
+            //loginPage.ScreenShot();
+
+
+            navigation.ClickProfile();
+            ProfilePage profilePage = new ProfilePage(builder);
+
+
+            profilePage.ClickAddCredits();
+            profilePage.ClickAmountOfCredits();
+            profilePage.FillAmountOfCredits("-1");
+            profilePage.ClickBuyCredits();
+
+            //ASSERT
+
+            Thread.Sleep(2000);
+        }
+
 
 
 

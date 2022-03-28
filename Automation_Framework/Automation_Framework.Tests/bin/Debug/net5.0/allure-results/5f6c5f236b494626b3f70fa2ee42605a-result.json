@@ -1,0 +1,120 @@
+{
+  "uuid": "8da60f78-0340-4960-ae72-1d39315565c6-tr-0-1019",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Negative_Integer",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Negative_Integer",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_Negative_Integer"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_Negative_Integer",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Add_Credits_To_Profile_Negative_Integer"
+  },
+  "stage": "finished",
+  "description": "Test: Add credits to profile (negative integer) (3,6)  \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_Negative_Integer",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = b964843f-7957-497f-aa5e-d44e4711d56a) clicked",
+          "source": "386900ef3ee043529c72739c8ba47fb7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 38eeb523-40f3-423a-a410-ad1007a40cfc) clicked",
+          "source": "be55897add0640b9b010cf0ecbefba17-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 38eeb523-40f3-423a-a410-ad1007a40cfc)`",
+          "source": "00506fba18f049af99c628c525ef3b97-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 3c0f5feb-9c36-4c7d-b71b-b4cdddf3bd62) clicked",
+          "source": "6da8f644407244998582d6d4080a3145-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 3c0f5feb-9c36-4c7d-b71b-b4cdddf3bd62)`",
+          "source": "636fc8a2905d4dcfb4e41c9412d198c1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 6578e3c1-388f-4e2e-90e5-1571404eec09) clicked",
+          "source": "b9e0ac3d2fc4478d9c0858bcad348f80-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = df539e37-4bd6-4e3a-9b2c-3af13dc3461d) clicked",
+          "source": "68db9b00771f41ee9e41bd82927328e8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 58318bb2-ac1f-4195-a842-95cc5f587ce4) clicked",
+          "source": "327ab31d94b445739f980e7189f32cc9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f08722d4-a97d-4c4d-81d9-3485b5702567) clicked",
+          "source": "c5e87c8aa27f4236953a036784ece223-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `-1` entered in `Element (id = f08722d4-a97d-4c4d-81d9-3485b5702567)`",
+          "source": "6e1dbd4bd28d44059d067deeb7265556-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 148e0e58-b85a-49b2-8214-dba3abc8ca56) clicked",
+          "source": "891270682c8444cb809a640160f1ba8e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "786736cdb3d44b05af6c6f6b089b85d3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648460978158,
+      "stop": 1648461003751
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648460978157,
+  "stop": 1648461003753
+}

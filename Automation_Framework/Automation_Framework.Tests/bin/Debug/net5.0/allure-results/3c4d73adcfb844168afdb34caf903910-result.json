@@ -1,0 +1,103 @@
+{
+  "uuid": "e5f70912-05a5-4bd0-9120-f6ad45322255-tr-0-1030",
+  "historyId": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "fullName": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Visual_Layout_Of_Order_Page"
+    },
+    {
+      "name": "testClass",
+      "value": "TestWatchMovie"
+    }
+  ],
+  "links": [],
+  "name": "Test_Visual_Layout_Of_Order_Page",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected watchMovie.GetInnerText_MovieTitle() to be \"ROALD DAHL'S THE WITCHE\" with a length of 23, but \"ROALD DAHL'S THE WITCHES\" has a length of 24, differs near \"S\" (index 23).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestWatchMovie.cs:line 56\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: Visual Layout Of Order Page\n",
+  "steps": [
+    {
+      "name": "Test_Visual_Layout_Of_Order_Page",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected watchMovie.GetInnerText_MovieTitle() to be \"ROALD DAHL'S THE WITCHE\" with a length of 23, but \"ROALD DAHL'S THE WITCHES\" has a length of 24, differs near \"S\" (index 23).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestWatchMovie.cs:line 56\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = a43715d1-adac-407b-95d9-56fc5a3ee6c5) clicked",
+          "source": "17ad998654da4ffeb2d70760aae30b0b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4492b425-c2d3-4525-ae26-82afdc639974) clicked",
+          "source": "18f7c5b816f249a694d5e9abf36072cb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = 4492b425-c2d3-4525-ae26-82afdc639974)`",
+          "source": "b42f98da8f424e1486c5ab92e8649be6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b8dfebb3-7090-4d9b-9f39-b4b20527b961) clicked",
+          "source": "48376a6f0c324ec38e3f1eef41568a16-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = b8dfebb3-7090-4d9b-9f39-b4b20527b961)`",
+          "source": "17d537f8e8cb4d148e58ce5dd0159c89-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 54db9613-caf5-4b75-803b-48f3a6176b56) clicked",
+          "source": "48f1748f1e1e469a9a834aed7293b275-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 706d25a4-5629-4782-92cb-34d4fbf0a046) clicked",
+          "source": "c846acb230b14b9fa04088b8ae4a01cb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a6a9eef1d1144d4fb089ee4d9adee1d2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648477806258,
+      "stop": 1648477824843
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648477806257,
+  "stop": 1648477824846
+}

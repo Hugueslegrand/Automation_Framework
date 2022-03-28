@@ -26,9 +26,9 @@ namespace Automation_Framework.Tests.Pages
 
          public IButton ProfileAvatar => new WebElement(Driver, "#SignIn > div.css-kcntxh > img.css-1wu7nrr", Selector.Css);
          public IButton FirstName => new WebElement(Driver, "#SignIn > div > div > p.css-cpr2ex", Selector.Css);
-          public IButton LastName => new WebElement(Driver, "#SignIn > div > p:nth-child(4)", Selector.Css);
-          public IButton Email => new WebElement(Driver, "#SignIn > div > p:nth-child(6)", Selector.Css);
-          public IButton Credits => new WebElement(Driver, "#SignIn > div > p:nth-child(8)", Selector.Css);
+         public IButton LastName => new WebElement(Driver, "#SignIn > div > p:nth-child(4)", Selector.Css);
+         public IButton Email => new WebElement(Driver, "#SignIn > div > p:nth-child(6)", Selector.Css);
+         public IButton Credits => new WebElement(Driver, "#SignIn > div > p:nth-child(8)", Selector.Css);
 
 
         // public IButton FirstName => new WebElement(Driver, $"//p[normalize-space()='Brent']", Selector.Xpath);

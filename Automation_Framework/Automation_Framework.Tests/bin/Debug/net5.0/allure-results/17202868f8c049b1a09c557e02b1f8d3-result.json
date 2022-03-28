@@ -1,0 +1,103 @@
+{
+  "uuid": "1e1bfd81-8ef4-4c25-b7cd-c68dccc17677-tr-0-1030",
+  "historyId": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "fullName": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Visual_Layout_Of_Order_Page"
+    },
+    {
+      "name": "testClass",
+      "value": "TestWatchMovie"
+    }
+  ],
+  "links": [],
+  "name": "Test_Visual_Layout_Of_Order_Page",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected watchMovie.GetInnerText_MovieAvailableDate() to be \"AVAILABLE UNTIL: 04/04/2021\", but \"AVAILABLE UNTIL: 04/04/2022\" differs near \"2\" (index 26).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstMismatch()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestWatchMovie.cs:line 57\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: Visual Layout Of Order Page\n",
+  "steps": [
+    {
+      "name": "Test_Visual_Layout_Of_Order_Page",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected watchMovie.GetInnerText_MovieAvailableDate() to be \"AVAILABLE UNTIL: 04/04/2021\", but \"AVAILABLE UNTIL: 04/04/2022\" differs near \"2\" (index 26).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstMismatch()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestWatchMovie.cs:line 57\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = cb7b053f-0554-4dda-99bf-1ae5a3f37594) clicked",
+          "source": "41fb7335e2374fffba2ec7d0360c9cf1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c92da275-9b7b-4a6e-80cb-f6b759b1f54e) clicked",
+          "source": "2300590536794023b8492ae3ccb8b4bb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = c92da275-9b7b-4a6e-80cb-f6b759b1f54e)`",
+          "source": "192b4142845e4ce2b9d34b5057facaf5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = bf276590-850b-4521-b048-92b1041fc7c8) clicked",
+          "source": "42f38f6615e14c6f8c0288b516924a5c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = bf276590-850b-4521-b048-92b1041fc7c8)`",
+          "source": "1dacf21be4c644bd9f87c8dcf18bbca5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 736afa25-5a71-4e3a-8086-805d18f99e1c) clicked",
+          "source": "0ca132c0e38c49e98ebf27c2165f837d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2802a124-fa08-412f-b62f-75d2e32ce164) clicked",
+          "source": "fc35f01b8d0741368f575ccbf13fe96e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d5ac6b3e130a40b2a080f9c2e382a643-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648477914119,
+      "stop": 1648477931789
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648477914118,
+  "stop": 1648477931793
+}

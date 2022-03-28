@@ -1,0 +1,110 @@
+{
+  "uuid": "c7c31d5a-cd4a-4afe-ad28-6bc86d441260-tr-0-1030",
+  "historyId": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "fullName": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Visual_Layout_Of_Order_Page"
+    },
+    {
+      "name": "testClass",
+      "value": "TestWatchMovie"
+    }
+  ],
+  "links": [],
+  "name": "Test_Visual_Layout_Of_Order_Page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Visual_Layout_Of_Order_Page"
+  },
+  "stage": "finished",
+  "description": "Test: Visual Layout Of Order Page\n",
+  "steps": [
+    {
+      "name": "Test_Visual_Layout_Of_Order_Page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 5ea9342b-073b-4b15-b0a9-05c3b31df66e) clicked",
+          "source": "9c8f344d1f78462481e7cfa03f22acdd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ec7e93c2-91d1-4184-8272-82a3418cf362) clicked",
+          "source": "9f3eecb3c06845969c4b4fa8ac01ede1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = ec7e93c2-91d1-4184-8272-82a3418cf362)`",
+          "source": "3dd4db2a980b47e8980b917265b91878-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 210d1c12-58d4-4e0a-b6e4-be0788ff1e33) clicked",
+          "source": "9d062d3fa3d6406dadffbd411476cfcc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = 210d1c12-58d4-4e0a-b6e4-be0788ff1e33)`",
+          "source": "367bfb48342b431f9482cf0181a26cb2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c2bb89de-e502-4160-8dd3-89d04cf685f7) clicked",
+          "source": "dc2a93c5db054d68bb050a5b42f27717-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 59edf98b-847d-4114-aa53-19efc8003d74) clicked",
+          "source": "aa1474a61e2347038ea98d1a28775b56-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e352abc9-5ac2-455f-af45-6a6ff8c5539a) clicked",
+          "source": "04b5cc7c65664b4190acfab57e7adea4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 283ffd63-63a5-4e32-a078-4a024eda4119) clicked",
+          "source": "b0f0be52e8eb4431a0e5611931febd76-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1e6fa38209dd4889a2920d21533d9fcf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648477878373,
+      "stop": 1648477895909
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648477878373,
+  "stop": 1648477895912
+}

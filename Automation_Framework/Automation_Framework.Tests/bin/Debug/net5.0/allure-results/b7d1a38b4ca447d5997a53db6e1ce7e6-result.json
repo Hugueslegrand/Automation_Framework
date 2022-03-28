@@ -1,0 +1,110 @@
+{
+  "uuid": "ad872353-46fc-4bd8-8670-5d289c2a4cdc-tr-0-1029",
+  "historyId": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_WatchMovie",
+  "fullName": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_WatchMovie",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_WatchMovie"
+    },
+    {
+      "name": "testClass",
+      "value": "TestWatchMovie"
+    }
+  ],
+  "links": [],
+  "name": "Test_WatchMovie",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_WatchMovie"
+  },
+  "stage": "finished",
+  "description": "Test: WatchMovie\n",
+  "steps": [
+    {
+      "name": "Test_WatchMovie",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 51f86e2d-56f5-4eeb-8e7d-dce9565adfc4) clicked",
+          "source": "1c4c97a982a0477db4740078c2d23df3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 595bbdc1-049f-448f-8453-b4e989e27174) clicked",
+          "source": "9fd41fe6f3a3424bb5cdc1d3e0b1e231-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 595bbdc1-049f-448f-8453-b4e989e27174)`",
+          "source": "0c455e8dd4b5438488ada1741c852e5f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 7b3130b5-8fc6-4c9d-9223-77f96ca759b9) clicked",
+          "source": "fbe0eb427edb4c9c801403f505c8d72f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 7b3130b5-8fc6-4c9d-9223-77f96ca759b9)`",
+          "source": "36f814aa73cb48be94f74b45cae42c29-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ebe5485f-061a-4cad-b11a-4b899a412b59) clicked",
+          "source": "c9da6b3d15eb48168b08af262f4d50fb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 89196efc-ecc5-4528-bb18-2fd5653a6f91) clicked",
+          "source": "5b389efc0fa6401e9a7ccd7a09d1d666-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = fc173a7c-fd4a-486b-a7a1-038f65c0b03d) clicked",
+          "source": "46fcc03112f34c1c9fff7cc0f359233a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = eea2a52c-71cb-4c54-b429-ce85346ed6d4) clicked",
+          "source": "d28129ae2bcb40fc8053330292b9af40-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "17a8a8d8ca2b4ecaa1b94ce898d4ab5a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648465829779,
+      "stop": 1648465850233
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648465829778,
+  "stop": 1648465850236
+}

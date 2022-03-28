@@ -97,7 +97,6 @@ namespace Automation_Framework.Tests.Tests
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(user.email, user.password);
-            //loginPage.ScreenShot();
 
 
             navigation.ClickProfile();
@@ -108,6 +107,9 @@ namespace Automation_Framework.Tests.Tests
             profilePage.ClickAmountOfCredits();
             profilePage.FillAmountOfCredits("notNumberInput");
             profilePage.ClickBuyCredits();
+
+            //ASSERT
+
             Thread.Sleep(2000);
         }
 
@@ -125,7 +127,6 @@ namespace Automation_Framework.Tests.Tests
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(user.email, user.password);
-            //loginPage.ScreenShot();
 
 
             navigation.ClickProfile();
@@ -153,7 +154,6 @@ namespace Automation_Framework.Tests.Tests
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(user.email, user.password);
-            //loginPage.ScreenShot();
 
 
             navigation.ClickProfile();
@@ -185,7 +185,6 @@ namespace Automation_Framework.Tests.Tests
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(user.email, user.password);
-            //loginPage.ScreenShot();
 
 
             navigation.ClickProfile();
@@ -197,8 +196,6 @@ namespace Automation_Framework.Tests.Tests
 
             string type = profilePage.GetAttribute_AddCreditsButton("type", profilePage.AddCreditsButton);
             type.Should().NotBeNull();
-
-
 
 
             Thread.Sleep(2000);

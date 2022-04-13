@@ -1,0 +1,120 @@
+{
+  "uuid": "80cb83da-99ef-4a4c-98cc-140d6a53f92a-tr-0-1035",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.Test_RemoveRegisteredUsers",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.Test_RemoveRegisteredUsers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RemoveRegisteredUsers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "Test_RemoveRegisteredUsers",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RemoveRegisteredUsers"
+  },
+  "stage": "finished",
+  "description": "Delete registered Users for continious testing\n",
+  "steps": [
+    {
+      "name": "Test_RemoveRegisteredUsers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = ba37a2f7-984e-4762-aefc-bea529e57af5) clicked",
+          "source": "0a4bc1bd4c1f46fbb15c74161b461943-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4f2468d0-959d-4ec7-94bf-827f512be7bd) clicked",
+          "source": "a753eb39f88e4bc394fa6465d76e4873-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = 4f2468d0-959d-4ec7-94bf-827f512be7bd)`",
+          "source": "07eae6fde9b54faba7683f3f8d0c3108-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ec384498-bfa5-47a9-825c-b5e3d212fe95) clicked",
+          "source": "5a9c4f3f578b42219dfd0af37c90d5aa-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = ec384498-bfa5-47a9-825c-b5e3d212fe95)`",
+          "source": "1ed33293d63e472c9039e203dc64f1f4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = af974d58-f616-40ef-b9bc-9f457767e4cf) clicked",
+          "source": "62a4ee017b834b38a49d6b315ff9a1d1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cd061e9f-9a3c-47eb-9e70-78b187724745) clicked",
+          "source": "d9cf6683be4d4e33a918b0eab46ba9f2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2b017193-fc23-47bf-80a2-5afc5efa17fe) clicked",
+          "source": "6caf8bdb3dc94f7ebb6c4e87ef3338b6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 56992616-6732-4991-90f3-90aae94823ef) clicked",
+          "source": "c64e450430334599b5391c9fe10c8cc5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 3de33642-6303-4ddd-9699-6e7b78fe4899) clicked",
+          "source": "ca26684e09a5410993ece100783b73f9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 91e615da-d8e2-4e6b-8eb2-8c34b5dc062c) clicked",
+          "source": "8cd1f447ed95443abb8317e07471faeb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d06595735f9446f3ba6ad1d9477119d9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649867805120,
+      "stop": 1649867826679
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649867805120,
+  "stop": 1649867826679
+}

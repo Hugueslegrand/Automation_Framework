@@ -1,0 +1,103 @@
+{
+  "uuid": "d56fc04d-5471-48d9-8900-e1458c7fe19c-tr-0-1047",
+  "historyId": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "fullName": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Visual_Layout_Of_Order_Page"
+    },
+    {
+      "name": "testClass",
+      "value": "TestWatchMovie"
+    }
+  ],
+  "links": [],
+  "name": "Test_Visual_Layout_Of_Order_Page",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=100.0.4896.75)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.get_Text()\r\n   at Automation_Framework.WebElementModels.WebElement.get_Text() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 35\r\n   at Automation_Framework.Tests.Pages.MyMoviesPage.GetInnerText_MovieTitle() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\MyMoviesPage.cs:line 46\r\n   at Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestWatchMovie.cs:line 56"
+  },
+  "stage": "finished",
+  "description": "Test: Visual Layout Of Order Page\n",
+  "steps": [
+    {
+      "name": "Test_Visual_Layout_Of_Order_Page",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=100.0.4896.75)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.get_Text()\r\n   at Automation_Framework.WebElementModels.WebElement.get_Text() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 35\r\n   at Automation_Framework.Tests.Pages.MyMoviesPage.GetInnerText_MovieTitle() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\MyMoviesPage.cs:line 46\r\n   at Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestWatchMovie.cs:line 56"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 4a16eaa7-025a-4ebf-9ae1-cc5897234b04) clicked",
+          "source": "dca7f79774dc4a1d836ee4ab8386bea2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2ca2d53c-9468-4be7-9023-a06d6ee11b1f) clicked",
+          "source": "9ac7c31c05094c43b01eab9d709884f5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 2ca2d53c-9468-4be7-9023-a06d6ee11b1f)`",
+          "source": "342d3ad163f84d3cb85606e954303cf5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ce1fd60a-a6a5-4e37-a174-9e7e368e9796) clicked",
+          "source": "b98336b57cd341dcac20b991f7cd7b5a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = ce1fd60a-a6a5-4e37-a174-9e7e368e9796)`",
+          "source": "e156330b475f47a798768d4285f872b1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8c271acf-ed2f-441d-b03d-6a65832a8d3c) clicked",
+          "source": "95da5258c1cd4e65a2a696e03442affb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 234381ad-3c54-4d54-9a6a-216ac6a07a43) clicked",
+          "source": "d8fb91483b4e4de18d72d8f17242289b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b32294ceeeeb436981a563b63953ce44-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649868644487,
+      "stop": 1649868664779
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649868644487,
+  "stop": 1649868664783
+}

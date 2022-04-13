@@ -1,0 +1,44 @@
+{
+  "uuid": "4b53fd91-0839-4cd3-bc47-31a5acc81af3-tc-0-1019",
+  "name": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Negative_Integer",
+  "children": [
+    "860e440b-f016-4d45-8909-423d23a76931-tr-0-1024"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649867687673,
+      "stop": 1649867687673
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649867687673,
+      "stop": 1649867687673
+    }
+  ],
+  "links": [],
+  "start": 1649867659646,
+  "stop": 1649867687674
+}

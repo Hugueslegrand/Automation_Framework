@@ -34,7 +34,7 @@ namespace Automation_Framework.Tests.Tests
 
             //Assert.AreEqual(loginPage.getInnerText(), "login");
 
-            loginPage.Login("brent.dar@ap.be", "hond");
+            loginPage.Login("brent.dar@ap.be", "hond123");
 
             navigation.ClickMyMovie();
 

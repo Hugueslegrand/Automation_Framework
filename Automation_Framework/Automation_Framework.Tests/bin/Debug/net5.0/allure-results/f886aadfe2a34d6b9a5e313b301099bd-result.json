@@ -1,0 +1,110 @@
+{
+  "uuid": "376de267-f682-414c-9453-c0620f176549-tr-0-1041",
+  "historyId": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter",
+  "fullName": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RemoveRenter"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovieButton"
+    }
+  ],
+  "links": [],
+  "name": "Test_RemoveRenter",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RemoveRenter"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton - remove renter for continious testing\n",
+  "steps": [
+    {
+      "name": "Test_RemoveRenter",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = f3d17905-a2f9-4685-bfd9-ccd0b3232589) clicked",
+          "source": "62713fd8f1c241189c8a2b4529cfa9f8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ebb34429-5636-4c53-955c-39b53b5a1a47) clicked",
+          "source": "c07d86e2a946445c8f2b524808ec4551-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = ebb34429-5636-4c53-955c-39b53b5a1a47)`",
+          "source": "e075a5010a0543359badbc4cfe5a3fe5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0880d843-f412-40b9-92a1-d7d8d49acb40) clicked",
+          "source": "aae25c1c93084590abb83abdf8fb0c03-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = 0880d843-f412-40b9-92a1-d7d8d49acb40)`",
+          "source": "5208b68338994b6abbd83ebf29c78446-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8b684d6a-7cbf-4d6e-a63b-8629d9c0fa6c) clicked",
+          "source": "e6996c4386c54031bb0a2bf83f1a8d18-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d004a33e-11b6-45fd-82b0-084e09c53594) clicked",
+          "source": "fee54491faca4fb9b421fd0124a8c23a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2b8c6225-35b0-4735-9997-86886a0dac17) clicked",
+          "source": "70324e7a7c97482da24489fb24b3cb11-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 356fd716-620c-49f5-b6d9-6fd62bd8d5fd) clicked",
+          "source": "e544144568de44baa03ab51a2535b18d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "df695ffbe62941af9327d902246c8048-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649868037328,
+      "stop": 1649868056866
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649868037328,
+  "stop": 1649868056866
+}

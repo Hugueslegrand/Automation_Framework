@@ -1,0 +1,68 @@
+{
+  "uuid": "55f63217-37f0-46b9-9ab7-676a1d4f638e-tr-0-1002",
+  "historyId": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "fullName": "Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_GoogleSearch"
+    },
+    {
+      "name": "testClass",
+      "value": "ExternTestGoogle"
+    }
+  ],
+  "links": [],
+  "name": "Test_GoogleSearch",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#L2AGLb\"}\n  (Session info: chrome=100.0.4896.75)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 54\r\n   at Automation_Framework.Tests.Pages.ExternGooglePage.get_IkGaAkoordBtn() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ExternGooglePage.cs:line 25\r\n   at Automation_Framework.Tests.Pages.ExternGooglePage.ClickIkGaAkoordBtn() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ExternGooglePage.cs:line 30\r\n   at Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\ExternTestGoogle.cs:line 22\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Test: GoogleSearch\n",
+  "steps": [
+    {
+      "name": "Test_GoogleSearch",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#L2AGLb\"}\n  (Session info: chrome=100.0.4896.75)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 54\r\n   at Automation_Framework.Tests.Pages.ExternGooglePage.get_IkGaAkoordBtn() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ExternGooglePage.cs:line 25\r\n   at Automation_Framework.Tests.Pages.ExternGooglePage.ClickIkGaAkoordBtn() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\ExternGooglePage.cs:line 30\r\n   at Automation_Framework.Tests.Tests.ExternTestGoogle.Test_GoogleSearch() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\ExternTestGoogle.cs:line 22\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "90ed17b613bc47a084297a98a6a3af2a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649867396642,
+      "stop": 1649867412760
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649867396641,
+  "stop": 1649867412764
+}

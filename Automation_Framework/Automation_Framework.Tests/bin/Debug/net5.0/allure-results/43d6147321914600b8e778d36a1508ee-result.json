@@ -1,0 +1,68 @@
+{
+  "uuid": "366a6dcf-6add-4b2a-9283-a2cef0f88f6a-tr-0-1030",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterSameUser",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterSameUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterSameUser"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterSameUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"...Button\" class=\"css-yioxow\">Register</button> is not clickable at point (1806, 64). Other element would receive the click: <div class=\"css-1yo793j\">...</div>\n  (Session info: chrome=100.0.4896.75)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()\r\n   at Automation_Framework.Extensions.WebDriver.Clicker.ClickOnElement(IWebDriver driver, IWebElement element) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\Clicker.cs:line 19\r\n   at Automation_Framework.WebElementModels.WebElement.ClickOnElement() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 101\r\n   at Automation_Framework.Tests.Pages.Navigation.ClickRegister() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 60\r\n   at Automation_Framework.Tests.Tests.TestRegistration.TestRegisterSameUser() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegistration.cs:line 44"
+  },
+  "stage": "finished",
+  "description": "Register an user with an existing email\n",
+  "steps": [
+    {
+      "name": "TestRegisterSameUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"...Button\" class=\"css-yioxow\">Register</button> is not clickable at point (1806, 64). Other element would receive the click: <div class=\"css-1yo793j\">...</div>\n  (Session info: chrome=100.0.4896.75)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()\r\n   at Automation_Framework.Extensions.WebDriver.Clicker.ClickOnElement(IWebDriver driver, IWebElement element) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\Clicker.cs:line 19\r\n   at Automation_Framework.WebElementModels.WebElement.ClickOnElement() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 101\r\n   at Automation_Framework.Tests.Pages.Navigation.ClickRegister() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 60\r\n   at Automation_Framework.Tests.Tests.TestRegistration.TestRegisterSameUser() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegistration.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fb045563e9144d84b609f1ec709d73f5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869470067,
+      "stop": 1649869490970
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869470067,
+  "stop": 1649869490970
+}

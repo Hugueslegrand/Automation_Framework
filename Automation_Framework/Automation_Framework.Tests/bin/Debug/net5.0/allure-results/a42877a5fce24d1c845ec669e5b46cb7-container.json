@@ -1,0 +1,44 @@
+{
+  "uuid": "95a64cd9-7369-4050-a620-c6034ed53dc4-tc-0-1028",
+  "name": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUnmatchingPasswords",
+  "children": [
+    "62f26588-a608-475b-87e0-7b2417fc43db-tr-0-1032"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649869509222,
+      "stop": 1649869509222
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649869509222,
+      "stop": 1649869509222
+    }
+  ],
+  "links": [],
+  "start": 1649869490972,
+  "stop": 1649869509224
+}

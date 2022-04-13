@@ -1,0 +1,95 @@
+{
+  "uuid": "70279796-699c-4916-9a14-9ca1535b3cd6-tr-0-1011",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Existing_User",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_As_Existing_User"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user [2.2]\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Existing_User",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = cd3c7c11-8fd0-46c7-815a-412197cff8fd) clicked",
+          "source": "e903be41b42b4c69ae47586f44bceb57-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = af5b0bc9-6c0a-43aa-acc0-d9618693068c) clicked",
+          "source": "d9de19c6210e4ddd96fd0efe43936d27-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Pirate@King.com` entered in `Element (id = af5b0bc9-6c0a-43aa-acc0-d9618693068c)`",
+          "source": "da77cdba2f21452b93007768151b7785-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 278f13a4-9f6c-4ed1-9145-5181995035af) clicked",
+          "source": "43030a777dd14d1ea28e2cac71811365-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = 278f13a4-9f6c-4ed1-9145-5181995035af)`",
+          "source": "4b322c035be041318c672dea8bc1e156-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 7dd6bfaa-ce56-49d2-bd87-eabcd08b23ce) clicked",
+          "source": "a61597b9d8b24bf9b3f89c61c479698c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "504527b985ae45ae8ddbd0828c5e820f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869088569,
+      "stop": 1649869104408
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869088569,
+  "stop": 1649869104408
+}

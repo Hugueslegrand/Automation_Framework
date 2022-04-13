@@ -1,0 +1,100 @@
+{
+  "uuid": "aac6be0b-07a6-4283-9fee-33f44d7e1dc3-tr-0-1030",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterSameUser",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterSameUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterSameUser"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterSameUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRegisterSameUser"
+  },
+  "stage": "finished",
+  "description": "Register an user with an existing email\n",
+  "steps": [
+    {
+      "name": "TestRegisterSameUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 9473020d-7adb-473c-9d5e-b309e4471659) clicked",
+          "source": "d8772bd95e594f21ae18ad8818688864-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Biggie` entered in `Element (id = 9f01ea99-9af8-4792-be14-25ac491216aa)`",
+          "source": "41b12b049ce544a797f5165bd2fa3814-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Smalls` entered in `Element (id = 69302a59-25a1-403d-bacd-e2e8ca3ae676)`",
+          "source": "31b88734436244cb813902ac4fd312d8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `ELzzZBiggie_East@Coast.com` entered in `Element (id = b4629f9c-b86a-4c68-ad3b-dd0c0a4e2bc1)`",
+          "source": "bce3f115e1af4a7b91f1c465e2907a0a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `biggie` entered in `Element (id = 3c6910e1-d42c-4bc0-9eaa-9ce078e9022c)`",
+          "source": "141b02b1627c4584ab51a469a620fa09-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `biggie` entered in `Element (id = e630939e-c9de-4ade-ae98-e5cf37ea85b6)`",
+          "source": "90b46a3bcd3c41989698d005ffc43010-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 6a68478c-f552-405b-8a66-0f519f44c9db) clicked",
+          "source": "6afbe752623c4f29b06c373af59065b3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5b9189cd94a443d69160fbaadf3316d8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869848311,
+      "stop": 1649869871418
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869848311,
+  "stop": 1649869871421
+}

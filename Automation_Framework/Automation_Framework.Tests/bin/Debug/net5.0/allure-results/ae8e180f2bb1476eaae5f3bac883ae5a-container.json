@@ -1,0 +1,44 @@
+{
+  "uuid": "a661d5ab-3164-4548-82dd-62954a8b1e9f-tc-0-1026",
+  "name": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "children": [
+    "975ce5ae-094f-4dd2-97d3-10963b45c781-tr-0-1027"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649867805116,
+      "stop": 1649867805116
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649867805116,
+      "stop": 1649867805116
+    }
+  ],
+  "links": [],
+  "start": 1649867788803,
+  "stop": 1649867805117
+}

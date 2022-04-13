@@ -1,0 +1,125 @@
+{
+  "uuid": "8c5d6579-88b6-4611-86de-c4d1b830b66d-tr-0-1034",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUpperCaseAndLogIn",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUpperCaseAndLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterUpperCaseAndLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterUpperCaseAndLogIn",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRegisterUpperCaseAndLogIn"
+  },
+  "stage": "finished",
+  "description": "Register an user only uppercase and log in to verify registration\n",
+  "steps": [
+    {
+      "name": "TestRegisterUpperCaseAndLogIn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = ac8e207a-4eb8-4c50-a29b-734d06dc2206) clicked",
+          "source": "f6b8570be90144acb9cbe9c4577b1df0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `RAKEEM` entered in `Element (id = 501b3ac4-9084-47b0-826d-9e6c0fd044c6)`",
+          "source": "fcadd0e9cd4d42e0b586b4dfc4d4599e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `BEST` entered in `Element (id = 7c307978-eb42-4b4c-a02a-d11e3fed9afe)`",
+          "source": "4d892842c73a42f6bb528de9b7bf5a68-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `RAKEEMG@GMAIL.COM` entered in `Element (id = 89e56b34-c214-43c7-8123-d958a4406599)`",
+          "source": "d81a4ba9cb3c410cb71047f542f66878-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `CHIPCHOP` entered in `Element (id = 0c68ea90-04ab-48b2-be1b-1d9eea18b9f0)`",
+          "source": "6af781134c1c4500bb0371be158a9866-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `CHIPCHOP` entered in `Element (id = 30bb1a40-3383-43c6-b768-974363101735)`",
+          "source": "194c0e354ca145ef8c1762c6c10fb399-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8ef29b28-5af7-4433-ab84-f281cc59ff64) clicked",
+          "source": "577a3f58017d46498a336da1e226fe8c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c6d8634a-4835-4fb2-83df-2e3ac6f65000) clicked",
+          "source": "0370da1ab38443c39a530b02bf95cbc0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `RAKEEMG@GMAIL.COM` entered in `Element (id = c6d8634a-4835-4fb2-83df-2e3ac6f65000)`",
+          "source": "4fbecd6bd6bf407ab544907087168280-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = be3e3975-ec16-431f-9afd-588bf4c9413a) clicked",
+          "source": "9644a4373bdf4550863c5d2e3829b12f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `CHIPCHOP` entered in `Element (id = be3e3975-ec16-431f-9afd-588bf4c9413a)`",
+          "source": "d0ba3cdb303d4aa9bf375ba3f49de744-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = fad7fda2-b240-4fed-a888-719b6ffb5f97) clicked",
+          "source": "1a42a29d075a47e7a5e69b0f343c3b4e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "f5f31a1e78854e85b8fc609c31d41822-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869509225,
+      "stop": 1649869530694
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869509225,
+  "stop": 1649869530694
+}

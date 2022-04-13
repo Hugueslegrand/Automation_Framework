@@ -1,0 +1,110 @@
+{
+  "uuid": "a9ae55c2-4c0f-4bea-ae58-ee13a183fc9b-tr-0-1047",
+  "historyId": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "fullName": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Visual_Layout_Of_Order_Page"
+    },
+    {
+      "name": "testClass",
+      "value": "TestWatchMovie"
+    }
+  ],
+  "links": [],
+  "name": "Test_Visual_Layout_Of_Order_Page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Visual_Layout_Of_Order_Page"
+  },
+  "stage": "finished",
+  "description": "Test: Visual Layout Of Order Page\n",
+  "steps": [
+    {
+      "name": "Test_Visual_Layout_Of_Order_Page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 963a4ec9-aa9a-402c-b8db-386882896388) clicked",
+          "source": "e79c5df3b48b486eb1a5e6d9c3a5abea-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = eb16849f-15cf-4cd9-b49e-03e2f4e93c9b) clicked",
+          "source": "9b7088fb9a94457a981f6520211f0730-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = eb16849f-15cf-4cd9-b49e-03e2f4e93c9b)`",
+          "source": "ff17b0eb75434df286006f182dbcb2da-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0feddd70-aa64-46a2-9e80-144e7d417915) clicked",
+          "source": "8b4d90b9783745e3b8d8f3dbc9634514-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = 0feddd70-aa64-46a2-9e80-144e7d417915)`",
+          "source": "cbc2c0f661124aeb95d7f689713873f9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e1cd7bf6-d8ac-47da-a8ba-907a2447a918) clicked",
+          "source": "43c9d1a507d54051bfdbbaf49f9f3450-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = dd120d66-cae5-4257-aacc-296dbba5a3e0) clicked",
+          "source": "5167377eac4e44538afa872b4763b7e0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c1d49467-818f-4c54-8acc-b748ca33183c) clicked",
+          "source": "666cf0080a974f9b8a777457a6f4566f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = a755b5eb-2666-46bb-80bf-b2c95694d7da) clicked",
+          "source": "1eaa4385f7f84c9b8caf3679dfed4458-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "60ec3f67adbd4b42b2243807bafe9a82-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869896086,
+      "stop": 1649869915997
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869896085,
+  "stop": 1649869916000
+}

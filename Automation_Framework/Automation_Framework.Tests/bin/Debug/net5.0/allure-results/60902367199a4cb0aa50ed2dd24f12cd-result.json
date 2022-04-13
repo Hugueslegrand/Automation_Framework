@@ -1,0 +1,125 @@
+{
+  "uuid": "c498bdcd-a937-4ea9-bd3e-38676e2647b0-tr-0-1033",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterLowerCaseAndLogIn",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterLowerCaseAndLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterLowerCaseAndLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterLowerCaseAndLogIn",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRegisterLowerCaseAndLogIn"
+  },
+  "stage": "finished",
+  "description": "Register an user only lowercase and log in to verify registration\n",
+  "steps": [
+    {
+      "name": "TestRegisterLowerCaseAndLogIn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 85389a7f-5509-4b06-b154-6ecc46438dc6) clicked",
+          "source": "b776dc883d7047e9a4edf15a52478994-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `tupac` entered in `Element (id = 9dad1e3a-444d-492e-8850-5716b0377339)`",
+          "source": "39aaa8cc602a46ecbea3b24d3fc10d35-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `shakur` entered in `Element (id = 6758d64f-0e92-4b89-a7d6-9377caa3f901)`",
+          "source": "f905d0f37bd2443ca06d5fca7a1bff1a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `2pac_wzt@coast.com` entered in `Element (id = 34d9b73a-1ed1-43cd-8d0f-e0120e5fe92a)`",
+          "source": "c62c73c82c98438d974870e7ca8e4d6b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `thuglife` entered in `Element (id = 26cde0e1-3995-46d8-914a-338c94cb1db5)`",
+          "source": "6aae88501af84718a5e77d14a4d8b46d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `thuglife` entered in `Element (id = d317427e-b248-4d8c-a645-c8988db15f00)`",
+          "source": "e08c55ccca1649e0a857a32fbb38f1a7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 486f6757-e806-4fef-b9b9-4cf01fe52d95) clicked",
+          "source": "5ce5705f20fa4311848c22795a42b9b6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b0418d6a-124f-4574-ab95-e086aa704c4b) clicked",
+          "source": "2288f344461f44fe8c8c049a9637b956-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `2pac_wzt@coast.com` entered in `Element (id = b0418d6a-124f-4574-ab95-e086aa704c4b)`",
+          "source": "95a206120a84461fb9badcdf3c2f3ef8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b92ba7d2-96ca-4437-b547-004d405a5ad0) clicked",
+          "source": "f1e32bedc9584b14a19ed6c390a53122-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `thuglife` entered in `Element (id = b92ba7d2-96ca-4437-b547-004d405a5ad0)`",
+          "source": "eded43d2ab154bcc837460678398ba46-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 33a109e8-3286-46f1-8e3d-933e897f80ad) clicked",
+          "source": "d24ea813eeec482c941fdfb89f7a7897-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c4075360d38741118d908a5da77aabe1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869443449,
+      "stop": 1649869470064
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869443449,
+  "stop": 1649869470065
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "06092c94-1b43-4352-a7e5-4e19e724ef86-tc-0-1028",
+  "name": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUserWithSpaceBar",
+  "children": [
+    "b1b22baf-3981-4caa-85ed-008f14dfe280-tr-0-1031"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649867942390,
+      "stop": 1649867942390
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649867942390,
+      "stop": 1649867942390
+    }
+  ],
+  "links": [],
+  "start": 1649867925416,
+  "stop": 1649867942391
+}

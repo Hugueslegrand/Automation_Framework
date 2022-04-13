@@ -53,8 +53,8 @@ namespace Automation_Framework.Tests.Tests
 
             MyMoviesPage watchMovie = new MyMoviesPage(builder);
 
-            watchMovie.GetInnerText_MovieTitle().Should().Be("Roald Dahl's The Witches ");
-            watchMovie.GetInnerText_MovieAvailableDate().Should().Be("Available until: 18/04/2022");
+            watchMovie.GetInnerText_MovieTitle().Should().Be("ROALD DAHL'S THE WITCHES");
+            watchMovie.GetInnerText_MovieAvailableDate().Should().Be("AVAILABLE UNTIL: 18/04/2022");
             watchMovie.ClickWatchNow();
             //Thread.Sleep(2000);
 

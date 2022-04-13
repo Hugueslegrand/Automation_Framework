@@ -1,0 +1,145 @@
+{
+  "uuid": "290c3e25-1fa0-47bf-bffe-3c64ad9d5df5-tr-0-1043",
+  "historyId": "Automation_Framework.Tests.Tests.TestSearchBar.Test_SearchBar_Available",
+  "fullName": "Automation_Framework.Tests.Tests.TestSearchBar.Test_SearchBar_Available",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_SearchBar_Available"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSearchBar"
+    }
+  ],
+  "links": [],
+  "name": "Test_SearchBar_Available",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_SearchBar_Available"
+  },
+  "stage": "finished",
+  "description": "Check if searchbar is active and available for all types of users\n",
+  "steps": [
+    {
+      "name": "Test_SearchBar_Available",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 3a7dbdda-327b-47ee-a5eb-97a7153028af) clicked",
+          "source": "254551391c9a4fa98bacbd66461612af-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 1eef0f49-e3f4-4c34-a78a-bc93ff0259d6) clicked",
+          "source": "7ab6b9c5d71446ff8076193117bf0ac7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5b55b08b-7e49-43b4-b7fa-d1e6e6074f8b) clicked",
+          "source": "8a858b18c2344fc896b0ce216ce46a00-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Pirate@King.com` entered in `Element (id = 5b55b08b-7e49-43b4-b7fa-d1e6e6074f8b)`",
+          "source": "60af7e3748cf4b3a8b50747d7325d694-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 6fa6b3dc-a95f-427a-9399-e4e953b74314) clicked",
+          "source": "b5fb9dfdef2e469283ce30b43ef99988-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `onepiece111` entered in `Element (id = 6fa6b3dc-a95f-427a-9399-e4e953b74314)`",
+          "source": "0fb1f3df95d74dfdbb329e4766fe6260-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d1bccc70-38bd-4497-8fc9-27e802b1b2ba) clicked",
+          "source": "c4ccf95bb76844d0b85cee8e5eedad2c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 254c9d34-124f-45e7-90ed-b50872ebfcae) clicked",
+          "source": "eaf5c18c3e1b425ea5480e7e4f730271-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cc44276b-09d6-4e1e-af50-b007d6f9ee01) clicked",
+          "source": "59c60c1476454d99818c9a36b78ce084-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4e5ff772-f0b8-4332-b82f-44dc6c6e8fa8) clicked",
+          "source": "ddd6d62ee504404b8f5115474f72e08e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2bc6bc34-6160-4518-953f-73f0d77e1b00) clicked",
+          "source": "386e8fd22f95441388dbce0dff127180-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Brent.dar@ap.be` entered in `Element (id = 2bc6bc34-6160-4518-953f-73f0d77e1b00)`",
+          "source": "a242148a1b6642348cf36b7b60a4a337-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 66a6dd14-ea4c-4c72-bf7c-bcefa6a03e6a) clicked",
+          "source": "ac7876e003e24fb7b38556ccdd47ce85-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = 66a6dd14-ea4c-4c72-bf7c-bcefa6a03e6a)`",
+          "source": "35c911184c44487693986a8b47021d1e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 85a66322-cb1f-44a4-833b-bf5fd223283b) clicked",
+          "source": "f22d0725d5d64da588a7a29b2bda652c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e4eb74a0-88f8-4f73-abc1-fd25387b8fcb) clicked",
+          "source": "5f31e94c62704d508c320a19c070734f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8e12a69e9ed64a88a64cb60bbc1cdcd3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869657869,
+      "stop": 1649869688461
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869657869,
+  "stop": 1649869688461
+}

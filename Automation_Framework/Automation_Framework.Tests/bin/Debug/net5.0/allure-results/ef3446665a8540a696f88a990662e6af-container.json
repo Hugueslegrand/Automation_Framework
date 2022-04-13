@@ -1,0 +1,44 @@
+{
+  "uuid": "032a00a4-cbcd-4926-9379-a7c50f594545-tc-0-1028",
+  "name": "Automation_Framework.Tests.Tests.TestRegistration.Test_RemoveRegisteredUsers",
+  "children": [
+    "4e05e19c-6bc7-4756-b21f-8496445073cd-tr-0-1035"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649869420999,
+      "stop": 1649869420999
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649869420999,
+      "stop": 1649869420999
+    }
+  ],
+  "links": [],
+  "start": 1649869401880,
+  "stop": 1649869421000
+}

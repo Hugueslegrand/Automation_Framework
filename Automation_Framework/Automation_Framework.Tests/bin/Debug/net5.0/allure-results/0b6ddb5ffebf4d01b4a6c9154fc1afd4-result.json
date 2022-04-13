@@ -1,0 +1,100 @@
+{
+  "uuid": "e44000b1-58f4-40ad-b0fa-6f470ed829ed-tr-0-1031",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUserWithSpaceBar",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUserWithSpaceBar",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterUserWithSpaceBar"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterUserWithSpaceBar",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRegisterUserWithSpaceBar"
+  },
+  "stage": "finished",
+  "description": "Register an user with a spacebar leading inputforms\n",
+  "steps": [
+    {
+      "name": "TestRegisterUserWithSpaceBar",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 9985e02f-086c-41ae-91b6-3e9b175c0cf9) clicked",
+          "source": "e19cc8a95c4c42e09c41bcebc29d6615-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` Biggie` entered in `Element (id = c2226462-fbc3-4784-8575-7acf09dac495)`",
+          "source": "cd6a04ccd1c9494099170a44f4919735-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` Smalls` entered in `Element (id = 8611660b-aebb-4fa1-ac3f-675151acdba2)`",
+          "source": "4edbb69d7cc44707ae38f6011211a535-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` ZezzBiggie_East@Coast.com` entered in `Element (id = cd36fe38-1438-4c13-aa7a-8c2eb3ccf9ea)`",
+          "source": "f2ef822f540c434ab57aec9799559e34-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` biggie` entered in `Element (id = c0cb5ace-c9c0-433a-94ed-c4df6e34e66a)`",
+          "source": "bc341fe586e046bea0a310f096116b04-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value ` biggie` entered in `Element (id = 9d28959c-4110-4de7-9e01-904ef010d589)`",
+          "source": "d3a63db85da547eeac07555cf4761037-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f3cb071e-25b4-4f01-830c-689dd770d520) clicked",
+          "source": "e63a960b139a42bea597d86fc0686382-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5ccfc7f7ed4442319fd24f8d579c92a4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869530696,
+      "stop": 1649869546324
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869530696,
+  "stop": 1649869546324
+}

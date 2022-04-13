@@ -1,0 +1,130 @@
+{
+  "uuid": "4811d2a8-f88e-465f-8d8b-7d4d72c10443-tr-0-1029",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterAnUser",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterAnUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterAnUser"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterAnUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRegisterAnUser"
+  },
+  "stage": "finished",
+  "description": "Register an user and log in to verify\n",
+  "steps": [
+    {
+      "name": "TestRegisterAnUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = c9994081-ef98-498b-9e8a-703e79374a38) clicked",
+          "source": "8123b2a0757d4499a194acf9f32f14e2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Biggie` entered in `Element (id = be563f25-ef37-404d-8970-8095beb6b698)`",
+          "source": "1e17034d399347bcaa17dd05b2836fe6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Smalls` entered in `Element (id = 65b64e51-36e3-45c5-a05f-e9ba3ef075e1)`",
+          "source": "93dc97a7fdcc45c69d75ed92a6105310-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `ELzzZBiggie_East@Coast.com` entered in `Element (id = e24bde4c-aee8-4dbb-8caa-3690a0dc6c6d)`",
+          "source": "58a37f8f630a4142958c6b5c60aeab40-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `biggie` entered in `Element (id = bd8e256b-3559-4834-924b-ad5705adf262)`",
+          "source": "c3c6cc9b569b4597b6c382ec63e17be5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `biggie` entered in `Element (id = 4262726a-8d0a-4f17-a3af-aa75a0672168)`",
+          "source": "7d669ccf84594acb985dfaa814969c3d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 99f9bd66-c6a6-4e04-88a1-431116986626) clicked",
+          "source": "efba8b26a0114c2d8236a6f840d50ca3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ccf6c57a-03ab-4918-8caa-1613ca42d226) clicked",
+          "source": "161acda0a8dd48d499cb24320d6218af-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = cec351b5-f905-4433-a65a-5ed81bb8ed2d) clicked",
+          "source": "850f65fa0c2344ba960c704819f85e0e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `ELzzZBiggie_East@Coast.com` entered in `Element (id = cec351b5-f905-4433-a65a-5ed81bb8ed2d)`",
+          "source": "ef8f751163c349ccaff4796b439520ed-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4b72d962-30d8-4986-aacb-42e9d03f1a0e) clicked",
+          "source": "baaaf3e32a884544a7a3b5b4f73d2350-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `biggie` entered in `Element (id = 4b72d962-30d8-4986-aacb-42e9d03f1a0e)`",
+          "source": "2877272bc345496dba714981d8f43f71-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ea2911dc-b26c-445a-b692-99903f37b7ed) clicked",
+          "source": "e576c21b89db49ebbb01356b558b3836-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a2d57db7d4c3433faa2d444ae42c3ebb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649867826680,
+      "stop": 1649867850289
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649867826680,
+  "stop": 1649867850289
+}

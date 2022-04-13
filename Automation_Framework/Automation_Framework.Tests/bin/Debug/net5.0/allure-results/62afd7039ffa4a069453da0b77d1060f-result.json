@@ -1,0 +1,65 @@
+{
+  "uuid": "39b0dba1-07c0-499a-8741-1debb02192a6-tr-0-1010",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Unlogged_Layout",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Unlogged_Layout",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Unlogged_Layout"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Unlogged_Layout",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Unlogged_Layout"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user [2.1]\n",
+  "steps": [
+    {
+      "name": "Test_Unlogged_Layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3f394836b4c04ee0aaf2e58bd948ce68-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869194923,
+      "stop": 1649869209145
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869194923,
+  "stop": 1649869209145
+}

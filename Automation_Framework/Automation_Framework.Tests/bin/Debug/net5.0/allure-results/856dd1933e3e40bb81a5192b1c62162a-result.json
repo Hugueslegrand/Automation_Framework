@@ -1,0 +1,103 @@
+{
+  "uuid": "b0548ef8-f3c8-4b0b-acb9-a10794aae79d-tr-0-1047",
+  "historyId": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "fullName": "Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Visual_Layout_Of_Order_Page"
+    },
+    {
+      "name": "testClass",
+      "value": "TestWatchMovie"
+    }
+  ],
+  "links": [],
+  "name": "Test_Visual_Layout_Of_Order_Page",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected watchMovie.GetInnerText_MovieTitle() to be \"ROALD DAHL'S THE WITCHES \", but it misses some extra whitespace at the end.",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstSuperfluousWhitespace()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestWatchMovie.cs:line 56\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: Visual Layout Of Order Page\n",
+  "steps": [
+    {
+      "name": "Test_Visual_Layout_Of_Order_Page",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected watchMovie.GetInnerText_MovieTitle() to be \"ROALD DAHL'S THE WITCHES \", but it misses some extra whitespace at the end.",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstSuperfluousWhitespace()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestWatchMovie.Test_Visual_Layout_Of_Order_Page() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestWatchMovie.cs:line 56\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 83cdaf37-419a-4b74-a9d9-5b31016f9d66) clicked",
+          "source": "f93174fd0c2849c0b547b91b29f5a114-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 95b46770-99af-4958-a734-51ffd681ac8f) clicked",
+          "source": "c1f804da554646cf9a746d539b1f6acc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 95b46770-99af-4958-a734-51ffd681ac8f)`",
+          "source": "b123218246b346ec858bce11fe101414-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b66b15b2-c0d0-455b-8b41-2873cb9a4c16) clicked",
+          "source": "e845e45c3ebe4bb893f2742db83b933f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = b66b15b2-c0d0-455b-8b41-2873cb9a4c16)`",
+          "source": "f23433d1a4d043f5aab421b2b7f0c7b5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 93126976-cce1-4f70-92d7-c95de9fd0b65) clicked",
+          "source": "f539726222bb4285a1c269fa48c86b83-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5a23b960-23c5-4679-83c0-0862ff6f2dbe) clicked",
+          "source": "c10ebf26f21049c3baba7b0adb3eb8eb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d369c2836f674f2f8be64437f0fb96cc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649868599719,
+      "stop": 1649868619000
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649868599718,
+  "stop": 1649868619003
+}

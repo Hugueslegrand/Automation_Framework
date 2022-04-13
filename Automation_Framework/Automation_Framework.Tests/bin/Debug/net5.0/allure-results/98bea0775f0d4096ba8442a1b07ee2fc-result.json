@@ -1,0 +1,100 @@
+{
+  "uuid": "94716f14-e584-42b6-8cd6-2b372594ec36-tr-0-1027",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegister.Test_RegisterAnUser_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RegisterAnUser_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegister"
+    }
+  ],
+  "links": [],
+  "name": "Test_RegisterAnUser_POM",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RegisterAnUser_POM"
+  },
+  "stage": "finished",
+  "description": "Register an user\n",
+  "steps": [
+    {
+      "name": "Test_RegisterAnUser_POM",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 1c2fbc87-06af-4d80-8480-86ff2c889024) clicked",
+          "source": "4315f37b7fb34cff87bc0be947238938-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `firstName` entered in `Element (id = 01ddf106-ea6a-4b2f-b661-68311f79812a)`",
+          "source": "455ec90a68eb42c7915fa1e5e6a0249e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `lastName` entered in `Element (id = cf0506b3-fae0-4bad-b35c-a46dce212c1e)`",
+          "source": "7ae64cf950c5416b9e4b08a5204909a5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `email@brightest.be` entered in `Element (id = d2012d8c-2a13-4367-b166-155f7307779d)`",
+          "source": "361ecbf8d9bb474f8f001815d8f2b0fd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `passwoord` entered in `Element (id = 2b9500cf-0aa4-4283-a59b-5c13dca10d01)`",
+          "source": "3e432ba570254a25bfe1efffb096bf04-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `passwoord` entered in `Element (id = 111a5394-2fca-4d1d-8983-7ee467c468dd)`",
+          "source": "63a978ea0b624a84b0f20f7cc1bc057b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f12d6cba-047f-485b-b7d2-ae0745ac2cda) clicked",
+          "source": "532af7426d254bf292e5f53d7fb4073a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d3761678e8b744a093736fe501de6780-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649869386550,
+      "stop": 1649869401876
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649869386550,
+  "stop": 1649869401876
+}

@@ -1,0 +1,113 @@
+{
+  "uuid": "436f8339-fbe3-4907-bf6e-3476e6aa6bfb-tr-0-1005",
+  "historyId": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel",
+  "fullName": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "14"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AdminPanel"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAdminPanel"
+    }
+  ],
+  "links": [],
+  "name": "Test_AdminPanel",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 65\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.get_TableHeadLogsDate() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 90\r\n   at Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestAdminPanel.cs:line 72"
+  },
+  "stage": "finished",
+  "description": "Test: Set-Up for Testing by setting of all Bugs\n",
+  "steps": [
+    {
+      "name": "Test_AdminPanel",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 65\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.get_TableHeadLogsDate() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 90\r\n   at Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestAdminPanel.cs:line 72"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 8606c487-95e8-45ae-a314-84040075bcc4) clicked",
+          "source": "65209599dbc646b99061583cf0379ae9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 067869e3-e0c0-49d9-9169-9aa8215311c5) clicked",
+          "source": "198946dcbd8945cc823e20cc1d83b0f9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = 067869e3-e0c0-49d9-9169-9aa8215311c5)`",
+          "source": "f8409e94bc514a678a158351a797feee-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2ef98684-f95b-4aac-ac97-99b14c953025) clicked",
+          "source": "b8a94d7fb98d401db951e53cb0dc2944-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = 2ef98684-f95b-4aac-ac97-99b14c953025)`",
+          "source": "97aff143210e4f79b8fe6c379cfdeb77-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 3f85f2a9-ac70-4b5e-8d3f-934c3d41eabc) clicked",
+          "source": "60b03bdb159940438523dcb59a37ac55-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2be5af8e-ba1e-403b-9912-a1b2d52f4975) clicked",
+          "source": "b18edbbe114c436ab155452205ca4ad1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ac707e66-50b4-480b-a35b-070ae783f3d7) clicked",
+          "source": "bf396c92138d49d18b387ada6df8a54d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9230a239-9815-474a-af41-7a03e26e8914) clicked",
+          "source": "a4453d8d83fc4b088548fb1da52b441b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "97235f790db9448b8a851d0b47f6b1bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649851542665,
+      "stop": 1649851612053
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649851542663,
+  "stop": 1649851612056
+}

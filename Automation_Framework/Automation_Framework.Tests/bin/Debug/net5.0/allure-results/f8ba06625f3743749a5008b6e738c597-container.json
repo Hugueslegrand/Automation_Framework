@@ -1,0 +1,44 @@
+{
+  "uuid": "9d2282ca-c0f1-43b7-8ba3-40f3ff8294a4-tc-0-1003",
+  "name": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel_BugsOFf",
+  "children": [
+    "30172537-2ed0-4f9e-bb7b-3978025c8d24-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649851270763,
+      "stop": 1649851270763
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649851270763,
+      "stop": 1649851270763
+    }
+  ],
+  "links": [],
+  "start": 1649851249917,
+  "stop": 1649851270787
+}

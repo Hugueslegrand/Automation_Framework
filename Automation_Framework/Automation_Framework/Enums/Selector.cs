@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace Automation_Framework.Enums
 {
     /// <summary>
-    /// Enum of selectors to use for a specific element name, id, css selector, LinkText or xpath value
+    /// Enum of selectors to use for a specific element id, css selector or xpath value
     /// </summary>
     public enum Selector
     {
         /// <summary>
-        /// Find element by Name    
+        /// Fallback to set enum to default value in switch
         /// </summary>
         Name,
         /// <summary>
@@ -31,9 +31,9 @@ namespace Automation_Framework.Enums
         /// Find element by LinkText
         /// </summary>
         LinkText,
-        /// <summary>
-        /// Find element by ClassName
-        /// </summary>
-        ClassName
+        ClassName,
+        TagName
+
+
     }
 }

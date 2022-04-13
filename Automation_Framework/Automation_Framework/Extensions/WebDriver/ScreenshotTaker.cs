@@ -27,7 +27,6 @@ namespace Automation_Framework.Extensions.WebDriver
                 var pathToFile = GetFilePath(GetFileNameSave(fileNameSave));
 
                 driver.ScreenshotSave(pathToFile);
-
                 AllureLifecycle.Instance.AddAttachment(pathToFile, fileNameSave);
             }
             catch (Exception ex)

@@ -15,12 +15,18 @@ namespace Automation_Framework.WebElementModels
         bool Selected { get; }
         bool Displayed { get; }
 
-        void GetCssValue(string propertyName);
-        void GetAttribute(string attributeName);
-        void GetProperty(string propertyName);
+
+        string GetCssValue(string propertyName);
+        string GetAttribute(string attributeName);
+        string GetProperty(string propertyName);
         void SendKeys(string text);
         void ClickOnElement();
         void ClearInput();
-         IWebElement getElement();
+
+        IWebElement getElement();
+        IList<IWebElement> getElements();
+
+
     }
+    
 }

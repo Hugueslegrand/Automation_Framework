@@ -1,0 +1,103 @@
+{
+  "uuid": "3bf64c6b-3158-450a-baa3-b368d313800c-tr-0-1004",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdmin_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdmin_POM",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected is <System.Collections.ObjectModel.ReadOnlyCollection`1[OpenQA.Selenium.IWebElement]> with 12 elements, actual is <System.String>\r\n  Values differ at index [0]\r\n  Expected: <OpenQA.Selenium.Support.Events.EventFiringWebDriver+EventFiringWebElement>\r\n  But was:  'l'\r\n",
+    "trace": "   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 33\r\n"
+  },
+  "stage": "finished",
+  "description": "Login as administrator\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdmin_POM",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected is <System.Collections.ObjectModel.ReadOnlyCollection`1[OpenQA.Selenium.IWebElement]> with 12 elements, actual is <System.String>\r\n  Values differ at index [0]\r\n  Expected: <OpenQA.Selenium.Support.Events.EventFiringWebDriver+EventFiringWebElement>\r\n  But was:  'l'\r\n",
+        "trace": "   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 33\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = e9c8460a-5fd8-4bb8-a732-140e29185e61) clicked",
+          "source": "0185dad5d27d44a5b91899ee0d16accd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 143f9462-6d3e-4994-b8eb-7afafb3cf1f0) clicked",
+          "source": "f4cd851449b540b0a0132af92eddefb9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 143f9462-6d3e-4994-b8eb-7afafb3cf1f0)`",
+          "source": "73605d3d73df4550b9066bfae6dbc5e2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 28b17748-c7cf-405f-9da1-5e05ddbcce8a) clicked",
+          "source": "ddf602b024394096885ea435d5e2f39a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond` entered in `Element (id = 28b17748-c7cf-405f-9da1-5e05ddbcce8a)`",
+          "source": "7d7e8d4572a24f05a86877ec6e74bcd3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b4aac656-bd42-4998-9b9f-b93328f786bc) clicked",
+          "source": "a605223c9fb246b4a5efee5814df89c6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 92975e77-9781-4b7c-91f9-1958629e679a) clicked",
+          "source": "13c7695798da4c7eac887a3c4c2b843e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "58239e29564842b1824460283a9180ba-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1648553384912,
+      "stop": 1648553397297
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1648553384912,
+  "stop": 1648553397301
+}

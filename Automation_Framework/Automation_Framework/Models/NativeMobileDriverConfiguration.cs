@@ -9,6 +9,5 @@ namespace Automation_Framework.Models
         public string? DeviceName { get; set; }
         public string? App { get; set; }
 
-
     }
 }

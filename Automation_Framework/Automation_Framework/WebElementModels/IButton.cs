@@ -1,7 +1,4 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Appium;
-using OpenQA.Selenium.Appium.Android;
-using OpenQA.Selenium.Appium.iOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.WebElementModels
 {
-    public interface IButton 
+    public interface IButton
     {
         string TagName { get; }
         string Text { get; }
@@ -18,11 +15,16 @@ namespace Automation_Framework.WebElementModels
         bool Selected { get; }
         bool Displayed { get; }
 
-        void GetCssValue(string propertyName);
-        void GetAttribute(string attributeName);
-        void GetProperty(string propertyName);
+        string GetCssValue(string propertyName);
+        string GetAttribute(string attributeName);
+        string GetProperty(string propertyName);
         void ClickOnElement();
-       
+        IList<IWebElement> getElements();
+        IWebElement getElement();
 
+        
+  
+  
+        public bool ElementIsVisible();
     }
 }

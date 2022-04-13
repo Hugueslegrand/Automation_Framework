@@ -29,7 +29,7 @@ namespace Automation_Framework.Helpers
                     return new WebDriverListener(chromeDriver, logger);
                 case BrowserName.Firefox:
                     new DriverManager().SetUpDriver(new FirefoxConfig());
-                    FirefoxDriver firefoxDriver = new FirefoxDriver(WebDriverSettings.FirefoxOptions(driverConfig));
+                    FirefoxDriver firefoxDriver = new FirefoxDriver();
                     return new WebDriverListener(firefoxDriver, logger);
                 case BrowserName.InternetExplorer:
                     new DriverManager().SetUpDriver(new InternetExplorerConfig());

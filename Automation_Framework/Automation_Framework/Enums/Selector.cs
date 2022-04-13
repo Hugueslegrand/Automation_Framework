@@ -30,6 +30,10 @@ namespace Automation_Framework.Enums
         /// <summary>
         /// Find element by LinkText
         /// </summary>
-        LinkText
+        LinkText,
+        ClassName,
+        TagName
+
+
     }
 }

@@ -4,6 +4,8 @@ using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;
 using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.Tests.Providers;
+using System.Collections.Generic;
+using OpenQA.Selenium.Support.UI;
 
 namespace Automation_Framework.Tests.Pages
 {
@@ -11,13 +13,23 @@ namespace Automation_Framework.Tests.Pages
     {
         public Navigation(DriverBuilder driver) : base(driver) { }
         public IButton SignInButton => new WebElement(Driver, "//button[@id='SignInButton']",Selector.Xpath);
-        public IInputField SearchBar => new WebElement(Driver, "//input[@id='mui-68877']", Selector.Xpath);
-        public IButton Logo => new WebElement(Driver, "//img[@id='Logo']", Selector.Xpath);
+        public IInputField SearchBar => new WebElement(Driver, ".MuiInputBase-root.MuiOutlinedInput-root.MuiAutocomplete-inputRoot.jss1.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd", Selector.Css);
+
+        public IInputField SearchBarDropDown => new WebElement(Driver, "div.css-1optmax > div > div > div > input", Selector.Css);
+       
+        public IButton DropdownNoOption => new WebElement(Driver, "MuiAutocomplete-noOptions", Selector.ClassName);
+
+        public IButton DropdownAWhiskerAway => new WebElement(Driver, "//li[contains(text(),'A Whisker Away')]", Selector.Xpath);
+
+        public IButton DropdownDemonSlayer => new WebElement(Driver, "//li[contains(text(),'Demon Slayer the Movie: Mugen Train')]", Selector.Xpath);
+
+        public IButton Logo => new WebElement(Driver, "//img[@id='Logo']", Selector.Xpath); 
         public IButton RegisterButton => new WebElement(Driver, "//button[@id='RegisterButton']", Selector.Xpath);
         public IButton MyMovieButton => new WebElement(Driver, "//a[@href='#/orders']//button[@id='OrdersPageButton']", Selector.Xpath);
         public IButton ProfileButton => new WebElement(Driver, "//a[@href='#/profile']//button[@id='OrdersPageButton']", Selector.Xpath);
         public IButton SignOutButton => new WebElement(Driver, "//button[@id='SignOutButton']", Selector.Xpath);
-        public IButton SettingsButton => new WebElement(Driver, "//*[name()='path' and contains(@d,'M413.967 2')]", Selector.Xpath);
+        public IButton SettingsButton => new WebElement(Driver, "(//*[name()='svg'][@class='css-t5s0nn'])[1]", Selector.Xpath);
+        //a[@href='#/admin/bugs']//*[name()='svg']
 
         /*public IWebElement SearchBar => Driver.FindElement(By.XPath("//input[@id='mui-68877']"));
         public IWebElement Logo => Driver.FindElement(By.XPath("//img[@id='Logo']"));
@@ -36,7 +48,7 @@ namespace Automation_Framework.Tests.Pages
 
         //Functions
 
-       // public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
+        // public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
         public void ClickSearchBar() => SearchBar.ClickOnElement();
         //Driver.ClickOnElement(SearchBar);
         public void FillSearchBar(string searchBar) => SearchBar.SendKeys(searchBar);
@@ -55,8 +67,12 @@ namespace Automation_Framework.Tests.Pages
         public void ClickSignOut() => SignOutButton.ClickOnElement();
         //Driver.ClickOnElement(SignOutButton);
         public void ClickSettings() => SettingsButton.ClickOnElement();
+
+        // public List<string> GetAllOptionsFromSearchbar() => SearchBarDropDown.GetAllOptionsFromSelectTagDropDown();
+        public void ClickDropDrownElement(IButton button) => button.ClickOnElement();
+
         //Driver.ClickOnElement(SettingsButton);
 
-      //  public void Wait() => WaitExtension.Wait(Driver);
+        //  public void Wait() => WaitExtension.Wait(Driver);
     }
 }

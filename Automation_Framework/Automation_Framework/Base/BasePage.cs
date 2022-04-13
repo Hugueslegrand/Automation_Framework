@@ -1,8 +1,8 @@
 ﻿using Automation_Framework.Builders;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
+using System.Threading;
 
 namespace Automation_Framework.Base
 {
@@ -17,7 +17,15 @@ namespace Automation_Framework.Base
             AndroidDriver = driver._androidDriver;
             IOSDriver = driver._iosDriver;
         }
-    
 
-   }
+        public void WaitSeconds(int seconds)
+        {
+            Thread.Sleep(seconds * 1000);
+        }
+    
+        public void SendKeys(string keys)
+        {
+            SendKeys(keys);
+        }
+    }
 }

@@ -14,6 +14,7 @@ namespace Automation_Framework.Extensions.WebDriver
 
         public static IList<IWebElement> FindElementAboveZero(this IWebDriver driver, By by)
         {
+
             driver.Wait().Until(x => x.FindElements(by).Count > 0);
             return driver.FindElements(by);
         }

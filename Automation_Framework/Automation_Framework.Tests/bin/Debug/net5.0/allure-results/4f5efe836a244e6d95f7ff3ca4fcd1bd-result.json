@@ -1,0 +1,113 @@
+{
+  "uuid": "3b906ad3-d6c1-4ec4-b7cb-e03ddf554f52-tr-0-1035",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.Test_RemoveRegisteredUsers",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.Test_RemoveRegisteredUsers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RemoveRegisteredUsers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "Test_RemoveRegisteredUsers",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[contains(.,'2pac_wzt@coast.com')]/child::td[last()]\"}\n  (Session info: chrome=100.0.4896.75)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 65\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.RemoveButtonUserByEmail(String email) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 45\r\n   at Automation_Framework.Tests.Tests.TestRegistration.Test_RemoveRegisteredUsers() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegistration.cs:line 128\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Delete registered Users for continious testing\n",
+  "steps": [
+    {
+      "name": "Test_RemoveRegisteredUsers",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[contains(.,'2pac_wzt@coast.com')]/child::td[last()]\"}\n  (Session info: chrome=100.0.4896.75)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 65\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.RemoveButtonUserByEmail(String email) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 45\r\n   at Automation_Framework.Tests.Tests.TestRegistration.Test_RemoveRegisteredUsers() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRegistration.cs:line 128\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = c3f4b84f-c8ab-45be-b874-43f6a7fd23ab) clicked",
+          "source": "d426069fa096402cb95500339dcda528-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 7251dfed-4090-4ddc-a6b1-1ff035b49c6a) clicked",
+          "source": "579b354c40924437aafb239e8fd278ef-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = 7251dfed-4090-4ddc-a6b1-1ff035b49c6a)`",
+          "source": "01b7fcc5b15b40b08b8e1f7c8c9f1300-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ffc1a8cd-9ac1-4957-a1a1-d31406ef26ca) clicked",
+          "source": "5789d067e2594754bd3117bdd00762be-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = ffc1a8cd-9ac1-4957-a1a1-d31406ef26ca)`",
+          "source": "397e02ba8627468b81b0397f0494a766-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5baaf373-fdd4-4166-b322-6c97ef19249a) clicked",
+          "source": "680aa800b7d548efac1e72d9cf1bbcfc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = a1a2afe7-ee20-4f58-95eb-780edbca1755) clicked",
+          "source": "8d5f614d205e484c992d590939a88395-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 5178cb3f-8424-41f9-9345-a15dfb407467) clicked",
+          "source": "8713d13e9db34896b30636c4869de6b5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e743dcd8-6fef-49c3-a49c-1455a90a4574) clicked",
+          "source": "1d862469c3534a0e810a887cf982dfaf-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2800192f79f2430f8515d13f9756bbf1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649854926334,
+      "stop": 1649854954104
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649854926334,
+  "stop": 1649854954104
+}

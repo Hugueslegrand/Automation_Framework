@@ -1,0 +1,108 @@
+{
+  "uuid": "7b37bbe4-534d-419b-999b-48ea5ada208e-tr-0-1039",
+  "historyId": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_InsufficientCredits",
+  "fullName": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_InsufficientCredits",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RentMovieButton_InsufficientCredits"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovieButton"
+    }
+  ],
+  "links": [],
+  "name": "Test_RentMovieButton_InsufficientCredits",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected homePage.GetInnerText_Warning() \"Woopsie!\r\nYou already rented this movie.\" to contain \"Insufficient credits.\".",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_InsufficientCredits() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRentMovieButton.cs:line 74\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton - not suffcient credits\n",
+  "steps": [
+    {
+      "name": "Test_RentMovieButton_InsufficientCredits",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected homePage.GetInnerText_Warning() \"Woopsie!\r\nYou already rented this movie.\" to contain \"Insufficient credits.\".",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_InsufficientCredits() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRentMovieButton.cs:line 74\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = e8f7b251-0eea-4004-bedd-14179f55a175) clicked",
+          "source": "eb6f53717813433f92b6931cda6cb8df-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c4cc94c8-adc8-4f9f-8035-32cb873068d7) clicked",
+          "source": "fa6f972447cd44ee84f0d198b8dfb29f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie@button.test` entered in `Element (id = c4cc94c8-adc8-4f9f-8035-32cb873068d7)`",
+          "source": "e6ca542c208d484baa7ffa8e7da0c956-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 3b55f25b-17f3-43e4-aeda-c4b551d1fc9d) clicked",
+          "source": "7d54ea7e3f5f46d080124647eb2c595f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie` entered in `Element (id = 3b55f25b-17f3-43e4-aeda-c4b551d1fc9d)`",
+          "source": "aa60b1047afb44d0a9adeac56d59c74e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0ba209f9-c330-4819-8ca9-5b1869e27ecf) clicked",
+          "source": "74aacc2895b34325b3b097f6940fade7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 898b9310-9b24-481f-8fdd-d17abe7ca0e7) clicked",
+          "source": "6c122d881854473680e385a1bdc2285c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f1038b3d-7423-4c4b-9792-a95540759b1e) clicked",
+          "source": "f04665d84a9d4623bf01603435451e3c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "988d0cd7311242dd975cfef8607466ef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649855118306,
+      "stop": 1649855137000
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649855118306,
+  "stop": 1649855137000
+}

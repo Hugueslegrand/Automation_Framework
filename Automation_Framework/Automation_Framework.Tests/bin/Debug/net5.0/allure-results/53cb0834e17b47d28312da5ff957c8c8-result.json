@@ -1,0 +1,75 @@
+{
+  "uuid": "78903816-4c2c-464b-a838-7dbb01a1c41c-tr-0-1040",
+  "historyId": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_Unsigned",
+  "fullName": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_Unsigned",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RentMovieButton_Unsigned"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovieButton"
+    }
+  ],
+  "links": [],
+  "name": "Test_RentMovieButton_Unsigned",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RentMovieButton_Unsigned"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton - renting movie while not logged in\n",
+  "steps": [
+    {
+      "name": "Test_RentMovieButton_Unsigned",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 3347ff3b-5a41-4e7f-8e84-80d13d5bc9c0) clicked",
+          "source": "cc59e7e509c0488faffecdbaa5d3ae7c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 21b0ae37-82f3-49f5-9569-9aa7d2070946) clicked",
+          "source": "adfe8b95421c4c9e93ad49f3ed5e96a6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "59319ec9ae01479fac2f606bc720814a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649855137003,
+      "stop": 1649855151070
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649855137003,
+  "stop": 1649855151070
+}

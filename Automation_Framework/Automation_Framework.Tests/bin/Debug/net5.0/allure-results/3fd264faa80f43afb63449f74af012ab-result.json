@@ -1,0 +1,100 @@
+{
+  "uuid": "4dd5127f-c030-4c8d-b693-0b172d773e10-tr-0-1018",
+  "historyId": "Automation_Framework.Tests.Tests.TestOrders.Test_Orders",
+  "fullName": "Automation_Framework.Tests.Tests.TestOrders.Test_Orders",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Orders"
+    },
+    {
+      "name": "testClass",
+      "value": "TestOrders"
+    }
+  ],
+  "links": [],
+  "name": "Test_Orders",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Orders"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user\n",
+  "steps": [
+    {
+      "name": "Test_Orders",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = f8e2724f-8c0b-4a99-84d6-d2d80cf09b03) clicked",
+          "source": "6d1e0b8558f8404082ae50badd003c18-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e16d5693-b8fe-4734-9c1d-81fc64c8d13b) clicked",
+          "source": "56ff94f1df7b4a7aaee38acfc8455a7e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = e16d5693-b8fe-4734-9c1d-81fc64c8d13b)`",
+          "source": "eb99c9458d8440418b3eba2182ff1c55-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d454fb9f-4a42-4e8f-b5d6-c7b98a1b98b0) clicked",
+          "source": "a8a8ef9ae31f42c48f1769a1e2c8346c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = d454fb9f-4a42-4e8f-b5d6-c7b98a1b98b0)`",
+          "source": "482de84c36d2435c9f2421105c3679e7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 486109de-4421-4671-8ecb-74de5abe8aee) clicked",
+          "source": "5ffa142d436441cea431178926d0fcd0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4b2ae248-22bd-4ec7-a0c1-ced69f33afc0) clicked",
+          "source": "0447423b73e64899950e9eb8325b73f6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "7a0b7bc1aa884d70908b2f8ac3ea0756-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649854756496,
+      "stop": 1649854770611
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649854756496,
+  "stop": 1649854770611
+}

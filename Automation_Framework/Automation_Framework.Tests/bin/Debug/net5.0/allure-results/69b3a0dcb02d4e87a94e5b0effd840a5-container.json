@@ -1,0 +1,44 @@
+{
+  "uuid": "fcbd5441-09c9-4f42-9b36-e8b7ed8afb79-tc-0-1008",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_FooterElements",
+  "children": [
+    "1b8d1286-7851-44c0-a6f2-b1da425ce83a-tr-0-1016"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649854653089,
+      "stop": 1649854653089
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649854653089,
+      "stop": 1649854653089
+    }
+  ],
+  "links": [],
+  "start": 1649854641485,
+  "stop": 1649854653090
+}

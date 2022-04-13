@@ -1,0 +1,44 @@
+{
+  "uuid": "a03fefc9-4495-4522-85ca-21fb414979e8-tc-0-1042",
+  "name": "Automation_Framework.Tests.Tests.TestSearchBar.Test_SearchBar_Functionality",
+  "children": [
+    "fe7ada0e-f3d7-4796-9c15-03faaee54b50-tr-0-1044"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649855251397,
+      "stop": 1649855251397
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649855251397,
+      "stop": 1649855251397
+    }
+  ],
+  "links": [],
+  "start": 1649855208208,
+  "stop": 1649855251398
+}

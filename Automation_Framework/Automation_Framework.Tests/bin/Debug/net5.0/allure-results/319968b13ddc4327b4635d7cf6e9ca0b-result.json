@@ -1,0 +1,105 @@
+{
+  "uuid": "403b6121-f0e5-4a19-bc83-d734af20af5a-tr-0-1038",
+  "historyId": "Automation_Framework.Tests.Tests.TestRentMovieButton.TestRentMovieButtonAlreadyRented",
+  "fullName": "Automation_Framework.Tests.Tests.TestRentMovieButton.TestRentMovieButtonAlreadyRented",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRentMovieButtonAlreadyRented"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovieButton"
+    }
+  ],
+  "links": [],
+  "name": "TestRentMovieButtonAlreadyRented",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRentMovieButtonAlreadyRented"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton - movie is already rented\n",
+  "steps": [
+    {
+      "name": "TestRentMovieButtonAlreadyRented",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 16ee9309-ac27-41ff-a34e-30cde66a23bd) clicked",
+          "source": "a0f0e993e0064220a7cbdfb6b76c1cf7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 1ede38ef-deeb-41c1-b321-a421c13380bb) clicked",
+          "source": "90dda373005a4f4d8657fa59434bf954-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie@button.test` entered in `Element (id = 1ede38ef-deeb-41c1-b321-a421c13380bb)`",
+          "source": "291ed1a2af214f5095ae1c72d44b5e6d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 953eb624-3b1b-48ed-8ccc-458d59114748) clicked",
+          "source": "cbac6cf16f0f47a49dcafb0510e3f898-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie` entered in `Element (id = 953eb624-3b1b-48ed-8ccc-458d59114748)`",
+          "source": "76ddc2b9f2a04fe09ea311de77b8553d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 97363fbb-3fef-426c-9609-0dc647b126ed) clicked",
+          "source": "ef765cfb7c404a8092063dc7979fb81d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 692b186c-36af-48e8-8505-aba1c65f0be5) clicked",
+          "source": "284ef14ef87942e4b3b6411c1a896347-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9aa2609c-61ef-473b-88d7-81e9f7429c4c) clicked",
+          "source": "d977d4727d144db4ae5c3666fc969ddc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "770d97cf097343b3991934770351f6a4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649855101191,
+      "stop": 1649855118305
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649855101191,
+  "stop": 1649855118305
+}

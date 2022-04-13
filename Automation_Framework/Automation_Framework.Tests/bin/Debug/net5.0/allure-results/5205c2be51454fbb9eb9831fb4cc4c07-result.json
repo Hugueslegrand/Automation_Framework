@@ -1,0 +1,70 @@
+{
+  "uuid": "1b8d1286-7851-44c0-a6f2-b1da425ce83a-tr-0-1016",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_FooterElements",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_FooterElements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_FooterElements"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_FooterElements",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_FooterElements"
+  },
+  "stage": "finished",
+  "description": "All the neccesary elements are available in the footer and work accordingly [1.5]\n",
+  "steps": [
+    {
+      "name": "Test_FooterElements",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 1008b75e-117b-4cfd-9ed1-9d2bc894f015) clicked",
+          "source": "83c8890c933f47bb8ea7eb3002928d9f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "97f28cda1d184277830270745ad67e21-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649854641485,
+      "stop": 1649854653089
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649854641485,
+  "stop": 1649854653089
+}

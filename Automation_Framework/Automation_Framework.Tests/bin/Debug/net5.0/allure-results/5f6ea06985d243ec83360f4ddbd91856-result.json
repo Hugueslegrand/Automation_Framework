@@ -1,0 +1,120 @@
+{
+  "uuid": "b4d9b9aa-c43c-4df6-a1bd-54805411e322-tr-0-1021",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_AddPayment",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_AddPayment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AddPayment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_AddPayment",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_AddPayment"
+  },
+  "stage": "finished",
+  "description": "Test: Add credits to profile (3,3)\n",
+  "steps": [
+    {
+      "name": "Test_AddPayment",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = dd6dcc8f-4868-4909-80e7-07951c8370f4) clicked",
+          "source": "53da923d6a6c4c18a7b82f9b6e0c86e4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 411d799a-602f-4bf9-a88e-b915167977e2) clicked",
+          "source": "62df82e86c4242b69f7c9a19ead7523d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 411d799a-602f-4bf9-a88e-b915167977e2)`",
+          "source": "b2e60aae7b8843dfaf05af47e2a3cb3f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ce22eec9-d7e6-42e1-8e43-b24c95c3c947) clicked",
+          "source": "87e4331d7e324c858ad7d217303d086a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = ce22eec9-d7e6-42e1-8e43-b24c95c3c947)`",
+          "source": "e1d3f116fb47456e8d503214b2fafa9d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 75e85678-e219-4110-a848-a1a053f39b13) clicked",
+          "source": "76462b7ad2444569810e758793601561-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 96ab60ad-cd9a-450c-8dcc-4faa1def5914) clicked",
+          "source": "3c9cbcefc8214d06abc72b7634c3d494-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2eca5412-ae66-4a8d-9733-9b05d99da667) clicked",
+          "source": "f132b82553fd48e1ac3cc4dc2f3126cc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c79271d9-b297-43c6-aa23-a5d6d664b8b7) clicked",
+          "source": "1e333bd36e834c1d89906fa87cd9692f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `30` entered in `Element (id = c79271d9-b297-43c6-aa23-a5d6d664b8b7)`",
+          "source": "8fda324052f5487faeabe83e9087add3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 42644208-b1c9-432e-883a-8e67f11403ff) clicked",
+          "source": "875f14893c1d463b839661a479061b45-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a883034b139d4bdc9adcbd64d157d899-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649854845886,
+      "stop": 1649854869601
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649854845886,
+  "stop": 1649854869601
+}

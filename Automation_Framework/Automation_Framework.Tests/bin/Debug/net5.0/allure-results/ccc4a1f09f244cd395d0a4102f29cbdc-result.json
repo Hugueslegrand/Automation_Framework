@@ -1,0 +1,100 @@
+{
+  "uuid": "69a9310f-ced3-4f1a-b049-2368bbce6192-tr-0-1032",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUnmatchingPasswords",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUnmatchingPasswords",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterUnmatchingPasswords"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterUnmatchingPasswords",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRegisterUnmatchingPasswords"
+  },
+  "stage": "finished",
+  "description": "Register an user with no matching passwords\n",
+  "steps": [
+    {
+      "name": "TestRegisterUnmatchingPasswords",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 73f040fb-b781-491f-929d-cfdfcfdeda0c) clicked",
+          "source": "5a9406092c794c12901b067457b9d569-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Biggie` entered in `Element (id = 73a0198e-01d7-4210-9cb9-186cb132f1e1)`",
+          "source": "c3b9327344c54756a17c1c4bde02302f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Smalls` entered in `Element (id = 8c834a6f-9444-4cf7-8f84-c61e882357ce)`",
+          "source": "52833df1c6b549de9c1b79c094b48c22-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `BiggieZ_East@Coast.com` entered in `Element (id = b7d5397a-95cf-4490-bfec-46198b514e9b)`",
+          "source": "295f8b7875794ad0bb9ab5b5d5284769-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `biggie` entered in `Element (id = b9d42549-73e3-4b16-ad7e-f80dd040fb0d)`",
+          "source": "87e85b772aab4303806b3f086653bb86-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `biggieZZZZZZZ` entered in `Element (id = 08eb85ea-a1c3-41ba-8fe4-c84928413fcb)`",
+          "source": "b3d7cfda49cc41dd9de23b6131568fdf-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9ba82db2-6644-45a2-85df-db6de76236ed) clicked",
+          "source": "8adfea9caf2a4a76abc35a125c6acc65-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c644b9f339ae4d42a9908a33971d6142-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649855013825,
+      "stop": 1649855028267
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649855013825,
+  "stop": 1649855028267
+}

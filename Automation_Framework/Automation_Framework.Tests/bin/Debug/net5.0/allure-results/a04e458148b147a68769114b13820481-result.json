@@ -1,0 +1,120 @@
+{
+  "uuid": "3c2c6c6a-5bff-4e62-a4a4-6d0b8a4da9dc-tr-0-1023",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_Decimal_Numbers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Add_Credits_To_Profile_Decimal_Numbers"
+  },
+  "stage": "finished",
+  "description": "Test: Add credits to profile (decimal numbers input) (3,5)  \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_Decimal_Numbers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 7931ba67-bc36-49f3-a7dd-3aefa39e2c6d) clicked",
+          "source": "4ed24dd055994832af41f7adcbfc6442-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e6b46106-3b52-439a-b4c0-be15d42985eb) clicked",
+          "source": "e14e696086b4488e966e94652466df7b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = e6b46106-3b52-439a-b4c0-be15d42985eb)`",
+          "source": "5d1ee7cc57654f078cd512ba9d24e1ae-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 1f50c605-14fc-4b3a-98e2-01a2be52882e) clicked",
+          "source": "adc0968a2f094b5db758bc6c8a6c8480-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = 1f50c605-14fc-4b3a-98e2-01a2be52882e)`",
+          "source": "89b2eeaec0bc4a95836da60c7a5a0027-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c86e8a3d-6053-416f-9904-a5f5c42ce49a) clicked",
+          "source": "e4acb3fb439944f0b5bddf7f190d89bd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 38175bc9-1e97-46ea-9f17-1cd84967e4fc) clicked",
+          "source": "2e9703be40fd4f66b846bd02c996bb8d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c46c18fd-9c7d-4943-8174-4408b41e8222) clicked",
+          "source": "93cc338898a449cbbc7da4b9bc13188c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9f80bb9e-ce8e-4c61-ba55-9a19a055e207) clicked",
+          "source": "095e1332a2a0483693fd90da25954a61-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `7.566` entered in `Element (id = 9f80bb9e-ce8e-4c61-ba55-9a19a055e207)`",
+          "source": "ed154422769a4d99a340b825c2e64fe0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 49497db4-6794-4b8a-8d8c-e2128b705d82) clicked",
+          "source": "253fb4795f2744e38d9010c441bc1ec3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "bacbd03dc8bd47e3962acc39ed2705a5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649854770613,
+      "stop": 1649854796124
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649854770613,
+  "stop": 1649854796124
+}

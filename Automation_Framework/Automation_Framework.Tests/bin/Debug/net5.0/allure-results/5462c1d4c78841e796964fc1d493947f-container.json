@@ -1,0 +1,44 @@
+{
+  "uuid": "95de0ac1-d1ce-4721-b878-b16c319c5aad-tc-0-1019",
+  "name": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_nonNumberInput",
+  "children": [
+    "f236f952-82c4-4fbd-84e5-57cf4df4aa1a-tr-0-1022"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649854845884,
+      "stop": 1649854845884
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649854845884,
+      "stop": 1649854845884
+    }
+  ],
+  "links": [],
+  "start": 1649854822035,
+  "stop": 1649854845885
+}

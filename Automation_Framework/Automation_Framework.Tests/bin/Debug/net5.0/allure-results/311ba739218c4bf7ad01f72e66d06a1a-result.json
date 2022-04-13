@@ -1,0 +1,173 @@
+{
+  "uuid": "88861ba1-70a5-462f-adf6-05e3cbffbd8c-tr-0-1037",
+  "historyId": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_NotYetRented",
+  "fullName": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_NotYetRented",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RentMovieButton_NotYetRented"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovieButton"
+    }
+  ],
+  "links": [],
+  "name": "Test_RentMovieButton_NotYetRented",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected homePage.GetInnerText_Warning() \"Woopsie!\r\nYou already rented this movie.\r\nJackpot!\r\nCredits are added to your wallet!\" to contain \"added to My Movies!\".",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_NotYetRented() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRentMovieButton.cs:line 42\r\n"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton Setup Loop - register and buy 5 credits, then rent movie not yet rented\n",
+  "steps": [
+    {
+      "name": "Test_RentMovieButton_NotYetRented",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected homePage.GetInnerText_Warning() \"Woopsie!\r\nYou already rented this movie.\r\nJackpot!\r\nCredits are added to your wallet!\" to contain \"added to My Movies!\".",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\r\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_NotYetRented() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRentMovieButton.cs:line 42\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 1caeb593-53f5-43c4-a31d-46a33eb8a6c1) clicked",
+          "source": "b3a76cb7f6474a65acc1b8d477e6942d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Test` entered in `Element (id = fcadd63e-596f-451c-be5e-930530b7fa6a)`",
+          "source": "8098691e5ea64dcba3c0d42e2212a0b6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Renter` entered in `Element (id = 11bcaefd-2020-4691-b104-08252e5c0761)`",
+          "source": "ac0ab7e2ffcb4723879c6d6eda390c70-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie@button.test` entered in `Element (id = 5014d12d-439b-4f2c-8408-e37ccc797749)`",
+          "source": "b202baa02b4d406589b972e2d731fd16-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie` entered in `Element (id = 53094e2f-e826-4ffe-a7d6-0c50ad1dba22)`",
+          "source": "1c9d82f1a8f941e79491a116a51d6793-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie` entered in `Element (id = fd21c2b7-05f4-41b1-b2ad-9e823bae406f)`",
+          "source": "feef2f6d1041496cbb96c3a0fe9a7824-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8c98eb7d-f0b0-4187-a960-a7d5c13c0874) clicked",
+          "source": "89a64c1583f342249d4259199d47df5a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0ca267ca-90be-44da-9e2a-e334951b9c8d) clicked",
+          "source": "28736581b8cd427a9f1479be6ff3b7f6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 3c4ac3f3-cf5d-4830-a2c9-779e29908d2e) clicked",
+          "source": "0ccc225fc5ad4e45a1f820e1df7980ed-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie@button.test` entered in `Element (id = 3c4ac3f3-cf5d-4830-a2c9-779e29908d2e)`",
+          "source": "f8a6cb15ec974cec949123d3dabf3c81-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2dd9aa5b-a726-4dee-b110-19ed5ff4fa2d) clicked",
+          "source": "b30aa7b07c844ae3be3e822fc1aba25d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie` entered in `Element (id = 2dd9aa5b-a726-4dee-b110-19ed5ff4fa2d)`",
+          "source": "347352925d454fce86856104c2ac940f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d1f62a17-d7c3-4bf2-8124-76f8a9b4ba1f) clicked",
+          "source": "cf5c5d0fd8674ea39f35f36aa4adf855-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8375577b-f6f1-476f-8679-a68ab12b5b8f) clicked",
+          "source": "f5a5de40b1d4481db595c3ea1e38a055-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c57e74da-d7da-4d3c-9910-f3a3e1cd1cc4) clicked",
+          "source": "80739a72ab3b4901bf0a44eb67ab99c9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = fc634434-c8c6-4b3a-b24f-61ad44a42f96) clicked",
+          "source": "dacf86a6e69440808093361d8799806a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `5` entered in `Element (id = fc634434-c8c6-4b3a-b24f-61ad44a42f96)`",
+          "source": "ea52f02cbe0d4c15ada2f384ba196692-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = e7400b03-8b0b-42e8-a662-0c075c6b382b) clicked",
+          "source": "27f37b057d684e14aab0944df3adc29a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9dd7f2a2-38a6-42b6-8517-43787e52cc4c) clicked",
+          "source": "9ce457c7d72040dcab095b334c33138b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 562292c9-7928-4488-8eb0-b7ac2f65a7c8) clicked",
+          "source": "002dd102bcd742e996d936046f7d8c97-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 146c17b5-78c9-40ab-a6c5-b4d40160c743) clicked",
+          "source": "162978c20eaf41da9be07227e2a671f7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5c6460b5d3524ea58f22a634c150fa1c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649855067609,
+      "stop": 1649855101190
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649855067609,
+  "stop": 1649855101190
+}

@@ -1,0 +1,105 @@
+{
+  "uuid": "91894e19-3468-405f-9943-606ae01ac3fe-tr-0-1004",
+  "historyId": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel_BugsOFf",
+  "fullName": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel_BugsOFf",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AdminPanel_BugsOFf"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAdminPanel"
+    }
+  ],
+  "links": [],
+  "name": "Test_AdminPanel_BugsOFf",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_AdminPanel_BugsOFf"
+  },
+  "stage": "finished",
+  "description": "Test: Set-Up for Testing by setting of all Bugs\n",
+  "steps": [
+    {
+      "name": "Test_AdminPanel_BugsOFf",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 69173ba1-a81d-491c-bea8-67e8c0253234) clicked",
+          "source": "680c35f413a34cb9bb86a590154f0723-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 1889f4d5-862e-4091-a1cf-ab0b943082d8) clicked",
+          "source": "c4d0c871fec8480698320bcb03dceb7f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = 1889f4d5-862e-4091-a1cf-ab0b943082d8)`",
+          "source": "b34c070e3eee4612929ca107d904810a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ae5d8d42-5eb4-4e41-a2b9-9497abc0ee2f) clicked",
+          "source": "23ca65ee124c4896884ff65194cc08c8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = ae5d8d42-5eb4-4e41-a2b9-9497abc0ee2f)`",
+          "source": "7644ea1fbbb445d498b8baf132fe0aa3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d2f11301-7520-4d6c-9f78-a2a8ce798e7f) clicked",
+          "source": "7967c68b01bd423c8077cd2b63c09e99-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 7f7fa2fc-646c-40b2-83c3-9eb161412c76) clicked",
+          "source": "c18e1633614149008cda1798a398a829-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0e5b79f6-ce97-46cd-8102-f9afae2d223d) clicked",
+          "source": "c1e709f109434104ae83b217dd3c5d78-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "dae5dff717be4fa2a481b48b7b507a82-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649854606000,
+      "stop": 1649854627793
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649854606000,
+  "stop": 1649854627793
+}

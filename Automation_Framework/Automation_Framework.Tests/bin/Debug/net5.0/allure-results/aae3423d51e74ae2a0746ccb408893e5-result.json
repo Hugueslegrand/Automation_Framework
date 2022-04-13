@@ -1,0 +1,108 @@
+{
+  "uuid": "930aa592-512e-471c-85fb-eb64dafa3685-tr-0-1041",
+  "historyId": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter",
+  "fullName": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RemoveRenter"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovieButton"
+    }
+  ],
+  "links": [],
+  "name": "Test_RemoveRenter",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[contains(.,'rentmovie@button.test')]/child::td[last()]\"}\n  (Session info: chrome=100.0.4896.75)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 65\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.RemoveButtonUserByEmail(String email) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 45\r\n   at Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRentMovieButton.cs:line 108\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton - remove renter for continious testing\n",
+  "steps": [
+    {
+      "name": "Test_RemoveRenter",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[contains(.,'rentmovie@button.test')]/child::td[last()]\"}\n  (Session info: chrome=100.0.4896.75)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 65\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.RemoveButtonUserByEmail(String email) in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 45\r\n   at Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter() in C:\\Users\\Khalid EM\\Desktop\\Autmoation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestRentMovieButton.cs:line 108\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = ea8b2493-4036-4ea9-a869-2988aa28f225) clicked",
+          "source": "a35922a1285e4a43a947fe97f0fac981-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 73fc4514-647e-42cc-a6b8-55ac71b70a99) clicked",
+          "source": "0b228c0ef1f446c7a637e968a823aad0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = 73fc4514-647e-42cc-a6b8-55ac71b70a99)`",
+          "source": "5dd9d96ecdcd479bbf10129f710b9088-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2ad41d23-de2f-4a3a-acbd-d8335ac7e7a8) clicked",
+          "source": "2dc0591b80924cc99a6c15020e7b48ba-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = 2ad41d23-de2f-4a3a-acbd-d8335ac7e7a8)`",
+          "source": "3a0d4970adb44d17ba7e44e584a997ce-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 91192c46-f1fa-406c-b2ed-107cabea5a8b) clicked",
+          "source": "1dc953eb07074ed2b6bd8d585a33375a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 45c3231a-5fe2-4150-b324-26d3fa8e0ffd) clicked",
+          "source": "42426bf3850541198ce37a8dee643262-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 1b2d8148-c687-46e1-9a31-cd3ed71939c8) clicked",
+          "source": "a667db729fd04297a5540380cf32bbfd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c3278d078cff4ddaba1943ca1bd20e69-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649855151072,
+      "stop": 1649855177849
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649855151072,
+  "stop": 1649855177849
+}

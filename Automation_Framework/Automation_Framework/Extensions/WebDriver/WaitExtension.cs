@@ -9,9 +9,9 @@ namespace Automation_Framework.Extensions.WebDriver
 {
     public static class WaitExtension
     {
-        public static void WaitTemp(this IWebDriver driver)
+        public static void WaitTemp(int seconds)
         {
-            Thread.Sleep(6000);
+            Thread.Sleep(seconds*1000);
         }
         public static WebDriverWait Wait(this IWebDriver driver)
         {

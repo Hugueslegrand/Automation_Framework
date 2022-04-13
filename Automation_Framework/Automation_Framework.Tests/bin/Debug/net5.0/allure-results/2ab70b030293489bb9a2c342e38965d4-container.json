@@ -1,0 +1,44 @@
+{
+  "uuid": "27b22d8b-968a-4c35-b5d9-4795e0950186-tc-0-1003",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "children": [
+    "3bf64c6b-3158-450a-baa3-b368d313800c-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1648553397285,
+      "stop": 1648553397285
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1648553397286,
+      "stop": 1648553397286
+    }
+  ],
+  "links": [],
+  "start": 1648553384910,
+  "stop": 1648553397330
+}

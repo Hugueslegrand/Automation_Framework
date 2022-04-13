@@ -1,0 +1,113 @@
+{
+  "uuid": "e7356844-1ccb-4184-93a0-8bc2267471e0-tr-0-1003",
+  "historyId": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel",
+  "fullName": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "14"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-DSJ2QAJ"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AdminPanel"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAdminPanel"
+    }
+  ],
+  "links": [],
+  "name": "Test_AdminPanel",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 49\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.get_HamburgerMenu() in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 15\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.ClickHamburgerMenu() in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 21\r\n   at Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel() in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestAdminPanel.cs:line 73"
+  },
+  "stage": "finished",
+  "description": "Test: Set-Up for Testing by setting of all Bugs\n",
+  "steps": [
+    {
+      "name": "Test_AdminPanel",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 49\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.get_HamburgerMenu() in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 15\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.ClickHamburgerMenu() in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 21\r\n   at Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel() in C:\\Users\\ibras\\Desktop\\Stage\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestAdminPanel.cs:line 73"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 0fa534af-63cb-4b53-84bd-ff5c396e947f) clicked",
+          "source": "76b0ee41adb94ea7aa68d87bdb1e6522-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 71882c3c-4e48-48c5-b8d7-d5870d8e66b7) clicked",
+          "source": "af9169b1fd694982963d0cbd9e724316-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = 71882c3c-4e48-48c5-b8d7-d5870d8e66b7)`",
+          "source": "22a788ecd27e4bd0b3130eae32083581-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 210abb38-9a60-4950-955d-8002686b8725) clicked",
+          "source": "f808247c343240aea5c0c3ab05c4c3e9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = 210abb38-9a60-4950-955d-8002686b8725)`",
+          "source": "ee0fe3ec5c274163983961f0666be06a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 98455a5d-e9e1-4657-aa54-d0901da4066c) clicked",
+          "source": "01602e21297e4f7e9445215ed6743606-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = bea4557b-3476-4fb9-bbf7-ce2186b88424) clicked",
+          "source": "bcf32d6fb5af4aceba8091398d267390-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ee7b8837-c60a-4f42-a895-b7ffd59d222d) clicked",
+          "source": "6bda924356c549439b9c5cb06c50c3e1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c3047b92-8ecc-4fb9-bdcd-1ed73254e203) clicked",
+          "source": "cfb44a5add944be0b55488d4d1b3bd58-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ed7423a7de2144ed848b7829ffaa326d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649835982131,
+      "stop": 1649836039544
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649835982130,
+  "stop": 1649836039546
+}

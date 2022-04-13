@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj": {}
+    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj": {
+    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj",
         "projectName": "Automation_Framework.Tests",
-        "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj",
+        "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj",
         "packagesPath": "C:\\Users\\hugue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\obj\\",
+        "outputPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
-                "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj"
+              "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
+                "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
+    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
         "projectName": "Automation_Framework",
-        "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
+        "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
         "packagesPath": "C:\\Users\\hugue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\obj\\",
+        "outputPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -143,6 +143,10 @@
             "DotNetSeleniumExtras.WaitHelpers": {
               "target": "Package",
               "version": "[3.11.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.5.1, )"
             },
             "L": {
               "target": "Package",

@@ -84,8 +84,8 @@ namespace Automation_Framework.Tests.Pages
         //LOGS PAGE - WebElements
         public IButton TableHeadLogsType => new WebElement(Driver, "//div[contains(text(),'Type')]", Selector.Xpath);
         public IButton TableHeadLogsMethod => new WebElement(Driver, "//div[contains(text(),'Method')]", Selector.Xpath);
-        public IButton TableHeadLogsResponse => new WebElement(Driver, "//div[contains(text(),'Method')]", Selector.Xpath);
-        public IButton TableHeadLogsMessage => new WebElement(Driver, "//div[contains(text(),'Method')]", Selector.Xpath);
+        public IButton TableHeadLogsResponse => new WebElement(Driver, "//div[contains(text(),'Response')]", Selector.Xpath);
+        public IButton TableHeadLogsMessage => new WebElement(Driver, "//div[contains(text(),'Message')]", Selector.Xpath);
         public IButton TableHeadLogsPath => new WebElement(Driver, "//div[contains(text(),'Path')]", Selector.Xpath);
         public IButton TableHeadLogsDate => new WebElement(Driver, "//div[contains(text(),'Date')]", Selector.Xpath);
     }

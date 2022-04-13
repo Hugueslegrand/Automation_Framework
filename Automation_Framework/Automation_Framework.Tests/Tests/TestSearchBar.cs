@@ -48,23 +48,23 @@ namespace Automation_Framework.Tests.Tests
 
             navigation.SearchBarDropDown.SendKeys("A Whisker Away");
             navigation.DropdownAWhiskerAway.Should();
-            navigation.SearchBarDropDown.Clear();
+            navigation.SearchBarDropDown.ClearInput();
 
             navigation.SearchBarDropDown.SendKeys("Taxi 5");
             navigation.DropdownNoOption.Should();
-            navigation.SearchBarDropDown.Clear();
+            navigation.SearchBarDropDown.ClearInput();
 
             navigation.SearchBarDropDown.SendKeys("a whisker away");
             navigation.DropdownAWhiskerAway.Should();
-            navigation.SearchBarDropDown.Clear();
+            navigation.SearchBarDropDown.ClearInput();
 
             navigation.SearchBarDropDown.SendKeys("A WHISKER AWAY");
             navigation.DropdownAWhiskerAway.Should();
-            navigation.SearchBarDropDown.Clear();
+            navigation.SearchBarDropDown.ClearInput();
 
             navigation.SearchBarDropDown.SendKeys("Dèmön släyër thé mövïë: mùgèn tràïn");
             navigation.DropdownDemonSlayer.Should();
-            navigation.SearchBarDropDown.Clear();
+            navigation.SearchBarDropDown.ClearInput();
 
         }
     }

@@ -1,0 +1,113 @@
+{
+  "uuid": "e4360d36-4ea1-495f-b10d-164afdf88ba0-tr-0-1005",
+  "historyId": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel",
+  "fullName": "Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AdminPanel"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAdminPanel"
+    }
+  ],
+  "links": [],
+  "name": "Test_AdminPanel",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'Type')]\"}\n  (Session info: chrome=100.0.4896.75)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 65\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.get_TableHeadLogsType() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 85\r\n   at Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestAdminPanel.cs:line 67\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+  },
+  "stage": "finished",
+  "description": "Test: Set-Up for Testing by setting of all Bugs\n",
+  "steps": [
+    {
+      "name": "Test_AdminPanel",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'Type')]\"}\n  (Session info: chrome=100.0.4896.75)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 25\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 65\r\n   at Automation_Framework.Tests.Pages.AdminPanelPage.get_TableHeadLogsType() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\AdminPanelPage.cs:line 85\r\n   at Automation_Framework.Tests.Tests.TestAdminPanel.Test_AdminPanel() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestAdminPanel.cs:line 67\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 5da667ff-7607-47f2-8d4d-9e85ddbe9ce7) clicked",
+          "source": "499ea05e92c94d1196345a558d1478c8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 77a8a0ee-f1ae-47e3-a220-7b4aae45926b) clicked",
+          "source": "b14c00a3ea544814a8dc12de960a909d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `stageadmin@stageadmin.stageadmin` entered in `Element (id = 77a8a0ee-f1ae-47e3-a220-7b4aae45926b)`",
+          "source": "26cd585b58cb49519851e19fd8de0836-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 34c63e1e-4251-471a-8d2e-43ec06383cc8) clicked",
+          "source": "0806550338324dd997aac0175b857e84-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `StageAdmin0221!` entered in `Element (id = 34c63e1e-4251-471a-8d2e-43ec06383cc8)`",
+          "source": "86a4f55633084e8fb4b0d472239c28e9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 227e9bb6-4e62-4f54-a2c5-5236f584a0c9) clicked",
+          "source": "e354abc680914495aae36a50375cde3a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 59b67254-779f-4546-9840-aee207f9b92f) clicked",
+          "source": "6452f96bfbb54a4ab2113609f14b53ff-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 301be7f7-02ed-494a-ae6f-5efa71d2deaf) clicked",
+          "source": "e29416f5af8e4c17aba1d68d207df30d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9326f680-d356-4388-8055-b510cf54a750) clicked",
+          "source": "92d6623c40024cf2826f76d837ff6ff1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b514d470deac444fb62b2ad3bfbda9cb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649851913543,
+      "stop": 1649851945070
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649851913542,
+  "stop": 1649851945074
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W3vT03ICO+WhUQ+CDRH1t6hZJ22MqcC8YaaOAsN0H1jNr4InrJFTpQJHsDPnhQbXO4S4u4ZuJkMfrYaXlR2yCA==",
+  "dgSpecHash": "XyUiu52AVihpEs6R7TA0vIaw/VZe+PLUbTRgo7fKr/HIcNj8HFx5n7QBBr6w9rn2DM789yfxwgMXLJGWDNq4Gw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\toMerge\\Automation_Framework-TestCasesWeb\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj",
+  "projectFilePath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Automation_Framework.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hugue\\.nuget\\packages\\allure.commons\\3.5.0.73\\allure.commons.3.5.0.73.nupkg.sha512",
     "C:\\Users\\hugue\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",

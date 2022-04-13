@@ -23,7 +23,7 @@ namespace Automation_Framework.WebElementModels
         IWebElement getElement();
 
         
-        void GetElementAndScrollTo();
+  
   
         public bool ElementIsVisible();
     }

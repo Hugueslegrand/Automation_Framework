@@ -8,10 +8,10 @@ namespace Automation_Framework.Extensions.WebDriver
 {
     public static class Scroller
     {
-        public static void GetElementAndScrollTo(this IWebDriver driver, IWebElement element)
+        public static void GetElementAndScrollTo(this IWebDriver driver, string element, int moveLength)
         {
-            var js = (IJavaScriptExecutor)driver;
-            js.ExecuteScript($"document.querySelector({element}).scrollLeft = 900");
+            var js = driver as IJavaScriptExecutor;
+            js.ExecuteScript($"document.querySelector({element}).scrollLeft = {moveLength}");
         }
     }
 }

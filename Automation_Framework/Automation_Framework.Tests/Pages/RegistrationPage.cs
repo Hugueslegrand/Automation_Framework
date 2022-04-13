@@ -21,13 +21,27 @@ namespace Automation_Framework.Tests.Pages
 
         //public IButton UnmatchingPasswords1 => new WebElement(Driver, "//code[normalize-space()=\"Passwords don't match.\"]", Selector.Xpath);
 
+        public IButton FailedRegisterMessage => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
         public IButton RegistrationWarning => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
 
+        //Functions
         public string GetInnerText_Warning()
         {
-            return RegistrationWarning.GetInnerHTML();
+            return RegistrationWarning.Text;
         }
-        //Functions
+
+        public string UserAlreadyExist()
+        {
+            return FailedRegisterMessage.Text;
+        }
+        public string IncorrectEmail()
+        {
+            return FailedRegisterMessage.Text;
+        }
+        public string PasswordDontMatch()
+        {
+            return FailedRegisterMessage.Text;
+        }
 
         public void ClickRegister() => RegisterButtonComplete.ClickOnElement();
         

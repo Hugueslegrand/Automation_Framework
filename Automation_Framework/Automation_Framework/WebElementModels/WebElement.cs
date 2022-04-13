@@ -135,11 +135,7 @@ namespace Automation_Framework.WebElementModels
      
 
 
-        public void GetElementAndScrollTo()
-        {
-            _webDriver.GetElementAndScrollTo(_webElement);
-        }
-
+        
 
    
         public bool ElementIsVisible()

@@ -16,9 +16,9 @@ namespace Automation_Framework.WebElementModels
         bool Displayed { get; }
 
 
-        void GetCssValue(string propertyName);
-        void GetAttribute(string attributeName);
-        void GetProperty(string propertyName);
+        string GetCssValue(string propertyName);
+        string GetAttribute(string attributeName);
+        string GetProperty(string propertyName);
         void SendKeys(string text);
         void ClickOnElement();
         void ClearInput();
@@ -26,9 +26,6 @@ namespace Automation_Framework.WebElementModels
         IWebElement getElement();
         IList<IWebElement> getElements();
 
-
-
-        void Clear();
 
     }
     

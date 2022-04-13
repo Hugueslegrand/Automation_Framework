@@ -3,8 +3,7 @@ using Automation_Framework.Enums;
 using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.WebElementModels;
 using Automation_Framework.Base;
-
-
+using System.Threading;
 
 namespace Automation_Framework.Tests.Pages
 {
@@ -17,6 +16,8 @@ namespace Automation_Framework.Tests.Pages
         public IInputField SignInPassword => new WebElement(Driver, "//input[@id='SignInPassword']", Selector.Xpath);
         public IButton SignInButtonComplete => new WebElement(Driver, "//button[@id='SignInButtonComplete']", Selector.Xpath);
 
+
+        public string scroller = "'div[class=\"css-nlgfro\"]'";
         public IButton SignInPage => new WebElement(Driver, "SignIn", Selector.Id);
 
         //Functions
@@ -27,6 +28,17 @@ namespace Automation_Framework.Tests.Pages
         public string GetInnerText_Warning()
         {
             return LoginWarning.Text;
+        }
+
+        public void Scroll()
+        {
+            Thread.Sleep(3000);
+            Driver.GetElementAndScrollTo(scroller, 500);
+            Thread.Sleep(3000);
+            Driver.GetElementAndScrollTo(scroller, 1200);
+            Thread.Sleep(3000);
+            Driver.GetElementAndScrollTo(scroller, -600);
+
         }
 
         public void Login(string userName, string password)

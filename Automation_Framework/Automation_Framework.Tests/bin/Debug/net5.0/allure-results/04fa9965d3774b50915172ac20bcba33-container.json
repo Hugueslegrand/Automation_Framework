@@ -1,0 +1,48 @@
+{
+  "uuid": "193387df-f5c0-4033-8508-50e0698df2f9-tc-0-1048",
+  "name": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Unlogged_Layout",
+  "children": [
+    "4df5817d-f3e4-400c-bd6c-09cf00c6e81a-tr-0-1049"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetNativeAndroidDriver(NativeMobileDriverConfiguration driverConfig) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 60\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 44\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 18\r\n--TearDown\r\n   at Automation_Framework.Builders.DriverBuilder.CloseDriver(PlatformType platformType) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 84\r\n   at Automation_Framework.Tests.Tests.BaseTest.TearDown() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649971692569,
+      "stop": 1649971692569
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetNativeAndroidDriver(NativeMobileDriverConfiguration driverConfig) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 60\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 44\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 18\r\n--TearDown\r\n   at Automation_Framework.Builders.DriverBuilder.CloseDriver(PlatformType platformType) in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 84\r\n   at Automation_Framework.Tests.Tests.BaseTest.TearDown() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649971692569,
+      "stop": 1649971692569
+    }
+  ],
+  "links": [],
+  "start": 1649971680342,
+  "stop": 1649971692601
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "4959e593-9af6-4409-b21e-5bf703f920d9-tc-0-1036",
+  "name": "Automation_Framework.Tests.Tests.TestRentMovieButton.TestRentMovieButtonAlreadyRented",
+  "children": [
+    "519827fe-5217-422d-80d1-937fc83973a9-tr-0-1038"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649888833747,
+      "stop": 1649888833747
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649888833747,
+      "stop": 1649888833747
+    }
+  ],
+  "links": [],
+  "start": 1649888817669,
+  "stop": 1649888833748
+}

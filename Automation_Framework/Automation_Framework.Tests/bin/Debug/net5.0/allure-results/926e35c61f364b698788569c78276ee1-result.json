@@ -1,0 +1,105 @@
+{
+  "uuid": "06e70c97-03c9-4734-9295-c0925366c3e9-tr-0-1039",
+  "historyId": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_InsufficientCredits",
+  "fullName": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RentMovieButton_InsufficientCredits",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RentMovieButton_InsufficientCredits"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovieButton"
+    }
+  ],
+  "links": [],
+  "name": "Test_RentMovieButton_InsufficientCredits",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RentMovieButton_InsufficientCredits"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton - not suffcient credits\n",
+  "steps": [
+    {
+      "name": "Test_RentMovieButton_InsufficientCredits",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = a53cd3e4-8fd7-43bd-93d8-dc58fe2cd017) clicked",
+          "source": "39c88918021b4676bec58c63d3e2534c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 6edd28c6-767d-4b71-ae29-0ff5ccb85b6b) clicked",
+          "source": "33dde25755e04d2aadaff96e2e4ce33e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie@button.test` entered in `Element (id = 6edd28c6-767d-4b71-ae29-0ff5ccb85b6b)`",
+          "source": "b23dfc7480be4ee3a75b719b3c7b6a73-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 967dc792-3409-4dc6-ad47-fb14928db8c1) clicked",
+          "source": "f38b0ee89e0f4db59454e88fe4502752-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `rentmovie` entered in `Element (id = 967dc792-3409-4dc6-ad47-fb14928db8c1)`",
+          "source": "d24eef5cc5e3482dada90767a8b82b40-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4fa47836-a06c-4c28-8c33-03a082080eca) clicked",
+          "source": "8cefea5ef0754fc2ab870423fdf89c93-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 208a18dd-5ae4-4c42-9d8c-7d82ea5a9211) clicked",
+          "source": "ca9b9ba589ae41c2ac2d15d9427c64a8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = bfca658f-2320-4620-b5df-4104459dce31) clicked",
+          "source": "c91e7d68b65e406d8a5a79a3a69fe216-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "bf128f77c21244348d0f3341c0d8b294-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649888833749,
+      "stop": 1649888850261
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649888833749,
+  "stop": 1649888850261
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "f9f5928c-2b6a-44c0-8a4a-d13213e2f8c3-tc-0-1028",
+  "name": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUpperCaseAndLogIn",
+  "children": [
+    "204d0f7c-874c-41ee-826f-4f0b96ad1ae9-tr-0-1034"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649888770075,
+      "stop": 1649888770075
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649888770075,
+      "stop": 1649888770075
+    }
+  ],
+  "links": [],
+  "start": 1649888749510,
+  "stop": 1649888770077
+}

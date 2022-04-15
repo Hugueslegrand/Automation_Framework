@@ -1,0 +1,65 @@
+{
+  "uuid": "5b49bd41-a347-46d6-ab89-39531a647964-tr-0-1051",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_As_Existing_UserAdmin",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_As_Existing_UserAdmin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Existing_UserAdmin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Existing_UserAdmin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_As_Existing_UserAdmin"
+  },
+  "stage": "finished",
+  "description": "Login as an existing userAdmin [2.3]\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Existing_UserAdmin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0e59ccbe49364c1191f13624eeea2ade-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650009725018,
+      "stop": 1650009825527
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650009725017,
+  "stop": 1650009825530
+}

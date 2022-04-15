@@ -1,0 +1,44 @@
+{
+  "uuid": "ac9fcbb3-43aa-43cd-9171-378533d66e72-tc-0-1048",
+  "name": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_As_Existing_User",
+  "children": [
+    "1b69cb71-e0a2-4cdc-83fd-b4915d70c3e7-tr-0-1050"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650009407656,
+      "stop": 1650009407656
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650009407656,
+      "stop": 1650009407656
+    }
+  ],
+  "links": [],
+  "start": 1650009312509,
+  "stop": 1650009407685
+}

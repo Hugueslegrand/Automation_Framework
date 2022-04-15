@@ -1,0 +1,68 @@
+{
+  "uuid": "cee1d8be-5a09-4120-9537-b598b6497969-tr-0-1053",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_With_An_Incorrect_EmailAdress",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_With_An_Incorrect_EmailAdress",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_With_An_Incorrect_EmailAdress"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_With_An_Incorrect_EmailAdress",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected loginScreen.GetInnerText_Warning() to be \"Please fill in a correct email-adress.\" with a length of 38, but \"This email has not been registered.\" has a length of 35, differs near \"Thi\" (index 0).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_With_An_Incorrect_EmailAdress() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMobile\\TestLogin.cs:line 133\r\n"
+  },
+  "stage": "finished",
+  "description": "Login with an Incorrect Email adress\n",
+  "steps": [
+    {
+      "name": "Test_Login_With_An_Incorrect_EmailAdress",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected loginScreen.GetInnerText_Warning() to be \"Please fill in a correct email-adress.\" with a length of 38, but \"This email has not been registered.\" has a length of 35, differs near \"Thi\" (index 0).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_With_An_Incorrect_EmailAdress() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMobile\\TestLogin.cs:line 133\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "417d6271eaa4438db0626b774a299fbc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650028823204,
+      "stop": 1650028908857
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650028823204,
+  "stop": 1650028908862
+}

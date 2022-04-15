@@ -1,0 +1,120 @@
+{
+  "uuid": "b893fda0-9d43-4741-8bf8-88ce4bfa5bf1-tr-0-1024",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Negative_Integer",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Negative_Integer",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_Negative_Integer"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_Negative_Integer",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Add_Credits_To_Profile_Negative_Integer"
+  },
+  "stage": "finished",
+  "description": "Test: Add credits to profile (negative integer) (3,6)  \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_Negative_Integer",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 840507f2-dbcd-4095-ad57-ebac095026b3) clicked",
+          "source": "128101ef121f486186dbf17d33c9da2e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = ee34ac76-8abf-4ece-ac79-950160571ab7) clicked",
+          "source": "c2fa6c0a12a14b22b444ac64eccd0744-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = ee34ac76-8abf-4ece-ac79-950160571ab7)`",
+          "source": "4e3963515cf94a3b9d273e9766337936-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = b4d0018f-8700-4e1c-a9a0-f124d8d789f7) clicked",
+          "source": "7aee300b75fe4d90973b06ac802b1f90-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = b4d0018f-8700-4e1c-a9a0-f124d8d789f7)`",
+          "source": "df32e58cff334e35a0b36e4d17082f2e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = a6dc1cee-55b1-44dc-b3d4-f84ba68457ea) clicked",
+          "source": "245b00e5e32c42a99cee3919e9d9bd41-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 78845c0f-5ff6-4f36-bbe2-3d1a99ac9efd) clicked",
+          "source": "1c0b9f202cef4e1cab93321e61939230-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 7f0f4312-a9d8-4d02-a397-10d85fbf97d5) clicked",
+          "source": "b1ce15893a234e6f927b717f84c15cb6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 7026aba2-ac79-48cc-aff1-4eb74f0c7ad1) clicked",
+          "source": "05e1ebcbf1cb416482bd57ae391f5f1c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `-1` entered in `Element (id = 7026aba2-ac79-48cc-aff1-4eb74f0c7ad1)`",
+          "source": "843500f646aa42febe2bd854fcb87cee-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0b71c320-9b1d-41d5-869f-471d4b30aead) clicked",
+          "source": "bfb9096496c44ceb9a19945804f939fd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "0c5bf9c2f4b04e0b814c3d69fdefd135-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649888526100,
+      "stop": 1649888550800
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649888526100,
+  "stop": 1649888550800
+}

@@ -1,0 +1,125 @@
+{
+  "uuid": "9b9950da-7932-4ad3-85fc-6bf34f1a857f-tr-0-1044",
+  "historyId": "Automation_Framework.Tests.Tests.TestSearchBar.Test_SearchBar_Functionality",
+  "fullName": "Automation_Framework.Tests.Tests.TestSearchBar.Test_SearchBar_Functionality",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_SearchBar_Functionality"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSearchBar"
+    }
+  ],
+  "links": [],
+  "name": "Test_SearchBar_Functionality",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_SearchBar_Functionality"
+  },
+  "stage": "finished",
+  "description": "Check if searchbar filters the right movie with different types of input\n",
+  "steps": [
+    {
+      "name": "Test_SearchBar_Functionality",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 5d2f2296-8815-4b3d-9c8e-bad291499942) clicked",
+          "source": "1654ec4167b840908a79e95dd2bba962-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 4176c757-70e0-4793-9500-028e60beb6f2) clicked",
+          "source": "0af872813e4c42bc9d0770084fedd860-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `A Whisker Away` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "a1e47d37099948b3be0959f4a89f0af3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "ae26cfa777c04acba5a226bbb75125a5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Taxi 5` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "b5240e356a9c46e68c98b469c06b9d34-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "f7bbeca0d33445ff88c446c832e38d22-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `a whisker away` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "caec21a5a7834930bfdcb62cd658ea6f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "ea0382626431424183e3b602834f6116-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `A WHISKER AWAY` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "f2de1c0cfdf44848bc204f828ad68311-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "54709974516d419eb67fb167e69d8f89-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `Dèmön släyër thé mövïë mùgèn tràïn` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "a4a2d045d3564b90832e1191fa82dc41-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `` entered in `Element (id = 4176c757-70e0-4793-9500-028e60beb6f2)`",
+          "source": "0418c7c9a27b482db947fc428618bb94-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "006f771571e04f3083ad72fccbf062c5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1649888909465,
+      "stop": 1649888965454
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1649888909465,
+  "stop": 1649888965454
+}

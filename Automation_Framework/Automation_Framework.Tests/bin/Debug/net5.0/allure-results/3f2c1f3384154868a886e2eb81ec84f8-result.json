@@ -1,0 +1,68 @@
+{
+  "uuid": "af9e4d6d-c922-4f43-92c3-dc5be0c09ba8-tr-0-1052",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_With_Non_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_With_Non_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_With_Non_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_With_Non_Existing_User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected loginScreen.GetInnerText_Warning() to be \"This email has not been registered\" with a length of 34, but \"This email has not been registered.\" has a length of 35, differs near \".\" (index 34).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_With_Non_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMobile\\TestLogin.cs:line 124\r\n"
+  },
+  "stage": "finished",
+  "description": "Login with non existing user\n",
+  "steps": [
+    {
+      "name": "Test_Login_With_Non_Existing_User",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected loginScreen.GetInnerText_Warning() to be \"This email has not been registered\" with a length of 34, but \"This email has not been registered.\" has a length of 35, differs near \".\" (index 34).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_With_Non_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Brightest Documenten\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestMobile\\TestLogin.cs:line 124\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a75e870def9541fe8a2f51d73f8ac915-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650017715386,
+      "stop": 1650017794256
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650017715384,
+  "stop": 1650017794261
+}

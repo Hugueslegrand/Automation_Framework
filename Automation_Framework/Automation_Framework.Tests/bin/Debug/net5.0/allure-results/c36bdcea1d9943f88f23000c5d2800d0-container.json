@@ -1,0 +1,44 @@
+{
+  "uuid": "7d58aa88-7f3a-410f-b41a-b7d5a447fc85-tc-0-1036",
+  "name": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter",
+  "children": [
+    "d4da42a3-59a4-4b1a-a667-5025407e9e78-tr-0-1041"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649888880429,
+      "stop": 1649888880429
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1649888880429,
+      "stop": 1649888880429
+    }
+  ],
+  "links": [],
+  "start": 1649888863028,
+  "stop": 1649888880430
+}

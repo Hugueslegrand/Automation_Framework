@@ -1,0 +1,65 @@
+{
+  "uuid": "01ac49a6-3fdf-4f19-a25a-86accd52eda9-tr-0-1050",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_As_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestLogin.Test_Login_As_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Existing_User",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_As_Existing_User"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user [2.2]\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Existing_User",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a83700ad754c4342bb03fb940f85ba89-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650028703401,
+      "stop": 1650028804493
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650028703400,
+  "stop": 1650028804498
+}

@@ -18,6 +18,18 @@ namespace Automation_Framework.WebElementModels
         private AppiumDriver<IOSElement>? _iosDriver;
         private IOSElement? _iosElement;
 
+        public string TagName => _androidElement.TagName;
+
+        public string Text => _androidElement.Text;
+
+        public bool Enabled => _androidElement.Enabled;
+
+        public bool Selected => _androidElement.Selected;
+
+        public bool Displayed => _androidElement.Displayed;
+
+
+
         public MobileElement(AndroidDriver<AndroidElement> driver, string element, MobileSelector selector)
         {
 
@@ -93,6 +105,7 @@ namespace Automation_Framework.WebElementModels
                     break;
             }
         }
+
 
         public void AndroidSendKeys(string text)
         {

@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
 
-    public class TestLogin : BaseTest
+    public class TestLoginScreen : BaseTest
     {
         User userLoginExist = new User("Pirate@King.com", "onepiece111");
 
@@ -56,20 +56,20 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Login as an existing user [2.1]")]
+        [Description("Login as an existing user []")]
         public void Test_Unlogged_Layout()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(6);
+            homeScreen.WaitSeconds(20);
             homeScreen.SignInButton.Should();
         }
 
        [Test]
-       [Description("Login as an existing user [2.2]")]
+       [Description("Login as an existing user []")]
        public void Test_Login_As_Existing_User()
        {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(10);
+            homeScreen.WaitSeconds(20);
             homeScreen.SignInButton.Should();
             homeScreen.ClickSignInButton();
 
@@ -84,11 +84,11 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         
          [Test]
-         [Description("Login as an existing userAdmin [2.3]")]
+         [Description("Login as an existing userAdmin []")]
          public void Test_Login_As_Existing_UserAdmin()
          {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(10);
+            homeScreen.WaitSeconds(20);
             homeScreen.SignInButton.Should();
             homeScreen.ClickSignInButton();
 
@@ -108,7 +108,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         public void Test_Login_As_Not_Existing_User()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(10);
+            homeScreen.WaitSeconds(20);
             homeScreen.SignInButton.Should();
             homeScreen.ClickSignInButton();
 
@@ -124,7 +124,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
          public void Test_Login_With_An_Incorrect_EmailAdress()
          {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(10);
+            homeScreen.WaitSeconds(20);
             homeScreen.SignInButton.Should();
             homeScreen.ClickSignInButton();
 
@@ -138,7 +138,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
          public void Test_Login_With_An_Incorrect_Email_Or_Password()
          {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(10);
+            homeScreen.WaitSeconds(20);
             homeScreen.SignInButton.Should();
             homeScreen.ClickSignInButton();
 

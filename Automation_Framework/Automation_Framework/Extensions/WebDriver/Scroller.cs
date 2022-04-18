@@ -2,6 +2,11 @@
 using System.Linq;
 using Automation_Framework.WebElementModels;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Appium;
+using OpenQA.Selenium.Appium.Android;
+using OpenQA.Selenium.Appium.Interfaces;
+using OpenQA.Selenium.Appium.MultiTouch;
+using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.Extensions;
 
 namespace Automation_Framework.Extensions.WebDriver
@@ -13,5 +18,23 @@ namespace Automation_Framework.Extensions.WebDriver
             var js = driver as IJavaScriptExecutor;
             js.ExecuteScript($"document.querySelector({element}).scrollLeft = {moveLength}");
         }
+        public static void GetElementAndSwipeTo(this AppiumDriver<AndroidElement> driver, IWebElement element, int horizontal, int vertical)
+        {
+            TouchActions action = new TouchActions(driver);
+            action.Scroll(element, horizontal, vertical);
+            action.Perform();
+        }
+
+        public static void Swipe(this AppiumDriver<AndroidElement> driver, AndroidElement _androidElement, int startX, int startY, int endX, int endY, int duration)
+        {
+            ITouchAction touchAction = new TouchAction(driver)
+            .Press(_androidElement, startX, startY)
+            .Wait(duration)
+            .MoveTo(endX, endY)
+            .Release();
+
+            touchAction.Perform();
+        }
+
     }
 }

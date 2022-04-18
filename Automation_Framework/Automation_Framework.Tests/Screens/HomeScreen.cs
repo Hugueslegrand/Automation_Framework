@@ -25,5 +25,8 @@ namespace Automation_Framework.Tests.Screens
         public void ClickSignInButton() => SignInButton.AndroidClick();
         public void ClickSignOutButton() => SignOutButton.AndroidClick();
         public void ClickSettingsButton() => SettingsButton.AndroidClick();
+        public void ClickMovieTitle() => MovieTitle.AndroidClick();
+        public void ClickMovieBanner() => MovieBanner.AndroidClick();
+
     }
 }

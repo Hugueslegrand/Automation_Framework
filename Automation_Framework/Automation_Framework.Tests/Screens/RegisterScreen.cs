@@ -18,6 +18,7 @@ namespace Automation_Framework.Tests.Screens
         public IAndroidElement AndroidRegisterRePassword => new MobileElement(AndroidDriver, "//android.widget.EditText[@content-desc=\"re_passwordTxt\"]", MobileSelector.Xpath);
         public IAndroidElement AndroidRegisterButtonComplete => new MobileElement(AndroidDriver, "//android.view.ViewGroup[@content-desc=\"submitBtn\"]", MobileSelector.Xpath);
         public IAndroidElement AndroidGoToSignInScreen => new MobileElement(AndroidDriver, "//android.widget.TextView[@text = Sign in]", MobileSelector.Xpath);
+        public IAndroidElement Modal => new MobileElement(AndroidDriver, "/ hierarchy / android.widget.FrameLayout / android.widget.LinearLayout / android.widget.FrameLayout / android.widget.LinearLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[1] / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[2] / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[2] / android.view.ViewGroup", MobileSelector.Xpath);
 
 
         //Android Functions
@@ -30,13 +31,18 @@ namespace Automation_Framework.Tests.Screens
         public void ClickRePassword() => AndroidRegisterRePassword.AndroidClick();
         public void ClickLoginButton() => AndroidRegisterButtonComplete.AndroidClick();
         public void ClickGoToSignInScreen() => AndroidGoToSignInScreen.AndroidClick();
+        public void SwipeModal(int horizontal, int vertical) => Modal.AndroidSwipe(horizontal, vertical);
+        public void Swipe(int startX, int startY, int endX, int endY, int duration) => AndroidRegisterLastName.Swipe( startX,  startY,  endX,  endY,  duration);
 
         public void AndroidRegister(string firstName, string lastName, string email, string passwoord, string rePasswoord)
         {
             AndroidRegisterFirstName.AndroidSendKeys(firstName);
+            Swipe(0, 0, 0, -500, 500 );
             AndroidRegisterLastName.AndroidSendKeys(lastName);
+            //SwipeModal(0, 10);
             AndroidRegisterEmail.AndroidSendKeys(email);
             AndroidRegisterPassword.AndroidSendKeys(passwoord);
+            //Swipe(5, 10, 5, -5, 2000);
             AndroidRegisterRePassword.AndroidSendKeys(rePasswoord);
             AndroidRegisterButtonComplete.AndroidClick(); // Or ClickRegister();
 

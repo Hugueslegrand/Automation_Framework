@@ -1,5 +1,6 @@
 ﻿using Automation_Framework.Enums;
 using Automation_Framework.Extensions.MobileDriver;
+using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
@@ -126,8 +127,18 @@ namespace Automation_Framework.WebElementModels
         {
             _iosElement.SendKeys(text);
         }
+        public void AndroidSwipe(int horizontal, int vertical)
+        {
+            _androidDriver.GetElementAndSwipeTo(_androidElement, horizontal, vertical);
+        }
+        public void Swipe(int startX, int startY, int endX, int endY, int duration)
+        {
+            _androidDriver.Swipe( _androidElement, startX, startY,  endX,  endY, duration);
+        }
 
-      
+        
+
+
 
     }
 }

@@ -133,7 +133,7 @@ namespace Automation_Framework.WebElementModels
         }
         public void Swipe(int startX, int startY, int endX, int endY, int duration)
         {
-            _androidDriver.Swipe( _androidElement, startX, startY,  endX,  endY, duration);
+            _androidDriver.Swipe(startX, startY,  endX,  endY, duration);
         }
 
         

@@ -37,7 +37,7 @@ namespace Automation_Framework.Tests.Screens
         public void AndroidRegister(string firstName, string lastName, string email, string passwoord, string rePasswoord)
         {
             AndroidRegisterFirstName.AndroidSendKeys(firstName);
-            Swipe(0, 0, 0, -500, 500 );
+            Swipe(685, 1400, 685, 800, 500 );
             AndroidRegisterLastName.AndroidSendKeys(lastName);
             //SwipeModal(0, 10);
             AndroidRegisterEmail.AndroidSendKeys(email);

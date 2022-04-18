@@ -25,10 +25,10 @@ namespace Automation_Framework.Extensions.WebDriver
             action.Perform();
         }
 
-        public static void Swipe(this AppiumDriver<AndroidElement> driver, AndroidElement _androidElement, int startX, int startY, int endX, int endY, int duration)
+        public static void Swipe(this AppiumDriver<AndroidElement> driver, int startX, int startY, int endX, int endY, int duration)
         {
             ITouchAction touchAction = new TouchAction(driver)
-            .Press(_androidElement, startX, startY)
+            .Press( startX, startY)
             .Wait(duration)
             .MoveTo(endX, endY)
             .Release();

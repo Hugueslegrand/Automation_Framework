@@ -1,4 +1,5 @@
 ﻿using Automation_Framework.Enums;
+using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.Helpers;
 using Automation_Framework.Models;
 using Automation_Framework.WebElementModels;
@@ -105,6 +106,7 @@ namespace Automation_Framework.Builders
             _androidDriver.Quit();
             _iosDriver.Quit();
         }
-       
+
+
     }
 }

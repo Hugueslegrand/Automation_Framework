@@ -21,7 +21,7 @@ namespace Automation_Framework.Extensions.WebDriver
         public static void WaitForClickable(this IWebDriver driver, By by)
         {
             //Thread.Sleep(5000);
-            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(Configuration.WebDriver.DefaultTimeout));
             waitFunc.Until(ExpectedConditions.ElementToBeClickable(by));
           
         }
@@ -29,7 +29,7 @@ namespace Automation_Framework.Extensions.WebDriver
         public static void WaitForClickable(this IWebDriver driver, IWebElement element)
         {
             //Thread.Sleep(5000);
-            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(Configuration.WebDriver.DefaultTimeout));
             waitFunc.Until(ExpectedConditions.ElementToBeClickable(element));
         }
 

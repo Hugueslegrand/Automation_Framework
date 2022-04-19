@@ -1,0 +1,48 @@
+{
+  "uuid": "25fdb6e9-ec4c-48d5-b6bd-ef8d7a8e6a38-tc-0-1008",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "children": [
+    "dda84e4c-df62-49d6-886e-c443ae322606-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The session identified by 01b4a72d-bc64-4dd5-9827-929453250ec2 is not known\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetNativeAndroidDriver(NativeMobileDriverConfiguration driverConfig) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 60\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 44\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 18\r\n--TearDown\r\n   at Automation_Framework.Builders.DriverBuilder.CloseDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 84\r\n   at Automation_Framework.Tests.Tests.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650010028851,
+      "stop": 1650010028851
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The session identified by 01b4a72d-bc64-4dd5-9827-929453250ec2 is not known\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(ICommandExecutor commandExecutor, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1..ctor(Uri remoteAddress, ICapabilities appiumOptions)\r\n   at OpenQA.Selenium.Appium.Android.AndroidDriver`1..ctor(Uri remoteAddress, DriverOptions driverOptions)\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetNativeAndroidDriver(NativeMobileDriverConfiguration driverConfig) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 60\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 44\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 18\r\n--TearDown\r\n   at Automation_Framework.Builders.DriverBuilder.CloseDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 84\r\n   at Automation_Framework.Tests.Tests.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650010028852,
+      "stop": 1650010028852
+    }
+  ],
+  "links": [],
+  "start": 1650009976099,
+  "stop": 1650010028947
+}

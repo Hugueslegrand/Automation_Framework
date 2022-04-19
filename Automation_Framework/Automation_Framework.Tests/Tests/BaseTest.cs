@@ -14,13 +14,17 @@ namespace Automation_Framework.Tests.Tests
         [SetUp]
         public void Setup()
         {
-           builder.BuildDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Desktop);
+          
+
         }
 
         [TearDown]
         public void TearDown()
         {
-            builder.CloseDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Desktop);
+         
+   
         }
     }
 }

@@ -5,6 +5,7 @@ using FluentAssertions;
 using Automation_Framework.Tests.Models;
 using OpenQA.Selenium;
 using System.Collections.Generic;
+using Automation_Framework.Tests.Screens;
 
 namespace Automation_Framework.Tests.Tests
 {
@@ -27,30 +28,38 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
 
-            Thread.Sleep(6000);
+            navigation.WaitSeconds(6);
             navigation.ClickSignIn();
 
             LoginPage loginPage = new LoginPage(builder);
 
             //Assert.AreEqual(loginPage.getInnerText(), "login");
 
-            loginPage.Login("brent.dar@ap.be", "hond");
+            loginPage.Login("brent.dar@ap.be", "hond123");
 
-            navigation.ClickMyMovie();
+            navigation.WaitSeconds(10);
+           HomeScreen homeScreen = new HomeScreen(builder);
 
-            MyMoviesPage myMoviesPage = new MyMoviesPage(builder);
-            //Remove selenium
-            IList<IWebElement> test = myMoviesPage.getElements();
-            foreach (var item in test)
-            {
-                item.FindElement(By.ClassName("css-49l3oe"));
-            }
-            //Assert.AreEqual(myMoviesPage.getElements(), "login");
+            homeScreen.ClickSignInButton();
 
+            LoginScreen loginScreen = new LoginScreen(builder);
+            loginScreen.AndroidLogin("brent.dar@ap.be", "hond123");
+
+            /*  navigation.ClickMyMovie();
+
+              MyMoviesPage myMoviesPage = new MyMoviesPage(builder);
+              //Remove selenium
+              IList<IWebElement> test = myMoviesPage.getElements();
+              foreach (var item in test)
+              {
+                  item.FindElement(By.ClassName("css-49l3oe"));
+              }
+              //Assert.AreEqual(myMoviesPage.getElements(), "login");
+            */
 
 
         }
-
+        
 
         [Test]
         [Description("Login as an existing user [2.1]")]

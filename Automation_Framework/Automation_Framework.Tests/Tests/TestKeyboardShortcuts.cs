@@ -19,15 +19,23 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.PressTab();
+            navigation.WaitSeconds(3);
+            navigation.PressTab();
+            navigation.WaitSeconds(3);
+            navigation.PressTab();
+            navigation.PressTab();
+            navigation.PressTab();
+            navigation.WaitSeconds(3);
+            navigation.PressEnter();
 
             LoginPage loginPage = new LoginPage(builder);
-            loginPage.Login(userAdminExist.email, userAdminExist.password);
-
-            navigation.ClickMyMovie();
-
-            MyMoviesPage ordersPage = new MyMoviesPage(builder);
-
+            loginPage.Should();
+            navigation.PressTab();
+            navigation.PressTab();
+            navigation.PressTab();
+            loginPage.PressTab();
+            loginPage.SendKeys(userAdminExist.email);
 
         }
     }

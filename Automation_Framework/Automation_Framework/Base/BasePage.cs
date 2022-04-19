@@ -1,4 +1,5 @@
 ﻿using Automation_Framework.Builders;
+using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
@@ -26,6 +27,11 @@ namespace Automation_Framework.Base
         public void SendKeys(string keys)
         {
             SendKeys(keys);
+        }
+        public void PressTab() => Driver.PressTab();
+        public void PressEnter()
+        {
+            Driver.PressEnter();
         }
     }
 }

@@ -11,6 +11,8 @@ namespace Automation_Framework.Tests.Pages
 {
     public class Navigation :BasePage
     {
+        public DriverBuilder builder = new DriverBuilder();
+
         public Navigation(DriverBuilder driver) : base(driver) { }
         public IButton SignInButton => new WebElement(Driver, "//button[@id='SignInButton']",Selector.Xpath);
         public IInputField SearchBar => new WebElement(Driver, ".MuiInputBase-root.MuiOutlinedInput-root.MuiAutocomplete-inputRoot.jss1.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd", Selector.Css);
@@ -58,6 +60,7 @@ namespace Automation_Framework.Tests.Pages
         public void ClickSignIn() => SignInButton.ClickOnElement();
         //Driver.ClickOnElement(SignInButton);
         public void ClickRegister() => RegisterButton.ClickOnElement();
+  
         //Driver.ClickOnElement(RegisterButton);
 
         public void ClickMyMovie() => MyMovieButton.ClickOnElement();

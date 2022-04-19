@@ -27,6 +27,7 @@ namespace Automation_Framework.Tests.Pages
 
         public string GetInnerText_Warning()
         {
+           
             return LoginWarning.Text;
         }
 

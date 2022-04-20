@@ -20,7 +20,5 @@ namespace Automation_Framework.Tests.Screens
         //Android Functions
         public void ClickWatchMovieButton() => WatchMovieButton.AndroidClick();
         public void ClickGoBackButton() => GoBackButton.AndroidClick();
-
-
     }
 }

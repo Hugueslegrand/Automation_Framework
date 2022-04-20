@@ -10,7 +10,7 @@ namespace Automation_Framework.Tests.Screens
         public SearchScreen(DriverBuilder driver) : base(driver) { }
 
         //Android elements
- 
+
         public IAndroidElement AndroidSearchbar => new MobileElement(AndroidDriver, "//android.widget.EditText[@content-desc=\"searchInput\"]", MobileSelector.Xpath);
         public IAndroidElement AndroidMovieCard => new MobileElement(AndroidDriver, "(//android.view.ViewGroup[@content-desc=\"movieCard\"])[1]", MobileSelector.Xpath);
         public IAndroidElement AndroidMovieTitle => new MobileElement(AndroidDriver, "(//android.widget.TextView[@content-desc=\"movieTitle\"])[1]", MobileSelector.Xpath);

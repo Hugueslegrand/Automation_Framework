@@ -2,6 +2,7 @@
 using Automation_Framework.Enums;
 using Automation_Framework.Builders;
 using Automation_Framework.WebElementModels;
+using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.Tests.Models;
 using Automation_Framework.Tests.Tests;
 
@@ -11,7 +12,7 @@ namespace Automation_Framework.Tests.Pages
     public class ProfilePage : BasePage
     {
         public TestProfile testProfile = new TestProfile();
-        
+
 
 
         public ProfilePage(DriverBuilder driver) : base(driver) { }
@@ -100,8 +101,6 @@ namespace Automation_Framework.Tests.Pages
 
 
         //Functions
-
-
         public void ClickAddCredits() => AddCreditsButton.ClickOnElement();
         public void ClickBuyCredits() => BuyCreditsButton.ClickOnElement();
         public void ClickCancelPayment() => CancelPaymentButton.ClickOnElement();

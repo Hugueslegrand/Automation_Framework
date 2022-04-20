@@ -23,7 +23,7 @@ namespace Automation_Framework.Base
         {
             Thread.Sleep(seconds * 1000);
         }
-    
+
         public void SendKeys(string keys)
         {
             SendKeys(keys);

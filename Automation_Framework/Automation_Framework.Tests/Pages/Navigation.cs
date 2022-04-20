@@ -9,23 +9,21 @@ using OpenQA.Selenium.Support.UI;
 
 namespace Automation_Framework.Tests.Pages
 {
-    public class Navigation :BasePage
+    public class Navigation : BasePage
     {
-        public DriverBuilder builder = new DriverBuilder();
-
         public Navigation(DriverBuilder driver) : base(driver) { }
-        public IButton SignInButton => new WebElement(Driver, "//button[@id='SignInButton']",Selector.Xpath);
+        public IButton SignInButton => new WebElement(Driver, "//button[@id='SignInButton']", Selector.Xpath);
         public IInputField SearchBar => new WebElement(Driver, ".MuiInputBase-root.MuiOutlinedInput-root.MuiAutocomplete-inputRoot.jss1.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd", Selector.Css);
 
         public IInputField SearchBarDropDown => new WebElement(Driver, "div.css-1optmax > div > div > div > input", Selector.Css);
-       
+
         public IButton DropdownNoOption => new WebElement(Driver, "MuiAutocomplete-noOptions", Selector.ClassName);
 
         public IButton DropdownAWhiskerAway => new WebElement(Driver, "//li[contains(text(),'A Whisker Away')]", Selector.Xpath);
 
         public IButton DropdownDemonSlayer => new WebElement(Driver, "//li[contains(text(),'Demon Slayer the Movie: Mugen Train')]", Selector.Xpath);
 
-        public IButton Logo => new WebElement(Driver, "//img[@id='Logo']", Selector.Xpath); 
+        public IButton Logo => new WebElement(Driver, "//img[@id='Logo']", Selector.Xpath);
         public IButton RegisterButton => new WebElement(Driver, "//button[@id='RegisterButton']", Selector.Xpath);
         public IButton MyMovieButton => new WebElement(Driver, "//a[@href='#/orders']//button[@id='OrdersPageButton']", Selector.Xpath);
         public IButton ProfileButton => new WebElement(Driver, "//a[@href='#/profile']//button[@id='OrdersPageButton']", Selector.Xpath);
@@ -56,11 +54,10 @@ namespace Automation_Framework.Tests.Pages
         public void FillSearchBar(string searchBar) => SearchBar.SendKeys(searchBar);
         //SearchBar.SendKeys(searchBar);
         public void ClickLogo() => Logo.ClickOnElement();
-            //Driver.ClickOnElement(Logo);
+        //Driver.ClickOnElement(Logo);
         public void ClickSignIn() => SignInButton.ClickOnElement();
         //Driver.ClickOnElement(SignInButton);
         public void ClickRegister() => RegisterButton.ClickOnElement();
-  
         //Driver.ClickOnElement(RegisterButton);
 
         public void ClickMyMovie() => MyMovieButton.ClickOnElement();
@@ -74,8 +71,7 @@ namespace Automation_Framework.Tests.Pages
         // public List<string> GetAllOptionsFromSearchbar() => SearchBarDropDown.GetAllOptionsFromSelectTagDropDown();
         public void ClickDropDrownElement(IButton button) => button.ClickOnElement();
 
-        //Driver.ClickOnElement(SettingsButton);
 
-        //  public void Wait() => WaitExtension.Wait(Driver);
+
     }
 }

@@ -14,19 +14,16 @@ namespace Automation_Framework.Tests.Tests
         User userAdminExist = new("brent.dar@ap.be", "hond123");
 
         [Test]
-        [Description("Login as an existing user")]
-        public void Test_Orders()
+        [Description("Login as an existing user only using keyboard")]
+        public void Test_KeyboardShortcuts()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
             navigation.PressTab();
-            navigation.WaitSeconds(3);
-            navigation.PressTab();
-            navigation.WaitSeconds(3);
             navigation.PressTab();
             navigation.PressTab();
             navigation.PressTab();
-            navigation.WaitSeconds(3);
+            navigation.PressTab();
             navigation.PressEnter();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -35,7 +32,13 @@ namespace Automation_Framework.Tests.Tests
             navigation.PressTab();
             navigation.PressTab();
             loginPage.PressTab();
-            loginPage.SendKeys(userAdminExist.email);
+            loginPage.SignInEmail.SendKeys(userAdminExist.email);
+            loginPage.PressEnter();
+            loginPage.SignInPassword.SendKeys(userAdminExist.password);
+            loginPage.PressEnter();
+            navigation.SignOutButton.Should();
+            navigation.MyMovieButton.Should();
+            navigation.ProfileButton.Should();
 
         }
     }

@@ -2,6 +2,7 @@
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;
+using Automation_Framework.Extensions;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -60,7 +61,7 @@ namespace Automation_Framework.Tests.Pages
             DateTime myDate = DateTime.ParseExact(date, "d", culture);
             DateTime today = DateTime.Today;
             //TimeSpan diff = today - myDate;
-            if(myDate >= today)
+            if (myDate >= today)
             {
                 isAvailable = true;
             }

@@ -1,0 +1,70 @@
+{
+  "uuid": "a0e007f8-35bc-4300-b8bb-ded3c4e155a3-tr-0-1007",
+  "historyId": "Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_Orders",
+  "fullName": "Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_Orders",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Orders"
+    },
+    {
+      "name": "testClass",
+      "value": "TestKeyboardShortcuts"
+    }
+  ],
+  "links": [],
+  "name": "Test_Orders",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Orders"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user\n",
+  "steps": [
+    {
+      "name": "Test_Orders",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 5316321c-8616-401a-b5cb-bbecab100764)`",
+          "source": "d606e236862141048c2040837c2ff594-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c33a516a9a6f4f8a8cf640ee7ac85fcd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650439158586,
+      "stop": 1650439186723
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650439158583,
+  "stop": 1650439186727
+}

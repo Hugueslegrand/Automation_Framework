@@ -1,0 +1,68 @@
+{
+  "uuid": "db3df46f-250b-4243-b57b-eaf29a310797-tr-0-1007",
+  "historyId": "Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_Orders",
+  "fullName": "Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_Orders",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Orders"
+    },
+    {
+      "name": "testClass",
+      "value": "TestKeyboardShortcuts"
+    }
+  ],
+  "links": [],
+  "name": "Test_Orders",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentException : The IWebDriver object must implement or wrap a driver that implements IHasInputDevices. (Parameter 'driver')",
+    "trace": "   at OpenQA.Selenium.Interactions.Actions..ctor(IWebDriver driver)\r\n   at Automation_Framework.Extensions.WebDriver.Clicker.PressTab(IWebDriver driver) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\Clicker.cs:line 33\r\n   at Automation_Framework.Base.BasePage.PressTab() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BasePage.cs:line 33\r\n   at Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_Orders() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestKeyboardShortcuts.cs:line 22"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user\n",
+  "steps": [
+    {
+      "name": "Test_Orders",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentException : The IWebDriver object must implement or wrap a driver that implements IHasInputDevices. (Parameter 'driver')",
+        "trace": "   at OpenQA.Selenium.Interactions.Actions..ctor(IWebDriver driver)\r\n   at Automation_Framework.Extensions.WebDriver.Clicker.PressTab(IWebDriver driver) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\Clicker.cs:line 33\r\n   at Automation_Framework.Base.BasePage.PressTab() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BasePage.cs:line 33\r\n   at Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_Orders() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestKeyboardShortcuts.cs:line 22"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9bb7af5e1f814a53bd4c536af108bfcd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650438801226,
+      "stop": 1650438815340
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650438801224,
+  "stop": 1650438815351
+}

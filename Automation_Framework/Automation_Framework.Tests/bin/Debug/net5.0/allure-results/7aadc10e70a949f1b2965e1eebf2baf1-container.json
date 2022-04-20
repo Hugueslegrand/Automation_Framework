@@ -1,0 +1,44 @@
+{
+  "uuid": "4869714c-c90a-4caa-9a11-7c6ec779fbea-tc-0-1006",
+  "name": "Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_Orders",
+  "children": [
+    "c3bc9124-fdbe-4a3a-800e-0a42bd472497-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650378581533,
+      "stop": 1650378581533
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650378581533,
+      "stop": 1650378581533
+    }
+  ],
+  "links": [],
+  "start": 1650378562024,
+  "stop": 1650378581616
+}

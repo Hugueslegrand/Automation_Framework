@@ -13,18 +13,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Keys = OpenQA.Selenium.Keys;
 
 namespace Automation_Framework.WebElementModels
 {
 
-    public class WebElement : IButton, IInputField
+    public class WebElement : IButton, IInputField, ITable
     {
         private readonly DriverBuilder _driverBuilder;
-        private  IWebElement _webElement;
+        private IWebElement _webElement;
         private IList<IWebElement> _webElements;
-        private  IWebDriver _webDriver;
+        private IWebDriver _webDriver;
 
-        private  AppiumDriver<AndroidElement> _androidDriver;
+        private AppiumDriver<AndroidElement> _androidDriver;
 
         public SelectElement SearchBarSelect => new SelectElement(_webElement);
 
@@ -39,6 +40,7 @@ namespace Automation_Framework.WebElementModels
         public bool Selected => _webElement.Selected;
 
         public bool Displayed => _webElement.Displayed;
+
 
         public WebElement(IWebDriver driver, string element, Selector selector)
         {
@@ -113,7 +115,7 @@ namespace Automation_Framework.WebElementModels
 
         public string GetCssValue(string propertyName)
         {
-           return _webElement.GetCssValue(propertyName);
+            return _webElement.GetCssValue(propertyName);
         }
 
         public string GetAttribute(string attributeName)
@@ -131,13 +133,6 @@ namespace Automation_Framework.WebElementModels
             _webElement.Clear();
         }
 
-
-     
-
-
-        
-
-   
         public bool ElementIsVisible()
         {
             return _webElement.Displayed;

@@ -1,5 +1,6 @@
 ﻿using Automation_Framework.Builders;
 using Automation_Framework.Enums;
+using Automation_Framework.Models;
 using NUnit.Allure.Core;
 using NUnit.Framework;
 
@@ -22,7 +23,7 @@ namespace Automation_Framework.Tests.Tests
         [TearDown]
         public void TearDown()
         {
-            builder.BuildDriver(PlatformType.Desktop);
+            builder.CloseDriver(PlatformType.Desktop);
          
    
         }

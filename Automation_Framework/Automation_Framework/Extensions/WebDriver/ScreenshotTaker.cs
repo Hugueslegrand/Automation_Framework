@@ -10,15 +10,25 @@ using OpenQA.Selenium;
 
 namespace Automation_Framework.Extensions.WebDriver
 {
+
     public static class ScreenshotTaker
     {
- 
 
+        /// <summary>
+        /// Takes a standard (fullscreen) screenshot
+        /// </summary>
+        /// <param name="driver">Containts the driver used to run the test in</param>
+        /// <param name="fileName">Name of the saved screenshot </param>
         public static void TakeStandardScreenshot(this IWebDriver driver, string fileName)
         {
             driver.SaveScreenshot(fileName);
         }
 
+        /// <summary>
+        /// Saves a screenshot in a specified filepath with a filename
+        /// </summary>
+        /// <param name="driver">Containts the driver used to run the test in</param>
+        /// <param name="fileName">Name of the saved screenshot </param>
         private static void SaveScreenshot(this IWebDriver driver, string fileName)
         {
             try
@@ -26,7 +36,7 @@ namespace Automation_Framework.Extensions.WebDriver
                 var fileNameSave = GetFileNameSave(fileName);
                 var pathToFile = GetFilePath(GetFileNameSave(fileNameSave));
 
-                driver.ScreenshotSave(pathToFile);
+                driver.ScreenshotSaveLocation(pathToFile);
                 AllureLifecycle.Instance.AddAttachment(pathToFile, fileNameSave);
             }
             catch (Exception ex)
@@ -35,20 +45,34 @@ namespace Automation_Framework.Extensions.WebDriver
             }
         }
 
-    
 
-        private static void ScreenshotSave(this IWebDriver driver, string pathToFile)
+        /// <summary>
+        /// Method to set the location of the saved screenshot, which can be used in the SaveScreenshot() method
+        /// </summary>
+        /// <param name="driver">Containts the driver used to run the test in</param>
+        /// <param name="fileName">Name of the saved screenshot </param>
+        private static void ScreenshotSaveLocation(this IWebDriver driver, string pathToFile)
         {
             var screenshot = ((ITakesScreenshot)GetBaseDriver(driver)).GetScreenshot();
             screenshot.SaveAsFile(pathToFile, ScreenshotImageFormat.Png);
         }
 
+        /// <summary>
+        /// Method to return saved filename 
+        /// </summary>
+        /// <param name="fileName">Name of the saved screenshot in the code </param>
+        /// <returns>Returns the actual filename of the screenshot in the filepath</returns>
         private static string GetFileNameSave(string fileName)
         {
             return Path.GetInvalidFileNameChars()
                 .Aggregate(fileName, (current, c) => current.Replace(c.ToString(), string.Empty));
         }
 
+        /// <summary>
+        /// Method to return the location of the saved filename 
+        /// </summary>
+        /// <param name="fileName">Name of the saved screenshot in the code </param>
+        /// <returns>Returns the filepath of the defined file</returns>
         private static string GetFilePath(string fileName)
         {
             var path = $"{Configuration.WebDriver.ScreenshotsPath}\\{fileName}{DateTime.Now:HH}";
@@ -58,6 +82,10 @@ namespace Automation_Framework.Extensions.WebDriver
             return pathToFile;
         }
 
+        /// <summary>
+        /// Method to return the used driver, which will be used to determine the save location in ScreenshotSaveLocation()
+        /// </summary>
+        /// <param name="driver">Contains the driver used to run the test in</param>
         private static IWebDriver GetBaseDriver(IWebDriver driver)
         {
             if (driver is WebDriverListener webDriverListener)

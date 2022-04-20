@@ -1,2 +1,0 @@
-Taking a screenshot failed: target frame detached
-  (Session info: chrome=100.0.4896.75)

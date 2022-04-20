@@ -16,10 +16,19 @@ using WebDriverManager.DriverConfigs.Impl;
 
 namespace Automation_Framework.Helpers
 {
+    /// <summary>
+    /// A helper class for creating WebDriver for various browsers, native- and webAndroidDriver and native- and webiOSDriver
+    /// </summary>
     public class WebDriverFactory
     {
-        public WebDriverListener GetWebDriver(WebDriverConfiguration driverConfig, L logger )
-        { 
+        /// <summary>
+        /// Initializes WebDriver based on the given WebBrowser name.
+        /// </summary>
+        /// <param name="driverConfig">Contains configuration for creating a WebDriver instance</param>
+        /// <param name="logger">LLibrary class for logging actions made on the web driver</param>
+        /// <returns>Returns a WebDriverListener which initializes and logs actions on the WebDriver based on the given browser name</returns>
+        public WebDriverListener GetWebDriver(WebDriverConfiguration driverConfig, L logger)
+        {
 
             switch (driverConfig.BrowserName)
             {
@@ -52,20 +61,37 @@ namespace Automation_Framework.Helpers
                         Configuration.WebDriver.BrowserName,
                         null);
             }
-           
+
         }
-       public AndroidDriver<AndroidElement> GetNativeAndroidDriver (NativeMobileDriverConfiguration driverConfig)
+
+        /// <summary>
+        /// Initializes an androidDriver
+        /// </summary>
+        /// <param name="driverConfig">Contains model for native mobile driver configuration</param>
+        /// <returns>Returns a new AndroidDriver with native options</returns>
+        public AndroidDriver<AndroidElement> GetNativeAndroidDriver(NativeMobileDriverConfiguration driverConfig)
         {
 
             AndroidDriver<AndroidElement> androidDriver = new AndroidDriver<AndroidElement>(new Uri("http://localhost:4723/wd/hub"), WebDriverSettings.NativeMobileOptions(driverConfig));
             return androidDriver;
         }
-        public IOSDriver<IOSElement> GetNativeIOSDriver (NativeMobileDriverConfiguration driverConfig)
+
+        /// <summary>
+        /// Initializes an IOSDriver
+        /// </summary>
+        /// <param name="driverConfig">Contains model for native mobile driver configuration</param>
+        /// <returns>Returns a new IOSDriver with native options</returns>
+        public IOSDriver<IOSElement> GetNativeIOSDriver(NativeMobileDriverConfiguration driverConfig)
         {
             IOSDriver<IOSElement> iosDriver = new IOSDriver<IOSElement>(new Uri("http://localhost:4723/wd/hub"), WebDriverSettings.NativeMobileOptions(driverConfig));
             return iosDriver;
         }
 
+        /// <summary>
+        /// Initializes an androidDriver
+        /// </summary>
+        /// <param name="driverConfig">Contains model for native mobile driver configuration</param>
+        /// <returns>Returns a new AndroidDriver with web browser options</returns>
         public AndroidDriver<AndroidElement> GetWebAndroidDriver(WebMobileDriverConfiguration driverConfig)
         {
 
@@ -73,6 +99,11 @@ namespace Automation_Framework.Helpers
             return androidDriver;
         }
 
+        /// <summary>
+        /// Initializes an IOSDriver
+        /// </summary>
+        /// <param name="driverConfig">Contains model for native mobile driver configuration</param>
+        /// <returns>Returns a new IOSDriver with web browser options</returns>
         public IOSDriver<IOSElement> GetWebIOSDriver(WebMobileDriverConfiguration driverConfig)
         {
             IOSDriver<IOSElement> iosDriver = new IOSDriver<IOSElement>(new Uri("http://localhost:4723/wd/hub"), WebDriverSettings.WebMobileOptions(driverConfig));

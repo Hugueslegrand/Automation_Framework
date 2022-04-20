@@ -14,7 +14,7 @@ namespace Automation_Framework.Tests.Pages
 
 
         public IButton MovieBannerButton => new WebElement(Driver, "//div[@id='Comedy Movies']//img[@id='531219']", Selector.Xpath);
-        
+
         public IButton BrightestOfficalSite => new WebElement(Driver, "//a[@class='css-mi3e9x']", Selector.Xpath);
         public IButton BrightestFaceBookSocials => new WebElement(Driver, "//a[@href='https://www.facebook.com/BrightestNV']", Selector.Xpath);
         public IButton BrightestTwitterSocials => new WebElement(Driver, "//a[@href='https://twitter.com/brightestnv']", Selector.Xpath);
@@ -63,10 +63,11 @@ namespace Automation_Framework.Tests.Pages
 
         public IButton RentPopUp => new WebElement(Driver, "//div[@class='notification-container--top-center']", Selector.Xpath);
 
-        public void ScrollComedyBar() {
-            Driver.GetElementAndScrollTo(ComedyHorizontalScrollBars,500); 
-                
-             }
+        public void ScrollComedyBar()
+        {
+            Driver.GetElementAndScrollHorizontally(ComedyHorizontalScrollBars, 500);
+
+        }
 
         public string GetInnerText_Warning()
         {
@@ -77,11 +78,11 @@ namespace Automation_Framework.Tests.Pages
         public void ClickMovieBanner() => MovieBannerButton.ClickOnElement();
 
         public void ClickBrightestOfficalSite() => BrightestOfficalSite.ClickOnElement();
-      
+
         public void ClickBrightestFaceBookSocials() => BrightestFaceBookSocials.ClickOnElement();
 
         public void ClickBrightestTwitterSocials() => BrightestTwitterSocials.ClickOnElement();
-       
+
         public void ClickBrightestInstagramSocials() => BrightestInstagramSocials.ClickOnElement();
 
         public void ClickBrightestLinkedInSocials() => BrightestLinkedInSocials.ClickOnElement();

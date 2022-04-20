@@ -1,5 +1,6 @@
 ﻿using Automation_Framework.Builders;
 using Automation_Framework.Enums;
+using Automation_Framework.Models;
 using NUnit.Allure.Core;
 using NUnit.Framework;
 
@@ -14,13 +15,17 @@ namespace Automation_Framework.Tests.Tests
         [SetUp]
         public void Setup()
         {
-           builder.BuildDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Desktop);
+          
+
         }
 
         [TearDown]
         public void TearDown()
         {
             builder.CloseDriver(PlatformType.Desktop);
+         
+   
         }
     }
 }

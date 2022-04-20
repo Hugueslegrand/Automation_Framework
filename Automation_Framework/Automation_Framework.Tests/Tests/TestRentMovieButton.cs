@@ -78,12 +78,12 @@ namespace Automation_Framework.Tests.Tests
         [Description("Test: RentMovieButton - renting movie while not logged in")]
         public void Test_RentMovieButton_Unsigned()
         {
-            
+
             HomePage homePage = new HomePage(builder);
             homePage.WaitSeconds(6);
             homePage.ClickMovie1();
             homePage.ClickRentThisMovie();
-            
+
             LoginPage loginPage = new LoginPage(builder);
             loginPage.SignInPage.Should();
             loginPage.WaitSeconds(3);
@@ -105,7 +105,7 @@ namespace Automation_Framework.Tests.Tests
             AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
             adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.WaitSeconds(1);
-            adminPanelPage.RemoveButtonUserByEmail(Renter.email);
+            adminPanelPage.RemoveUserByEmail(Renter.email);
             adminPanelPage.WaitSeconds(1);
         }
     }

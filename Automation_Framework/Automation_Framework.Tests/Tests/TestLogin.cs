@@ -3,13 +3,18 @@ using NUnit.Framework;
 using System.Threading;
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
-using OpenQA.Selenium;
+
 using System.Collections.Generic;
+using Automation_Framework.Tests.Screens;
+using Automation_Framework.Builders;
+using Automation_Framework.Enums;
 
 namespace Automation_Framework.Tests.Tests
 {
 
-    public class TestLogin : BaseTest
+    [TestFixture]
+    [Parallelizable]
+    public class TestLogin :BaseTest
     {
         User userLoginExist = new User("Pirate@King.com", "onepiece111");
 
@@ -21,36 +26,66 @@ namespace Automation_Framework.Tests.Tests
 
         User userIncorrectPassword = new User("Pirate@King.com", "IncorrectEmailAdress");
 
+
+
         [Test]
         [Description("Login as administrator")]
         public void Test_LoginAsAdmin_POM()
         {
-            Navigation navigation = new Navigation(builder);
+           
 
-            Thread.Sleep(6000);
+            Navigation navigation = new Navigation(builder);
+            
+            navigation.WaitSeconds(6);
             navigation.ClickSignIn();
 
             LoginPage loginPage = new LoginPage(builder);
 
             //Assert.AreEqual(loginPage.getInnerText(), "login");
 
-            loginPage.Login("brent.dar@ap.be", "hond");
+            loginPage.Login("brent.dar@ap.be", "hond123");
 
-            navigation.ClickMyMovie();
+            navigation.WaitSeconds(10);
+            /* HomeScreen homeScreen = new HomeScreen(builder);
 
-            MyMoviesPage myMoviesPage = new MyMoviesPage(builder);
-            //Remove selenium
-            IList<IWebElement> test = myMoviesPage.getElements();
-            foreach (var item in test)
-            {
-                item.FindElement(By.ClassName("css-49l3oe"));
-            }
-            //Assert.AreEqual(myMoviesPage.getElements(), "login");
+              homeScreen.ClickSignInButton();
 
+              LoginScreen loginScreen = new LoginScreen(builder);
+              loginScreen.AndroidLogin("brent.dar@ap.be", "hond123");
+            */
+            /*  navigation.ClickMyMovie();
 
-
+              MyMoviesPage myMoviesPage = new MyMoviesPage(builder);
+              //Remove selenium
+              IList<IWebElement> test = myMoviesPage.getElements();
+              foreach (var item in test)
+              {
+                  item.FindElement(By.ClassName("css-49l3oe"));
+              }
+              //Assert.AreEqual(myMoviesPage.getElements(), "login");
+            */
+        
         }
 
+        [Test]
+        [Description("Login as administrator chrome")]
+        public void Test_LoginAsAdminChrome()
+        {
+
+            Navigation navigation = new Navigation(builder);
+
+            navigation.WaitSeconds(6);
+            navigation.ClickSignIn();
+
+            LoginPage loginPage = new LoginPage(builder);
+
+
+            loginPage.Login("brent.dar@ap.be", "hond123");
+
+            navigation.WaitSeconds(10);
+     
+        }
+       
 
         [Test]
         [Description("Login as an existing user [2.1]")]

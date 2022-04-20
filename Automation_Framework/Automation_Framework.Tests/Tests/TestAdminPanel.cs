@@ -83,5 +83,32 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.TableHeadUsersRemove.Should();
         }
 
+        [Test]
+        [Description("Test: Editing an user's credit amount by email")]
+        public void Test_EditCreditsByEmail()
+        {
+            Navigation navigation = new Navigation(builder);
+            navigation.WaitSeconds(6);
+            navigation.ClickSignIn();
+
+            LoginPage loginPage = new LoginPage(builder);
+            loginPage.Login(userAdminExist.email, userAdminExist.password);
+
+            navigation.SettingsButton.Should();
+            navigation.SettingsButton.ClickOnElement();
+            navigation.WaitSeconds(6);
+
+
+            AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
+            adminPanelPage.ClickUsersMenu();
+            adminPanelPage.EditUserByEmaill("vader@ap.be");
+            adminPanelPage.WaitSeconds(3);
+            adminPanelPage.EditCredits("5");
+            adminPanelPage.WaitSeconds(3);
+            adminPanelPage.ClickSave();
+
+
+        }
+
     }
 }

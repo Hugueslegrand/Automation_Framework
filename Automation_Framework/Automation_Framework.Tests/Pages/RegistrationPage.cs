@@ -6,7 +6,7 @@ using Automation_Framework.WebElementModels;
 
 namespace Automation_Framework.Tests.Pages
 {
-    public class RegistrationPage :BasePage
+    public class RegistrationPage : BasePage
     {
         public RegistrationPage(DriverBuilder driver) : base(driver) { }
 
@@ -15,7 +15,7 @@ namespace Automation_Framework.Tests.Pages
         public IInputField RegisterEmail => new WebElement(Driver, "//input[@id='RegisterEmail']", Selector.Xpath);
         public IInputField RegisterPassword => new WebElement(Driver, "//input[@id='RegisterPassword']", Selector.Xpath);
         public IInputField RegisterRePassword => new WebElement(Driver, "//input[@id='RegisterRePassword']", Selector.Xpath);
-        public IButton RegisterButtonComplete => new WebElement(Driver, "//button[@id='RegisterButtonComplete']",Selector.Xpath);
+        public IButton RegisterButtonComplete => new WebElement(Driver, "//button[@id='RegisterButtonComplete']", Selector.Xpath);
         //public IButton IncorrectEmail => new WebElement(Driver, "//code[normalize-space()='Please fill in a correct email-adress.']", Selector.Xpath);
         //public IButton AlreadyRegistered => new WebElement(Driver, "//code[normalize-space()='Account is already registered.']", Selector.Xpath);
 
@@ -44,7 +44,7 @@ namespace Automation_Framework.Tests.Pages
         }
 
         public void ClickRegister() => RegisterButtonComplete.ClickOnElement();
-        
+
 
         public void Register(string firstName, string lastName, string email, string passwoord, string rePasswoord)
         {

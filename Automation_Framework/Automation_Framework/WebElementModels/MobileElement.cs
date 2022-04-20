@@ -1,5 +1,6 @@
 ﻿using Automation_Framework.Enums;
 using Automation_Framework.Extensions.MobileDriver;
+using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
@@ -11,12 +12,24 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.WebElementModels
 {
-    public class MobileElement : IAndroidElement,IIOSElement
+    public class MobileElement : IAndroidElement, IIOSElement
     {
         private AppiumDriver<AndroidElement>? _androidDriver;
         private AndroidElement? _androidElement;
         private AppiumDriver<IOSElement>? _iosDriver;
         private IOSElement? _iosElement;
+
+        public string TagName => _androidElement.TagName;
+
+        public string Text => _androidElement.Text;
+
+        public bool Enabled => _androidElement.Enabled;
+
+        public bool Selected => _androidElement.Selected;
+
+        public bool Displayed => _androidElement.Displayed;
+
+
 
         public MobileElement(AndroidDriver<AndroidElement> driver, string element, MobileSelector selector)
         {
@@ -94,6 +107,7 @@ namespace Automation_Framework.WebElementModels
             }
         }
 
+
         public void AndroidSendKeys(string text)
         {
             _androidElement.SendKeys(text);
@@ -103,7 +117,7 @@ namespace Automation_Framework.WebElementModels
             _androidElement.Click();
         }
 
-  
+
         public void IOSClick()
         {
             _iosElement.Click();
@@ -113,8 +127,15 @@ namespace Automation_Framework.WebElementModels
         {
             _iosElement.SendKeys(text);
         }
+  
+        public void Swipe(int startX, int startY, int endX, int endY, int duration)
+        {
+            _androidDriver.Swipe(startX, startY, endX, endY, duration);
+        }
 
-      
+
+
+
 
     }
 }

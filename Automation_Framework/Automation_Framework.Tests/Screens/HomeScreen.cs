@@ -27,6 +27,7 @@ namespace Automation_Framework.Tests.Screens
         public void ClickSettingsButton() => SettingsButton.AndroidClick();
         public void ClickMovieTitle() => MovieTitle.AndroidClick();
         public void ClickMovieBanner() => MovieBanner.AndroidClick();
+        public void Swipe(int startX, int startY, int endX, int endY, int duration) => MovieBanner.Swipe(startX, startY, endX, endY, duration);
 
     }
 }

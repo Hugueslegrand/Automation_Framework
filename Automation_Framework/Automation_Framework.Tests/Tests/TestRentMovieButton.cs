@@ -105,7 +105,7 @@ namespace Automation_Framework.Tests.Tests
             AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
             adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.WaitSeconds(1);
-            adminPanelPage.RemoveButtonUserByEmail(Renter.email);
+            adminPanelPage.RemoveUserByEmail(Renter.email);
             adminPanelPage.WaitSeconds(1);
         }
     }

@@ -22,6 +22,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             homeScreen.WaitSeconds(20);
             homeScreen.ClickMovieBanner();
 
+            detailScreen.Swipe(685, 1400, 685, 800, 500);
             detailScreen.AndroidBackButton.Should();
             detailScreen.AndroidMovieTitle.Should();
             detailScreen.AndroidMovieDescription.Should();
@@ -29,12 +30,9 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             detailScreen.AndroidNameActorsTitle.Should();
             detailScreen.AndroidNameActor.Should();
             detailScreen.AndroidAvatarActor.Should();
-
-
-
-            //detailScreen.AndroidPrice.Should();
-            //detailScreen.AndroidGenres.Should();
-            //detailScreen.AndroidRentMovieButton.Should();
+            detailScreen.AndroidPrice.Should();
+            detailScreen.AndroidGenres.Should();
+            detailScreen.AndroidRentMovieButton.Should();
             detailScreen.ClickBackButton();
 
         }
@@ -43,12 +41,27 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         public void Test_Swipe_Horizontal_And_Vertical()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
-            DetailsScreen detailScreen = new DetailsScreen(builder);
 
             homeScreen.WaitSeconds(20);
-            homeScreen.ClickMovieBanner();
+            //Comedy Swipe left
+            for (int i = 0; i < 4; i++)
+                homeScreen.Swipe(1370, 870, 50, 870, 500);
+            //Action Swipe left
+            for (int i = 0; i < 4; i++)
+                homeScreen.Swipe(1370, 1670, 50, 1670, 500);
             
-           
+            //Scroll UP
+            homeScreen.Swipe(730, 2060, 730, 880, 500);
+
+            //Romance Swipe left
+            for (int i = 0; i < 4; i++)
+                homeScreen.Swipe(1370, 1500, 50, 1500, 500);
+            //Horror Swipe left
+            for (int i = 0; i < 4; i++)
+                homeScreen.Swipe(1370, 2300, 50, 2300, 500);
+
+
+
 
         }
     }

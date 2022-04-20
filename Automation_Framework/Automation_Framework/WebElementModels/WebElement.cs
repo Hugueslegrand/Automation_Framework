@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 namespace Automation_Framework.WebElementModels
 {
 
-    public class WebElement : IButton, IInputField
+    public class WebElement : IButton, IInputField, ITable
     {
         private readonly DriverBuilder _driverBuilder;
         private  IWebElement _webElement;

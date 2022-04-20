@@ -73,13 +73,13 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             homeScreen.SignInButton.Should();
             homeScreen.ClickSignInButton();
 
-            LoginScreen loginPage = new LoginScreen(builder);
-            loginPage.AndroidLogin(userLoginExist.email, userLoginExist.password);
-            NavigationScreen navigation = new NavigationScreen(builder);
+            LoginScreen loginScreen = new LoginScreen(builder);
+            loginScreen.AndroidLogin(userLoginExist.email, userLoginExist.password);
+            NavigationScreen navigationScreen = new NavigationScreen(builder);
 
             homeScreen.SignOutButton.Should();
-            navigation.MyMoviesTab.Should();
-            navigation.ProfileTab.Should();
+            navigationScreen.MyMoviesTab.Should();
+            navigationScreen.ProfileTab.Should();
        }
 
         

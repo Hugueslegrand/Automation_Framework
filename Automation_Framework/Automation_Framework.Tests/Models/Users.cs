@@ -31,7 +31,16 @@ namespace Automation_Framework.Tests.Models
             this.email = email;
             this.password = password;
         }
-        
+
+        public User(string firstName, string lastName, string email, string password)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.email = email;
+            this.password = password;
+
+        }
+
     }
     
     

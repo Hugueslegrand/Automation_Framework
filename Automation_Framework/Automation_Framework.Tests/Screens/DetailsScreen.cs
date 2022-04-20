@@ -22,10 +22,27 @@ namespace Automation_Framework.Tests.Screens
         public IAndroidElement AndroidGenres => new MobileElement(AndroidDriver, "//android.widget.TextView[@content-desc=\"genres\"]", MobileSelector.Xpath);
         public IAndroidElement AndroidRentMovieButton => new MobileElement(AndroidDriver, "//android.view.ViewGroup[@content-desc=\"rentMovie\"]", MobileSelector.Xpath);
 
+        public IAndroidElement AndroidNotificationCloseIcon => new MobileElement(AndroidDriver, "closeNotification", MobileSelector.AccessibilityID);
+        public IAndroidElement AndroidNotificationTitle => new MobileElement(AndroidDriver, "notificationTitle", MobileSelector.AccessibilityID);
+        public IAndroidElement AndroidNotificationMessage => new MobileElement(AndroidDriver, "notificationMessage", MobileSelector.AccessibilityID);
+
+        public string GetInnerText_AndroidNotificationCloseIcon()
+        {
+            return AndroidNotificationCloseIcon.Text;
+        }
+        public string GetInnerText_AndroidNotificationTitle()
+        {
+            return AndroidNotificationTitle.Text;
+        }
+        public string GetInnerText_AndroidNotificationMessage()
+        {
+            return AndroidNotificationMessage.Text;
+        }
+
         //Android Functions
         public void ClickBackButton() => AndroidBackButton.AndroidClick();
         public void ClickMoreInfo() => AndroidMoreInfo.AndroidClick();
         public void ClickRentMovieButton() => AndroidRentMovieButton.AndroidClick();
-
+        public void Swipe(int startX, int startY, int endX, int endY, int duration) => AndroidNameActorsTitle.Swipe(startX, startY, endX, endY, duration);
     }
 }

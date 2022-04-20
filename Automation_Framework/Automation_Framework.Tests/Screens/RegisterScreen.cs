@@ -31,7 +31,7 @@ namespace Automation_Framework.Tests.Screens
         public void ClickRePassword() => AndroidRegisterRePassword.AndroidClick();
         public void ClickLoginButton() => AndroidRegisterButtonComplete.AndroidClick();
         public void ClickGoToSignInScreen() => AndroidGoToSignInScreen.AndroidClick();
-        public void SwipeModal(int horizontal, int vertical) => Modal.AndroidSwipe(horizontal, vertical);
+        //public void SwipeModal(int horizontal, int vertical) => Modal.AndroidSwipe(horizontal, vertical);
         public void Swipe(int startX, int startY, int endX, int endY, int duration) => AndroidRegisterLastName.Swipe( startX,  startY,  endX,  endY,  duration);
 
         public void AndroidRegister(string firstName, string lastName, string email, string passwoord, string rePasswoord)

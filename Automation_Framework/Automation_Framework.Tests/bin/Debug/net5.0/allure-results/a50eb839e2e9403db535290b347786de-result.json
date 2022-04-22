@@ -1,0 +1,98 @@
+{
+  "uuid": "545dd00d-9a51-4e5b-b861-4ac6620612bb-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : input cannot be null (Parameter 'input')",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1..ctor(T input, IClock clock)\r\n   at OpenQA.Selenium.Support.UI.WebDriverWait..ctor(IClock clock, IWebDriver driver, TimeSpan timeout, TimeSpan sleepInterval)\r\n   at OpenQA.Selenium.Support.UI.WebDriverWait..ctor(IWebDriver driver, TimeSpan timeout)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 40\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 67\r\n   at Automation_Framework.Tests.Pages.Navigation.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 15\r\n   at Automation_Framework.Tests.Pages.Navigation.ClickSignIn() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 58\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 40\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 86"
+  },
+  "stage": "finished",
+  "description": "Login as administrator chrome\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : input cannot be null (Parameter 'input')",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1..ctor(T input, IClock clock)\r\n   at OpenQA.Selenium.Support.UI.WebDriverWait..ctor(IClock clock, IWebDriver driver, TimeSpan timeout, TimeSpan sleepInterval)\r\n   at OpenQA.Selenium.Support.UI.WebDriverWait..ctor(IWebDriver driver, TimeSpan timeout)\r\n   at Automation_Framework.Extensions.WebDriver.WaitExtension.WaitForClickable(IWebDriver driver, By by) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\WaitExtension.cs:line 40\r\n   at Automation_Framework.WebElementModels.WebElement..ctor(IWebDriver driver, String element, Selector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 67\r\n   at Automation_Framework.Tests.Pages.Navigation.get_SignInButton() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 15\r\n   at Automation_Framework.Tests.Pages.Navigation.ClickSignIn() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Pages\\Navigation.cs:line 58\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 40\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 86"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 1d047da7-66a3-4e3f-b00d-6190d92365b1) clicked",
+          "source": "0bb578fe29aa46fb94297aac1eb18e4c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 485b1571-33ba-4abb-8752-0a671f9b75bd) clicked",
+          "source": "ffb88167d47d4d6c878e9b170fd07f75-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 485b1571-33ba-4abb-8752-0a671f9b75bd)`",
+          "source": "27cb173e5a7f452da5c39d7e0538c7df-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = fef61d8b-a6ba-4bd4-88c2-67cb0e3af62f) clicked",
+          "source": "d8be18c2d0374f5a8cdae7e684a3da41-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = fef61d8b-a6ba-4bd4-88c2-67cb0e3af62f)`",
+          "source": "c8d99e4987cf453e810eee4c9db26b7f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 0a912f28-2054-492b-9936-3650c9d92f5e) clicked",
+          "source": "5f00161f42cb4612a514423a44097341-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "4e1d233f4f2a4e0e8115a34f1f475879-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650460022006,
+      "stop": 1650460049049
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650460022006,
+  "stop": 1650460049055
+}

@@ -7,8 +7,32 @@ using System.Threading;
 
 namespace Automation_Framework.Tests.Tests
 {
+    [TestFixture]
+    [Parallelizable]
     public class TestProfile : BaseTest
     {
+
+
+        [Test]
+        [Description("Login as administrator parallel")]
+        public void Test_LoginAsAdminChrome()
+        {
+
+            Navigation navigation = new Navigation(builder);
+
+            navigation.WaitSeconds(6);
+            navigation.ClickSignIn();
+
+            LoginPage loginPage = new LoginPage(builder);
+
+
+            loginPage.Login("brent.dar@ap.be", "hond123");
+
+            navigation.WaitSeconds(10);
+
+
+
+        }
 
         User UserAdminLogin_Exist = new User("Brent", "Dar", "brent.dar@ap.be", "hond123", "hond123");
 

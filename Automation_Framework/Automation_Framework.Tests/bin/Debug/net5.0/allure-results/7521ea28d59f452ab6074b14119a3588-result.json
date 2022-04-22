@@ -1,0 +1,98 @@
+{
+  "uuid": "229c4eab-0470-4d31-a7dc-bb55cb9cbd24-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "--TearDown\r\n   at Automation_Framework.Builders.DriverBuilder.CloseAllDrivers() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 112\r\n   at Automation_Framework.Tests.Tests.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 29"
+  },
+  "stage": "finished",
+  "description": "\nTearDown TearDown method failed\nLogin as administrator parallel\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "--TearDown\r\n   at Automation_Framework.Builders.DriverBuilder.CloseAllDrivers() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 112\r\n   at Automation_Framework.Tests.Tests.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 29"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 7c029170-c9d4-482e-be8d-fdeffef99b23) clicked",
+          "source": "4b93ddbd59c343a78b7ebc604327fb0e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = a9858fd6-3568-4472-9e44-f5656d8c918c) clicked",
+          "source": "2d0f27470a584881b39bff56070e4cfe-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = a9858fd6-3568-4472-9e44-f5656d8c918c)`",
+          "source": "3b6c1f80a8ab4e02b3e560a69ba06c8c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 2320842e-1bf4-4058-b1be-c77c76f0e2ee) clicked",
+          "source": "2a7f6f43b34143c186a75efb15f1991b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = 2320842e-1bf4-4058-b1be-c77c76f0e2ee)`",
+          "source": "4d2f2266aa76491bb7aee50c6263ae1c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 60875ce5-7db8-43b9-ac2f-d67bca38c518) clicked",
+          "source": "cecefdecacc2461eb1ba33734dae9638-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8fbd73fd839d4813b21d85b86d7a1ac9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650523833737,
+      "stop": 1650523886765
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650523833732,
+  "stop": 1650523886770
+}

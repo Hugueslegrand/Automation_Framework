@@ -1,0 +1,125 @@
+{
+  "uuid": "18764cb6-874b-4f40-922e-aa1e5398e4a1-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_LoginAsAdminChrome"
+  },
+  "stage": "finished",
+  "description": "Login as administrator chrome\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 666a3d27-23de-4348-b3d0-17135039bb22) clicked",
+          "source": "9f28afbea440465db5a2ab649217e9e1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 10ad5366-4825-43cd-b27b-e8a9d7ccd41d) clicked",
+          "source": "dc38fbdec5cd4cddad282f293c45edfe-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 10ad5366-4825-43cd-b27b-e8a9d7ccd41d)`",
+          "source": "82074acdf3b7423eb312af36c4a6d2e5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 9d8d7493-8192-4ae3-8a5f-a182cca1e6fd) clicked",
+          "source": "a0d30a25d9ab446a83e32b3cd567eaee-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = 9d8d7493-8192-4ae3-8a5f-a182cca1e6fd)`",
+          "source": "a49ae41088cb49b5bcf124528efbd684-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = fd829599-4541-4bab-82b6-e5e719b593b2) clicked",
+          "source": "cc627e5a4a144af7a171e6c08fc1788f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8e8415f6-0e10-4acc-907a-ac7912576f01) clicked",
+          "source": "8577432544ac401c89df88df7d2d075c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 39bce918-1502-412c-8840-0c99774c39f5) clicked",
+          "source": "c815ff9b2c6a43398f2c90c0703d8c09-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 39bce918-1502-412c-8840-0c99774c39f5)`",
+          "source": "44d9b95ba6804105954578f6d8f38c75-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = f5c672e9-8c63-49b5-9825-4393e6b092d0) clicked",
+          "source": "777778dba16243fa9f13bfe5cede6e51-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = f5c672e9-8c63-49b5-9825-4393e6b092d0)`",
+          "source": "7afb16327bbd442aa97e540187cf0afb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = c85b80ea-aa54-478c-9824-8fb21b51e779) clicked",
+          "source": "46fdb054a9894dfdb84579b2e54fb41f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b92b035fc40e49efa8c91a0f5863b2fc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650460078949,
+      "stop": 1650460119901
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650460078948,
+  "stop": 1650460119905
+}

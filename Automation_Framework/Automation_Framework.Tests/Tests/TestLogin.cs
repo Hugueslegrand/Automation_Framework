@@ -14,6 +14,8 @@ namespace Automation_Framework.Tests.Tests
 
     [TestFixture]
     [Parallelizable]
+    [Property("suiteid", "1")]
+    [Property("projectid", "1")]
     public class TestLogin :BaseTest
     {
         User userLoginExist = new User("Pirate@King.com", "onepiece111");
@@ -67,11 +69,11 @@ namespace Automation_Framework.Tests.Tests
         
         }
 
-        [Test]
-        [Description("Login as administrator chrome")]
+        [Test, Property("caseid", "1")]
+        [Description("Login as administrator parallel")]
         public void Test_LoginAsAdminChrome()
         {
-
+           
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
@@ -91,6 +93,7 @@ namespace Automation_Framework.Tests.Tests
         [Description("Login as an existing user [2.1]")]
         public void Test_Unlogged_Layout()
         {
+            
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
             navigation.SignInButton.Should();

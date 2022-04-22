@@ -1,0 +1,44 @@
+{
+  "uuid": "d8a1e91a-c836-4b43-bc9b-c3b11b12d656-tc-0-1007",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "children": [
+    "a9e6853b-9b19-4a36-8eec-562803bbe965-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650459956241,
+      "stop": 1650459956241
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650459956241,
+      "stop": 1650459956241
+    }
+  ],
+  "links": [],
+  "start": 1650459919411,
+  "stop": 1650459956268
+}

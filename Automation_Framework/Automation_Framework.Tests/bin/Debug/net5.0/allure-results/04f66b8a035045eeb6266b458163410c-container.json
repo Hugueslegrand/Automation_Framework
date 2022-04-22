@@ -1,0 +1,93 @@
+{
+  "uuid": "59c48c81-2567-47a0-b85c-c17caa9c947d-tc-0-1007",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "children": [
+    "ffc95bc3-5e69-47b1-b27a-b177360919e3-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "FixtureSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650662927284,
+      "stop": 1650662927284
+    },
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Net.WebException : An exception occurred during a WebClient request.\r\n  ----> System.IO.IOException : De syntaxis van de bestandsnaam, mapnaam of volumenaam is onjuist. : 'C:\\Users\\hugue\\AppData\\Local\\Temp\\35d43ab6-0e0c-43ba-8ced-7b77c5a26343\\geckodriver-v\n  0.31.0\n  \n-win64.zip'",
+        "trace": "   at System.Net.WebClient.DownloadFile(Uri address, String fileName)\r\n   at WebDriverManager.Services.Impl.BinaryService.DownloadZip(String url, String destination)\r\n   at WebDriverManager.Services.Impl.BinaryService.SetupBinary(String url, String zipPath, String binaryPath)\r\n   at WebDriverManager.DriverManager.SetUpDriverImpl(String url, String binaryPath)\r\n   at WebDriverManager.DriverManager.SetUpDriver(IDriverConfig config, String version, Architecture architecture)\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 40\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 36\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 21\r\n--IOException\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)\r\n   at System.Net.WebClient.DownloadFile(Uri address, String fileName)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650662927286,
+      "stop": 1650662927286
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cleanup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650662927288,
+      "stop": 1650662927288
+    },
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650662927288,
+      "stop": 1650662927288
+    },
+    {
+      "name": "FixtureTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1650662927289,
+      "stop": 1650662927289
+    }
+  ],
+  "links": [],
+  "start": 1650662923670,
+  "stop": 1650662927433
+}

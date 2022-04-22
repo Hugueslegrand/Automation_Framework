@@ -1,0 +1,95 @@
+{
+  "uuid": "3cd89d28-c323-42df-ad22-03157956d1dd-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_LoginAsAdminChrome"
+  },
+  "stage": "finished",
+  "description": "Login as administrator parallel\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Element (id = 819db00f-33e9-4214-b62a-baa8dbdfb202) clicked",
+          "source": "e02efa6b5a6943d9a3409742fb1d6c50-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 8ac1dfe3-38b8-470f-b651-d4f216e7f26d) clicked",
+          "source": "9c0b0bd5f19f4cdf94c3f2d687883244-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `brent.dar@ap.be` entered in `Element (id = 8ac1dfe3-38b8-470f-b651-d4f216e7f26d)`",
+          "source": "7a847771cb3d465daea75526391e7b4c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = 1b78deaf-6036-4704-9432-2a38df4ee233) clicked",
+          "source": "7bab7dbee12d4beb91cbf8bbf246d57f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Value `hond123` entered in `Element (id = 1b78deaf-6036-4704-9432-2a38df4ee233)`",
+          "source": "c18a559d0ef34610bbd5e1c30ce965e5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Element (id = d42578bb-f0b3-47d7-a7ce-14039690723c) clicked",
+          "source": "002bc6e68b694a3fba713665b67d40ca-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "198434a18be6447f82658c596f58ec01-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650662750844,
+      "stop": 1650662786978
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650662750841,
+  "stop": 1650662786988
+}

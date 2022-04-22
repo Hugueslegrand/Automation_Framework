@@ -41,7 +41,10 @@ namespace Automation_Framework.Tests.Pages
 
         }
 
-
+        public string GetInnerTextOfElement(IButton button)
+        {
+            return button.Text;
+        }
         public string GetInnerText_MovieTitle()
         {
             return MovieTitle.Text;

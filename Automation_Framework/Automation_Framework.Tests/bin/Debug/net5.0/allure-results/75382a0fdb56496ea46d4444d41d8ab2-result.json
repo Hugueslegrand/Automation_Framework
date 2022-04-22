@@ -1,0 +1,68 @@
+{
+  "uuid": "a172aec4-5366-41a8-929d-d7729a316a94-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Net.WebException : An exception occurred during a WebClient request.\r\n  ----> System.IO.IOException : De syntaxis van de bestandsnaam, mapnaam of volumenaam is onjuist. : 'C:\\Users\\hugue\\AppData\\Local\\Temp\\4ad34980-eee1-4e95-a05e-d5de8b1b64e4\\geckodriver-v\n  0.31.0\n  \n-win64.zip'",
+    "trace": "   at System.Net.WebClient.DownloadFile(Uri address, String fileName)\r\n   at WebDriverManager.Services.Impl.BinaryService.DownloadZip(String url, String destination)\r\n   at WebDriverManager.Services.Impl.BinaryService.SetupBinary(String url, String zipPath, String binaryPath)\r\n   at WebDriverManager.DriverManager.SetUpDriverImpl(String url, String binaryPath)\r\n   at WebDriverManager.DriverManager.SetUpDriver(IDriverConfig config, String version, Architecture architecture)\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 40\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 36\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 21\r\n--IOException\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)\r\n   at System.Net.WebClient.DownloadFile(Uri address, String fileName)"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\nLogin as administrator parallel\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome skipped because of FixtureSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Net.WebException : An exception occurred during a WebClient request.\r\n  ----> System.IO.IOException : De syntaxis van de bestandsnaam, mapnaam of volumenaam is onjuist. : 'C:\\Users\\hugue\\AppData\\Local\\Temp\\4ad34980-eee1-4e95-a05e-d5de8b1b64e4\\geckodriver-v\n  0.31.0\n  \n-win64.zip'",
+        "trace": "   at System.Net.WebClient.DownloadFile(Uri address, String fileName)\r\n   at WebDriverManager.Services.Impl.BinaryService.DownloadZip(String url, String destination)\r\n   at WebDriverManager.Services.Impl.BinaryService.SetupBinary(String url, String zipPath, String binaryPath)\r\n   at WebDriverManager.DriverManager.SetUpDriverImpl(String url, String binaryPath)\r\n   at WebDriverManager.DriverManager.SetUpDriver(IDriverConfig config, String version, Architecture architecture)\r\n   at Automation_Framework.Helpers.WebDriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\WebDriverFactory.cs:line 40\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 36\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 21\r\n--IOException\r\n   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)\r\n   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)\r\n   at System.Net.WebClient.DownloadFile(Uri address, String fileName)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "044f637fdb014d7eb2e5668d2a3167c6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1650663790789,
+      "stop": 1650663792762
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1650663790789,
+  "stop": 1650663792766
+}

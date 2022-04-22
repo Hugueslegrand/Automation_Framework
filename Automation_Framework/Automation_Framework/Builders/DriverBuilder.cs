@@ -108,9 +108,12 @@ namespace Automation_Framework.Builders
         /// </summary>
         public void CloseAllDrivers()
         {
-            _webDriver.Quit();
-            _androidDriver.Quit();
-            _iosDriver.Quit();
+            if (_webDriver!=null)  _webDriver.Quit();
+               
+            if (_androidDriver != null) _androidDriver.Quit();
+                
+            if (_iosDriver != null)  _iosDriver.Quit();
+               
         }
 
     }

@@ -13,12 +13,20 @@ namespace Automation_Framework.Tests.Tests
     public class BaseTest : TestRailBaseTest
     {
         public DriverBuilder builder = new DriverBuilder();
-     
+        public Navigation navigation;
+        public LoginPage loginPage;
+
+        private void initPages()
+        {
+            navigation = new Navigation(builder);
+            loginPage = new LoginPage(builder);
+        }
 
         [SetUp]
         public void Setup()
         {
             builder.BuildDriver(PlatformType.Desktop);
+            initPages();
         }
 
         [TearDown]

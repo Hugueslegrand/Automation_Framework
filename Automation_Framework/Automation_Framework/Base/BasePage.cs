@@ -27,5 +27,6 @@ namespace Automation_Framework.Base
         {
             SendKeys(keys);
         }
+
     }
 }

@@ -14,14 +14,14 @@ namespace Automation_Framework.Tests.Tests
         [SetUp]
         public void Setup()
         {
-           builder.BuildDriver(PlatformType.Desktop);
+           //builder.BuildDriver(PlatformType.Desktop);
            builder.BuildDriver(PlatformType.Android);
         }
 
         [TearDown]
         public void TearDown()
         {
-            builder.CloseDriver(PlatformType.Desktop);
+            //builder.CloseDriver(PlatformType.Desktop);
             builder.CloseDriver(PlatformType.Android);
         }
     }

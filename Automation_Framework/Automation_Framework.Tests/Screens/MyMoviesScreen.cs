@@ -17,8 +17,15 @@ namespace Automation_Framework.Tests.Screens
         public IAndroidElement WatchMovieButton => new MobileElement(AndroidDriver, "(//android.view.ViewGroup[@content-desc=\"watchMovie\"])[1]/android.widget.TextView", MobileSelector.Xpath);
         public IAndroidElement GoBackButton => new MobileElement(AndroidDriver, "//android.widget.Button[@content-desc=\"goBack\"]/android.widget.TextView", MobileSelector.Xpath);
 
+        public IAndroidElement StartRentingButton => new MobileElement(AndroidDriver, "//android.view.ViewGroup[@content-desc=\"moviesContainer\"]/android.view.ViewGroup[2]/android.view.ViewGroup", MobileSelector.Xpath);
+
         //Android Functions
         public void ClickWatchMovieButton() => WatchMovieButton.AndroidClick();
         public void ClickGoBackButton() => GoBackButton.AndroidClick();
+
+        public string GetInnerText_MovieCardTitle()
+        {
+            return MovieCardTitle.Text;
+        }
     }
 }

@@ -66,7 +66,7 @@ namespace Automation_Framework.Tests.Pages
         //Driver.ClickOnElement(ProfileButton);
         public void ClickSignOut() => SignOutButton.ClickOnElement();
         //Driver.ClickOnElement(SignOutButton);
-        public void ClickSettings() => SettingsButton.ClickOnElement();
+        public void ClickSettingsButton() => SettingsButton.ClickOnElement();
 
         // public List<string> GetAllOptionsFromSearchbar() => SearchBarDropDown.GetAllOptionsFromSelectTagDropDown();
         public void ClickDropDrownElement(IButton button) => button.ClickOnElement();

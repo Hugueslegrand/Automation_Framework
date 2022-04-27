@@ -10,5 +10,6 @@ namespace Automation_Framework.Models
         public string LogsPath { get; set; }
 
         public int DefaultTimeout { get; set; }
+        public bool EnableLog { get; set; }
     }
 }

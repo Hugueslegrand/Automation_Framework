@@ -47,7 +47,7 @@ namespace Automation_Framework.Tests.Tests
 
             loginPage.Login("brent.dar@ap.be", "hond123");
 
-            navigation.WaitSeconds(10);
+          
             /* HomeScreen homeScreen = new HomeScreen(builder);
 
               homeScreen.ClickSignInButton();
@@ -73,19 +73,21 @@ namespace Automation_Framework.Tests.Tests
         [Description("Login as administrator parallel")]
         public void Test_LoginAsAdminChrome()
         {
-            Log.StartTestCase("Login as administrator");
+         
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
 
-            //navigation.SignInButton.ClickOnElement();
+            navigation.SignInButton.ClickOnElement();
+            
 
+            
             LoginPage loginPage = new LoginPage(builder);
 
 
             loginPage.Login("brent.dar@ap.be", "hond123");
 
-            Log.EndTestCase("Login as administrator");
+        
         }
        
 

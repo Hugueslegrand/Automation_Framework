@@ -7,8 +7,22 @@ namespace Automation_Framework.Utility
 {
     public class Log
     {
-        public static L logger = new L(directory: $@"{Configuration.WebDriver.LogsPath}");
 
+		public static L logger = LogRun();
+
+
+		public static L LogRun()
+        {
+            if (Configuration.WebDriver.EnableLog)
+            {
+				return new L(directory: $@"{Configuration.WebDriver.LogsPath}");
+			}
+            else
+            {
+				return new L();
+            }
+        }
+	
 		public static void StartTestCase(String sTestCaseName)
 		{
 			
@@ -24,7 +38,7 @@ namespace Automation_Framework.Utility
 
 		}
 
-		public static void EndTestCase(String sTestCaseName)
+		public static void EndTestCase()
 		{
 
 			logger.Info("XXXXXXXXXXXXXXXXXXXXXXX             " + "-E---N---D-" + "             XXXXXXXXXXXXXXXXXXXXXX");

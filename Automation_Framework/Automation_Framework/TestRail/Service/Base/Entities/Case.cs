@@ -1,5 +1,7 @@
 ﻿
 
+using System.Collections.Generic;
+
 namespace Automation_Framework.TestRail.Service.Base.Entities
 {
     public class Case

@@ -7,7 +7,7 @@ using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Opera;
-using OpenQA.Selenium.Remote;
+
 using OpenQA.Selenium.Safari;
 
 namespace Automation_Framework.Helpers
@@ -84,6 +84,7 @@ namespace Automation_Framework.Helpers
             options.AddAdditionalCapability(MobileCapabilityType.AutomationName, config.AutomationName);
             options.AddAdditionalCapability(MobileCapabilityType.DeviceName, config.DeviceName);
             options.AddAdditionalCapability(MobileCapabilityType.App, config.App);
+            options.AddAdditionalCapability(MobileCapabilityType.NoReset, true);
             return options;
         }
 

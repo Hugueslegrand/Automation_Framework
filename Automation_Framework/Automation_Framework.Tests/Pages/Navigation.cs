@@ -9,7 +9,7 @@ namespace Automation_Framework.Tests.Pages
     public class Navigation : BasePage
     {
         public Navigation(DriverBuilder driver) : base(driver) { }
-        public IButton SignInButton => new WebElement(Driver, "//button[@id='SignInButton']", Selector.Xpath);
+        public ILink SignInButton => new WebElement(Driver, "//button[@id='SignInButton']", Selector.Xpath);
         public IInputField SearchBar => new WebElement(Driver, ".MuiInputBase-root.MuiOutlinedInput-root.MuiAutocomplete-inputRoot.jss1.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd", Selector.Css);
 
         public IInputField SearchBarDropDown => new WebElement(Driver, "div.css-1optmax > div > div > div > input", Selector.Css);

@@ -14,7 +14,7 @@ using System.Collections.Generic;
 namespace Automation_Framework.WebElementModels
 {
 
-    public class WebElement : IButton, IInputField, ITable
+    public class WebElement : IButton, IInputField, ITable, ILink
     {
         private readonly DriverBuilder _driverBuilder;
         private IWebElement _webElement;
@@ -90,6 +90,12 @@ namespace Automation_Framework.WebElementModels
 
         }
 
+
+        public void OpenLinkInNewTab()
+        {
+            _webDriver.OpenLinkInNewTab(_webElement);
+        }
+
         public IWebElement getElement()
         {
             return _webElement;
@@ -103,7 +109,7 @@ namespace Automation_Framework.WebElementModels
             }
             catch (Exception)
             {
-                Log.Warn($"Failed to click on the {_webElement.TagName} `{_webElement.Text}`");
+                Log.Warn($"Failed to click on the {_webElement.TagName} `{_webElement.Text}` {_webElement}");
                 throw;
             }
             

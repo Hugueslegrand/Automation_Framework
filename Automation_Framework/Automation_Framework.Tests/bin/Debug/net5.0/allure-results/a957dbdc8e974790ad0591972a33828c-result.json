@@ -1,0 +1,65 @@
+{
+  "uuid": "631d1ab8-1a8c-4679-8ada-5b16931c5f45-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_LoginAsAdminChrome"
+  },
+  "stage": "finished",
+  "description": "Login as administrator parallel\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4e32f83bd7494c5cac1cc504d95f6b40-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1651049518565,
+      "stop": 1651049527312
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1651049518564,
+  "stop": 1651049527317
+}

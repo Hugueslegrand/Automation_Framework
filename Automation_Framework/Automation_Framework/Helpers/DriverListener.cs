@@ -19,10 +19,13 @@ namespace Automation_Framework.Helpers
         /// </summary>
         /// <param name="parentDriver">Contains the running WebDriver instance. This WebDriver will be wrapped by EventFiringWebDriver that will add the support of event triggering.</param>
         /// <param name="logger">LLibrary class for logging actions made on the web driver</param>
+        
+
         public DriverListener(IWebDriver parentDriver, L logger) : base(parentDriver)
         {
             _driver = parentDriver;
             _logger = logger;
+
             Navigating += WebDriverListener_Navigating;
             Navigated += WebDriverListener_Navigated;
             FindingElement += WebDriverListener_FindingElement;

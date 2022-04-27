@@ -1,6 +1,7 @@
 ﻿using Automation_Framework.Builders;
 using Automation_Framework.Enums;
 using Automation_Framework.Models;
+using Automation_Framework.Utility;
 using Automation_Framework.TestRail.Service;
 using Automation_Framework.Tests.Pages;
 using NUnit.Allure.Core;
@@ -43,6 +44,8 @@ namespace Automation_Framework.Tests.Tests
         [SetUp]
         public void Setup()
         {
+            string testDescription = (string)TestContext.CurrentContext.Test.Properties.Get("Description");
+            Log.StartTestCase(testDescription);
             builder.BuildDriver(PlatformType.Desktop);
            // initPages();
         }
@@ -50,6 +53,7 @@ namespace Automation_Framework.Tests.Tests
         [TearDown]
         public void TearDown()
         {
+            Log.EndTestCase();
             builder.CloseDriver(PlatformType.Desktop);
         }
 

@@ -7,6 +7,7 @@ namespace Automation_Framework.Extensions.WebDriver
 
     public static class Clicker
     {
+
         /// <summary>
         /// Method used for clicking on an element, after waiting for it to be clickable
         /// </summary>

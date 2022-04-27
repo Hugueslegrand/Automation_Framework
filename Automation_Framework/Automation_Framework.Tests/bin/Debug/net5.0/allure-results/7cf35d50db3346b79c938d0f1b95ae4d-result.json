@@ -1,0 +1,68 @@
+{
+  "uuid": "babe2d03-64f3-4771-ba6e-1114aee76cc9-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Expected builder._webDriver.Title to be \"idk\" with a length of 3, but \"B-Tube\" has a length of 6, differs near \"B-T\" (index 0).",
+    "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 83\r\n"
+  },
+  "stage": "finished",
+  "description": "Login as administrator parallel\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Expected builder._webDriver.Title to be \"idk\" with a length of 3, but \"B-Tube\" has a length of 6, differs near \"B-T\" (index 0).",
+        "trace": "   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\r\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\r\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\r\n   at FluentAssertions.Primitives.StringEqualityValidator.ValidateAgainstLengthDifferences()\r\n   at FluentAssertions.Primitives.StringValidator.Validate()\r\n   at FluentAssertions.Primitives.StringAssertions`1.Be(String expected, String because, Object[] becauseArgs)\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 83\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "36ab060e8fc7454bb56f1348ebf249d8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1651046892395,
+      "stop": 1651046917219
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1651046892391,
+  "stop": 1651046917243
+}

@@ -1,6 +1,6 @@
 ﻿using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
-using System.Threading;
+
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
 
@@ -21,13 +21,13 @@ namespace Automation_Framework.Tests.Tests
             navigation.WaitSeconds(6);
             navigation.SearchBar.Should();
             navigation.SearchBar.ClickOnElement();
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(normalUser.email, normalUser.password);
             navigation.SearchBar.Should();
             navigation.SearchBar.ClickOnElement();
-            navigation.ClickSignOut();
-            navigation.ClickSignIn();
+            navigation.SignOutButton.ClickOnElement();
+            navigation.SignInButton.ClickOnElement();
             loginPage.Login(admin.email, admin.password);
             navigation.SearchBar.Should();
             navigation.SearchBar.ClickOnElement();

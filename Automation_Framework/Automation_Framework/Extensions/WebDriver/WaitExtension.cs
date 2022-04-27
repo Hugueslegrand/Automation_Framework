@@ -1,5 +1,6 @@
 ﻿using System;
 using OpenQA.Selenium;
+using Automation_Framework.Utility;
 using OpenQA.Selenium.Support.UI;
 using Automation_Framework.Helpers;
 using ExpectedConditions = SeleniumExtras.WaitHelpers.ExpectedConditions;
@@ -25,6 +26,7 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <returns>A WebDriverWait function</returns>
         public static WebDriverWait Wait(this IWebDriver driver)
         {
+            if (driver is null) Log.Warn("The driver has not been build");
             return new WebDriverWait(driver,
                 TimeSpan.FromSeconds(Configuration.WebDriver.DefaultTimeout));
         }
@@ -37,8 +39,18 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <returns>A WebDriverWait function expecting the element to be clickable</returns>
         public static void WaitForClickable(this IWebDriver driver, By by)
         {
-            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            waitFunc.Until(ExpectedConditions.ElementToBeClickable(by));
+            if (driver is null) Log.Warn("The driver has not been build");
+            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(Configuration.WebDriver.DefaultTimeout));
+            try
+            {
+                waitFunc.Until(ExpectedConditions.ElementToBeClickable(by));
+            }
+            catch (Exception)
+            {
+                Log.Warn($"failed to locate {by} within {Configuration.WebDriver.DefaultTimeout} seconds");
+                throw;
+            }
+           
         }
 
         /// <summary>
@@ -49,7 +61,8 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <returns>A WebDriverWait function expecting the element to be clickable</returns>
         public static void WaitForClickable(this IWebDriver driver, IWebElement element)
         {
-            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            if (driver is null) Log.Warn("The driver has not been build");
+            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(Configuration.WebDriver.DefaultTimeout));
             waitFunc.Until(ExpectedConditions.ElementToBeClickable(element));
         }
 

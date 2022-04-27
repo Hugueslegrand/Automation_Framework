@@ -1,6 +1,6 @@
 ﻿using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
-using System.Threading;
+
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
 
@@ -24,12 +24,12 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickRegister();
+            navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
             registrationPage.Register(registerNewUser.firstName, registerNewUser.lastName, registerNewUser.email, registerNewUser.password, registerNewUser.rePassword);
             LoginPage loginPage = new LoginPage(builder);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             loginPage.Login(registerNewUser.email, registerNewUser.password);
             navigation.SignOutButton.Should();
         }
@@ -41,11 +41,11 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickRegister();
+            navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
             registrationPage.Register(registerNewUser.firstName, registerNewUser.lastName, registerNewUser.email, registerNewUser.password, registerNewUser.rePassword);
-            registrationPage.GetInnerText_Warning().Should().Be("Account is already registered.");
+            registrationPage.RegistrationWarning.Text.Should().Be("Account is already registered.");
 
         }
 
@@ -55,11 +55,11 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickRegister();
+            navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
             registrationPage.Register(registerNewUserLeadSpace.firstName, registerNewUserLeadSpace.lastName, registerNewUserLeadSpace.email, registerNewUserLeadSpace.password, registerNewUserLeadSpace.rePassword);
-            registrationPage.GetInnerText_Warning().Should().Be("Please fill in a correct email-adress.");
+            registrationPage.RegistrationWarning.Text.Should().Be("Please fill in a correct email-adress.");
 
         }
 
@@ -70,11 +70,11 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickRegister();
+            navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
             registrationPage.Register(registerNewUserUnmatchingPasswords.firstName, registerNewUserUnmatchingPasswords.lastName, registerNewUserUnmatchingPasswords.email, registerNewUserUnmatchingPasswords.password, registerNewUserUnmatchingPasswords.rePassword);
-            registrationPage.GetInnerText_Warning().Should().Be("Passwords don't match.");
+            registrationPage.RegistrationWarning.Text.Should().Be("Passwords don't match.");
         }
 
         [Test]
@@ -83,7 +83,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickRegister();
+            navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
             registrationPage.Register(registerNewUserLowerCase.firstName, registerNewUserLowerCase.lastName, registerNewUserLowerCase.email, registerNewUserLowerCase.password, registerNewUserLowerCase.rePassword);
@@ -99,7 +99,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickRegister();
+            navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
             registrationPage.Register(registerNewUserUpperCase.firstName, registerNewUserUpperCase.lastName, registerNewUserUpperCase.email, registerNewUserUpperCase.password, registerNewUserUpperCase.rePassword);
@@ -114,7 +114,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
 

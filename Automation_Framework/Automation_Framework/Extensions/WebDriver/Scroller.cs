@@ -1,13 +1,9 @@
-﻿using System;
-using System.Linq;
-using Automation_Framework.WebElementModels;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.Interfaces;
 using OpenQA.Selenium.Appium.MultiTouch;
-using OpenQA.Selenium.Interactions;
-using OpenQA.Selenium.Support.Extensions;
+
 
 namespace Automation_Framework.Extensions.WebDriver
 {

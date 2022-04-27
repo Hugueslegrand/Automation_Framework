@@ -2,7 +2,7 @@
 using Automation_Framework.Tests.Pages;
 using FluentAssertions;
 using NUnit.Framework;
-using System.Threading;
+
 
 
 namespace Automation_Framework.Tests.Tests
@@ -21,7 +21,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
@@ -43,21 +43,20 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             ProfilePage profilePage = new ProfilePage(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
+            navigation.ProfileButton.ClickOnElement();
 
-            navigation.ClickProfile();
-
-           // profilePage.GetInnerText_ProfileAvatar().Should().Be("");
-            profilePage.GetInnerText_FirstName().Should().Be(UserAdminLogin_Exist.firstName);
-            profilePage.GetInnerText_LastName().Should().Be(UserAdminLogin_Exist.lastName);
-            profilePage.GetInnerText_Email().Should().Be(UserAdminLogin_Exist.email);
-            string src = profilePage.GetAttribute_ProfileAvatar("src", profilePage.ProfileAvatar);
+            // profilePage.GetInnerText_ProfileAvatar().Should().Be("");
+            profilePage.FirstName.Text.Should().Be(UserAdminLogin_Exist.firstName);
+            profilePage.LastName.Text.Should().Be(UserAdminLogin_Exist.lastName);
+            profilePage.Email.Text.Should().Be(UserAdminLogin_Exist.email);
+            string src = profilePage.ProfileAvatar.GetAttribute("src"); 
             src.Should().NotBeNull();
 
             // string src = profilePage.GetAttribute("src");
@@ -77,19 +76,18 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
             //loginPage.ScreenShot();
-
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("30");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
             profilePage.WaitSeconds(2);
 
         }
@@ -100,26 +98,26 @@ namespace Automation_Framework.Tests.Tests
         {
             
             Navigation navigation = new Navigation(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
 
-
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("notNumberInput");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
 
             //ASSERT
 
-            Thread.Sleep(2000);
+
+            profilePage.WaitSeconds(2);
         }
 
 
@@ -130,25 +128,26 @@ namespace Automation_Framework.Tests.Tests
         {
             
             Navigation navigation = new Navigation(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
 
 
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("7.566");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
 
             //ASSERT
-            Thread.Sleep(2000);
+
+            profilePage.WaitSeconds(2);
         }
 
         [Test]
@@ -157,26 +156,27 @@ namespace Automation_Framework.Tests.Tests
         {
             
             Navigation navigation = new Navigation(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
 
 
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("-1");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
 
             //ASSERT
 
-            Thread.Sleep(2000);
+
+            profilePage.WaitSeconds(2);
         }
 
 
@@ -188,26 +188,26 @@ namespace Automation_Framework.Tests.Tests
         {
             
             Navigation navigation = new Navigation(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("30");
-            profilePage.ClickCancelPayment();
+            profilePage.CancelPaymentButton.ClickOnElement();
 
-            string type = profilePage.GetAttribute_AddCreditsButton("type", profilePage.AddCreditsButton);
+            string type = profilePage.AddCreditsButton.GetAttribute("type");
             type.Should().NotBeNull();
 
 
-            Thread.Sleep(2000);
+            profilePage.WaitSeconds(2);
 
         }
         /*

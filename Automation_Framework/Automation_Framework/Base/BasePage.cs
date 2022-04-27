@@ -33,5 +33,7 @@ namespace Automation_Framework.Base
         {
             Driver.PressEnter();
         }
+
+        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "FirstScreenshot");
     }
 }

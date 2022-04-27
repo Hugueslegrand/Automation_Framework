@@ -4,12 +4,9 @@ using Automation_Framework.TestRail.Service.Base.Concrete;
 using Automation_Framework.TestRail.Service.Base.Entities;
 using NUnit.Framework;
 using NUnit.Framework.Interfaces;
-using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Automation_Framework.TestRail.Service
 {

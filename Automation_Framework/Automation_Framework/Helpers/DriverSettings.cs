@@ -12,7 +12,7 @@ using OpenQA.Selenium.Safari;
 
 namespace Automation_Framework.Helpers
 {
-    public class WebDriverSettings
+    public class DriverSettings
     {
         public static ChromeOptions ChromeOptions(WebDriverConfiguration config)
         {

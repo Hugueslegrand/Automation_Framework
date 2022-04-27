@@ -1,6 +1,6 @@
 ﻿using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
-using System.Threading;
+
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
 
@@ -20,26 +20,26 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
 
-            navigation.ClickRegister();
+            navigation.RegisterButton.ClickOnElement();
             RegistrationPage registrationPage = new RegistrationPage(builder);
             registrationPage.Register(Renter.firstName, Renter.lastName, Renter.email, Renter.password, Renter.rePassword);
 
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(Renter.email, Renter.password);
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("5");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
 
-            navigation.ClickLogo();
+            navigation.Logo.ClickOnElement();
             HomePage homePage = new HomePage(builder);
-            homePage.ClickMovie1();
-            homePage.ClickRentThisMovie();
-            homePage.GetInnerText_Warning().Should().Contain("added to My Movies!");
+            homePage.Movie1.ClickOnElement();
+            homePage.RentThisMovieButton.ClickOnElement();
+            homePage.RentPopUp.Text.Should().Contain("added to My Movies!");
         }
 
         [Test, Order(2)]
@@ -48,14 +48,14 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(Renter.email, Renter.password);
 
             HomePage homePage = new HomePage(builder);
-            homePage.ClickMovie1();
-            homePage.ClickRentThisMovie();
-            homePage.GetInnerText_Warning().Should().Contain("You already rented this movie");
+            homePage.Movie1.ClickOnElement();
+            homePage.RentThisMovieButton.ClickOnElement();
+            homePage.RentPopUp.Text.Should().Contain("You already rented this movie");
         }
 
         [Test, Order(3)]
@@ -64,14 +64,14 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(Renter.email, Renter.password);
 
             HomePage homePage = new HomePage(builder);
-            homePage.ClickMovie2();
-            homePage.ClickRentThisMovie();
-            homePage.GetInnerText_Warning().Should().Contain("Insufficient credits.");
+            homePage.Movie2.ClickOnElement();
+            homePage.RentThisMovieButton.ClickOnElement();
+            homePage.RentPopUp.Text.Should().Contain("Insufficient credits.");
         }
 
         [Test, Order(4)]
@@ -81,8 +81,8 @@ namespace Automation_Framework.Tests.Tests
 
             HomePage homePage = new HomePage(builder);
             homePage.WaitSeconds(6);
-            homePage.ClickMovie1();
-            homePage.ClickRentThisMovie();
+            homePage.Movie1.ClickOnElement();
+            homePage.RentThisMovieButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.SignInPage.Should();
@@ -95,7 +95,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
 

@@ -1,19 +1,15 @@
-﻿using Automation_Framework.Base;
+﻿
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
+using Automation_Framework.Utility;
 using Automation_Framework.Extensions.WebDriver;
-using Automation_Framework.Helpers;
-using LLibrary;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Keys = OpenQA.Selenium.Keys;
+
 
 namespace Automation_Framework.WebElementModels
 {
@@ -100,7 +96,18 @@ namespace Automation_Framework.WebElementModels
         }
         public void ClickOnElement()
         {
-            _webDriver.ClickOnElement(_webElement);
+            try
+            {
+                _webDriver.ClickOnElement(_webElement);
+               
+            }
+            catch (Exception)
+            {
+                Log.Warn($"Failed to click on the {_webElement.TagName} `{_webElement.Text}`");
+                throw;
+            }
+            
+
         }
 
 
@@ -110,31 +117,54 @@ namespace Automation_Framework.WebElementModels
         }
         public void SendKeys(string text)
         {
-            _webElement.SendKeys(text);
+            try
+            {
+                _webElement.SendKeys(text);
+            }
+            catch (Exception)
+            {
+                Log.Warn($"Failed to send the text `{_webElement.Text}` in the {_webElement.TagName} ");
+                throw;
+            }
+            
         }
 
         public string GetCssValue(string propertyName)
         {
+            Log.Info($"Retrieving the css value with propertyName {propertyName}");
             return _webElement.GetCssValue(propertyName);
         }
 
         public string GetAttribute(string attributeName)
         {
+            Log.Info($"Retrieving the attribute value with attribute name {attributeName}");
             return _webElement.GetAttribute(attributeName);
         }
 
         public string GetProperty(string propertyName)
         {
+            Log.Info($"Retrieving the property value with propertyName {propertyName}");
             return _webElement.GetProperty(propertyName);
         }
 
         public void ClearInput()
         {
-            _webElement.Clear();
+            try
+            {
+                _webElement.Clear();
+                Log.Info($"Cleared the {_webElement.TagName}");
+            }
+            catch (Exception)
+            {
+                Log.Warn($"Unable to clear the {_webElement.TagName}");
+                throw;
+            }
+            
         }
 
         public bool ElementIsVisible()
         {
+            Log.Info($"Controlling the visibility of the {_webElement.TagName} `{_webElement.Text}`");
             return _webElement.Displayed;
         }
     }

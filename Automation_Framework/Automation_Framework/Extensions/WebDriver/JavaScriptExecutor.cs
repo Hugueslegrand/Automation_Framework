@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using Automation_Framework.Utility;
 
 namespace Automation_Framework.Extensions.WebDriver
 {
@@ -12,6 +13,7 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <returns>Returns an object after script execution</returns>
         public static object ExecuteJs(this IWebDriver driver, string script)
         {
+            if (driver is null) Log.Warn("The driver has not been build");
             return ((IJavaScriptExecutor)driver).ExecuteScript(script);
         }
     }

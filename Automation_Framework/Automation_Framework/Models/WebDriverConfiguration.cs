@@ -7,7 +7,7 @@ namespace Automation_Framework.Models
         public BrowserName BrowserName { get; set; }
         public string BrowserLanguage { get; set; }
 
-        public string ScreenshotsPath { get; set; }
+        public string LogsPath { get; set; }
 
         public int DefaultTimeout { get; set; }
     }

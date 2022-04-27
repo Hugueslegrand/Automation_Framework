@@ -24,26 +24,7 @@ namespace Automation_Framework.Tests.Pages
         public IButton FailedRegisterMessage => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
         public IButton RegistrationWarning => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
 
-        //Functions
-        public string GetInnerText_Warning()
-        {
-            return RegistrationWarning.Text;
-        }
-
-        public string UserAlreadyExist()
-        {
-            return FailedRegisterMessage.Text;
-        }
-        public string IncorrectEmail()
-        {
-            return FailedRegisterMessage.Text;
-        }
-        public string PasswordDontMatch()
-        {
-            return FailedRegisterMessage.Text;
-        }
-
-        public void ClickRegister() => RegisterButtonComplete.ClickOnElement();
+     
 
 
         public void Register(string firstName, string lastName, string email, string passwoord, string rePasswoord)

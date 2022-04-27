@@ -75,7 +75,7 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <returns>Returns the filepath of the defined file</returns>
         private static string GetFilePath(string fileName)
         {
-            var path = $"{Configuration.WebDriver.ScreenshotsPath}\\{fileName}{DateTime.Now:HH}";
+            var path = $"{Configuration.WebDriver.LogsPath}\\{fileName}{DateTime.Now:HH}";
             Directory.CreateDirectory(path);
             var pathToFile =
                 $"{path}\\{GetFileNameSave(DateTime.UtcNow.ToLongTimeString())}_{Thread.CurrentThread.ManagedThreadId}.png";
@@ -88,7 +88,7 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <param name="driver">Contains the driver used to run the test in</param>
         private static IWebDriver GetBaseDriver(IWebDriver driver)
         {
-            if (driver is WebDriverListener webDriverListener)
+            if (driver is DriverListener webDriverListener)
             {
                 return webDriverListener.WrappedDriver;
             }

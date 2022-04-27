@@ -2,8 +2,7 @@
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;
-using Automation_Framework.Extensions;
-using System.Collections.Generic;
+
 
 namespace Automation_Framework.Tests.Pages
 {
@@ -17,11 +16,7 @@ namespace Automation_Framework.Tests.Pages
         public IButton LogsMenu => new WebElement(Driver, "//a[@href='#/admin/logs']//div[@role='button']", Selector.Xpath);
         public IButton UsersMenu => new WebElement(Driver, "//a[@href='#/admin/users']//div[@role='button']", Selector.Xpath);
 
-        //MENU ITEMS - Functionality
-        public void ClickHamburgerMenu() => HamburgerMenu.ClickOnElement();
-        public void ClickBugsMenu() => BugsMenu.ClickOnElement();
-        public void ClickLogsMenu() => LogsMenu.ClickOnElement();
-        public void ClickUsersMenu() => UsersMenu.ClickOnElement();
+     
 
         //USERS PAGE - WebElements
         public ITable TableHeadUsersID => new WebElement(Driver, "//span[normalize-space()='ID']", Selector.Xpath);
@@ -67,8 +62,7 @@ namespace Automation_Framework.Tests.Pages
             EditCreditsFormField.SendKeys(credits);
         }
 
-        public void ClickSave() => SaveButton.ClickOnElement();
-
+   
 
 
         //BUGS PAGE - WebElements
@@ -84,8 +78,6 @@ namespace Automation_Framework.Tests.Pages
         public ITable TableHeadBugsToggle => new WebElement(Driver, "//span[normalize-space()='Toggle']", Selector.Xpath);
 
 
-        //BUGS PAGE - Functionality
-        public void ToggleAllBugsOff() => AllBugsOff.ClickOnElement();
 
         //LOGS PAGE - WebElements
         public ITable TableHeadLogsType => new WebElement(Driver, "//div[contains(text(),'Type')]", Selector.Xpath);

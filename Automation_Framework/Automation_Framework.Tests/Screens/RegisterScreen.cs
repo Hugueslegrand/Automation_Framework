@@ -19,7 +19,14 @@ namespace Automation_Framework.Tests.Screens
         public IAndroidElement AndroidRegisterButtonComplete => new MobileElement(AndroidDriver, "//android.view.ViewGroup[@content-desc=\"submitBtn\"]", MobileSelector.Xpath);
         public IAndroidElement AndroidGoToSignInScreen => new MobileElement(AndroidDriver, "//android.widget.TextView[@text = Sign in]", MobileSelector.Xpath);
         public IAndroidElement Modal => new MobileElement(AndroidDriver, "/ hierarchy / android.widget.FrameLayout / android.widget.LinearLayout / android.widget.FrameLayout / android.widget.LinearLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[1] / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[2] / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[2] / android.view.ViewGroup", MobileSelector.Xpath);
+        public IAndroidElement ErrorMessage => new MobileElement(AndroidDriver, "/ hierarchy / android.widget.FrameLayout / android.widget.LinearLayout / android.widget.FrameLayout / android.widget.LinearLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.widget.FrameLayout / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[1] / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[2] / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup / android.view.ViewGroup[2] / android.view.ViewGroup / android.widget.ScrollView / android.view.ViewGroup / android.widget.TextView[4]", MobileSelector.Xpath);
 
+
+
+        public string GetInnerText_ErrorMessage()
+        {
+            return ErrorMessage.Text;
+        }
 
         //Android Functions
 
@@ -46,6 +53,19 @@ namespace Automation_Framework.Tests.Screens
             AndroidRegisterRePassword.AndroidSendKeys(rePasswoord);
             AndroidRegisterButtonComplete.AndroidClick(); // Or ClickRegister();
 
+        }
+
+        public void AndroidClearRegisterFields()
+        {
+            AndroidRegisterFirstName.AndroidClear();
+            Swipe(685, 1400, 685, 800, 500);
+            AndroidRegisterLastName.AndroidClear();
+            //SwipeModal(0, 10);
+            AndroidRegisterEmail.AndroidClear();
+            AndroidRegisterPassword.AndroidClear();
+            //Swipe(5, 10, 5, -5, 2000);
+            AndroidRegisterRePassword.AndroidClear();
+         
         }
     }
 }

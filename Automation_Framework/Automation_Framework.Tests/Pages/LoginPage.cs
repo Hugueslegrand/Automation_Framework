@@ -3,7 +3,7 @@ using Automation_Framework.Enums;
 using Automation_Framework.Extensions.WebDriver;
 using Automation_Framework.WebElementModels;
 using Automation_Framework.Base;
-using System.Threading;
+
 
 namespace Automation_Framework.Tests.Pages
 {
@@ -21,22 +21,22 @@ namespace Automation_Framework.Tests.Pages
         public IButton SignInPage => new WebElement(Driver, "SignIn", Selector.Id);
 
         //Functions
-        public void ClickLogin() => SignInButtonComplete.ClickOnElement();
+   
 
         public IButton LoginWarning => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
 
-        public string GetInnerText_Warning()
+        /*public string GetInnerText_Warning()
         {
             return LoginWarning.Text;
-        }
+        }*/
 
         public void Scroll()
         {
-            Thread.Sleep(3000);
+            WaitSeconds(3);
             Driver.GetElementAndScrollHorizontally(scroller, 500);
-            Thread.Sleep(3000);
+            WaitSeconds(3);
             Driver.GetElementAndScrollHorizontally(scroller, 1200);
-            Thread.Sleep(3000);
+            WaitSeconds(3);
             Driver.GetElementAndScrollHorizontally(scroller, -600);
 
         }
@@ -49,7 +49,7 @@ namespace Automation_Framework.Tests.Pages
             SignInPassword.SendKeys(password);
             SignInButtonComplete.ClickOnElement();
         }
-        public void ScreenShot() => ScreenshotTaker.TakeStandardScreenshot(Driver, "FirstScreenshot");
+        
 
     }
 }

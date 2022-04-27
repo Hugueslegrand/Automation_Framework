@@ -1,5 +1,6 @@
 ﻿using Automation_Framework.Helpers;
 using Automation_Framework.Models;
+using Automation_Framework.Utility;
 using LLibrary;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium.Android;
@@ -20,6 +21,7 @@ namespace Automation_Framework.Builders
         private NativeMobileDriverConfiguration nativeMobileConfig = Configuration.NativeMobileDriver;
         private WebMobileDriverConfiguration webMobileConfig = Configuration.WebMobileDriver;
         private string url = Configuration.Environment.ApplicationUrl;
+       
 
         /// <summary>
         /// Creates a new driver client based on the chosen PlatformType
@@ -29,11 +31,11 @@ namespace Automation_Framework.Builders
         /// An ArgumentOutOfRangeException will be thrown if the selected platform is not supported.</returns>
         public IWebDriver BuildDriver(Enums.PlatformType platformType)
         {
-            L logger = new L(directory: @"C:\LogsTest");
+            L logger = Log.logger;
             switch (platformType)
             {
                 case Enums.PlatformType.Desktop:
-                    _webDriver = new WebDriverFactory().GetWebDriver(driverConfig, logger);
+                    _webDriver = new DriverFactory().GetWebDriver(driverConfig, logger);
 
                     _webDriver.Manage().Window.Maximize();
                     _webDriver.Navigate().GoToUrl(url);
@@ -41,17 +43,17 @@ namespace Automation_Framework.Builders
                     return _webDriver;
 
                 case Enums.PlatformType.Android:
-                    _androidDriver = new WebDriverFactory().GetNativeAndroidDriver(nativeMobileConfig);
+                    _androidDriver = new DriverFactory().GetNativeAndroidDriver(nativeMobileConfig);
 
                     return _androidDriver;
 
                 case Enums.PlatformType.IOS:
-                    _iosDriver = new WebDriverFactory().GetNativeIOSDriver(nativeMobileConfig);
+                    _iosDriver = new DriverFactory().GetNativeIOSDriver(nativeMobileConfig);
 
                     return _iosDriver;
 
                 case Enums.PlatformType.WebAndroid:
-                    _androidDriver = new WebDriverFactory().GetWebAndroidDriver(webMobileConfig);
+                    _androidDriver = new DriverFactory().GetWebAndroidDriver(webMobileConfig);
 
 
                     _androidDriver.Navigate().GoToUrl(url);
@@ -59,7 +61,7 @@ namespace Automation_Framework.Builders
                     return _webDriver;
 
                 case Enums.PlatformType.WebIOS:
-                    _iosDriver = new WebDriverFactory().GetWebIOSDriver(webMobileConfig);
+                    _iosDriver = new DriverFactory().GetWebIOSDriver(webMobileConfig);
 
 
                     _iosDriver.Navigate().GoToUrl(url);
@@ -82,19 +84,19 @@ namespace Automation_Framework.Builders
             switch (platformType)
             {
                 case Enums.PlatformType.Desktop:
-                    _webDriver.Quit();
+                    if (_webDriver != null) _webDriver.Quit();
                     break;
                 case Enums.PlatformType.Android:
-                    _androidDriver.Quit();
+                    if (_androidDriver != null) _androidDriver.Quit();
                     break;
                 case Enums.PlatformType.IOS:
-                    _iosDriver.Quit();
+                    if (_iosDriver != null) _iosDriver.Quit();
                     break;
                 case Enums.PlatformType.WebAndroid:
-                    _androidDriver.Quit();
+                    if (_androidDriver != null) _androidDriver.Quit();
                     break;
                 case Enums.PlatformType.WebIOS:
-                    _iosDriver.Quit();
+                    if (_iosDriver != null) _iosDriver.Quit();
                     break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(Enums.PlatformType),

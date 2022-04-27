@@ -9,7 +9,7 @@ namespace Automation_Framework.Helpers
     /// <summary>
     /// A helper class for logging actions made on the WebDriver
     /// </summary>
-    public class WebDriverListener : EventFiringWebDriver
+    public class DriverListener : EventFiringWebDriver
     {
         private readonly IWebDriver _driver;
         private readonly L _logger;
@@ -19,7 +19,7 @@ namespace Automation_Framework.Helpers
         /// </summary>
         /// <param name="parentDriver">Contains the running WebDriver instance. This WebDriver will be wrapped by EventFiringWebDriver that will add the support of event triggering.</param>
         /// <param name="logger">LLibrary class for logging actions made on the web driver</param>
-        public WebDriverListener(IWebDriver parentDriver, L logger) : base(parentDriver)
+        public DriverListener(IWebDriver parentDriver, L logger) : base(parentDriver)
         {
             _driver = parentDriver;
             _logger = logger;
@@ -29,8 +29,13 @@ namespace Automation_Framework.Helpers
             ElementClicking += WebDriverListener_ElementClicking;
             ElementClicked += WebDriverListener_ElementClicked;
             ElementValueChanged += WebDriverListener_ElementValueChanged;
+            ExceptionThrown += WebDriverListener_ExceptionThrown;
         }
 
+        private void WebDriverListener_ExceptionThrown(object sender ,WebDriverExceptionEventArgs e)
+        {
+            LogMessage($"Exception {e} thrown");
+        }
         /// <summary>
         /// Fires before the driver begins navigation and logs it
         /// </summary>
@@ -48,7 +53,7 @@ namespace Automation_Framework.Helpers
         private void WebDriverListener_ElementClicked(object sender,
             WebElementEventArgs e)
         {
-            LogScreenshot($"{e.Element} clicked");
+            LogMessage($"clicked on {e.Element.TagName} {e.Element.Text} ");
         }
 
         /// <summary>
@@ -58,7 +63,7 @@ namespace Automation_Framework.Helpers
         private void WebDriverListener_ElementClicking(object sender,
             WebElementEventArgs e)
         {
-            LogMessage($"Clicking on the {e.Element.TagName} `{e.Element.Text}` {e.Element}");
+            LogMessage($"Clicking on the {e.Element.TagName} `{e.Element.Text}`");
         }
 
         /// <summary>
@@ -78,8 +83,8 @@ namespace Automation_Framework.Helpers
         private void WebDriverListener_ElementValueChanged(object sender,
             WebElementValueEventArgs e)
         {
-            LogMessage($"Value of the {e.Element} changed to `{e.Value}`");
-            LogScreenshot($"Value: `{e.Value}` entered in `{e.Element}`");
+            LogMessage($"Value of the {e.Element.TagName} changed to `{e.Value}`");
+         
         }
 
         /// <summary>

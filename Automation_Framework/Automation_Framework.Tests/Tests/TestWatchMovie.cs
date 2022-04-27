@@ -1,7 +1,7 @@
 ﻿using Automation_Framework.Tests.Pages;
 using FluentAssertions;
 using NUnit.Framework;
-using System.Threading;
+
 
 namespace Automation_Framework.Tests.Tests
 {
@@ -17,21 +17,21 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login("brent.dar@ap.be", "hond123");
             //loginPage.ScreenShot();
 
-            navigation.ClickMyMovie();
+            navigation.MyMovieButton.ClickOnElement();
             //Thread.Sleep(2000);
 
             MyMoviesPage watchMovie = new MyMoviesPage(builder);
-            watchMovie.ClickWatchNow();
+            watchMovie.WatchNowButton.ClickOnElement();
             //Thread.Sleep(2000);
 
-            watchMovie.ClickCloseModal();
+            watchMovie.CloseModalButton.ClickOnElement();
         }
 
         [Test]
@@ -41,7 +41,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
@@ -49,16 +49,16 @@ namespace Automation_Framework.Tests.Tests
             //loginPage.Login("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
 
-            navigation.ClickMyMovie();
+            navigation.MyMovieButton.ClickOnElement();
 
             MyMoviesPage watchMovie = new MyMoviesPage(builder);
 
-            watchMovie.GetInnerText_MovieTitle().Should().Be("Roald Dahl's The Witches ");
-            watchMovie.GetInnerText_MovieAvailableDate().Should().Be("Available until: 18/04/2022");
-            watchMovie.ClickWatchNow();
+            watchMovie.MovieTitle.Text.Should().Be("Roald Dahl's The Witches ");
+            watchMovie.MovieAvailableDate.Text.Should().Be("Available until: 18/04/2022");
+            watchMovie.WatchNowButton.ClickOnElement();
             //Thread.Sleep(2000);
 
-            watchMovie.ClickCloseModal();
+            watchMovie.CloseModalButton.ClickOnElement();
         }
 
 

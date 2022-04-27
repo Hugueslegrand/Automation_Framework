@@ -5,10 +5,7 @@ using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Automation_Framework.WebElementModels
 {
@@ -114,9 +111,14 @@ namespace Automation_Framework.WebElementModels
         }
         public void AndroidClick()
         {
+           
             _androidElement.Click();
         }
 
+        public void AndroidClear()
+        {
+            _androidElement.Clear();
+        }
 
         public void IOSClick()
         {
@@ -127,7 +129,12 @@ namespace Automation_Framework.WebElementModels
         {
             _iosElement.SendKeys(text);
         }
-  
+
+        public void IOSClear()
+        {
+            _iosElement.Clear();
+        }
+
         public void Swipe(int startX, int startY, int endX, int endY, int duration)
         {
             _androidDriver.Swipe(startX, startY, endX, endY, duration);

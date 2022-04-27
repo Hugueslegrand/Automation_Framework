@@ -1,9 +1,9 @@
 ﻿using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
-using System.Threading;
+
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
-
+using Automation_Framework.Utility;
 using System.Collections.Generic;
 using Automation_Framework.Tests.Screens;
 using Automation_Framework.Builders;
@@ -39,7 +39,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
             
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
@@ -73,19 +73,19 @@ namespace Automation_Framework.Tests.Tests
         [Description("Login as administrator parallel")]
         public void Test_LoginAsAdminChrome()
         {
-           
+            Log.StartTestCase("Login as administrator");
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+
+            //navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
 
             loginPage.Login("brent.dar@ap.be", "hond123");
 
-            navigation.WaitSeconds(10);
-     
+            Log.EndTestCase("Login as administrator");
         }
        
 
@@ -106,7 +106,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userLoginExist.email, userLoginExist.password);
@@ -122,7 +122,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
@@ -140,11 +140,11 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userNonExist.email, userNonExist.password);
-            loginPage.GetInnerText_Warning().Should().Be("This email has not been registered.");
+            loginPage.LoginWarning.Text.Should().Be("This email has not been registered.");
         }
 
 
@@ -154,11 +154,11 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userIncorrectEmail.email, userIncorrectEmail.password);
-            loginPage.GetInnerText_Warning().Should().Be("Please fill in a correct email-adress.");
+            loginPage.LoginWarning.Text.Should().Be("Please fill in a correct email-adress.");
         }
 
         [Test]
@@ -167,11 +167,11 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userIncorrectPassword.email, userIncorrectPassword.password);
-            loginPage.GetInnerText_Warning().Should().Be("Email or password incorrect.");
+            loginPage.LoginWarning.Text.Should().Be("Email or password incorrect.");
         }
 
 
@@ -183,31 +183,31 @@ namespace Automation_Framework.Tests.Tests
             HomePage homePage = new HomePage(builder);
             homePage.WaitSeconds(6);
             homePage.BrightestFaceBookSocials.Should();
-            string hrefFB = homePage.GetAttribute("href", homePage.BrightestFaceBookSocials);
+            string hrefFB = homePage.BrightestFaceBookSocials.GetAttribute("href");
             //hrefFB.Should().NotBeNull(); Nodig of niet?
             hrefFB.Should().Be("https://www.facebook.com/BrightestNV");
             // Assertions op tags binnen een element, zijnde attribute, class, availability, etc.. deze 3 stappen voor een juiste assertion
 
-            string hrefIG = homePage.GetAttribute("href", homePage.BrightestInstagramSocials);
+            string hrefIG = homePage.BrightestInstagramSocials.GetAttribute("href");
             homePage.BrightestInstagramSocials.Should();
             homePage.BrightestFaceBookSocials.ClickOnElement();
             hrefIG.Should().NotBeNull();
             hrefIG.Should().Be("https://www.instagram.com/brightestsoftwarequality/");
    
 
-            string hrefTW = homePage.GetAttribute("href", homePage.BrightestTwitterSocials);
+            string hrefTW = homePage.BrightestTwitterSocials.GetAttribute("href");
             homePage.BrightestTwitterSocials.Should();
             hrefTW.Should().NotBeNull();
             hrefTW.Should().Be("https://twitter.com/brightestnv");
 
-            string hrefLI = homePage.GetAttribute("href", homePage.BrightestLinkedInSocials);
+            string hrefLI = homePage.BrightestLinkedInSocials.GetAttribute("href");
             homePage.BrightestLinkedInSocials.Should();
             hrefLI.Should().NotBeNull();
             hrefLI.Should().Be("https://www.linkedin.com/company/brightest-nv/");
 
             homePage.CopyrightElement.Should();
 
-            string hrefBR = homePage.GetAttribute("href", homePage.BrightestOfficalSite);
+            string hrefBR = homePage.BrightestOfficalSite.GetAttribute("href");
             homePage.BrightestOfficalSite.Should();
             hrefBR.Should().NotBeNull();
             hrefBR.Should().Be("https://www.brightest.be/");

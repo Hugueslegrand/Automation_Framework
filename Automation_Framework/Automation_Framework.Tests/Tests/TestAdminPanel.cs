@@ -1,9 +1,9 @@
 ﻿using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
-using System.Threading;
+
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
-using System.Collections.Generic;
+
 
 namespace Automation_Framework.Tests.Tests
 {
@@ -19,7 +19,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
@@ -30,7 +30,7 @@ namespace Automation_Framework.Tests.Tests
 
 
             AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
-            adminPanelPage.ToggleAllBugsOff();
+            adminPanelPage.AllBugsOff.ClickOnElement();
         }
 
         [Test]
@@ -39,7 +39,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
@@ -62,8 +62,8 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.WaitSeconds(2);
 
             adminPanelPage.HamburgerMenu.Should();
-            adminPanelPage.ClickHamburgerMenu();
-            adminPanelPage.ClickLogsMenu();
+            adminPanelPage.HamburgerMenu.ClickOnElement();
+            adminPanelPage.LogsMenu.ClickOnElement();
             adminPanelPage.TableHeadLogsType.Should();
             adminPanelPage.TableHeadLogsMethod.Should();
             adminPanelPage.TableHeadLogsResponse.Should();
@@ -72,7 +72,7 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.TableHeadLogsDate.Should();
             adminPanelPage.WaitSeconds(2);
 
-            adminPanelPage.ClickUsersMenu();
+            adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.TableHeadUsersID.Should();
             adminPanelPage.TableHeadUsersFirstName.Should();
             adminPanelPage.TableHeadUsersLastName.Should();
@@ -89,7 +89,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
@@ -100,12 +100,12 @@ namespace Automation_Framework.Tests.Tests
 
 
             AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
-            adminPanelPage.ClickUsersMenu();
+            adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.EditUserByEmaill("vader@ap.be");
             adminPanelPage.WaitSeconds(3);
             adminPanelPage.EditCredits("5");
             adminPanelPage.WaitSeconds(3);
-            adminPanelPage.ClickSave();
+            adminPanelPage.SaveButton.ClickOnElement();
 
 
         }

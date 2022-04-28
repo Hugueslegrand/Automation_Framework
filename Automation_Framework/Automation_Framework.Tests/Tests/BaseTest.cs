@@ -53,7 +53,7 @@ namespace Automation_Framework.Tests.Tests
         [TearDown]
         public void TearDown()
         {
-            Log.EndTestCase();
+            Log.EndTestCase(TestContext.CurrentContext.Result.Message);
             builder.CloseDriver(PlatformType.Desktop);
         }
 

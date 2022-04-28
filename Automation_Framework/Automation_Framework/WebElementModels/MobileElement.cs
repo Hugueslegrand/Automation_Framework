@@ -1,6 +1,7 @@
 ﻿using Automation_Framework.Enums;
 using Automation_Framework.Extensions.MobileDriver;
 using Automation_Framework.Extensions.WebDriver;
+using Automation_Framework.Utility;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
@@ -9,7 +10,7 @@ using System;
 
 namespace Automation_Framework.WebElementModels
 {
-    public class MobileElement : IAndroidElement, IIOSElement
+    public class MobileElement :Log, IAndroidElement, IIOSElement
     {
         private AppiumDriver<AndroidElement>? _androidDriver;
         private AndroidElement? _androidElement;

@@ -32,13 +32,10 @@ namespace Automation_Framework.Helpers
             ElementClicking += WebDriverListener_ElementClicking;
             ElementClicked += WebDriverListener_ElementClicked;
             ElementValueChanged += WebDriverListener_ElementValueChanged;
-            ExceptionThrown += WebDriverListener_ExceptionThrown;
+          
         }
 
-        private void WebDriverListener_ExceptionThrown(object sender ,WebDriverExceptionEventArgs e)
-        {
-            LogMessage($"Exception {e} thrown");
-        }
+      
         /// <summary>
         /// Fires before the driver begins navigation and logs it
         /// </summary>
@@ -56,7 +53,7 @@ namespace Automation_Framework.Helpers
         private void WebDriverListener_ElementClicked(object sender,
             WebElementEventArgs e)
         {
-            LogMessage($"clicked on {e.Element.TagName} {e.Element.Text} ");
+            LogMessage($"clicked on {e.Element} ");
         }
 
         /// <summary>
@@ -66,7 +63,7 @@ namespace Automation_Framework.Helpers
         private void WebDriverListener_ElementClicking(object sender,
             WebElementEventArgs e)
         {
-            LogMessage($"Clicking on the {e.Element.TagName} `{e.Element.Text}`");
+            LogMessage($"Clicking on the {e.Element.TagName} `{e.Element.Text}` {e.Element}");
         }
 
         /// <summary>

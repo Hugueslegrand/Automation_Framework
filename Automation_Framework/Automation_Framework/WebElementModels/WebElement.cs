@@ -109,6 +109,7 @@ namespace Automation_Framework.WebElementModels
             }
             catch (Exception)
             {
+
                 Log.Warn($"Failed to click on the {_webElement.TagName} `{_webElement.Text}` {_webElement}");
                 throw;
             }

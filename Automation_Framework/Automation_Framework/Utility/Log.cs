@@ -38,8 +38,10 @@ namespace Automation_Framework.Utility
 
 		}
 
-		public static void EndTestCase()
+		public static void EndTestCase(string message)
 		{
+			if(message is not null)
+			logger.Info(message);
 
 			logger.Info("XXXXXXXXXXXXXXXXXXXXXXX             " + "-E---N---D-" + "             XXXXXXXXXXXXXXXXXXXXXX");
 

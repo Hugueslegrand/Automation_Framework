@@ -75,7 +75,12 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <returns>Returns the filepath of the defined file</returns>
         private static string GetFilePath(string fileName)
         {
-            var path = $"{Configuration.WebDriver.LogsPath}\\{fileName}{DateTime.Now:HH}";
+            var path = "";
+            if (Configuration.Logger is not null)
+            {
+                 path = $"{Configuration.Logger.LogsPath}\\{fileName}{DateTime.Now:HH}";
+            }
+            
             Directory.CreateDirectory(path);
             var pathToFile =
                 $"{path}\\{GetFileNameSave(DateTime.UtcNow.ToLongTimeString())}_{Thread.CurrentThread.ManagedThreadId}.png";

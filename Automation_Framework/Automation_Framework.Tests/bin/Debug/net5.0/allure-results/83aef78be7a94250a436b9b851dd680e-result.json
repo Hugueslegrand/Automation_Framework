@@ -1,0 +1,68 @@
+{
+  "uuid": "b615516f-7085-4d9c-9890-04c8fea03a76-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.DriverServiceNotFoundException : The file \\Drivers\\MicrosoftWebDriver.exe does not exist. The driver can be downloaded at http://go.microsoft.com/fwlink/?LinkId=619687",
+    "trace": "   at OpenQA.Selenium.DriverService..ctor(String servicePath, Int32 port, String driverServiceExecutableName, Uri driverServiceDownloadUrl)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService..ctor(String executablePath, String executableFileName, Int32 port)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName, Int32 port)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory, EdgeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory, EdgeOptions options)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory)\r\n   at Automation_Framework.Helpers.DriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 49\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 40\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 50"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\n\nSetup SetUp method failed\nLogin as administrator parallel\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome skipped because of FixtureSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.DriverServiceNotFoundException : The file \\Drivers\\MicrosoftWebDriver.exe does not exist. The driver can be downloaded at http://go.microsoft.com/fwlink/?LinkId=619687",
+        "trace": "   at OpenQA.Selenium.DriverService..ctor(String servicePath, Int32 port, String driverServiceExecutableName, Uri driverServiceDownloadUrl)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService..ctor(String executablePath, String executableFileName, Int32 port)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName, Int32 port)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory, EdgeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory, EdgeOptions options)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory)\r\n   at Automation_Framework.Helpers.DriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 49\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 40\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 50"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "12736ae7ae2e4f32b5f55bd0ce2a3c2d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1651176179034,
+      "stop": 1651176179286
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1651176179034,
+  "stop": 1651176179290
+}

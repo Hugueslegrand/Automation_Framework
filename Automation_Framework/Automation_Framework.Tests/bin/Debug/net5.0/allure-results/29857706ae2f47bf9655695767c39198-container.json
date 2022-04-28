@@ -1,0 +1,125 @@
+{
+  "uuid": "54c88ab0-d59f-4fc6-a086-0f649b736a6e-tc-0-1007",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "children": [
+    "21575e94-9ad0-4b2c-9d7b-6c53feee2c02-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "FixtureSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651175083962,
+      "stop": 1651175083962
+    },
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : Value cannot be null. (Parameter 'There is no webdriver section in the appSettings.json file')",
+        "trace": "   at Automation_Framework.Helpers.DriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 34\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 40\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 50"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651175083962,
+      "stop": 1651175083962
+    },
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : Value cannot be null. (Parameter 'There is no webdriver section in the appSettings.json file')",
+        "trace": "   at Automation_Framework.Helpers.DriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 34\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 40\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 50"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651175083962,
+      "stop": 1651175083962
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cleanup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651175083962,
+      "stop": 1651175083962
+    },
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651175083962,
+      "stop": 1651175083962
+    },
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651175083962,
+      "stop": 1651175083962
+    },
+    {
+      "name": "FixtureTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651175083962,
+      "stop": 1651175083962
+    }
+  ],
+  "links": [],
+  "start": 1651175083928,
+  "stop": 1651175083983
+}

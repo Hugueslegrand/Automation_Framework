@@ -31,10 +31,12 @@ namespace Automation_Framework.Builders
         /// An ArgumentOutOfRangeException will be thrown if the selected platform is not supported.</returns>
         public IWebDriver BuildDriver(Enums.PlatformType platformType)
         {
+
             L logger = Log.logger;
             switch (platformType)
             {
                 case Enums.PlatformType.Desktop:
+
                     _webDriver = new DriverFactory().GetWebDriver(driverConfig, logger);
 
                     _webDriver.Manage().Window.Maximize();

@@ -1,0 +1,68 @@
+{
+  "uuid": "45e64988-a445-422e-8225-3340e54b20b8-tr-0-1009",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdminChrome"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdminChrome",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeInitializationException : The type initializer for 'Automation_Framework.Utility.Log' threw an exception.\r\n  ----> System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.TypeInitializationException : The type initializer for 'Automation_Framework.Utility.Log' threw an exception.\r\n  ----> System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Automation_Framework.Utility.Log.StartTestCase(String sTestCaseName) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 34\r\n   at Automation_Framework.Base.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 25\r\n--NullReferenceException\r\n   at Automation_Framework.Utility.Log.LogRun() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 18\r\n   at Automation_Framework.Utility.Log..cctor() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 11\r\n--TearDown\r\n   at Automation_Framework.Utility.Log.EndTestCase(String message) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 49\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 33\r\n--NullReferenceException\r\n   at Automation_Framework.Utility.Log.LogRun() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 18\r\n   at Automation_Framework.Utility.Log..cctor() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 11"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\n\nSetup SetUp method failed\n\nTearDown TearDown method failed\n\nTearDown TearDown method failed\nLogin as administrator parallel\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdminChrome skipped because of FixtureSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeInitializationException : The type initializer for 'Automation_Framework.Utility.Log' threw an exception.\r\n  ----> System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.TypeInitializationException : The type initializer for 'Automation_Framework.Utility.Log' threw an exception.\r\n  ----> System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Automation_Framework.Utility.Log.StartTestCase(String sTestCaseName) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 34\r\n   at Automation_Framework.Base.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 25\r\n--NullReferenceException\r\n   at Automation_Framework.Utility.Log.LogRun() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 18\r\n   at Automation_Framework.Utility.Log..cctor() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 11\r\n--TearDown\r\n   at Automation_Framework.Utility.Log.EndTestCase(String message) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 49\r\n   at Automation_Framework.Base.BaseTest.TearDown() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Base\\BaseTest.cs:line 33\r\n--NullReferenceException\r\n   at Automation_Framework.Utility.Log.LogRun() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 18\r\n   at Automation_Framework.Utility.Log..cctor() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Utility\\Log.cs:line 11"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "113966a405d3472abafafa049602204d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1651174430596,
+      "stop": 1651174430654
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1651174430596,
+  "stop": 1651174430656
+}

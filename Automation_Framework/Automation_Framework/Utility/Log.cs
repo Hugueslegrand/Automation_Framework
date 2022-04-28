@@ -13,14 +13,19 @@ namespace Automation_Framework.Utility
 
 		public static L LogRun()
         {
-            if (Configuration.WebDriver.EnableLog)
+            if (Configuration.Logger is not null)
             {
-				return new L(directory: $@"{Configuration.WebDriver.LogsPath}");
+				if (Configuration.Logger.EnableLog)
+				{
+					return new L(directory: $@"{Configuration.Logger.LogsPath}");
+				}
+				else
+				{
+					return new L();
+				}
 			}
-            else
-            {
-				return new L();
-            }
+			return new L();
+            
         }
 	
 		public static void StartTestCase(String sTestCaseName)

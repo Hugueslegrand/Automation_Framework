@@ -1,0 +1,125 @@
+{
+  "uuid": "224534b5-d6ad-4c2d-906f-f4baabbc144f-tc-0-1007",
+  "name": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdminChrome",
+  "children": [
+    "b615516f-7085-4d9c-9890-04c8fea03a76-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "FixtureSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651176179284,
+      "stop": 1651176179284
+    },
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.DriverServiceNotFoundException : The file \\Drivers\\MicrosoftWebDriver.exe does not exist. The driver can be downloaded at http://go.microsoft.com/fwlink/?LinkId=619687",
+        "trace": "   at OpenQA.Selenium.DriverService..ctor(String servicePath, Int32 port, String driverServiceExecutableName, Uri driverServiceDownloadUrl)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService..ctor(String executablePath, String executableFileName, Int32 port)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName, Int32 port)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory, EdgeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory, EdgeOptions options)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory)\r\n   at Automation_Framework.Helpers.DriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 49\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 40\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 50"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651176179284,
+      "stop": 1651176179284
+    },
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.DriverServiceNotFoundException : The file \\Drivers\\MicrosoftWebDriver.exe does not exist. The driver can be downloaded at http://go.microsoft.com/fwlink/?LinkId=619687",
+        "trace": "   at OpenQA.Selenium.DriverService..ctor(String servicePath, Int32 port, String driverServiceExecutableName, Uri driverServiceDownloadUrl)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService..ctor(String executablePath, String executableFileName, Int32 port)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName, Int32 port)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath, String driverExecutableFileName)\r\n   at OpenQA.Selenium.Edge.EdgeDriverService.CreateDefaultService(String driverPath)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory, EdgeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory, EdgeOptions options)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(String edgeDriverDirectory)\r\n   at Automation_Framework.Helpers.DriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 49\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 40\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 50"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651176179284,
+      "stop": 1651176179284
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cleanup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651176179284,
+      "stop": 1651176179284
+    },
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651176179284,
+      "stop": 1651176179284
+    },
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651176179284,
+      "stop": 1651176179284
+    },
+    {
+      "name": "FixtureTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1651176179284,
+      "stop": 1651176179284
+    }
+  ],
+  "links": [],
+  "start": 1651176179034,
+  "stop": 1651176179310
+}

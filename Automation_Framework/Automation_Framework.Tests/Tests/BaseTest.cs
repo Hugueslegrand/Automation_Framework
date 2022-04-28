@@ -1,4 +1,5 @@
 ﻿using Automation_Framework.Builders;
+using Automation_Framework.Base;
 using Automation_Framework.Enums;
 using Automation_Framework.Models;
 using Automation_Framework.Utility;
@@ -11,9 +12,9 @@ namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
     [AllureNUnit]
-    public class BaseTest : TestRailBaseTest
+    public class BaseTest : Base.BaseTest
     {
-        public DriverBuilder builder = new DriverBuilder();
+       
 
         //We kunnen alle paginas builden maar als er veel pages zijn waarvan
         //een test niet gebruik van maakt zal de test trager zijn
@@ -44,8 +45,8 @@ namespace Automation_Framework.Tests.Tests
         [SetUp]
         public void Setup()
         {
-            string testDescription = (string)TestContext.CurrentContext.Test.Properties.Get("Description");
-            Log.StartTestCase(testDescription);
+            
+          
             builder.BuildDriver(PlatformType.Desktop);
            // initPages();
         }
@@ -53,7 +54,7 @@ namespace Automation_Framework.Tests.Tests
         [TearDown]
         public void TearDown()
         {
-            Log.EndTestCase(TestContext.CurrentContext.Result.Message);
+           
             builder.CloseDriver(PlatformType.Desktop);
         }
 

@@ -1,4 +1,14 @@
-﻿using Automation_Framework.TestRail.Service.Base.Abstract;
+﻿/**
+ * TestRail integration
+ *
+ * Learn more:
+ *
+ * https://github.com/AshleyDhevalall/TestRail.NUnit.Integration
+ * 
+ *
+ * Copyright (c) 2019 AshleyDhevalall. See license.md for details.
+ */
+using Automation_Framework.TestRail.Service.Base.Abstract;
 using Automation_Framework.TestRail.Service.Base.Entities;
 using Gurock.TestRail;
 using Newtonsoft.Json;

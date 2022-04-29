@@ -18,6 +18,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.PressTab();
             navigation.PressTab();
             navigation.PressTab();

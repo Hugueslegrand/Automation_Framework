@@ -39,6 +39,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
             
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -77,6 +78,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
 
             navigation.SignInButton.ClickOnElement();
             
@@ -98,6 +100,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.Should();
             navigation.RegisterButton.Should();
         }
@@ -108,6 +111,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -124,6 +128,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -142,6 +147,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -156,6 +162,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -169,6 +176,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -184,6 +192,7 @@ namespace Automation_Framework.Tests.Tests
             
             HomePage homePage = new HomePage(builder);
             homePage.WaitSeconds(6);
+            homePage.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             homePage.BrightestFaceBookSocials.Should();
             string hrefFB = homePage.BrightestFaceBookSocials.GetAttribute("href");
             //hrefFB.Should().NotBeNull(); Nodig of niet?

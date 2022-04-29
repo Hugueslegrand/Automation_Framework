@@ -21,8 +21,8 @@ namespace Automation_Framework.Builders
         private NativeMobileDriverConfiguration nativeMobileConfig = Configuration.NativeMobileDriver;
         private WebMobileDriverConfiguration webMobileConfig = Configuration.WebMobileDriver;
         private string url = Configuration.Environment.ApplicationUrl;
-       
 
+        
         /// <summary>
         /// Creates a new driver client based on the chosen PlatformType
         /// </summary>
@@ -40,6 +40,7 @@ namespace Automation_Framework.Builders
                     _webDriver = new DriverFactory().GetWebDriver(driverConfig, logger);
 
                     _webDriver.Manage().Window.Maximize();
+                   
                     _webDriver.Navigate().GoToUrl(url);
 
                     return _webDriver;

@@ -89,8 +89,19 @@ namespace Automation_Framework.Base
             Driver.SwitchToASpecificTab(tabIndex);
         }
 
-      
+     
 
+        
+
+        public void JavascriptExecutor(string script)
+        {
+            Driver.ExecuteJs(script);
+        }
+        public void ScrollElementIntoView(IWebElement element)
+        {
+          
+            Driver.ExecuteJsObject("arguments[0].scrollIntoView(true);",element);
+        }
         public void CloseCurrentTab()
         {
             Driver.Close();

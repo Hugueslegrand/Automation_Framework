@@ -21,6 +21,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -44,6 +45,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
             ProfilePage profilePage = new ProfilePage(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -76,6 +78,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -99,6 +102,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -128,7 +132,10 @@ namespace Automation_Framework.Tests.Tests
         {
             
             Navigation navigation = new Navigation(builder);
+
             navigation.WaitSeconds(6);
+
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -141,6 +148,9 @@ namespace Automation_Framework.Tests.Tests
 
 
             profilePage.AddCreditsButton.ClickOnElement();
+            // profilePage.ScrollElementIntoView(profilePage.AmountOfCredits.getElement());
+           
+
             profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("7.566");
             profilePage.BuyCreditsButton.ClickOnElement();
@@ -157,6 +167,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -189,6 +200,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);

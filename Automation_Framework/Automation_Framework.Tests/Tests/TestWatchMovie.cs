@@ -17,6 +17,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -41,6 +42,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
 
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -52,9 +54,9 @@ namespace Automation_Framework.Tests.Tests
             navigation.MyMovieButton.ClickOnElement();
 
             MyMoviesPage watchMovie = new MyMoviesPage(builder);
-
-            watchMovie.MovieTitle.Text.Should().Be("Roald Dahl's The Witches ");
-            watchMovie.MovieAvailableDate.Text.Should().Be("Available until: 18/04/2022");
+            watchMovie.WaitSeconds(3);
+            watchMovie.MovieTitle.Text.Should().Be("AVA");
+            watchMovie.MovieAvailableDate.Text.Should().Be("AVAILABLE UNTIL: 02/05/2022");
             watchMovie.WatchNowButton.ClickOnElement();
             //Thread.Sleep(2000);
 

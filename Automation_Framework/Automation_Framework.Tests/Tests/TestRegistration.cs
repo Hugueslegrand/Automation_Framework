@@ -24,6 +24,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
@@ -41,6 +42,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
@@ -55,6 +57,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
@@ -70,6 +73,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
@@ -83,6 +87,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
@@ -99,6 +104,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
@@ -114,6 +120,7 @@ namespace Automation_Framework.Tests.Tests
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);

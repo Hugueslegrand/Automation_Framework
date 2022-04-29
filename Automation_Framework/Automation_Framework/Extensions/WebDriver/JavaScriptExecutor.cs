@@ -16,5 +16,12 @@ namespace Automation_Framework.Extensions.WebDriver
             if (driver is null) Log.Warn("The driver has not been build");
             return ((IJavaScriptExecutor)driver).ExecuteScript(script);
         }
+
+        public static object ExecuteJsObject(this IWebDriver driver, string script,object element)
+        {
+            if (driver is null) Log.Warn("The driver has not been build");
+            return ((IJavaScriptExecutor)driver).ExecuteScript(script,element);
+        }
+
     }
 }

@@ -104,6 +104,7 @@ namespace Automation_Framework.WebElementModels
         {
             try
             {
+                _webDriver.ExecuteJsObject("arguments[0].scrollIntoView(true);", _webElement);
                 _webDriver.ClickOnElement(_webElement);
                
             }

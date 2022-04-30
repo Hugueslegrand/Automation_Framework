@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Automation_Framework.Utility;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 
@@ -50,6 +51,7 @@ namespace Automation_Framework.Extensions.WebDriver
         public static void PressTab(this IWebDriver driver)
         {
             new Actions(driver).SendKeys(OpenQA.Selenium.Keys.Tab).Perform();
+            Log.Info("Pressed the Tab key");
 
         }
 
@@ -60,6 +62,7 @@ namespace Automation_Framework.Extensions.WebDriver
         public static void PressEnter(this IWebDriver driver)
         {
             new Actions(driver).SendKeys(OpenQA.Selenium.Keys.Enter).Perform();
+            Log.Info("Pressed the Enter key");
 
         }
     }

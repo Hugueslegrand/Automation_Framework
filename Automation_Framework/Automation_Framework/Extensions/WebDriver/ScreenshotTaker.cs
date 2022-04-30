@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading;
 using Allure.Commons;
 using Automation_Framework.Helpers;
+using Automation_Framework.Utility;
 using OpenQA.Selenium;
 
 
@@ -22,6 +23,7 @@ namespace Automation_Framework.Extensions.WebDriver
         public static void TakeStandardScreenshot(this IWebDriver driver, string fileName)
         {
             driver.SaveScreenshot(fileName);
+            
         }
 
         /// <summary>

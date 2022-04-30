@@ -1,0 +1,65 @@
+{
+  "uuid": "a7de5957-d2b3-4e70-8ecb-0b8c4e099998-tr-0-1006",
+  "historyId": "Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_KeyboardShortcuts",
+  "fullName": "Automation_Framework.Tests.Tests.TestKeyboardShortcuts.Test_KeyboardShortcuts",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_KeyboardShortcuts"
+    },
+    {
+      "name": "testClass",
+      "value": "TestKeyboardShortcuts"
+    }
+  ],
+  "links": [],
+  "name": "Test_KeyboardShortcuts",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_KeyboardShortcuts"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user only using keyboard\n",
+  "steps": [
+    {
+      "name": "Test_KeyboardShortcuts",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "77f8395158d646bdbd644cb9c6da61de-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1651275632319,
+      "stop": 1651275641543
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1651275632319,
+  "stop": 1651275641546
+}

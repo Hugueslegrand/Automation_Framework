@@ -47,7 +47,7 @@ namespace Automation_Framework.Tests.Tests
         {
             
           
-            builder.BuildDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Android);
            // initPages();
         }
 
@@ -55,7 +55,7 @@ namespace Automation_Framework.Tests.Tests
         public void TearDown()
         {
            
-            builder.CloseDriver(PlatformType.Desktop);
+            builder.CloseDriver(PlatformType.Android);
         }
 
     }

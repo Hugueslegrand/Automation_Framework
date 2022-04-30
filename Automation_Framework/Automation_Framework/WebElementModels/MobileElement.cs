@@ -69,6 +69,7 @@ namespace Automation_Framework.WebElementModels
         public MobileElement(AppiumDriver<IOSElement> driver, string element, MobileSelector selector)
         {
             _iosDriver = driver;
+            Log.Info($"Finding element `{element}` by {selector} ");
             switch (selector)
             {
                 case MobileSelector.Name:
@@ -112,8 +113,9 @@ namespace Automation_Framework.WebElementModels
         }
         public void AndroidClick()
         {
-           
+            Log.Info($"Clicking on the  {_androidElement}");
             _androidElement.Click();
+            Log.Info($"clicked on the  {_androidElement.Id} ");
         }
 
         public void AndroidClear()

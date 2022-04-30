@@ -13,8 +13,7 @@ namespace Automation_Framework.Tests.Tests
 {
 
     [TestFixture]
-    [Parallelizable]
-    [Property("suiteid", "1")]
+    [Property("suiteid", "3")]
     [Property("projectid", "1")]
     public class TestLogin :BaseTest
     {
@@ -30,7 +29,7 @@ namespace Automation_Framework.Tests.Tests
 
 
 
-        [Test]
+        [Test, Property("caseid", "1")]
         [Description("Login as administrator")]
         public void Test_LoginAsAdmin_POM()
         {
@@ -70,30 +69,10 @@ namespace Automation_Framework.Tests.Tests
         
         }
 
-        [Test, Property("caseid", "1")]
-        [Description("Login as administrator parallel")]
-        public void Test_LoginAsAdminChrome()
-        {
-         
-            Navigation navigation = new Navigation(builder);
-
-            navigation.WaitSeconds(6);
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
-
-            navigation.SignInButton.ClickOnElement();
-            
-
-            
-            LoginPage loginPage = new LoginPage(builder);
 
 
-            loginPage.Login("brent.dar@ap.be", "hond123");
 
-        
-        }
-       
-
-        [Test]
+        [Test, Property("caseid", "2")]
         [Description("Login as an existing user [2.1]")]
         public void Test_Unlogged_Layout()
         {
@@ -105,7 +84,7 @@ namespace Automation_Framework.Tests.Tests
             navigation.RegisterButton.Should();
         }
 
-        [Test]
+        [Test, Property("caseid", "3")]
         [Description("Login as an existing user [2.2]")]
         public void Test_Login_As_Existing_User()
         {
@@ -122,7 +101,7 @@ namespace Automation_Framework.Tests.Tests
             navigation.ProfileButton.Should();
         }
 
-        [Test]
+        [Test, Property("caseid", "4")]
         [Description("Login as an existing userAdmin [2.3]")]
         public void Test_Login_As_Existing_UserAdmin()
         {
@@ -141,7 +120,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
 
-        [Test]
+        [Test, Property("caseid", "5")]
         [Description("Login as an NOT existing user")]
         public void Test_Login_As_Not_Existing_User()
         {
@@ -156,7 +135,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
 
-        [Test]
+        [Test, Property("caseid", "6")]
         [Description("Login with an Incorrect Email adress")]
         public void Test_Login_With_An_Incorrect_EmailAdress()
         {
@@ -170,7 +149,7 @@ namespace Automation_Framework.Tests.Tests
             loginPage.LoginWarning.Text.Should().Be("Please fill in a correct email-adress.");
         }
 
-        [Test]
+        [Test, Property("caseid", "7")]
         [Description("Login with an Incorrect Email adress or Password")]
         public void Test_Login_With_An_Incorrect_Email_Or_Password()
         {
@@ -185,7 +164,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
 
-        [Test]
+        [Test, Property("caseid", "8")]
         [Description("All the neccesary elements are available in the footer and work accordingly [1.5]")]
         public void Test_FooterElements()
         {

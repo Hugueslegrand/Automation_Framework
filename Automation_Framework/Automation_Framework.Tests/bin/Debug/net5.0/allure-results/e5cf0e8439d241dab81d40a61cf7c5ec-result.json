@@ -1,0 +1,65 @@
+{
+  "uuid": "0faa8852-4cef-4aca-8c51-db2f4daa4ebb-tr-0-1049",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_As_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_As_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLoginScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Existing_User",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_As_Existing_User"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user [10.2]\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Existing_User",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "33565fc410cb4d43a7c50eb825017862-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1651276845577,
+      "stop": 1651276954707
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1651276845577,
+  "stop": 1651276954709
+}

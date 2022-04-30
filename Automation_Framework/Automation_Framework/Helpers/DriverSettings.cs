@@ -84,7 +84,7 @@ namespace Automation_Framework.Helpers
             options.AddAdditionalCapability(MobileCapabilityType.AutomationName, config.AutomationName);
             options.AddAdditionalCapability(MobileCapabilityType.DeviceName, config.DeviceName);
             options.AddAdditionalCapability(MobileCapabilityType.App, config.App);
-            options.AddAdditionalCapability(MobileCapabilityType.NoReset, true);
+            //options.AddAdditionalCapability(MobileCapabilityType.NoReset, true);
             return options;
         }
 

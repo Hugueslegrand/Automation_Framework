@@ -1,0 +1,65 @@
+{
+  "uuid": "8fbabb6a-9723-4426-9e07-17088d39218d-tr-0-1021",
+  "historyId": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "fullName": "Automation_Framework.Tests.Tests.TestProfile.Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_Decimal_Numbers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfile"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_Decimal_Numbers",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Add_Credits_To_Profile_Decimal_Numbers"
+  },
+  "stage": "finished",
+  "description": "Test: Add credits to profile (decimal numbers input) (3,5)  \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_Decimal_Numbers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "451d3023a78f4a59a2510122c7d3656f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1651274631035,
+      "stop": 1651274657467
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1651274631035,
+  "stop": 1651274657470
+}

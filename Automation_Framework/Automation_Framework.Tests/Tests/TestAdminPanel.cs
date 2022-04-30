@@ -7,13 +7,15 @@ using Automation_Framework.Tests.Models;
 
 namespace Automation_Framework.Tests.Tests
 {
-
+    [TestFixture]
+    [Property("suiteid", "1")]
+    [Property("projectid", "1")]
     public class TestAdminPanel : BaseTest
     {
 
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test]
+        [Test, Property("caseid", "1")]
         [Description("Test: Set-Up for Testing by setting of all Bugs")]
         public void Test_AdminPanel_BugsOFf()
         {
@@ -34,7 +36,7 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.AllBugsOff.ClickOnElement();
         }
 
-        [Test]
+        [Test, Property("caseid", "2")]
         [Description("Test: Set-Up for Testing by setting of all Bugs")]
         public void Test_AdminPanel()
         {
@@ -85,7 +87,7 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.TableHeadUsersRemove.Should();
         }
 
-        [Test]
+        [Test, Property("caseid", "3")]
         [Description("Test: Editing an user's credit amount by email")]
         public void Test_EditCreditsByEmail()
         {

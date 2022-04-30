@@ -7,13 +7,16 @@ using Automation_Framework.Tests.Models;
 
 namespace Automation_Framework.Tests.Tests
 {
+    [TestFixture]
+    [Property("suiteid", "7")]
+    [Property("projectid", "1")]
     public class TestSearchBar : BaseTest
     {
         User normalUser = new("Pirate@King.com", "onepiece111");
         User admin = new("Brent.dar@ap.be", "hond123");
 
 
-        [Test]
+        [Test, Property("caseid", "1")]
         [Description("Check if searchbar is active and available for all types of users")]
         public void Test_SearchBar_Available()
         {
@@ -35,7 +38,7 @@ namespace Automation_Framework.Tests.Tests
            
         }
 
-        [Test]
+        [Test, Property("caseid", "2")]
         [Description("Check if searchbar filters the right movie with different types of input")]
         public void Test_SearchBar_Functionality()
         {

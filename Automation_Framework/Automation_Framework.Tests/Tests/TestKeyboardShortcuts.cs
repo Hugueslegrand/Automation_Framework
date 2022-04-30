@@ -7,12 +7,14 @@ using Automation_Framework.Tests.Models;
 
 namespace Automation_Framework.Tests.Tests
 {
-
+    [TestFixture]
+    [Property("suiteid", "2")]
+    [Property("projectid", "1")]
     public class TestKeyboardShortcuts : BaseTest
     {
         User userAdminExist = new("brent.dar@ap.be", "hond123");
 
-        [Test]
+        [Test, Property("caseid", "2")]
         [Description("Login as an existing user only using keyboard")]
         public void Test_KeyboardShortcuts()
         {
@@ -25,7 +27,7 @@ namespace Automation_Framework.Tests.Tests
             navigation.PressTab();
             navigation.PressTab();
             navigation.PressEnter();
-
+           
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Should();
             navigation.PressTab();

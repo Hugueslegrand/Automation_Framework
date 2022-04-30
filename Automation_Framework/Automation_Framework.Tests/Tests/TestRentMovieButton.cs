@@ -8,12 +8,15 @@ using Automation_Framework.Tests.Models;
 
 namespace Automation_Framework.Tests.Tests
 {
+    [TestFixture]
+    [Property("suiteid", "6")]
+    [Property("projectid", "1")]
     public class TestRentMovieButton : BaseTest
     {
         User Renter = new User("Test", "Renter", "rentmovie@button.test", "rentmovie", "rentmovie");
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test, Order(1)]
+        [Test, Order(1), Property("caseid", "1")]
         [Description("Test: RentMovieButton Setup Loop - register and buy 5 credits, then rent movie not yet rented")]
         public void Test_RentMovieButton_NotYetRented()
         {
@@ -43,7 +46,7 @@ namespace Automation_Framework.Tests.Tests
             homePage.RentPopUp.Text.Should().Contain("added to My Movies!");
         }
 
-        [Test, Order(2)]
+        [Test, Order(2), Property("caseid", "2")]
         [Description("Test: RentMovieButton - movie is already rented")]
         public void TestRentMovieButtonAlreadyRented()
         {
@@ -60,7 +63,7 @@ namespace Automation_Framework.Tests.Tests
             homePage.RentPopUp.Text.Should().Contain("You already rented this movie");
         }
 
-        [Test, Order(3)]
+        [Test, Order(3), Property("caseid", "3")]
         [Description("Test: RentMovieButton - not suffcient credits")]
         public void Test_RentMovieButton_InsufficientCredits()
         {
@@ -77,7 +80,7 @@ namespace Automation_Framework.Tests.Tests
             homePage.RentPopUp.Text.Should().Contain("Insufficient credits.");
         }
 
-        [Test, Order(4)]
+        [Test, Order(4), Property("caseid", "4")]
         [Description("Test: RentMovieButton - renting movie while not logged in")]
         public void Test_RentMovieButton_Unsigned()
         {
@@ -93,7 +96,7 @@ namespace Automation_Framework.Tests.Tests
             loginPage.WaitSeconds(3);
         }
 
-        [Test, Order(5)]
+        [Test, Order(5), Property("caseid", "5")]
         [Description("Test: RentMovieButton - remove renter for continious testing")]
         public void Test_RemoveRenter()
         {

@@ -7,7 +7,9 @@ using Automation_Framework.Tests.Models;
 
 namespace Automation_Framework.Tests.Tests
 {
-
+    [TestFixture]
+    [Property("suiteid", "5")]
+    [Property("projectid", "1")]
     public class TestRegistration : BaseTest
     {
         User registerNewUser = new User("Biggie", "Smalls", "ELzzZBiggie_East@Coast.com", "biggie", "biggie");
@@ -18,7 +20,7 @@ namespace Automation_Framework.Tests.Tests
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
 
-        [Test]
+        [Test, Property("caseid", "1")]
         [Description("Register an user and log in to verify")]
         public void TestRegisterAnUser()
         {
@@ -36,7 +38,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
 
-        [Test]
+        [Test, Property("caseid", "2")]
         [Description("Register an user with an existing email")]
         public void TestRegisterSameUser()
         {
@@ -51,7 +53,7 @@ namespace Automation_Framework.Tests.Tests
 
         }
 
-        [Test]
+        [Test, Property("caseid", "3")]
         [Description("Register an user with a spacebar leading inputforms")]
         public void TestRegisterUserWithSpaceBar()
         {
@@ -66,7 +68,7 @@ namespace Automation_Framework.Tests.Tests
 
         }
 
-        [Test]
+        [Test, Property("caseid", "4")]
         [Description("Register an user with no matching passwords")]
         public void TestRegisterUnmatchingPasswords()
 
@@ -81,7 +83,7 @@ namespace Automation_Framework.Tests.Tests
             registrationPage.RegistrationWarning.Text.Should().Be("Passwords don't match.");
         }
 
-        [Test]
+        [Test, Property("caseid", "5")]
         [Description("Register an user only lowercase and log in to verify registration")]
         public void TestRegisterLowerCaseAndLogIn()
         {
@@ -98,7 +100,7 @@ namespace Automation_Framework.Tests.Tests
             navigation.SignOutButton.Should();
         }
 
-        [Test]
+        [Test, Property("caseid", "6")]
         [Description("Register an user only uppercase and log in to verify registration")]
         public void TestRegisterUpperCaseAndLogIn()
         {
@@ -114,7 +116,7 @@ namespace Automation_Framework.Tests.Tests
             navigation.SignOutButton.Should();
         }
 
-        [Test, Order(7)]
+        [Test, Order(7), Property("caseid", "7")]
         [Description("Delete registered Users for continious testing")]
         public void Test_RemoveRegisteredUsers()
         {

@@ -14,7 +14,7 @@ namespace Automation_Framework.Tests.Tests
     {
         User userAdminExist = new("brent.dar@ap.be", "hond123");
 
-        [Test, Property("caseid", "2")]
+        [Test, Property("caseid", "4")]
         [Description("Login as an existing user only using keyboard")]
         public void Test_KeyboardShortcuts()
         {

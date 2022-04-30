@@ -12,7 +12,7 @@ namespace Automation_Framework.Tests.Tests
     {
 
 
-        [Test, Property("caseid", "1")]
+        [Test, Property("caseid", "34")]
         [Description("Test: WatchMovie")]
         public void Test_WatchMovie()
         {
@@ -37,7 +37,7 @@ namespace Automation_Framework.Tests.Tests
             watchMovie.CloseModalButton.ClickOnElement();
         }
 
-        [Test, Property("caseid", "2")]
+        [Test, Property("caseid", "35")]
         [Description("Test: Visual Layout Of Order Page")]
         public void Test_Visual_Layout_Of_Order_Page()
         {

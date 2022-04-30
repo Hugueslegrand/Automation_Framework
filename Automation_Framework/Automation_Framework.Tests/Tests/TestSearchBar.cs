@@ -16,7 +16,7 @@ namespace Automation_Framework.Tests.Tests
         User admin = new("Brent.dar@ap.be", "hond123");
 
 
-        [Test, Property("caseid", "1")]
+        [Test, Property("caseid", "32")]
         [Description("Check if searchbar is active and available for all types of users")]
         public void Test_SearchBar_Available()
         {
@@ -38,7 +38,7 @@ namespace Automation_Framework.Tests.Tests
            
         }
 
-        [Test, Property("caseid", "2")]
+        [Test, Property("caseid", "33")]
         [Description("Check if searchbar filters the right movie with different types of input")]
         public void Test_SearchBar_Functionality()
         {

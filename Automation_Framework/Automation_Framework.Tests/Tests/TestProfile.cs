@@ -14,7 +14,7 @@ namespace Automation_Framework.Tests.Tests
     {
 
 
-        [Test, Property("caseid", "1")]
+        [Test, Property("caseid", "13")]
         [Description("Login as administrator parallel")]
         public void Test_LoginAsAdminChrome()
         {
@@ -38,7 +38,7 @@ namespace Automation_Framework.Tests.Tests
 
         User UserAdminLogin_Exist = new User("Brent", "Dar", "brent.dar@ap.be", "hond123", "hond123");
 
-        [Test, Property("caseid", "2")]
+        [Test, Property("caseid", "14")]
         [Description("Test: Analysing Elements (3.1)")]
         public void Test_Analysing_Elements()
         {
@@ -72,7 +72,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
 
-        [Test, Property("caseid", "3")]
+        [Test, Property("caseid", "15")]
         [Description("Test: Add credits to profile (3,3)")]
         public void Test_AddPayment()
         {
@@ -96,7 +96,7 @@ namespace Automation_Framework.Tests.Tests
 
         }
 
-        [Test, Property("caseid", "4")]
+        [Test, Property("caseid", "16")]
         [Description("Test: Add credits to profile (not-number input) (3,4)  ")]
         public void Test_Add_Credits_To_Profile_nonNumberInput()
         {
@@ -127,7 +127,7 @@ namespace Automation_Framework.Tests.Tests
 
 
 
-        [Test, Property("caseid", "5")]
+        [Test, Property("caseid", "17")]
         [Description("Test: Add credits to profile (decimal numbers input) (3,5)  ")]
         public void Test_Add_Credits_To_Profile_Decimal_Numbers()
         {
@@ -161,7 +161,7 @@ namespace Automation_Framework.Tests.Tests
             profilePage.WaitSeconds(2);
         }
 
-        [Test, Property("caseid", "6")]
+        [Test, Property("caseid", "18")]
         [Description("Test: Add credits to profile (negative integer) (3,6)  ")]
         public void Test_Add_Credits_To_Profile_Negative_Integer()
         {
@@ -194,7 +194,7 @@ namespace Automation_Framework.Tests.Tests
 
 
 
-        [Test, Property("caseid", "7")]
+        [Test, Property("caseid", "19")]
         [Description("Test: CancelPayment (3,7)")]
         public void Test_CancelPayment()
         {

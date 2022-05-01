@@ -6,9 +6,18 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.Models
 {
+    /// <summary>
+    /// LoggerConfiguration Model
+    /// </summary>
     public class LoggerConfiguration
     {
+        /// <summary>
+        /// Path where log files will be saved from config file
+        /// </summary>
         public string LogsPath { get; set; }
+        /// <summary>
+        /// Enable logger or not
+        /// </summary>
         public bool EnableLog { get; set; }
     }
 }

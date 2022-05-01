@@ -12,13 +12,15 @@ namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
     [AllureNUnit]
-    public class BaseTest : Base.BaseTest
+    public class BaseTest : TestRailBaseTest
     {
-       
 
+        public DriverBuilder builder = new DriverBuilder();
+
+  
         //We kunnen alle paginas builden maar als er veel pages zijn waarvan
         //een test niet gebruik van maakt zal de test trager zijn
-        
+
         /*
         protected AdminPanelPage adminPanelPage;
         protected HomePage homePage;
@@ -48,7 +50,8 @@ namespace Automation_Framework.Tests.Tests
             
           
             builder.BuildDriver(PlatformType.Android);
-           // initPages();
+            Log.StartTestCase((string)TestContext.CurrentContext.Test.Properties.Get("Description"));
+            // initPages();
         }
 
         [TearDown]
@@ -56,6 +59,7 @@ namespace Automation_Framework.Tests.Tests
         {
            
             builder.CloseDriver(PlatformType.Android);
+            Log.EndTestCase(TestContext.CurrentContext.Result.Message);
         }
 
     }

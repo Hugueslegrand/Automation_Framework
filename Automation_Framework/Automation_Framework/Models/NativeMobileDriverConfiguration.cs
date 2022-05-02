@@ -7,19 +7,19 @@ namespace Automation_Framework.Models
     public class NativeMobileDriverConfiguration
     {
         /// <summary>
-        /// Wait time in seconds from config file
+        /// Wait time in seconds
         /// </summary>
         public int DefaultTimeout { get; set; }
         /// <summary>
-        /// Name of the Automation to be used from config file
+        /// Name of the Automation to be used 
         /// </summary>
         public string? AutomationName { get; set; }
         /// <summary>
-        /// Name of the Platform to run the tests from config file
+        /// Name of the Platform to run the tests
         /// </summary>
         public string? PlatformName { get; set; }
         /// <summary>
-        /// Name of the device to be used from config file
+        /// Name of the device to be used
         /// </summary>
         public string? DeviceName { get; set; }
         /// <summary>

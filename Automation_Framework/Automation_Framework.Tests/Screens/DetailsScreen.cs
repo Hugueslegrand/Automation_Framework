@@ -1,4 +1,4 @@
-﻿using Automation_Framework.Base;
+﻿using Automation_Framework.Tests.Pages;
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;

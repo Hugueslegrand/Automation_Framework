@@ -12,7 +12,7 @@ namespace Automation_Framework.Models
     public class LoggerConfiguration
     {
         /// <summary>
-        /// Path where log files will be saved from config file
+        /// Path where log files will be saved
         /// </summary>
         public string LogsPath { get; set; }
         /// <summary>

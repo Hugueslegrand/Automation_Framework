@@ -1,4 +1,6 @@
 ﻿
+using Automation_Framework.Enums;
+
 namespace Automation_Framework.Models
 {
     /// <summary>

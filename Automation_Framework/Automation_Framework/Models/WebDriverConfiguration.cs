@@ -1,4 +1,5 @@
 ﻿
+using Automation_Framework.Enums;
 
 namespace Automation_Framework.Models
 {
@@ -19,6 +20,12 @@ namespace Automation_Framework.Models
         /// Wait time in seconds
         /// </summary>
         public int DefaultTimeout { get; set; }
-       
+
+        public BrowserType BrowserType { get; set; }
+
+        public string GridUrl { get; set; }
+
+        public string PathToDrivers { get; set; }
+
     }
 }

@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Threading;
+using Automation_Framework.Enums;
 using Automation_Framework.Models;
 using LLibrary;
-
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
 using OpenQA.Selenium.Chrome;
@@ -9,6 +10,7 @@ using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Opera;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Safari;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
@@ -21,15 +23,80 @@ namespace Automation_Framework.Helpers
     /// </summary>
     public class DriverFactory
     {
+
+        public DriverListener GetWebDriver(WebDriverConfiguration driverConfig, L logger)
+        {
+
+            return driverConfig.BrowserType == BrowserType.Local
+               ? GetLocalWebDriver(driverConfig, logger)
+               : GetRemoteDriver(driverConfig, logger);
+
+        }
+
+        private DriverListener GetRemoteDriver(WebDriverConfiguration driverConfig, L logger)
+        {
+            switch (driverConfig.BrowserName)
+            {
+                case BrowserName.Chrome:
+                    RemoteWebDriver chromeDriver = new RemoteWebDriver(new Uri(driverConfig.GridUrl),
+                        DriverSettings.ChromeOptions(driverConfig).ToCapabilities(), TimeSpan.FromMinutes(2));
+
+                    chromeDriver.Manage().Timeouts().PageLoad.Add(TimeSpan.FromSeconds(20));
+                    Thread.Sleep(TimeSpan.FromSeconds(2));
+                    return new DriverListener(chromeDriver, logger);
+
+                case BrowserName.Firefox:
+                    RemoteWebDriver firefoxDriver = new RemoteWebDriver(new Uri(driverConfig.GridUrl),
+                        DriverSettings.FirefoxOptions(driverConfig).ToCapabilities(), TimeSpan.FromMinutes(2));
+
+                    firefoxDriver.Manage().Timeouts().PageLoad.Add(TimeSpan.FromSeconds(20));
+                    Thread.Sleep(TimeSpan.FromSeconds(2));
+                    return new DriverListener(firefoxDriver, logger);
+
+                case BrowserName.InternetExplorer:
+                    RemoteWebDriver IEDriver = new RemoteWebDriver(new Uri(driverConfig.GridUrl),
+                        DriverSettings.InternetExplorerOptions().ToCapabilities(), TimeSpan.FromMinutes(2));
+
+                    IEDriver.Manage().Timeouts().PageLoad.Add(TimeSpan.FromSeconds(20));
+                    Thread.Sleep(TimeSpan.FromSeconds(2));
+                    return new DriverListener(IEDriver, logger);
+
+                case BrowserName.Edge:
+                    RemoteWebDriver edgeDriver = new RemoteWebDriver(new Uri(driverConfig.GridUrl),
+                       DriverSettings.EdgeOptions().ToCapabilities(), TimeSpan.FromMinutes(2));
+
+                    edgeDriver.Manage().Timeouts().PageLoad.Add(TimeSpan.FromSeconds(20));
+                    Thread.Sleep(TimeSpan.FromSeconds(2));
+                    return new DriverListener(edgeDriver, logger);
+                case BrowserName.Opera:
+                    RemoteWebDriver operaDriver = new RemoteWebDriver(new Uri(driverConfig.GridUrl),
+                       DriverSettings.OperaOptions().ToCapabilities(), TimeSpan.FromMinutes(2));
+
+                    operaDriver.Manage().Timeouts().PageLoad.Add(TimeSpan.FromSeconds(20));
+                    Thread.Sleep(TimeSpan.FromSeconds(2));
+                    return new DriverListener(operaDriver, logger);
+                case BrowserName.Safari:
+                    RemoteWebDriver safariDriver = new RemoteWebDriver(new Uri(driverConfig.GridUrl),
+                      DriverSettings.SafariOptions(driverConfig).ToCapabilities(), TimeSpan.FromMinutes(2));
+
+                    safariDriver.Manage().Timeouts().PageLoad.Add(TimeSpan.FromSeconds(20));
+                    Thread.Sleep(TimeSpan.FromSeconds(2));
+                    return new DriverListener(safariDriver, logger);
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(Configuration.WebDriver.BrowserName),
+                        Configuration.WebDriver.BrowserName,
+                        null);
+            }
+        }
+
         /// <summary>
         /// Initializes WebDriver based on the given WebBrowser name.
         /// </summary>
         /// <param name="driverConfig">Contains configuration for creating a WebDriver instance</param>
         /// <param name="logger">LLibrary class for logging actions made on the web driver</param>
         /// <returns>Returns a WebDriverListener which initializes and logs actions on the WebDriver based on the given browser name</returns>
-        public DriverListener GetWebDriver(WebDriverConfiguration driverConfig, L logger)
+        private DriverListener GetLocalWebDriver(WebDriverConfiguration driverConfig, L logger)
         {
-
             switch (driverConfig.BrowserName)
             {
                 case BrowserName.Chrome:
@@ -46,7 +113,7 @@ namespace Automation_Framework.Helpers
                     return new DriverListener(ieDriver, logger);
                 case BrowserName.Edge:
                     new DriverManager().SetUpDriver(new EdgeConfig());
-                    EdgeDriver edgeDriver = new EdgeDriver(@"C:\Webdrivers");
+                    EdgeDriver edgeDriver = new EdgeDriver(driverConfig.PathToDrivers);
                     return new DriverListener(edgeDriver, logger);
                 case BrowserName.Opera:
                     new DriverManager().SetUpDriver(new OperaConfig());
@@ -61,8 +128,11 @@ namespace Automation_Framework.Helpers
                         Configuration.WebDriver.BrowserName,
                         null);
             }
-
         }
+
+      
+        
+       
 
         /// <summary>
         /// Initializes an androidDriver

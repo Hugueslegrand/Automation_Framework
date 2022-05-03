@@ -1,6 +1,6 @@
 ﻿
 
-namespace Automation_Framework.Models
+namespace Automation_Framework.Enums
 {
     public enum BrowserName
     {

@@ -43,29 +43,10 @@ namespace Automation_Framework.Tests.Tests
 
             LoginPage loginPage = new LoginPage(builder);
 
-            //Assert.AreEqual(loginPage.getInnerText(), "login");
 
             loginPage.Login("brent.dar@ap.be", "hond123");
 
           
-            /* HomeScreen homeScreen = new HomeScreen(builder);
-
-              homeScreen.ClickSignInButton();
-
-              LoginScreen loginScreen = new LoginScreen(builder);
-              loginScreen.AndroidLogin("brent.dar@ap.be", "hond123");
-            */
-            /*  navigation.ClickMyMovie();
-
-              MyMoviesPage myMoviesPage = new MyMoviesPage(builder);
-              //Remove selenium
-              IList<IWebElement> test = myMoviesPage.getElements();
-              foreach (var item in test)
-              {
-                  item.FindElement(By.ClassName("css-49l3oe"));
-              }
-              //Assert.AreEqual(myMoviesPage.getElements(), "login");
-            */
         
         }
 
@@ -83,6 +64,7 @@ namespace Automation_Framework.Tests.Tests
             navigation.SignInButton.Should();
             navigation.RegisterButton.Should();
         }
+
 
         [Test, Property("caseid", "7")]
         [Description("Login as an existing user [2.2]")]

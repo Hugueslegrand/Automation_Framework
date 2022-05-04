@@ -7,6 +7,9 @@ using Automation_Framework.Utility;
 
 namespace Automation_Framework.Extensions.WebDriver
 {
+    /// <summary>
+    /// An element locator extension class for web
+    /// </summary>
     public static class ElementFinder
     {
         /// <summary>
@@ -35,8 +38,8 @@ namespace Automation_Framework.Extensions.WebDriver
         /// </summary>
         /// <param name="driver">The web driver</param>
         /// <param name="by">Locator with OpenQA's By method</param>
-        /// <param name="text">The text that has to be selected</param>
-        /// <returns>Returns the first element contataining the input text</returns>
+        /// <param name="text">The text that has to be found</param>
+        /// <returns>Returns the first element containing the input text</returns>
         public static IWebElement FindElementByText(this IWebDriver driver, By by, string text)
         {
             try
@@ -68,7 +71,7 @@ namespace Automation_Framework.Extensions.WebDriver
             }
             catch (System.Exception)
             {
-                Log.Warn($"Unable to move to the {driver.FindElement(by).TagName} `{driver.FindElement(by).Text}`.");
+                Log.Warn($"Unable to move to the {driver.FindElement(by)}.");
                 throw;
             }
             
@@ -89,7 +92,7 @@ namespace Automation_Framework.Extensions.WebDriver
             }
             catch (System.Exception)
             {
-                Log.Warn($"Unable to move to the {element.TagName} `{element.Text}`.");
+                Log.Warn($"Unable to move to the {element}.");
                 throw;
             }
            

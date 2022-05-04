@@ -6,6 +6,9 @@ using OpenQA.Selenium.Support.UI;
 
 namespace Automation_Framework.Extensions.WebDriver
 {
+    /// <summary>
+    /// An list generating from elements class for web
+    /// </summary>
     public static class Populator
     {
         /// <summary>

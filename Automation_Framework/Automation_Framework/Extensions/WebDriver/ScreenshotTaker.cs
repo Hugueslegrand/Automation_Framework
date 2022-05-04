@@ -12,13 +12,16 @@ using OpenQA.Selenium;
 namespace Automation_Framework.Extensions.WebDriver
 {
 
+    /// <summary>
+    /// A screenshot extension class for web
+    /// </summary>
     public static class ScreenshotTaker
     {
 
         /// <summary>
         /// Takes a standard (fullscreen) screenshot
         /// </summary>
-        /// <param name="driver">Containts the driver used to run the test in</param>
+        /// <param name="driver">Contains the driver used to run the test in</param>
         /// <param name="fileName">Name of the saved screenshot </param>
         public static void TakeStandardScreenshot(this IWebDriver driver, string fileName)
         {
@@ -29,7 +32,7 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <summary>
         /// Saves a screenshot in a specified filepath with a filename
         /// </summary>
-        /// <param name="driver">Containts the driver used to run the test in</param>
+        /// <param name="driver">Contains the driver used to run the test in</param>
         /// <param name="fileName">Name of the saved screenshot </param>
         private static void SaveScreenshot(this IWebDriver driver, string fileName)
         {
@@ -51,8 +54,8 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <summary>
         /// Method to set the location of the saved screenshot, which can be used in the SaveScreenshot() method
         /// </summary>
-        /// <param name="driver">Containts the driver used to run the test in</param>
-        /// <param name="fileName">Name of the saved screenshot </param>
+        /// <param name="driver">Contains the driver used to run the test in</param>
+        /// <param name="pathToFile">Path to which the screenshot gets saved </param>
         private static void ScreenshotSaveLocation(this IWebDriver driver, string pathToFile)
         {
             var screenshot = ((ITakesScreenshot)GetBaseDriver(driver)).GetScreenshot();

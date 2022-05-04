@@ -9,6 +9,9 @@ using System;
 
 namespace Automation_Framework.Extensions.MobileDriver
 {
+    /// <summary>
+    /// A wait extension class for mobile
+    /// </summary>
     public static class MobileWaitExtension
     {
         /// <summary>

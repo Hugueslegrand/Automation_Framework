@@ -22,7 +22,7 @@ namespace Automation_Framework.Helpers
             options.AddArgument("--disable-save-password-bubble");
             options.AddArgument("ignore-certificate-errors");
             options.AddArgument("start-maximized");
-           options.AddArgument("no-sandbox");
+            options.AddArgument("no-sandbox");
 
             options.AddArgument($"--lang={config.BrowserLanguage}");
             options.AddUserProfilePreference("intl.accept_languages", config.BrowserLanguage);

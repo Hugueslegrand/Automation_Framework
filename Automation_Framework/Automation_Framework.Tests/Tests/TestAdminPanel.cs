@@ -8,6 +8,7 @@ using Automation_Framework.Tests.Models;
 namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
+    
     [Property("suiteid", "1")]
     [Property("projectid", "1")]
     public class TestAdminPanel : BaseTest

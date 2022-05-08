@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.WebElementModels
 {
-   public interface ILink
+    public interface Ilabel
     {
         string TagName { get; }
         string Text { get; }
@@ -21,9 +21,9 @@ namespace Automation_Framework.WebElementModels
         string GetCssValue(string propertyName);
         string GetAttribute(string attributeName);
         string GetProperty(string propertyName);
+    
         void ClickOnElement();
-        void OpenLinkInNewTab();
-
+   
 
         IWebElement getElement();
         IList<IWebElement> getElements();

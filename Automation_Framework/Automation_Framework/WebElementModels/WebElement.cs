@@ -9,12 +9,12 @@ using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
-
+using System.Drawing;
 
 namespace Automation_Framework.WebElementModels
 {
 
-    public class WebElement : IButton, IInputField, ITable, ILink
+    public class WebElement : IButton, IInputField, ITable, ILink, Ilabel, IParagraph
     {
         private readonly DriverBuilder _driverBuilder;
         private IWebElement _webElement;
@@ -37,6 +37,9 @@ namespace Automation_Framework.WebElementModels
 
         public bool Displayed => _webElement.Displayed;
 
+        public Size Size => _webElement.Size;
+
+        public Point Location => _webElement.Location;
 
         public WebElement(IWebDriver driver, string element, Selector selector)
         {

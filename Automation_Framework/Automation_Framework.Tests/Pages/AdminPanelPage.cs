@@ -12,9 +12,9 @@ namespace Automation_Framework.Tests.Pages
 
         //MENU ITEMS
         public IButton HamburgerMenu => new WebElement(Driver, "//button[@aria-label='open drawer']", Selector.Xpath);
-        public IButton BugsMenu => new WebElement(Driver, "//a[@href='#/admin/bugs']//div[@role='button']", Selector.Xpath);
-        public IButton LogsMenu => new WebElement(Driver, "//a[@href='#/admin/logs']//div[@role='button']", Selector.Xpath);
-        public IButton UsersMenu => new WebElement(Driver, "//a[@href='#/admin/users']//div[@role='button']", Selector.Xpath);
+        public ILink BugsMenu => new WebElement(Driver, "//a[@href='#/admin/bugs']//div[@role='button']", Selector.Xpath);
+        public ILink LogsMenu => new WebElement(Driver, "//a[@href='#/admin/logs']//div[@role='button']", Selector.Xpath);
+        public ILink UsersMenu => new WebElement(Driver, "//a[@href='#/admin/users']//div[@role='button']", Selector.Xpath);
 
      
 

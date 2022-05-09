@@ -15,6 +15,7 @@ namespace Automation_Framework.Tests.Tests
     [TestFixture]
     [Property("suiteid", "3")]
     [Property("projectid", "1")]
+   // [Parallelizable(scope: ParallelScope.All)]
     public class TestLogin :BaseTest
     {
         User userLoginExist = new User("Pirate@King.com", "onepiece111");
@@ -28,7 +29,7 @@ namespace Automation_Framework.Tests.Tests
         User userIncorrectPassword = new User("Pirate@King.com", "IncorrectEmailAdress");
 
 
-
+        
         [Test, Property("caseid", "5")]
         [Description("Login as administrator")]
         public void Test_LoginAsAdmin_POM()
@@ -54,7 +55,7 @@ namespace Automation_Framework.Tests.Tests
 
 
         [Test, Property("caseid", "6")]
-        [Description("Login as an existing user [2.1]")]
+        [Description("Layout of unlogged user")]
         public void Test_Unlogged_Layout()
         {
             
@@ -67,7 +68,7 @@ namespace Automation_Framework.Tests.Tests
 
 
         [Test, Property("caseid", "7")]
-        [Description("Login as an existing user [2.2]")]
+        [Description("Login as an existing user")]
         public void Test_Login_As_Existing_User()
         {
             Navigation navigation = new Navigation(builder);
@@ -84,7 +85,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
         [Test, Property("caseid", "8")]
-        [Description("Login as an existing userAdmin [2.3]")]
+        [Description("Login as an existing userAdmin ")]
         public void Test_Login_As_Existing_UserAdmin()
         {
             Navigation navigation = new Navigation(builder);
@@ -147,7 +148,7 @@ namespace Automation_Framework.Tests.Tests
 
 
         [Test, Property("caseid", "12")]
-        [Description("All the neccesary elements are available in the footer and work accordingly [1.5]")]
+        [Description("All the neccesary elements are available in the footer and work accordingly")]
         public void Test_FooterElements()
         {
             

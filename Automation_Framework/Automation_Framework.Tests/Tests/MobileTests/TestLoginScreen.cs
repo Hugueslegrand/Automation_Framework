@@ -51,7 +51,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Login as an existing user [10.1]")]
+        [Description("Layout of unlogged user ")]
         public void Test_Unlogged_Layout()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -60,7 +60,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Login as an existing user [10.2]")]
+        [Description("Login as an existing user ")]
         public void Test_Login_As_Existing_User()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -79,7 +79,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Login as an existing userAdmin [10.3]")]
+        [Description("Login as an existing userAdmin")]
         public void Test_Login_As_Existing_UserAdmin()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -99,7 +99,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Login as an NOT existing user [10.4]")]
+        [Description("Login as an NOT existing user ")]
         public void Test_Login_As_Not_Existing_User()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -115,7 +115,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Login with an Incorrect Email adress [10.5]")]
+        [Description("Login with an Incorrect Email adress ")]
         public void Test_Login_With_An_Incorrect_EmailAdress()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -129,7 +129,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Login with an Incorrect Email adress or Password [10.6]")]
+        [Description("Login with an Incorrect Email adress or Password ")]
         public void Test_Login_With_An_Incorrect_Email_Or_Password()
         {
             HomeScreen homeScreen = new HomeScreen(builder);

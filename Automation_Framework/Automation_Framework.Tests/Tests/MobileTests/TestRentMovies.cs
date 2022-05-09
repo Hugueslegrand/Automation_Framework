@@ -14,8 +14,8 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Visual layout of profile screen [3.1]")]
-        public void Test_Visual_Layout_Of_ProfileScreen()
+        [Description("")]
+        public void Test()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
             LoginScreen loginScreen = new LoginScreen(builder);

@@ -24,7 +24,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Register a new user and log in to verify [5.1]")]
+        [Description("Register a new user and log in to verify ")]
         public void Test_Register_A_New_User()
         {
             RegisterScreen registerScreen = new RegisterScreen(builder);
@@ -56,7 +56,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Register a used user [5.2]")]
+        [Description("Register a used user ")]
         public void Test_Register_A_Used_User()
         {
             RegisterScreen registerScreen = new RegisterScreen(builder);
@@ -80,7 +80,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Register a new user with unmatching passwords [5.3]")]
+        [Description("Register a new user with unmatching passwords ")]
         public void Test_Register_Unmatching_Passwords()
         {
             RegisterScreen registerScreen = new RegisterScreen(builder);
@@ -129,7 +129,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Register user lead with a spacebar in the inputfields [5.5]")]
+        [Description("Register user lead with a spacebar in the inputfields ")]
         public void Test_Register_User_Lead_With_Spacebar()
         {
             RegisterScreen registerScreen = new RegisterScreen(builder);
@@ -158,7 +158,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Register user with special characters [5.6]")]
+        [Description("Register user with special characters")]
         public void Test_Register_User_With_Special_Characters()
         {
             RegisterScreen registerScreen = new RegisterScreen(builder);
@@ -188,7 +188,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         //Error message element changes based on view, can't run this test
         //[Test]
-        //[Description("Register user with few open fields [5.7]")]
+        //[Description("Register user with few open fields ")]
         //public void Test_Register_User_With_Few_Open_Fields()
         //{
         //    RegisterScreen registerScreen = new RegisterScreen(builder);
@@ -255,7 +255,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         //Error message element changes based on view, can't run this test
         //[Test]
-        //[Description("Register with only 1 character in every inputfield [5.8]")]
+        //[Description("Register with only 1 character in every inputfield ")]
         //public void Test_Register_User_With_1_Character_In_Every_Field()
         //{
         //    RegisterScreen registerScreen = new RegisterScreen(builder);

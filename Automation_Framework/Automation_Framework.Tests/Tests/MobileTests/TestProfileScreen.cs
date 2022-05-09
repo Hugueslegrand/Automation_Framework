@@ -15,7 +15,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         ProfileScreenLabels profileScreenLabels = new ProfileScreenLabels("PROFILE", "FIRSTNAME", "LASTNAME", "EMAIL", "CREDITS");
 
         [Test]
-        [Description("Visual layout of profile screen [3.1]")]
+        [Description("Visual layout of profile screen ")]
         public void Test_Visual_Layout_Of_ProfileScreen()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -51,7 +51,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Add credits to profile (positive integer) [3.2]")]
+        [Description("Add credits to profile (positive integer) ")]
         public void Test_Add_Credits_To_Profile_PositiveNumber()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -97,7 +97,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Add credits to profile (non-number input) [3.3]")]
+        [Description("Add credits to profile (non-number input)")]
         public void Test_Add_Credits_To_Profile_NonNumberInput()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -156,7 +156,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Add credits to profile (decimal numbers) [3.4]")]
+        [Description("Add credits to profile (decimal numbers) ")]
         public void Test_Add_Credits_To_Profile_DecimalNumbers()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -210,7 +210,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
         [Test]
-        [Description("Add credits to profile (negative integer) [3.5]")]
+        [Description("Add credits to profile (negative integer) ")]
         public void Test_Add_Credits_To_Profile_NegativeNumbers()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -286,7 +286,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Add credits to profile (cancel payment) [3.6]")]
+        [Description("Add credits to profile (cancel payment)")]
         public void Test_Cancelpayment()
         {
             HomeScreen homeScreen = new HomeScreen(builder);

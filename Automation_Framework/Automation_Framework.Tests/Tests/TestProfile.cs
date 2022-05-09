@@ -13,33 +13,10 @@ namespace Automation_Framework.Tests.Tests
     public class TestProfile : BaseTest
     {
 
-
-        [Test, Property("caseid", "13")]
-        [Description("Login as administrator parallel")]
-        public void Test_LoginAsAdminChrome()
-        {
-
-            Navigation navigation = new Navigation(builder);
-
-            navigation.WaitSeconds(6);
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
-            navigation.SignInButton.ClickOnElement();
-
-            LoginPage loginPage = new LoginPage(builder);
-
-
-            loginPage.Login("brent.dar@ap.be", "hond123");
-
-            navigation.WaitSeconds(10);
-
-
-
-        }
-
         User UserAdminLogin_Exist = new User("Brent", "Dar", "brent.dar@ap.be", "hond123", "hond123");
 
         [Test, Property("caseid", "14")]
-        [Description("Test: Analysing Elements (3.1)")]
+        [Description("Test: Analysing profile page Elements")]
         public void Test_Analysing_Elements()
         {
             
@@ -73,7 +50,7 @@ namespace Automation_Framework.Tests.Tests
 
 
         [Test, Property("caseid", "15")]
-        [Description("Test: Add credits to profile (3,3)")]
+        [Description("Test: Add credits to profile")]
         public void Test_AddPayment()
         {
             
@@ -97,7 +74,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
         [Test, Property("caseid", "16")]
-        [Description("Test: Add credits to profile (not-number input) (3,4)  ")]
+        [Description("Test: Add credits to profile (not-number input)  ")]
         public void Test_Add_Credits_To_Profile_nonNumberInput()
         {
             
@@ -128,7 +105,7 @@ namespace Automation_Framework.Tests.Tests
 
 
         [Test, Property("caseid", "17")]
-        [Description("Test: Add credits to profile (decimal numbers input) (3,5)  ")]
+        [Description("Test: Add credits to profile (decimal numbers input)  ")]
         public void Test_Add_Credits_To_Profile_Decimal_Numbers()
         {
             
@@ -162,7 +139,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
         [Test, Property("caseid", "18")]
-        [Description("Test: Add credits to profile (negative integer) (3,6)  ")]
+        [Description("Test: Add credits to profile (negative integer) ")]
         public void Test_Add_Credits_To_Profile_Negative_Integer()
         {
             
@@ -195,7 +172,7 @@ namespace Automation_Framework.Tests.Tests
 
 
         [Test, Property("caseid", "19")]
-        [Description("Test: CancelPayment (3,7)")]
+        [Description("Test: CancelPayment ")]
         public void Test_CancelPayment()
         {
             

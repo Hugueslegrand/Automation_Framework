@@ -16,7 +16,7 @@ namespace Automation_Framework.Tests.Tests
 
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test, Property("caseid", "1")]
+        [Test, Order(1), Property("caseid", "1")]
         [Description("Test: Set-Up for Testing by setting of all Bugs")]
         public void Test_AdminPanel_BugsOFf()
         {

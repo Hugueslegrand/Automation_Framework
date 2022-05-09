@@ -14,7 +14,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         ProfileScreenLabels profileScreenLabels = new ProfileScreenLabels("PROFILE", "FIRSTNAME", "LASTNAME", "EMAIL", "CREDITS");
 
         [Test]
-        [Description("Visual layout of order screen [4.1]")]
+        [Description("Visual layout of order screen ")]
         public void Test_Visual_Layout_Of_MyMoviesScreen()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -42,7 +42,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         //Nakijken
         [Test]
-        [Description("Watchability of available and expired rented movies [4.2]")]
+        [Description("Watchability of available and expired rented movies")]
         public void Test_Watchability_Of_Available_And_Expired_Rented_Movies()
         {
             HomeScreen homeScreen = new HomeScreen(builder);

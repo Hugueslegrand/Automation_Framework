@@ -8,7 +8,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
     public class TestHomeScreen : BaseTest
     {
         [Test]
-        [Description("HomeScreen functionalities (Press a movie banner) [1.1]")]
+        [Description("HomeScreen functionalities (Press a movie banner)")]
         public void Test_Press_A_Movie_Banner()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -32,7 +32,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
         [Test]
-        [Description("HomeScreen functionalities Horizontal and Vertical Swipe [1.2]")]
+        [Description("HomeScreen functionalities Horizontal and Vertical Swipe ")]
         public void Test_Swipe_Horizontal_And_Vertical()
         {
             HomeScreen homeScreen = new HomeScreen(builder);

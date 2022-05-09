@@ -3,9 +3,13 @@ using System.Linq;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
+using Automation_Framework.Utility;
 
 namespace Automation_Framework.Extensions.WebDriver
 {
+    /// <summary>
+    /// An element locator extension class for web
+    /// </summary>
     public static class ElementFinder
     {
         /// <summary>
@@ -16,8 +20,16 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <returns>Returns a List with WebElements</returns>
         public static IList<IWebElement> FindElementAboveZero(this IWebDriver driver, By by)
         {
-
-            driver.Wait().Until(x => x.FindElements(by).Count > 0);
+            try
+            {
+                driver.Wait().Until(x => x.FindElements(by).Count > 0);
+            }
+            catch (System.Exception)
+            {
+                Log.Warn($"Unable to find elements with locator {by}.");
+                throw;
+            }
+            
             return driver.FindElements(by);
         }
 
@@ -26,11 +38,20 @@ namespace Automation_Framework.Extensions.WebDriver
         /// </summary>
         /// <param name="driver">The web driver</param>
         /// <param name="by">Locator with OpenQA's By method</param>
-        /// <param name="text">The text that has to be selected</param>
-        /// <returns>Returns the first element contataining the input text</returns>
+        /// <param name="text">The text that has to be found</param>
+        /// <returns>Returns the first element containing the input text</returns>
         public static IWebElement FindElementByText(this IWebDriver driver, By by, string text)
         {
-            driver.Wait().Until(x => x.FindElements(by).First(y => y.Text == text));
+            try
+            {
+                driver.Wait().Until(x => x.FindElements(by).First(y => y.Text == text));
+            }
+            catch (System.Exception)
+            {
+                Log.Warn($"Unable to find elements with locator {by} containing the text {text}.");
+                throw;
+            }
+           
             return driver.FindElements(by).First(x => x.Text == text);
         }
 
@@ -41,9 +62,19 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <param name="by">Locator with OpenQA's By method</param>
         public static void MoveToElement(this IWebDriver driver, By by)
         {
+            
             var actions = new Actions(driver);
             driver.WaitForClickable(by);
-            actions.MoveToElement(driver.FindElement(by)).Build().Perform();
+            try
+            {
+                actions.MoveToElement(driver.FindElement(by)).Build().Perform();
+            }
+            catch (System.Exception)
+            {
+                Log.Warn($"Unable to move to the {driver.FindElement(by)}.");
+                throw;
+            }
+            
         }
 
         /// <summary>
@@ -55,7 +86,16 @@ namespace Automation_Framework.Extensions.WebDriver
         {
             var actions = new Actions(driver);
             driver.WaitForClickable(element);
-            actions.MoveToElement(element).Build().Perform();
+            try
+            {
+                actions.MoveToElement(element).Build().Perform();
+            }
+            catch (System.Exception)
+            {
+                Log.Warn($"Unable to move to the {element}.");
+                throw;
+            }
+           
         }
 
         /// <summary>
@@ -67,8 +107,17 @@ namespace Automation_Framework.Extensions.WebDriver
         public static void SelectElementByText(this IWebDriver driver, By by, string text)
         {
             driver.WaitForClickable(by);
-            var selectElement = new SelectElement(driver.FindElement(by));
-            selectElement.SelectByText(text);
+            try
+            {
+                var selectElement = new SelectElement(driver.FindElement(by));
+                selectElement.SelectByText(text);
+            }
+            catch (System.Exception)
+            {
+                Log.Warn($"Unable to select option in the select tag with the text {text}.");
+                throw;
+            }
+            
         }
 
         /// <summary>
@@ -80,8 +129,17 @@ namespace Automation_Framework.Extensions.WebDriver
         public static void SelectElementByText(this IWebDriver driver, IWebElement element, string text)
         {
             driver.WaitForClickable(element);
-            var selectElement = new SelectElement(element);
-            selectElement.SelectByText(text);
+            try
+            {
+                var selectElement = new SelectElement(element);
+                selectElement.SelectByText(text);
+            }
+            catch (System.Exception)
+            {
+                Log.Warn($"Unable to select option in the select tag with the text {text}.");
+                throw;
+            }
+            
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Automation_Framework.Helpers;
+﻿using Automation_Framework.Utility;
+using Automation_Framework.Helpers;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
@@ -8,15 +9,19 @@ using System;
 
 namespace Automation_Framework.Extensions.MobileDriver
 {
+    /// <summary>
+    /// A wait extension class for mobile
+    /// </summary>
     public static class MobileWaitExtension
     {
         /// <summary>
         /// Used for the defaultimeout wait specified in appSettings
         /// </summary>
-        /// <param name="driver">Containts the mobile driver used to run the test in</param>
+        /// <param name="driver">Containts the mobile android driver used to run the test in</param>
         /// <returns>A WebDriverWait function</returns>
         public static WebDriverWait AndroidWait(this AppiumDriver<AndroidElement> driver)
         {
+           
             return new WebDriverWait(driver,
                 TimeSpan.FromSeconds(Configuration.NativeMobileDriver.DefaultTimeout));
         }
@@ -24,10 +29,11 @@ namespace Automation_Framework.Extensions.MobileDriver
         /// <summary>
         /// Used for the defaultimeout wait specified in appSettings
         /// </summary>
-        /// <param name="driver">Containts the mobile driver used to run the test in</param>
+        /// <param name="driver">Containts the mobile ios driver used to run the test in</param>
         /// <returns>A WebDriverWait function</returns>
         public static WebDriverWait IOSWait(this AppiumDriver<IOSElement> driver)
         {
+            
             return new WebDriverWait(driver,
                 TimeSpan.FromSeconds(Configuration.NativeMobileDriver.DefaultTimeout));
         }
@@ -37,11 +43,12 @@ namespace Automation_Framework.Extensions.MobileDriver
         /// </summary>
         /// <param name="driver">Containts the driver used to run the test in</param>
         /// <param name="element">IOSElement defined in Page Object which should become clickable</param>
-        /// <returns>A WebDriverWait function expecting the element to be clickable</returns>
+        
         public static void WaitForClickableIOS(this AppiumDriver<IOSElement> driver, IOSElement element)
         {
-
-            driver.IOSWait().Until(ExpectedConditions.ElementToBeClickable(element));
+         
+                driver.IOSWait().Until(ExpectedConditions.ElementToBeClickable(element));
+           
 
         }
 
@@ -50,11 +57,14 @@ namespace Automation_Framework.Extensions.MobileDriver
         /// </summary>
         /// <param name="driver">Containts the driver used to run the test in</param>
         /// <param name="by">AndroidElement defined in Page Object which should become clickable</param>
-        /// <returns>A WebDriverWait function expecting the element to be clickable</returns>
+        
         public static void WaitForClickableAndroid(this AppiumDriver<AndroidElement> driver, AndroidElement element)
         {
+           
+                driver.AndroidWait().Until(ExpectedConditions.ElementToBeClickable(element));
+           
 
-            driver.AndroidWait().Until(ExpectedConditions.ElementToBeClickable(element));
+          
         }
     }
 }

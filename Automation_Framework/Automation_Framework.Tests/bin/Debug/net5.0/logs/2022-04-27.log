@@ -1,0 +1,96 @@
+2022-04-27 10:48:54 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-04-27 10:48:55 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-04-27 10:48:55 INFO  ****************************************************************************************
+2022-04-27 10:48:55 INFO  ****************************************************************************************
+2022-04-27 10:48:55 INFO  $$$$$$$$$$$$$$$$$$$$$$$$          Login as administrator          $$$$$$$$$$$$$$$$$$$$$$$$
+2022-04-27 10:48:55 INFO  ****************************************************************************************
+2022-04-27 10:48:55 INFO  ****************************************************************************************
+2022-04-27 10:49:01 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:01 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:01 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:01 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:02 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:02 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:02 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:02 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:03 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:03 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:03 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:03 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:04 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:04 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:04 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:04 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:05 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:05 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:05 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:05 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:06 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:06 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:06 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:06 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:07 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:07 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:07 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:07 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:08 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:08 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:09 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:09 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:09 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:09 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:10 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:10 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:10 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:10 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:11 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:11 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:11 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-27 10:49:11 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-27 10:49:11 WARN  failed to locate By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton'] within 10 seconds
+2022-04-27 10:50:07 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-04-27 10:50:08 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-04-27 10:50:08 INFO  ****************************************************************************************
+2022-04-27 10:50:08 INFO  ****************************************************************************************
+2022-04-27 10:50:08 INFO  $$$$$$$$$$$$$$$$$$$$$$$$          Login as administrator          $$$$$$$$$$$$$$$$$$$$$$$$
+2022-04-27 10:50:08 INFO  ****************************************************************************************
+2022-04-27 10:50:08 INFO  ****************************************************************************************
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-27 10:50:14 INFO  Clicking on the button `SIGN IN`
+2022-04-27 10:50:14 INFO  clicked on button SIGN IN 
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-27 10:50:14 INFO  Clicking on the input ``
+2022-04-27 10:50:14 INFO  clicked on input  
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-27 10:50:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-27 10:50:15 INFO  Value of the input changed to `brent.dar@ap.be`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-27 10:50:15 INFO  Clicking on the input ``
+2022-04-27 10:50:15 INFO  clicked on input  
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-27 10:50:15 INFO  Value of the input changed to `hond123`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-27 10:50:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-27 10:50:15 INFO  Clicking on the button `LOGIN`
+2022-04-27 10:50:15 INFO  clicked on button LOGIN 
+2022-04-27 10:50:15 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2022-04-27 10:50:15 INFO  X
+2022-04-27 10:50:15 INFO  X
+2022-04-27 10:50:15 INFO  X
+2022-04-27 10:50:15 INFO  X

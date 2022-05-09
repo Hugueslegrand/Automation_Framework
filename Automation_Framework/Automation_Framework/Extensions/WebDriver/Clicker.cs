@@ -1,12 +1,16 @@
 ﻿using System.Linq;
+using Automation_Framework.Utility;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
-
+using Automation_Framework.Enums;
 namespace Automation_Framework.Extensions.WebDriver
 {
-
+    /// <summary>
+    /// A Click extension class for web
+    /// </summary>
     public static class Clicker
     {
+
         /// <summary>
         /// Method used for clicking on an element, after waiting for it to be clickable
         /// </summary>
@@ -43,12 +47,14 @@ namespace Automation_Framework.Extensions.WebDriver
         }
 
         /// <summary>
-        /// Tab key gets pressed on driver (page) as a whole instead on a WebElement
+        /// Keyboard key gets pressed on driver (page) as a whole instead on a WebElement
         /// </summary>
         /// <param name="driver">The web driver.</param>
-        public static void PressTab(this IWebDriver driver)
+        /// <param name="key">The Key from keyboard</param>
+        public static void PressKey(this IWebDriver driver,string key)
         {
-            new Actions(driver).SendKeys(OpenQA.Selenium.Keys.Tab).Perform();
+            new Actions(driver).SendKeys(key).Perform();
+            Log.Info($"Pressed the {key} key");
 
         }
 
@@ -56,10 +62,11 @@ namespace Automation_Framework.Extensions.WebDriver
         /// Enter key gets pressed on driver (page) as a whole instead on a WebElement
         /// </summary>
         /// <param name="driver">The web driver.</param>
-        public static void PressEnter(this IWebDriver driver)
+       /* public static void PressEnter(this IWebDriver driver)
         {
-            new Actions(driver).SendKeys(OpenQA.Selenium.Keys.Enter).Perform();
+            new Actions(driver).SendKeys(Keys.Enter).Perform();
+            Log.Info("Pressed the Enter key");
 
-        }
+        }*/
     }
 }

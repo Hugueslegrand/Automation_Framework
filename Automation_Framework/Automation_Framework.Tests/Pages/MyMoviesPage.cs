@@ -2,7 +2,7 @@
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;
-using Automation_Framework.Extensions;
+
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -41,15 +41,7 @@ namespace Automation_Framework.Tests.Pages
 
         }
 
-
-        public string GetInnerText_MovieTitle()
-        {
-            return MovieTitle.Text;
-        }
-        public string GetInnerText_MovieAvailableDate()
-        {
-            return MovieAvailableDate.Text;
-        }
+        
 
         public bool AvailabilityOfRentedMovie()
         {
@@ -72,15 +64,6 @@ namespace Automation_Framework.Tests.Pages
             return isAvailable;
         }
 
-        public IWebElement MovieByTitle(string title)
-        {
-            return MovieByTitle(title);
-        }
-
-        //Functions
-
-        public void ClickWatchNow() => WatchNowButton.ClickOnElement();
-        public void ClickCloseModal() => CloseModalButton.ClickOnElement();
 
     }
 }

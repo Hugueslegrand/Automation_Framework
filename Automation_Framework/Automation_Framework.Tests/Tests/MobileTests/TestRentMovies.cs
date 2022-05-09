@@ -2,11 +2,7 @@
 using Automation_Framework.Tests.Screens;
 using FluentAssertions;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
@@ -18,8 +14,8 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Visual layout of profile screen [3.1]")]
-        public void Test_Visual_Layout_Of_ProfileScreen()
+        [Description("")]
+        public void Test()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
             LoginScreen loginScreen = new LoginScreen(builder);

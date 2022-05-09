@@ -1,4 +1,5 @@
 ﻿using Automation_Framework.Models;
+using Automation_Framework.TestRail.Model;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
@@ -6,6 +7,12 @@ namespace Automation_Framework.Helpers
 {
     public class Configuration
     {
+        // initialized as logger
+        private const string LoggerConfigSectionName = "logger";
+
+        // initialized as testrail
+        private const string TestRailConfigSectionName = "testrail";
+
         // initialized as webdriver
         private const string WebDriverConfigSectionName = "webdriver";
 
@@ -17,6 +24,18 @@ namespace Automation_Framework.Helpers
 
         // initialized as webMobile
         private const string WebMobileDriverConfigSectionName = "webMobile";
+
+        /// <summary>
+        /// Load configuration file with section name logger  
+        /// </summary>
+        public static LoggerConfiguration Logger =>
+          Load<LoggerConfiguration>(LoggerConfigSectionName);
+
+        /// <summary>
+        /// Load configuration file with section name testrail  
+        /// </summary>
+        public static TestRailConfiguration TestRail =>
+          Load<TestRailConfiguration>(TestRailConfigSectionName);
 
         /// <summary>
         /// Load configuration file with section name webDriver  
@@ -42,8 +61,7 @@ namespace Automation_Framework.Helpers
         public static EnvironmentConfiguration Environment =>
          Load<EnvironmentConfiguration>(EnvironmentConfigSectionName);
 
-        public static string DriverPath =>
-         Path.Combine(System.Environment.CurrentDirectory, "Drivers");
+       
 
         /// <summary>
         /// Choses the section to load based on the section name

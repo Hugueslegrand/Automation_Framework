@@ -2,18 +2,14 @@
 using Automation_Framework.Enums;
 using Automation_Framework.Builders;
 using Automation_Framework.WebElementModels;
-using Automation_Framework.Extensions.WebDriver;
-using Automation_Framework.Tests.Models;
-using Automation_Framework.Tests.Tests;
+
 
 
 namespace Automation_Framework.Tests.Pages
 {
     public class ProfilePage : BasePage
     {
-        public TestProfile testProfile = new TestProfile();
-
-
+     
 
         public ProfilePage(DriverBuilder driver) : base(driver) { }
 
@@ -53,58 +49,8 @@ namespace Automation_Framework.Tests.Pages
         //public IButton Elements => new WebElement(Driver, "css-cpr2ex", Selector.ClassName);
 
 
-        public string GetInnerText_ProfileAvatar()
-        {
-            return ProfileAvatar.Text;
-        }
-        public string GetInnerText_FirstName()
-        {
-            return FirstName.Text;
-        }
-        public string GetInnerText_LastName()
-        {
-            return LastName.Text;
-        }
-        public string GetInnerText_Email()
-        {
-            return Email.Text;
-        }
-
-        public string GetAttribute_ProfileAvatar(string attribute, IButton button)
-        {
-            return ProfileAvatar.GetAttribute(attribute);
-        }
-
-
-        public string GetAttribute_AddCreditsButton(string attribute, IButton button)
-        {
-            return AddCreditsButton.GetAttribute(attribute);
-        }
-        public string GetAttribute_BuyCreditsButton(string attribute, IButton button)
-        {
-            return BuyCreditsButton.GetAttribute(attribute);
-        }
-        public string GetAttribute_CancelPaymentButton(string attribute, IButton button)
-        {
-            return CancelPaymentButton.GetAttribute(attribute);
-        }
-
-        public string GetAttribute_AmountOfCredits(string attribute, IInputField input)
-        {
-            return AmountOfCredits.GetAttribute(attribute);
-        }
-
-        public bool ElementIsVisible(IButton button)
-        {
-            return button.ElementIsVisible();
-        }
-
-
-        //Functions
-        public void ClickAddCredits() => AddCreditsButton.ClickOnElement();
-        public void ClickBuyCredits() => BuyCreditsButton.ClickOnElement();
-        public void ClickCancelPayment() => CancelPaymentButton.ClickOnElement();
-        public void ClickAmountOfCredits() => AmountOfCredits.ClickOnElement();
+       
+      
         public void FillAmountOfCredits(string amountOfCredits) => AmountOfCredits.SendKeys(amountOfCredits);
 
 

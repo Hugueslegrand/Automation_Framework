@@ -3,6 +3,7 @@ using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
+using System.Collections.ObjectModel;
 using System.Threading;
 
 namespace Automation_Framework.Base
@@ -13,6 +14,8 @@ namespace Automation_Framework.Base
         protected readonly AndroidDriver<AndroidElement> AndroidDriver;
         protected readonly IOSDriver<IOSElement> IOSDriver;
 
+
+
         protected BasePage(DriverBuilder driver)
         {
             Driver = driver._webDriver;
@@ -20,12 +23,6 @@ namespace Automation_Framework.Base
             IOSDriver = driver._iosDriver;
         }
 
-        public void WaitSeconds(int seconds)
-        {
-            WaitExtension.WaitSeconds(seconds);
-        }
-
-        public void PressTab() => Driver.PressTab();
-        public void PressEnter() => Driver.PressEnter();
+        
     }
 }

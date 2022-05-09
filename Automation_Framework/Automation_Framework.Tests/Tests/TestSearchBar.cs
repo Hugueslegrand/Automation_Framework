@@ -1,45 +1,50 @@
 ﻿using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
-using System.Threading;
+
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
 
 
 namespace Automation_Framework.Tests.Tests
 {
+    [TestFixture]
+    [Property("suiteid", "7")]
+    [Property("projectid", "1")]
     public class TestSearchBar : BaseTest
     {
         User normalUser = new("Pirate@King.com", "onepiece111");
         User admin = new("Brent.dar@ap.be", "hond123");
 
 
-        [Test]
+        [Test, Property("caseid", "32")]
         [Description("Check if searchbar is active and available for all types of users")]
         public void Test_SearchBar_Available()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SearchBar.Should();
             navigation.SearchBar.ClickOnElement();
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(normalUser.email, normalUser.password);
             navigation.SearchBar.Should();
             navigation.SearchBar.ClickOnElement();
-            navigation.ClickSignOut();
-            navigation.ClickSignIn();
+            navigation.SignOutButton.ClickOnElement();
+            navigation.SignInButton.ClickOnElement();
             loginPage.Login(admin.email, admin.password);
             navigation.SearchBar.Should();
             navigation.SearchBar.ClickOnElement();
            
         }
 
-        [Test]
+        [Test, Property("caseid", "33")]
         [Description("Check if searchbar filters the right movie with different types of input")]
         public void Test_SearchBar_Functionality()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SearchBar.Should();
             navigation.SearchBar.ClickOnElement();
 

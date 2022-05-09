@@ -1,9 +1,6 @@
 ﻿using OpenQA.Selenium;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Drawing;
 
 namespace Automation_Framework.WebElementModels
 {
@@ -14,6 +11,8 @@ namespace Automation_Framework.WebElementModels
         bool Enabled { get; }
         bool Selected { get; }
         bool Displayed { get; }
+        Size Size { get; }
+        Point Location { get; }
 
         string GetCssValue(string propertyName);
         string GetAttribute(string attributeName);

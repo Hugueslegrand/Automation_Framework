@@ -1,0 +1,314 @@
+2022-04-28 18:25:28 INFO  ****************************************************************************************
+2022-04-28 18:25:28 INFO  ****************************************************************************************
+2022-04-28 18:25:28 INFO  $$$$$$$$$$$$$$$$$$$$$$$$          Test: Add credits to profile (decimal numbers input) (3,5)            $$$$$$$$$$$$$$$$$$$$$$$$
+2022-04-28 18:25:28 INFO  ****************************************************************************************
+2022-04-28 18:25:28 INFO  ****************************************************************************************
+2022-04-28 18:25:30 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-04-28 18:25:30 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-04-28 18:25:36 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:25:36 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:25:36 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:25:36 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:25:36 INFO  Clicking on the button `SIGN IN`
+2022-04-28 18:25:36 INFO  clicked on button SIGN IN 
+2022-04-28 18:25:36 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:25:36 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:25:36 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:25:36 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:25:37 INFO  Clicking on the input ``
+2022-04-28 18:25:37 INFO  clicked on input  
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:25:37 INFO  Value of the input changed to `brent.dar@ap.be`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:25:37 INFO  Clicking on the input ``
+2022-04-28 18:25:37 INFO  clicked on input  
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:25:37 INFO  Value of the input changed to `hond123`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:25:37 INFO  Clicking on the button `LOGIN`
+2022-04-28 18:25:37 INFO  clicked on button LOGIN 
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:25:37 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-28 18:25:37 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:25:38 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:25:38 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:25:38 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:25:38 INFO  Clicking on the button `PROFILE`
+2022-04-28 18:25:38 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-28 18:25:38 INFO  Exception OpenQA.Selenium.Support.Events.WebDriverExceptionEventArgs thrown
+2022-04-28 18:25:38 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2022-04-28 18:25:38 INFO  X
+2022-04-28 18:25:38 INFO  X
+2022-04-28 18:25:38 INFO  X
+2022-04-28 18:25:38 INFO  X
+2022-04-28 18:32:03 INFO  ****************************************************************************************
+2022-04-28 18:32:04 INFO  ****************************************************************************************
+2022-04-28 18:32:04 INFO  $$$$$$$$$$$$$$$$$$$$$$$$          Test: Add credits to profile (decimal numbers input) (3,5)            $$$$$$$$$$$$$$$$$$$$$$$$
+2022-04-28 18:32:04 INFO  ****************************************************************************************
+2022-04-28 18:32:04 INFO  ****************************************************************************************
+2022-04-28 18:32:05 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-04-28 18:32:06 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:32:12 INFO  Clicking on the button `SIGN IN`
+2022-04-28 18:32:12 INFO  clicked on button SIGN IN 
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:32:12 INFO  Clicking on the input ``
+2022-04-28 18:32:12 INFO  clicked on input  
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:32:12 INFO  Value of the input changed to `brent.dar@ap.be`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:32:12 INFO  Clicking on the input ``
+2022-04-28 18:32:12 INFO  clicked on input  
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:32:12 INFO  Value of the input changed to `hond123`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:32:12 INFO  Clicking on the button `LOGIN`
+2022-04-28 18:32:12 INFO  clicked on button LOGIN 
+2022-04-28 18:32:12 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:32:13 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:32:13 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:32:13 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:32:13 INFO  Finding element `By.XPath: //a[@href='#/profile']//button[@id='OrdersPageButton']`
+2022-04-28 18:32:13 INFO  Clicking on the button `PROFILE`
+2022-04-28 18:32:13 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2022-04-28 18:32:13 INFO  X
+2022-04-28 18:32:13 INFO  X
+2022-04-28 18:32:13 INFO  X
+2022-04-28 18:32:13 INFO  X
+2022-04-28 18:33:12 INFO  ****************************************************************************************
+2022-04-28 18:33:12 INFO  ****************************************************************************************
+2022-04-28 18:33:12 INFO  $$$$$$$$$$$$$$$$$$$$$$$$          Test: Visual Layout Of Order Page          $$$$$$$$$$$$$$$$$$$$$$$$
+2022-04-28 18:33:12 INFO  ****************************************************************************************
+2022-04-28 18:33:12 INFO  ****************************************************************************************
+2022-04-28 18:33:14 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-04-28 18:33:14 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-04-28 18:33:20 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:33:21 INFO  Clicking on the button `SIGN IN`
+2022-04-28 18:33:21 INFO  clicked on button SIGN IN 
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:33:21 INFO  Clicking on the input ``
+2022-04-28 18:33:21 INFO  clicked on input  
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:33:21 INFO  Value of the input changed to `brent.dar@ap.be`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:33:21 INFO  Clicking on the input ``
+2022-04-28 18:33:21 INFO  clicked on input  
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:33:21 INFO  Value of the input changed to `hond123`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:33:21 INFO  Clicking on the button `LOGIN`
+2022-04-28 18:33:21 INFO  clicked on button LOGIN 
+2022-04-28 18:33:21 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:33:22 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:33:22 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:33:22 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:33:22 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:33:22 INFO  Clicking on the button `MY MOVIES`
+2022-04-28 18:33:22 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2022-04-28 18:33:22 INFO  X
+2022-04-28 18:33:22 INFO  X
+2022-04-28 18:33:22 INFO  X
+2022-04-28 18:33:22 INFO  X
+2022-04-28 18:36:46 INFO  ****************************************************************************************
+2022-04-28 18:36:46 INFO  ****************************************************************************************
+2022-04-28 18:36:46 INFO  $$$$$$$$$$$$$$$$$$$$$$$$          Test: Visual Layout Of Order Page          $$$$$$$$$$$$$$$$$$$$$$$$
+2022-04-28 18:36:46 INFO  ****************************************************************************************
+2022-04-28 18:36:46 INFO  ****************************************************************************************
+2022-04-28 18:36:47 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-04-28 18:36:48 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:36:54 INFO  Clicking on the button `SIGN IN`
+2022-04-28 18:36:54 INFO  clicked on button SIGN IN 
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:36:54 INFO  Clicking on the input ``
+2022-04-28 18:36:54 INFO  clicked on input  
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:36:54 INFO  Value of the input changed to `brent.dar@ap.be`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:36:54 INFO  Clicking on the input ``
+2022-04-28 18:36:54 INFO  clicked on input  
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:36:54 INFO  Value of the input changed to `hond123`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:36:54 INFO  Clicking on the button `LOGIN`
+2022-04-28 18:36:54 INFO  clicked on button LOGIN 
+2022-04-28 18:36:54 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:36:55 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:36:56 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:36:56 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:36:56 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:36:56 INFO  Clicking on the button `MY MOVIES`
+2022-04-28 18:36:56 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2022-04-28 18:36:56 INFO  X
+2022-04-28 18:36:56 INFO  X
+2022-04-28 18:36:56 INFO  X
+2022-04-28 18:36:56 INFO  X
+2022-04-28 18:39:06 INFO  ****************************************************************************************
+2022-04-28 18:39:06 INFO  ****************************************************************************************
+2022-04-28 18:39:06 INFO  $$$$$$$$$$$$$$$$$$$$$$$$          Test: Visual Layout Of Order Page          $$$$$$$$$$$$$$$$$$$$$$$$
+2022-04-28 18:39:06 INFO  ****************************************************************************************
+2022-04-28 18:39:06 INFO  ****************************************************************************************
+2022-04-28 18:39:07 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-04-28 18:39:08 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 18:39:14 INFO  Clicking on the button `SIGN IN`
+2022-04-28 18:39:14 INFO  clicked on Element (id = 39546835-2034-4854-9905-ce8b2639452d) 
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:39:14 INFO  Clicking on the input ``
+2022-04-28 18:39:14 INFO  clicked on Element (id = 787a9070-4ec6-4bc7-b36b-b2c303e7214b) 
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 18:39:14 INFO  Value of the input changed to `brent.dar@ap.be`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:39:14 INFO  Clicking on the input ``
+2022-04-28 18:39:14 INFO  clicked on Element (id = 76365c71-1671-4a09-b70d-130c56ca99c6) 
+2022-04-28 18:39:14 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 18:39:15 INFO  Value of the input changed to `hond123`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 18:39:15 INFO  Clicking on the button `LOGIN`
+2022-04-28 18:39:15 INFO  clicked on Element (id = c9359b4b-26a1-4348-8392-5ab4962e144d) 
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //a[@href='#/orders']//button[@id='OrdersPageButton']`
+2022-04-28 18:39:15 INFO  Clicking on the button `MY MOVIES`
+2022-04-28 18:39:15 INFO  clicked on Element (id = 2b2854f5-0a65-4e11-818b-da1158fee3f2) 
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //p[@class='css-49l3oe']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //p[@class='css-49l3oe']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //p[@class='css-49l3oe']`
+2022-04-28 18:39:15 INFO  Finding element `By.XPath: //p[@class='css-49l3oe']`
+2022-04-28 18:39:16 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2022-04-28 18:39:16 INFO  X
+2022-04-28 18:39:16 INFO  X
+2022-04-28 18:39:16 INFO  X
+2022-04-28 18:39:16 INFO  X
+2022-04-28 21:32:14 INFO  ****************************************************************************************
+2022-04-28 21:32:14 INFO  ****************************************************************************************
+2022-04-28 21:32:14 INFO  $$$$$$$$$$$$$$$$$$$$$$$$          Login as administrator parallel          $$$$$$$$$$$$$$$$$$$$$$$$
+2022-04-28 21:32:14 INFO  ****************************************************************************************
+2022-04-28 21:32:14 INFO  ****************************************************************************************
+2022-04-28 21:32:16 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-04-28 21:32:33 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-04-28 21:32:39 INFO  Clicking on the button `SIGN IN` Element (id = aa44b5dc-b668-478c-9be7-197ba3394138)
+2022-04-28 21:32:39 INFO  clicked on Element (id = aa44b5dc-b668-478c-9be7-197ba3394138) 
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 21:32:39 INFO  Clicking on the input `` Element (id = 3286221b-3dbf-4b28-9861-0685711d5a78)
+2022-04-28 21:32:39 INFO  clicked on Element (id = 3286221b-3dbf-4b28-9861-0685711d5a78) 
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInEmail']`
+2022-04-28 21:32:39 INFO  Value of the input changed to `brent.dar@ap.be`
+2022-04-28 21:32:39 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 21:32:40 INFO  Clicking on the input `` Element (id = 8e62e112-a3dc-43f1-82d5-b525c8ab50e5)
+2022-04-28 21:32:40 INFO  clicked on Element (id = 8e62e112-a3dc-43f1-82d5-b525c8ab50e5) 
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //input[@id='SignInPassword']`
+2022-04-28 21:32:40 INFO  Value of the input changed to `hond123`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 21:32:40 INFO  Finding element `By.XPath: //button[@id='SignInButtonComplete']`
+2022-04-28 21:32:40 INFO  Clicking on the button `LOGIN` Element (id = e9c23bcb-84db-4c7c-9986-2ca6f72ed432)
+2022-04-28 21:32:40 INFO  clicked on Element (id = e9c23bcb-84db-4c7c-9986-2ca6f72ed432) 
+2022-04-28 21:32:40 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2022-04-28 21:32:40 INFO  X
+2022-04-28 21:32:40 INFO  X
+2022-04-28 21:32:40 INFO  X
+2022-04-28 21:32:40 INFO  X

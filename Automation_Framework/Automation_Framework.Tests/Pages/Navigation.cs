@@ -2,10 +2,7 @@
 using Automation_Framework.Base;
 using Automation_Framework.Enums;
 using Automation_Framework.WebElementModels;
-using Automation_Framework.Extensions.WebDriver;
-using Automation_Framework.Tests.Providers;
-using System.Collections.Generic;
-using OpenQA.Selenium.Support.UI;
+
 
 namespace Automation_Framework.Tests.Pages
 {
@@ -46,31 +43,7 @@ namespace Automation_Framework.Tests.Pages
         */
 
 
-        //Functions
-
-        // public void surfToUrl() => Driver.OpenLink(UrlProvider.Login);
-        public void ClickSearchBar() => SearchBar.ClickOnElement();
-        //Driver.ClickOnElement(SearchBar);
-        public void FillSearchBar(string searchBar) => SearchBar.SendKeys(searchBar);
-        //SearchBar.SendKeys(searchBar);
-        public void ClickLogo() => Logo.ClickOnElement();
-        //Driver.ClickOnElement(Logo);
-        public void ClickSignIn() => SignInButton.ClickOnElement();
-        //Driver.ClickOnElement(SignInButton);
-        public void ClickRegister() => RegisterButton.ClickOnElement();
-        //Driver.ClickOnElement(RegisterButton);
-
-        public void ClickMyMovie() => MyMovieButton.ClickOnElement();
-        //Driver.ClickOnElement(MyMovieButton);
-        public void ClickProfile() => ProfileButton.ClickOnElement();
-        //Driver.ClickOnElement(ProfileButton);
-        public void ClickSignOut() => SignOutButton.ClickOnElement();
-        //Driver.ClickOnElement(SignOutButton);
-        public void ClickSettings() => SettingsButton.ClickOnElement();
-
-        // public List<string> GetAllOptionsFromSearchbar() => SearchBarDropDown.GetAllOptionsFromSelectTagDropDown();
-        public void ClickDropDrownElement(IButton button) => button.ClickOnElement();
-
+ 
 
 
     }

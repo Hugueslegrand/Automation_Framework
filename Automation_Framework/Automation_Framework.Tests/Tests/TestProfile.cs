@@ -2,38 +2,41 @@
 using Automation_Framework.Tests.Pages;
 using FluentAssertions;
 using NUnit.Framework;
-using System.Threading;
+
 
 
 namespace Automation_Framework.Tests.Tests
 {
+    [TestFixture]
+    [Property("suiteid", "4")]
+    [Property("projectid", "1")]
     public class TestProfile : BaseTest
     {
 
         User UserAdminLogin_Exist = new User("Brent", "Dar", "brent.dar@ap.be", "hond123", "hond123");
 
-        [Test]
-        [Description("Test: Analysing Elements (3.1)")]
+        [Test, Property("caseid", "14")]
+        [Description("Test: Analysing profile page Elements")]
         public void Test_Analysing_Elements()
         {
             
             Navigation navigation = new Navigation(builder);
             ProfilePage profilePage = new ProfilePage(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
+            navigation.ProfileButton.ClickOnElement();
 
-            navigation.ClickProfile();
-
-           // profilePage.GetInnerText_ProfileAvatar().Should().Be("");
-            profilePage.GetInnerText_FirstName().Should().Be(UserAdminLogin_Exist.firstName);
-            profilePage.GetInnerText_LastName().Should().Be(UserAdminLogin_Exist.lastName);
-            profilePage.GetInnerText_Email().Should().Be(UserAdminLogin_Exist.email);
-            string src = profilePage.GetAttribute_ProfileAvatar("src", profilePage.ProfileAvatar);
+            // profilePage.GetInnerText_ProfileAvatar().Should().Be("");
+            profilePage.FirstName.Text.Should().Be(UserAdminLogin_Exist.firstName);
+            profilePage.LastName.Text.Should().Be(UserAdminLogin_Exist.lastName);
+            profilePage.Email.Text.Should().Be(UserAdminLogin_Exist.email);
+            string src = profilePage.ProfileAvatar.GetAttribute("src"); 
             src.Should().NotBeNull();
 
             // string src = profilePage.GetAttribute("src");
@@ -46,144 +49,155 @@ namespace Automation_Framework.Tests.Tests
         }
 
 
-        [Test]
-        [Description("Test: Add credits to profile (3,3)")]
+        [Test, Property("caseid", "15")]
+        [Description("Test: Add credits to profile")]
         public void Test_AddPayment()
         {
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
             //loginPage.ScreenShot();
-
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("30");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
             profilePage.WaitSeconds(2);
 
         }
 
-        [Test]
-        [Description("Test: Add credits to profile (not-number input) (3,4)  ")]
+        [Test, Property("caseid", "16")]
+        [Description("Test: Add credits to profile (not-number input)  ")]
         public void Test_Add_Credits_To_Profile_nonNumberInput()
         {
             
             Navigation navigation = new Navigation(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
 
-
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("notNumberInput");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
 
             //ASSERT
 
-            Thread.Sleep(2000);
+
+            profilePage.WaitSeconds(2);
         }
 
 
 
-        [Test]
-        [Description("Test: Add credits to profile (decimal numbers input) (3,5)  ")]
+        [Test, Property("caseid", "17")]
+        [Description("Test: Add credits to profile (decimal numbers input)  ")]
         public void Test_Add_Credits_To_Profile_Decimal_Numbers()
         {
             
             Navigation navigation = new Navigation(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+
+            navigation.WaitSeconds(6);
+
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
 
 
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            // profilePage.ScrollElementIntoView(profilePage.AmountOfCredits.getElement());
+           
+
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("7.566");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
 
             //ASSERT
-            Thread.Sleep(2000);
+
+            profilePage.WaitSeconds(2);
         }
 
-        [Test]
-        [Description("Test: Add credits to profile (negative integer) (3,6)  ")]
+        [Test, Property("caseid", "18")]
+        [Description("Test: Add credits to profile (negative integer) ")]
         public void Test_Add_Credits_To_Profile_Negative_Integer()
         {
             
             Navigation navigation = new Navigation(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
 
 
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("-1");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
 
             //ASSERT
 
-            Thread.Sleep(2000);
+
+            profilePage.WaitSeconds(2);
         }
 
 
 
 
-        [Test]
-        [Description("Test: CancelPayment (3,7)")]
+        [Test, Property("caseid", "19")]
+        [Description("Test: CancelPayment ")]
         public void Test_CancelPayment()
         {
             
             Navigation navigation = new Navigation(builder);
-            Thread.Sleep(6000);
-            navigation.ClickSignIn();
+            navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
 
             loginPage.Login(UserAdminLogin_Exist.email, UserAdminLogin_Exist.password);
 
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("30");
-            profilePage.ClickCancelPayment();
+            profilePage.CancelPaymentButton.ClickOnElement();
 
-            string type = profilePage.GetAttribute_AddCreditsButton("type", profilePage.AddCreditsButton);
+            string type = profilePage.AddCreditsButton.GetAttribute("type");
             type.Should().NotBeNull();
 
 
-            Thread.Sleep(2000);
+            profilePage.WaitSeconds(2);
 
         }
         /*

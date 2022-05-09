@@ -2,11 +2,7 @@
 using Automation_Framework.Tests.Screens;
 using FluentAssertions;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
@@ -16,7 +12,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
         [Test]
-        [Description("Navigation screen Top and Bottom ( unlogged end user ) [2.1]")]
+        [Description("Navigation screen Top and Bottom ( unlogged end user ) ")]
         public void Test_Unlogged_Navigation_Layout()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -32,7 +28,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
         [Test]
-        [Description("Navigation screen Top and Bottom ( Logged end user ) [2.2]")]
+        [Description("Navigation screen Top and Bottom ( Logged end user )")]
         public void Test_Logged_Navigation_Layout()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -56,7 +52,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
         [Test]
-        [Description("Navigation screen Top and Bottom ( Administrator ) [2.3]")]
+        [Description("Navigation screen Top and Bottom ( Administrator )")]
         public void Test_Administration_Navigation_Layout()
         {
             HomeScreen homeScreen = new HomeScreen(builder);

@@ -1,6 +1,6 @@
 ﻿using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
-using System.Threading;
+
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
 
@@ -8,94 +8,102 @@ using Automation_Framework.Tests.Models;
 
 namespace Automation_Framework.Tests.Tests
 {
+    [TestFixture]
+    [Property("suiteid", "6")]
+    [Property("projectid", "1")]
     public class TestRentMovieButton : BaseTest
     {
         User Renter = new User("Test", "Renter", "rentmovie@button.test", "rentmovie", "rentmovie");
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test, Order(1)]
+        [Test, Order(1), Property("caseid", "27")]
         [Description("Test: RentMovieButton Setup Loop - register and buy 5 credits, then rent movie not yet rented")]
         public void Test_RentMovieButton_NotYetRented()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
 
-            navigation.ClickRegister();
+            navigation.RegisterButton.ClickOnElement();
             RegistrationPage registrationPage = new RegistrationPage(builder);
             registrationPage.Register(Renter.firstName, Renter.lastName, Renter.email, Renter.password, Renter.rePassword);
 
-            navigation.ClickSignIn();
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(Renter.email, Renter.password);
 
-            navigation.ClickProfile();
+            navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
-            profilePage.ClickAddCredits();
-            profilePage.ClickAmountOfCredits();
+            profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("5");
-            profilePage.ClickBuyCredits();
+            profilePage.BuyCreditsButton.ClickOnElement();
 
-            navigation.ClickLogo();
+            navigation.Logo.ClickOnElement();
             HomePage homePage = new HomePage(builder);
-            homePage.ClickMovie1();
-            homePage.ClickRentThisMovie();
-            homePage.GetInnerText_Warning().Should().Contain("added to My Movies!");
+            homePage.Movie1.ClickOnElement();
+            homePage.RentThisMovieButton.ClickOnElement();
+            homePage.RentPopUp.Text.Should().Contain("added to My Movies!");
         }
 
-        [Test, Order(2)]
+        [Test, Order(2), Property("caseid", "28")]
         [Description("Test: RentMovieButton - movie is already rented")]
         public void TestRentMovieButtonAlreadyRented()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(Renter.email, Renter.password);
 
             HomePage homePage = new HomePage(builder);
-            homePage.ClickMovie1();
-            homePage.ClickRentThisMovie();
-            homePage.GetInnerText_Warning().Should().Contain("You already rented this movie");
+            homePage.Movie1.ClickOnElement();
+            homePage.RentThisMovieButton.ClickOnElement();
+            homePage.RentPopUp.Text.Should().Contain("You already rented this movie");
         }
 
-        [Test, Order(3)]
+        [Test, Order(3), Property("caseid", "29")]
         [Description("Test: RentMovieButton - not suffcient credits")]
         public void Test_RentMovieButton_InsufficientCredits()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(Renter.email, Renter.password);
 
             HomePage homePage = new HomePage(builder);
-            homePage.ClickMovie2();
-            homePage.ClickRentThisMovie();
-            homePage.GetInnerText_Warning().Should().Contain("Insufficient credits.");
+            homePage.Movie2.ClickOnElement();
+            homePage.RentThisMovieButton.ClickOnElement();
+            homePage.RentPopUp.Text.Should().Contain("Insufficient credits.");
         }
 
-        [Test, Order(4)]
+        [Test, Order(4), Property("caseid", "30")]
         [Description("Test: RentMovieButton - renting movie while not logged in")]
         public void Test_RentMovieButton_Unsigned()
         {
 
             HomePage homePage = new HomePage(builder);
             homePage.WaitSeconds(6);
-            homePage.ClickMovie1();
-            homePage.ClickRentThisMovie();
+            homePage.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            homePage.Movie1.ClickOnElement();
+            homePage.RentThisMovieButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.SignInPage.Should();
             loginPage.WaitSeconds(3);
         }
 
-        [Test, Order(5)]
+        [Test, Order(5), Property("caseid", "31")]
         [Description("Test: RentMovieButton - remove renter for continious testing")]
         public void Test_RemoveRenter()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
 

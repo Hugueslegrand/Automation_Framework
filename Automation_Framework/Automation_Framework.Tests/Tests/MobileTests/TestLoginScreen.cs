@@ -2,12 +2,7 @@
 using Automation_Framework.Tests.Screens;
 using FluentAssertions;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
@@ -56,7 +51,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Login as an existing user []")]
+        [Description("Layout of unlogged user ")]
         public void Test_Unlogged_Layout()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -65,7 +60,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Login as an existing user []")]
+        [Description("Login as an existing user ")]
         public void Test_Login_As_Existing_User()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -84,7 +79,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Login as an existing userAdmin []")]
+        [Description("Login as an existing userAdmin")]
         public void Test_Login_As_Existing_UserAdmin()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -104,7 +99,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Login as an NOT existing user")]
+        [Description("Login as an NOT existing user ")]
         public void Test_Login_As_Not_Existing_User()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -120,7 +115,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         [Test]
-        [Description("Login with an Incorrect Email adress")]
+        [Description("Login with an Incorrect Email adress ")]
         public void Test_Login_With_An_Incorrect_EmailAdress()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
@@ -134,7 +129,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
         [Test]
-        [Description("Login with an Incorrect Email adress or Password")]
+        [Description("Login with an Incorrect Email adress or Password ")]
         public void Test_Login_With_An_Incorrect_Email_Or_Password()
         {
             HomeScreen homeScreen = new HomeScreen(builder);

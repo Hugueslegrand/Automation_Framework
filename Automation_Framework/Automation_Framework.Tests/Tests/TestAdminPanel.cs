@@ -1,25 +1,29 @@
 ﻿using Automation_Framework.Tests.Pages;
 using NUnit.Framework;
-using System.Threading;
+
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
-using System.Collections.Generic;
+
 
 namespace Automation_Framework.Tests.Tests
 {
-
+    [TestFixture]
+    
+    [Property("suiteid", "1")]
+    [Property("projectid", "1")]
     public class TestAdminPanel : BaseTest
     {
 
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test]
+        [Test, Order(1), Property("caseid", "1")]
         [Description("Test: Set-Up for Testing by setting of all Bugs")]
         public void Test_AdminPanel_BugsOFf()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
@@ -30,16 +34,17 @@ namespace Automation_Framework.Tests.Tests
 
 
             AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
-            adminPanelPage.ToggleAllBugsOff();
+            adminPanelPage.AllBugsOff.ClickOnElement();
         }
 
-        [Test]
+        [Test, Property("caseid", "2")]
         [Description("Test: Set-Up for Testing by setting of all Bugs")]
         public void Test_AdminPanel()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
@@ -62,8 +67,8 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.WaitSeconds(2);
 
             adminPanelPage.HamburgerMenu.Should();
-            adminPanelPage.ClickHamburgerMenu();
-            adminPanelPage.ClickLogsMenu();
+            adminPanelPage.HamburgerMenu.ClickOnElement();
+            adminPanelPage.LogsMenu.ClickOnElement();
             adminPanelPage.TableHeadLogsType.Should();
             adminPanelPage.TableHeadLogsMethod.Should();
             adminPanelPage.TableHeadLogsResponse.Should();
@@ -72,7 +77,7 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.TableHeadLogsDate.Should();
             adminPanelPage.WaitSeconds(2);
 
-            adminPanelPage.ClickUsersMenu();
+            adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.TableHeadUsersID.Should();
             adminPanelPage.TableHeadUsersFirstName.Should();
             adminPanelPage.TableHeadUsersLastName.Should();
@@ -83,13 +88,14 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.TableHeadUsersRemove.Should();
         }
 
-        [Test]
+        [Test, Property("caseid", "3")]
         [Description("Test: Editing an user's credit amount by email")]
         public void Test_EditCreditsByEmail()
         {
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.ClickSignIn();
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
@@ -100,12 +106,12 @@ namespace Automation_Framework.Tests.Tests
 
 
             AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
-            adminPanelPage.ClickUsersMenu();
+            adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.EditUserByEmaill("vader@ap.be");
             adminPanelPage.WaitSeconds(3);
             adminPanelPage.EditCredits("5");
             adminPanelPage.WaitSeconds(3);
-            adminPanelPage.ClickSave();
+            adminPanelPage.SaveButton.ClickOnElement();
 
 
         }

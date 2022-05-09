@@ -1,16 +1,15 @@
-﻿using System;
-using System.Linq;
-using Automation_Framework.WebElementModels;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.Interfaces;
 using OpenQA.Selenium.Appium.MultiTouch;
-using OpenQA.Selenium.Interactions;
-using OpenQA.Selenium.Support.Extensions;
+
 
 namespace Automation_Framework.Extensions.WebDriver
 {
+    /// <summary>
+    /// A scroll extension class for web
+    /// </summary>
     public static class Scroller
     {
         /// <summary>
@@ -37,17 +36,6 @@ namespace Automation_Framework.Extensions.WebDriver
             js.ExecuteScript($"document.querySelector({element}).scrollTop = {moveLength}");
         }
 
-
-
-        public static void Swipe(this AppiumDriver<AndroidElement> driver, int startX, int startY, int endX, int endY, int duration)
-        {
-            ITouchAction touchAction = new TouchAction(driver)
-            .Press(startX, startY)
-            .Wait(duration)
-            .MoveTo(endX, endY)
-            .Release();
-
-            touchAction.Perform();
-        }
+       
     }
 }

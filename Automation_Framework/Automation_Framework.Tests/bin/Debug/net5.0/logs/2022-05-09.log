@@ -1,0 +1,42 @@
+2022-05-09 11:19:40 INFO  OpenQA.Selenium.WebDriverException : A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:4444/session. The status of the exception was UnknownError, and the message was: Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)
+  ----> System.Net.WebException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)
+  ----> System.Net.Http.HttpRequestException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)
+  ----> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444
+2022-05-09 11:19:40 INFO  XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2022-05-09 11:19:40 INFO  X
+2022-05-09 11:19:40 INFO  X
+2022-05-09 11:19:40 INFO  X
+2022-05-09 11:19:40 INFO  X
+2022-05-09 11:21:33 INFO  Navigating to https://brightshopapp.herokuapp.com
+2022-05-09 11:21:50 INFO  Navigated to [B-Tube](https://brightshopapp.herokuapp.com)
+2022-05-09 11:21:50 INFO  ****************************************************************************************
+2022-05-09 11:21:50 INFO  ****************************************************************************************
+2022-05-09 11:21:50 INFO  $$$$$$$$$$$$$$$$$$$          Login as administrator          $$$$$$$$$$$$$$$$$$$
+2022-05-09 11:21:50 INFO  ****************************************************************************************
+2022-05-09 11:21:50 INFO  ****************************************************************************************
+2022-05-09 11:21:56 INFO  Executed the script `document.body.style.transform='scale(0.99, 0.99)'`
+2022-05-09 11:21:56 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:21:57 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:21:57 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:21:58 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:21:58 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:21:59 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:21:59 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:00 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:00 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:01 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:01 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:02 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:02 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:03 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:03 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:04 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:04 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:05 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:05 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:06 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:06 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:07 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:07 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:08 INFO  Finding element `By.XPath: //button[@id='SignInButton']`
+2022-05-09 11:22:08 INFO  Finding element `By.XPath: //button[@id='SignInButton']`

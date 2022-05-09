@@ -4,9 +4,33 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
 
-    <IsPackable>false</IsPackable>
-  </PropertyGroup>
+    <IsPackable>true</IsPackable>
 
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <PackageId>Automation_Framework</PackageId>
+
+    <Authors>Automation_Framework</Authors>
+
+    <Company>Automation_Framework</Company>
+
+    <Product>Automation_Framework</Product>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <Description></Description>
+
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <Version>1.0.7</Version>
+  </PropertyGroup>
+	<ItemGroup>
+		<Content Include="appSettings.Json">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
   <ItemGroup>
     <PackageReference Include="Appium.WebDriver" Version="4.3.1" />
     <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
@@ -23,6 +47,11 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="WebDriverManager" Version="2.12.3" />
+
+
   </ItemGroup>
+
+
+
 
 </Project>

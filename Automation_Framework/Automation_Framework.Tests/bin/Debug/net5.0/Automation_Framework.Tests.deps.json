@@ -9,12 +9,12 @@
       "Automation_Framework.Tests/1.0.0": {
         "dependencies": {
           "Appium.WebDriver": "4.3.1",
-          "Automation_Framework": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "NUnit": "3.13.2",
           "NUnit3TestAdapter": "4.0.0",
           "Selenium.WebDriver": "3.141.0",
-          "coverlet.collector": "3.1.0"
+          "coverlet.collector": "3.1.0",
+          "test": "1.0.0"
         },
         "runtime": {
           "Automation_Framework.Tests.dll": {}
@@ -1071,7 +1071,7 @@
           }
         }
       },
-      "Automation_Framework/1.0.0": {
+      "test/1.0.0": {
         "dependencies": {
           "Appium.WebDriver": "4.3.1",
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
@@ -1710,7 +1710,7 @@
       "path": "webdrivermanager/2.12.3",
       "hashPath": "webdrivermanager.2.12.3.nupkg.sha512"
     },
-    "Automation_Framework/1.0.0": {
+    "test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

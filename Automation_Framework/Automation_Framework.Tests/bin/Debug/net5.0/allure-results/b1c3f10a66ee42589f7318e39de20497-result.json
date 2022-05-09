@@ -1,0 +1,68 @@
+{
+  "uuid": "2c18402a-cc11-43aa-9558-018199066c96-tr-0-1008",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_LoginAsAdmin_POM",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_LoginAsAdmin_POM"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_LoginAsAdmin_POM",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:4444/session/0B4D82FA-671B-47F2-9BC4-27BA96A43FE9/window/maximize. The status of the exception was UnknownError, and the message was: An error occurred while sending the request.\r\n  ----> System.Net.WebException : An error occurred while sending the request.\r\n  ----> System.Net.Http.HttpRequestException : An error occurred while sending the request.\r\n  ----> System.IO.IOException : Unable to read data from the transport connection: De externe host heeft een verbinding verbroken..\r\n  ----> System.Net.Sockets.SocketException : De externe host heeft een verbinding verbroken.",
+    "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWindow.Maximize()\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 42\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 52\r\n--WebException\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n--HttpRequestException\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClientHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.HttpWebRequest.SendRequest(Boolean async)\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n--IOException\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)\r\n   at System.Net.Http.HttpConnection.FillAsync(Boolean async)\r\n   at System.Net.Http.HttpConnection.ReadNextResponseHeaderLineAsync(Boolean async, Boolean foldedHeadersAllowed)\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n--SocketException\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\nLogin as administrator\n",
+  "steps": [
+    {
+      "name": "Test_LoginAsAdmin_POM skipped because of FixtureSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:4444/session/0B4D82FA-671B-47F2-9BC4-27BA96A43FE9/window/maximize. The status of the exception was UnknownError, and the message was: An error occurred while sending the request.\r\n  ----> System.Net.WebException : An error occurred while sending the request.\r\n  ----> System.Net.Http.HttpRequestException : An error occurred while sending the request.\r\n  ----> System.IO.IOException : Unable to read data from the transport connection: De externe host heeft een verbinding verbroken..\r\n  ----> System.Net.Sockets.SocketException : De externe host heeft een verbinding verbroken.",
+        "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWindow.Maximize()\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 42\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 52\r\n--WebException\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n--HttpRequestException\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClientHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.HttpWebRequest.SendRequest(Boolean async)\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n--IOException\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)\r\n   at System.Net.Http.HttpConnection.FillAsync(Boolean async)\r\n   at System.Net.Http.HttpConnection.ReadNextResponseHeaderLineAsync(Boolean async, Boolean foldedHeadersAllowed)\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n--SocketException\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "68c2908482ad450f85dde5a273127c0d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652076770214,
+      "stop": 1652076966045
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652076770203,
+  "stop": 1652076966164
+}

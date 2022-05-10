@@ -6,6 +6,10 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
+    [TestFixture]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestRegistration : BaseTest
     {
         User registerNewUser = new User("luffy", "monkey", "luffy@monkey.ap.be", "strawhat", "strawhat");
@@ -23,7 +27,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
 
-        [Test]
+        [Test, Property("caseid", "7344")]
         [Description("Register a new user and log in to verify ")]
         public void Test_Register_A_New_User()
         {
@@ -55,7 +59,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
 
-        [Test]
+        [Test, Property("caseid", "7345")]
         [Description("Register a used user ")]
         public void Test_Register_A_Used_User()
         {
@@ -79,7 +83,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
 
-        [Test]
+        [Test, Property("caseid", "7346")]
         [Description("Register a new user with unmatching passwords ")]
         public void Test_Register_Unmatching_Passwords()
         {
@@ -101,8 +105,8 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             registerScreen.GetInnerText_ErrorMessage().Should().Be("Passwords don't match.");
         }
 
-        [Test]
-        [Description("Register user with numbers [5.4]")]
+        [Test, Property("caseid", "7347")]
+        [Description("Register user with numbers")]
         public void Test_Register_User_With_Numbers()
         {
             RegisterScreen registerScreen = new RegisterScreen(builder);
@@ -128,7 +132,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
 
-        [Test]
+        [Test, Property("caseid", "7348")]
         [Description("Register user lead with a spacebar in the inputfields ")]
         public void Test_Register_User_Lead_With_Spacebar()
         {
@@ -157,7 +161,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             navigationScreen.SearchbarTab.Should();
         }
 
-        [Test]
+        [Test, Property("caseid", "7349")]
         [Description("Register user with special characters")]
         public void Test_Register_User_With_Special_Characters()
         {
@@ -179,11 +183,21 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
             loginScreen.AndroidLogin(registerNewUserSpecialCharacters.email, registerNewUserSpecialCharacters.password);
 
+            try
+            {
             homeScreen.SignOutButton.Should();
             navigationScreen.HomeTab.Should();
             navigationScreen.MyMoviesTab.Should();
             navigationScreen.ProfileTab.Should();
             navigationScreen.SearchbarTab.Should();
+                Assert.Fail();
+            }
+            catch (System.Exception)
+            {
+
+                Assert.Pass();
+            }
+           
         }
 
         //Error message element changes based on view, can't run this test
@@ -277,6 +291,28 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         //    registerScreen.GetInnerText_ErrorMessage().Should().Be("Password should contain alteast 5 characters.");
 
         //}
+        [Test, Order(7), Property("caseid", "7355")]
+        [Description("Delete registered Users for continious testing")]
+        public void Test_RemoveRegisteredUsers()
+        {
+            Navigation navigation = new Navigation(builder);
+            navigation.WaitSeconds(6);
+            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.SignInButton.ClickOnElement();
+            LoginPage loginPage = new LoginPage(builder);
+            loginPage.Login(userAdminExist.email, userAdminExist.password);
+
+            navigation.SettingsButton.Should();
+            navigation.SettingsButton.ClickOnElement();
+
+            AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
+            adminPanelPage.UsersMenu.ClickOnElement();
+            adminPanelPage.WaitSeconds(1);
+            adminPanelPage.RemoveUserByEmail(registerNewUser.email);
+            adminPanelPage.RemoveUserByEmail(registerNewUserLowerCase.email);
+            adminPanelPage.RemoveUserByEmail(registerNewUserUpperCase.email);
+            adminPanelPage.WaitSeconds(1);
+        }
 
     }
 }

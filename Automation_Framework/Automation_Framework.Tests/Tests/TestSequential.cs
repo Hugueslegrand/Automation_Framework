@@ -11,49 +11,17 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.Tests.Tests
 {
+    [TestFixture]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestSequentiel : BaseTest
     {
         User NewBrightestUser = new User("Brightest", "TestJuniors", "Testers@brightest.com", "Test123", "Test123");
         User userAdminExist = new User("Stage", "Admin", "stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
 
-        [Test]
-        [Description("Login as an existing user []")]
-        public void Test_Register_Login_Mobile_Web()
-        {
-            //Web Register an user
-            Navigation navigation = new Navigation(builder);
-            navigation.WaitSeconds(6);
-            navigation.RegisterButton.ClickOnElement();
-
-            RegistrationPage registrationPage = new RegistrationPage(builder);
-            registrationPage.Register(NewBrightestUser.firstName, NewBrightestUser.lastName, NewBrightestUser.email, NewBrightestUser.password, NewBrightestUser.rePassword);
-
-            //Web Login with the Registered user
-            LoginPage loginPage = new LoginPage(builder);
-            navigation.SignInButton.ClickOnElement();
-            loginPage.Login(NewBrightestUser.email, NewBrightestUser.password);
-            navigation.SignOutButton.Should();
-
-
-            //Mobile Login the Registered user
-            HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
-            homeScreen.ClickSignInButton();
-
-
-            LoginScreen loginScreen = new LoginScreen(builder);
-            loginScreen.AndroidLogin(NewBrightestUser.email, NewBrightestUser.password);
-            NavigationScreen navigationScreen = new NavigationScreen(builder);
-
-            homeScreen.SignOutButton.Should();
-            navigationScreen.MyMoviesTab.Should();
-            navigationScreen.ProfileTab.Should();
-
-        }
-
-        [Test]
+        [Test, Property("caseid", "7286")]
         [Description("Renting a movie on mobile and adding credits on web []")]
         public void Test_RentMovie_Mobile_AddCredits_Web()
         {

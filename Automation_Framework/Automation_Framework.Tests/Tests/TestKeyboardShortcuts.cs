@@ -8,13 +8,14 @@ using Automation_Framework.Tests.Models;
 namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
-    [Property("suiteid", "2")]
-    [Property("projectid", "1")]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestKeyboardShortcuts : BaseTest
     {
         User userAdminExist = new("brent.dar@ap.be", "hond123");
 
-        [Test, Property("caseid", "4")]
+        [Test, Property("caseid", "7354")]
         [Description("Login as an existing user only using keyboard")]
         public void Test_KeyboardShortcuts()
         {

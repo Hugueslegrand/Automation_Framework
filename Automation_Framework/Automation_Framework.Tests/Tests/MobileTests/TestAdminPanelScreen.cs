@@ -6,11 +6,15 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.MobileTests
 {
+    [TestFixture]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestAdminPanelScreen : BaseTest
     {
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test]
+        [Test, Property("caseid", "7322")]
         [Description("Admin is able to navigate to admin panel and the necessary elements are present.")]
         public void Test_AdminPanel_elements_are_present()
         {
@@ -62,7 +66,7 @@ namespace Automation_Framework.Tests.Tests.MobileTests
 
         }
 
-        [Test]
+        [Test, Property("caseid", "7321")]
         [Description("Admin Bugs Screen (functional tests)")]
         public void Test_AdminPanel_bugs_funtionality()
         {
@@ -91,7 +95,7 @@ namespace Automation_Framework.Tests.Tests.MobileTests
         }
 
         //This test will delete logs up to the given date.
-        [Test]
+        [Test, Property("caseid", "7323")]
         [Description("Admin Logs Screen (functional tests)")]
         public void Test_AdminPanel_logs_funtionality()
         {
@@ -127,7 +131,7 @@ namespace Automation_Framework.Tests.Tests.MobileTests
 
         }
 
-        [Test]
+        [Test, Property("caseid", "7324")]
         [Description("Edit first user credits")]
         public void Test_AdminPanel_user_Credits()
         {

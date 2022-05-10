@@ -7,6 +7,10 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
+    [TestFixture]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestProfileScreen : BaseTest
     {
         //User userLoginExist = new User("Pirate@King.com", "onepiece111");
@@ -14,7 +18,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         ProfileScreenLabels profileScreenLabels = new ProfileScreenLabels("PROFILE", "FIRSTNAME", "LASTNAME", "EMAIL", "CREDITS");
 
-        [Test]
+        [Test, Property("caseid", "7337")]
         [Description("Visual layout of profile screen ")]
         public void Test_Visual_Layout_Of_ProfileScreen()
         {
@@ -28,8 +32,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             homeScreen.ClickSignInButton();
 
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-            //Console.WriteLine(profileScreenLabels.profileTitleLabel);
-            //Console.WriteLine(userAdminExist.email);
+            
 
             navigationScreen.ProfileTab.Should();
             navigationScreen.ClickProfileTab();
@@ -50,7 +53,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
 
-        [Test]
+        [Test, Property("caseid", "7338")]
         [Description("Add credits to profile (positive integer) ")]
         public void Test_Add_Credits_To_Profile_PositiveNumber()
         {
@@ -96,7 +99,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
 
-        [Test]
+        [Test, Property("caseid", "7339")]
         [Description("Add credits to profile (non-number input)")]
         public void Test_Add_Credits_To_Profile_NonNumberInput()
         {
@@ -155,7 +158,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
 
-        [Test]
+        [Test, Property("caseid", "7341")]
         [Description("Add credits to profile (decimal numbers) ")]
         public void Test_Add_Credits_To_Profile_DecimalNumbers()
         {
@@ -206,10 +209,10 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             profileScreen.AndroidFillAmountOfCredits("7.123456789123456789123456789");
             profileScreen.ClickBuyCreditsButton();
             profileScreen.ClickCancelPaymentButton();
-
+            
 
         }
-        [Test]
+        [Test, Property("caseid", "7342")]
         [Description("Add credits to profile (negative integer) ")]
         public void Test_Add_Credits_To_Profile_NegativeNumbers()
         {
@@ -285,7 +288,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
 
-        [Test]
+        [Test, Property("caseid", "7343")]
         [Description("Add credits to profile (cancel payment)")]
         public void Test_Cancelpayment()
         {

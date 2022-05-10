@@ -6,6 +6,10 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
+    [TestFixture]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestOrderScreen : BaseTest
     {
         //User userLoginExist = new User("Pirate@King.com", "onepiece111");
@@ -13,7 +17,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         ProfileScreenLabels profileScreenLabels = new ProfileScreenLabels("PROFILE", "FIRSTNAME", "LASTNAME", "EMAIL", "CREDITS");
 
-        [Test]
+        [Test, Property("caseid", "7335")]
         [Description("Visual layout of order screen ")]
         public void Test_Visual_Layout_Of_MyMoviesScreen()
         {
@@ -41,7 +45,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         //Nakijken
-        [Test]
+        [Test, Property("caseid", "7336")]
         [Description("Watchability of available and expired rented movies")]
         public void Test_Watchability_Of_Available_And_Expired_Rented_Movies()
         {

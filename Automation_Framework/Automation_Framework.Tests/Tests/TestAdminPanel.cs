@@ -9,14 +9,14 @@ namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
     
-    [Property("suiteid", "1")]
-    [Property("projectid", "1")]
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestAdminPanel : BaseTest
     {
 
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test, Order(1), Property("caseid", "1")]
+        [Test, Order(1), Property("caseid", "7287")]
         [Description("Test: Set-Up for Testing by setting of all Bugs")]
         public void Test_AdminPanel_BugsOFf()
         {
@@ -37,8 +37,8 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.AllBugsOff.ClickOnElement();
         }
 
-        [Test, Property("caseid", "2")]
-        [Description("Test: Set-Up for Testing by setting of all Bugs")]
+        [Test, Property("caseid", "7289")]
+        [Description("Asserting presence of all neccesary elements in the AdminPanelPage")]
         public void Test_AdminPanel()
         {
             Navigation navigation = new Navigation(builder);
@@ -88,7 +88,7 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.TableHeadUsersRemove.Should();
         }
 
-        [Test, Property("caseid", "3")]
+        [Test, Property("caseid", "7290")]
         [Description("Test: Editing an user's credit amount by email")]
         public void Test_EditCreditsByEmail()
         {

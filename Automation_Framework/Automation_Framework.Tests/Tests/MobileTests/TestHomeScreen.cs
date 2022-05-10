@@ -5,9 +5,13 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
+    [TestFixture]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestHomeScreen : BaseTest
     {
-        [Test]
+        [Test, Property("caseid", "7325")]
         [Description("HomeScreen functionalities (Press a movie banner)")]
         public void Test_Press_A_Movie_Banner()
         {
@@ -31,7 +35,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             detailScreen.ClickBackButton();
 
         }
-        [Test]
+        [Test, Property("caseid", "7326")]
         [Description("HomeScreen functionalities Horizontal and Vertical Swipe ")]
         public void Test_Swipe_Horizontal_And_Vertical()
         {

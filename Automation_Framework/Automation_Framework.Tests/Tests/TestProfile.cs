@@ -8,14 +8,15 @@ using NUnit.Framework;
 namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
-    [Property("suiteid", "4")]
-    [Property("projectid", "1")]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestProfile : BaseTest
     {
 
         User UserAdminLogin_Exist = new User("Brent", "Dar", "brent.dar@ap.be", "hond123", "hond123");
 
-        [Test, Property("caseid", "14")]
+        [Test, Property("caseid", "7308")]
         [Description("Test: Analysing profile page Elements")]
         public void Test_Analysing_Elements()
         {
@@ -49,7 +50,7 @@ namespace Automation_Framework.Tests.Tests
         }
 
 
-        [Test, Property("caseid", "15")]
+        [Test, Property("caseid", "7309")]
         [Description("Test: Add credits to profile")]
         public void Test_AddPayment()
         {
@@ -73,8 +74,8 @@ namespace Automation_Framework.Tests.Tests
 
         }
 
-        [Test, Property("caseid", "16")]
-        [Description("Test: Add credits to profile (not-number input)  ")]
+        [Test, Property("caseid", "7310")]
+        [Description("Test: Add credits to profile (non-number input)  ")]
         public void Test_Add_Credits_To_Profile_nonNumberInput()
         {
             
@@ -104,7 +105,7 @@ namespace Automation_Framework.Tests.Tests
 
 
 
-        [Test, Property("caseid", "17")]
+        [Test, Property("caseid", "7311")]
         [Description("Test: Add credits to profile (decimal numbers input)  ")]
         public void Test_Add_Credits_To_Profile_Decimal_Numbers()
         {
@@ -138,7 +139,7 @@ namespace Automation_Framework.Tests.Tests
             profilePage.WaitSeconds(2);
         }
 
-        [Test, Property("caseid", "18")]
+        [Test, Property("caseid", "7312")]
         [Description("Test: Add credits to profile (negative integer) ")]
         public void Test_Add_Credits_To_Profile_Negative_Integer()
         {
@@ -171,7 +172,7 @@ namespace Automation_Framework.Tests.Tests
 
 
 
-        [Test, Property("caseid", "19")]
+        [Test, Property("caseid", "7313")]
         [Description("Test: CancelPayment ")]
         public void Test_CancelPayment()
         {

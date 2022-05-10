@@ -18,8 +18,7 @@ namespace Automation_Framework.Tests.Tests
         public DriverBuilder builder = new DriverBuilder();
 
   
-        //We kunnen alle paginas builden maar als er veel pages zijn waarvan
-        //een test niet gebruik van maakt zal de test trager zijn
+       
 
         /*
         protected AdminPanelPage adminPanelPage;

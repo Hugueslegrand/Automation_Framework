@@ -6,6 +6,10 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
+    [TestFixture]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestRentMovies : BaseTest
     {
         //User userLoginExist = new User("Pirate@King.com", "onepiece111");

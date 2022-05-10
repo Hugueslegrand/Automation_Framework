@@ -6,14 +6,14 @@ using NUnit.Framework;
 namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
-    [Property("suiteid", "8")]
-    [Property("projectid", "1")]
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestWatchMovie : BaseTest
     {
 
 
-        [Test, Property("caseid", "34")]
-        [Description("Test: WatchMovie")]
+        [Test, Property("caseid", "7300")]
+        [Description("Test: User is able to watch rented and available movies")]
         public void Test_WatchMovie()
         {
             Navigation navigation = new Navigation(builder);
@@ -37,7 +37,7 @@ namespace Automation_Framework.Tests.Tests
             watchMovie.CloseModalButton.ClickOnElement();
         }
 
-        [Test, Property("caseid", "35")]
+        [Test, Property("caseid", "7299")]
         [Description("Test: Visual Layout Of Order Page")]
         public void Test_Visual_Layout_Of_Order_Page()
         {

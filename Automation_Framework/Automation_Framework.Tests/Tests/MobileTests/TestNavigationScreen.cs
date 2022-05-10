@@ -6,12 +6,16 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
+    [TestFixture]
+
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
     public class TestNavigationScreen : BaseTest
     {
         User userLoginExist = new User("Pirate@King.com", "onepiece111");
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test]
+        [Test, Property("caseid", "7327")]
         [Description("Navigation screen Top and Bottom ( unlogged end user ) ")]
         public void Test_Unlogged_Navigation_Layout()
         {
@@ -27,7 +31,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         }
-        [Test]
+        [Test, Property("caseid", "7333")]
         [Description("Navigation screen Top and Bottom ( Logged end user )")]
         public void Test_Logged_Navigation_Layout()
         {
@@ -51,7 +55,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
         }
-        [Test]
+        [Test, Property("caseid", "7334")]
         [Description("Navigation screen Top and Bottom ( Administrator )")]
         public void Test_Administration_Navigation_Layout()
         {

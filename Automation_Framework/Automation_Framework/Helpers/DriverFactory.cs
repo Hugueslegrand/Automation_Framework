@@ -77,7 +77,7 @@ namespace Automation_Framework.Helpers
                     return new DriverListener(operaDriver, logger);
                 case BrowserName.Safari:
                     RemoteWebDriver safariDriver = new RemoteWebDriver(new Uri(driverConfig.GridUrl),
-                      DriverSettings.SafariOptions(driverConfig).ToCapabilities(), TimeSpan.FromMinutes(2));
+                      DriverSettings.SafariOptions().ToCapabilities(), TimeSpan.FromMinutes(2));
 
                     safariDriver.Manage().Timeouts().PageLoad.Add(TimeSpan.FromSeconds(20));
                     Thread.Sleep(TimeSpan.FromSeconds(2));
@@ -121,7 +121,7 @@ namespace Automation_Framework.Helpers
                     return new DriverListener(operaDriver, logger);
                 case BrowserName.Safari:
                     new DriverManager().SetUpDriver(new OperaConfig());
-                    SafariDriver safariDriver = new SafariDriver(DriverSettings.SafariOptions(driverConfig));
+                    SafariDriver safariDriver = new SafariDriver(DriverSettings.SafariOptions());
                     return new DriverListener(safariDriver, logger);
                 default:
                     throw new ArgumentOutOfRangeException(nameof(Configuration.WebDriver.BrowserName),

@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using Automation_Framework.Enums;

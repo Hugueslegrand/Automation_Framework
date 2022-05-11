@@ -25,7 +25,7 @@ namespace Automation_Framework.WebElementModels
         void ClickOnElement();
 
 
-        IWebElement getElement();
-        IList<IWebElement> getElements();
+        IWebElement GetElement();
+        IList<IWebElement> GetElements();
     }
 }

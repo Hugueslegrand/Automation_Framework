@@ -3,14 +3,23 @@ using LLibrary;
 using System;
 
 
-namespace Automation_Framework.Utility
+namespace Automation_Framework.Utilities
 {
-    public class Log
+	/// <summary>
+	/// Log class for logging events
+	/// </summary>
+	public class Log
     {
-
+		/// <summary>
+		/// Initialize L Logger logs
+		/// </summary>
 		public static L logger = LogRun();
 
 
+		/// <summary>
+		/// Method to save or not save log files
+		/// </summary>
+		/// <returns>Returns a new L Logger</returns>
 		public static L LogRun()
         {
             if (Configuration.Logger is not null)
@@ -27,15 +36,19 @@ namespace Automation_Framework.Utility
 			return new L();
             
         }
-	
-		public static void StartTestCase(String sTestCaseName)
+
+		/// <summary>
+		/// Prints log for the beginning of the test case
+		/// </summary>
+		/// <param name="message">A string with a message</param>
+		public static void StartTestCase(String message)
 		{
 			
 			logger.Info("****************************************************************************************");
 
 			logger.Info("****************************************************************************************");
 
-			logger.Info("$$$$$$$$$$$$$$$$$$$          " + sTestCaseName + "          $$$$$$$$$$$$$$$$$$$");
+			logger.Info("$$$$$$$$$$$$$$$$$$$          " + message + "          $$$$$$$$$$$$$$$$$$$");
 
 			logger.Info("****************************************************************************************");
 
@@ -43,7 +56,12 @@ namespace Automation_Framework.Utility
 
 		}
 
-		public static void EndTestCase(string message)
+		/// <summary>
+		/// Prints log for the ending of the test case
+		/// </summary>
+		/// <param name="message">A string with a message</param>
+
+		public static void EndTestCase(String message)
 		{
 			if(message is not null)
 			logger.Info(message);
@@ -60,36 +78,51 @@ namespace Automation_Framework.Utility
 
 		}
 
-		
 
+		/// <summary>
+		/// Logs the given information with INFO label.
+		/// </summary>
+		/// <param name="message">A string with a message</param>
 		public static void Info(String message)
 		{
 
 			logger.Info(message);
 
 		}
-
+		/// <summary>
+		/// Logs the given information with WARN label.
+		/// </summary>
+		/// <param name="message">A string with a message</param>
 		public static void Warn(String message)
 		{
 
 			logger.Warn(message);
 
 		}
-
+		/// <summary>
+		/// Logs the given information with ERROR label.
+		/// </summary>
+		/// <param name="message">A string with a message</param>
 		public static void Error(String message)
 		{
 
 			logger.Error(message);
 
 		}
-
+		/// <summary>
+		/// Logs the given information with FATAL label.
+		/// </summary>
+		/// <param name="message">A string with a message</param>
 		public static void Fatal(String message)
 		{
 
 			logger.Fatal(message);
 
 		}
-
+		/// <summary>
+		/// Logs the given information with DEBUG label.
+		/// </summary>
+		/// <param name="message">A string with a message</param>
 		public static void Debug(String message)
 		{
 

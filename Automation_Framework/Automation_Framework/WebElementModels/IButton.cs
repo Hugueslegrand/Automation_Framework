@@ -18,12 +18,7 @@ namespace Automation_Framework.WebElementModels
         string GetAttribute(string attributeName);
         string GetProperty(string propertyName);
         void ClickOnElement();
-        IList<IWebElement> getElements();
-        IWebElement getElement();
-
-        
-  
-  
-        public bool ElementIsVisible();
+        IList<IWebElement> GetElements();
+        IWebElement GetElement();
     }
 }

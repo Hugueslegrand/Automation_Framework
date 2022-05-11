@@ -1,7 +1,7 @@
 ﻿
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
@@ -23,9 +23,7 @@ namespace Automation_Framework.WebElementModels
 
         private AppiumDriver<AndroidElement> _androidDriver;
 
-        public SelectElement SearchBarSelect => new SelectElement(_webElement);
-
-
+     
 
         public string TagName => _webElement.TagName;
 
@@ -99,7 +97,7 @@ namespace Automation_Framework.WebElementModels
             _webDriver.OpenLinkInNewTab(_webElement);
         }
 
-        public IWebElement getElement()
+        public IWebElement GetElement()
         {
             return _webElement;
         }
@@ -107,6 +105,7 @@ namespace Automation_Framework.WebElementModels
         {
             try
             {
+                //Maybe put the scroll in screenshot extension
                 _webDriver.ExecuteJsObject("arguments[0].scrollIntoView(true);", _webElement);
                 _webDriver.ClickOnElement(_webElement);
                
@@ -122,7 +121,7 @@ namespace Automation_Framework.WebElementModels
         }
 
 
-        public IList<IWebElement> getElements()
+        public IList<IWebElement> GetElements()
         {
             return _webElements;
         }
@@ -173,10 +172,6 @@ namespace Automation_Framework.WebElementModels
             
         }
 
-        public bool ElementIsVisible()
-        {
-            Log.Info($"Controlling the visibility of the {_webElement.TagName} `{_webElement.Text}`");
-            return _webElement.Displayed;
-        }
+       
     }
 }

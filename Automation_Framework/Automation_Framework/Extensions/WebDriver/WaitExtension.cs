@@ -1,6 +1,6 @@
 ﻿using System;
 using OpenQA.Selenium;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using OpenQA.Selenium.Support.UI;
 using Automation_Framework.Helpers;
 using ExpectedConditions = SeleniumExtras.WaitHelpers.ExpectedConditions;

@@ -59,9 +59,6 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             for (int i = 0; i < 4; i++)
                 homeScreen.Swipe(1370, 2300, 50, 2300, 500);
 
-
-
-
         }
     }
 }

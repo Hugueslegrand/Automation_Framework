@@ -1,15 +1,18 @@
 ﻿
 
+using System.Drawing;
+
 namespace Automation_Framework.WebElementModels
 {
     public interface IAndroidElement
     {
-        string TagName { get; }
-        string Text { get; }
-        bool Enabled { get; }
-        bool Selected { get; }
-        bool Displayed { get; }
-
+        string AndroidTagName { get; }
+        string AndroidText { get; }
+        bool AndroidEnabled { get; }
+        bool AndroidSelected { get; }
+        bool AndroidDisplayed { get; }
+        Size AndroidSize { get; }
+        Point AndroidLocation { get; }
 
         void AndroidClick();
         void AndroidClear();

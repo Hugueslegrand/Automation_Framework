@@ -21,8 +21,8 @@ namespace Automation_Framework.WebElementModels
         void ClickOnElement();
         void ClearInput();
 
-        IWebElement getElement();
-        IList<IWebElement> getElements();
+        IWebElement GetElement();
+        IList<IWebElement> GetElements();
 
 
     }

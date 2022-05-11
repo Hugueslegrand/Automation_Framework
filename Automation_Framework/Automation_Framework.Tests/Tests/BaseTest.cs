@@ -2,7 +2,7 @@
 using Automation_Framework.Base;
 using Automation_Framework.Enums;
 using Automation_Framework.Models;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using Automation_Framework.TestRail.Service;
 using Automation_Framework.Tests.Pages;
 using NUnit.Allure.Core;

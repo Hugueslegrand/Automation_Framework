@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 using FluentAssertions;
 using Automation_Framework.Tests.Models;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using System.Collections.Generic;
 using Automation_Framework.Tests.Screens;
 using Automation_Framework.Builders;

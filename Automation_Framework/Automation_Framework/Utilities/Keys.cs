@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Automation_Framework.Enums
+namespace Automation_Framework.Utilities
 {
+    // Summary:
+    //     Representations of pressable keys
     public static class Keys
     {
         //

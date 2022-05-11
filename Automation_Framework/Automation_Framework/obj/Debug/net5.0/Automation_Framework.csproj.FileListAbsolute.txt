@@ -271,3 +271,7 @@ C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framewo
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Pages\BasePage.cs
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Tests\BaseTest.cs
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\appSettings.json
+C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Pages\HomePage.cs
+C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Pages\LoginPage.cs
+C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Pages\Navigation.cs
+C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Tests\TestKeyboardShortcuts.cs

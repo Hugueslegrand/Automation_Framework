@@ -1,6 +1,6 @@
 ﻿using Automation_Framework.Helpers;
 using Automation_Framework.Models;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using LLibrary;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium.Android;

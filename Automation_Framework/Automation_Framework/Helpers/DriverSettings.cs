@@ -7,13 +7,22 @@ using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Opera;
-
 using OpenQA.Selenium.Safari;
+
 
 namespace Automation_Framework.Helpers
 {
+    /// <summary>
+    /// A helper class for options on the WebDriver and appiumDriver
+    /// </summary>
     public class DriverSettings
     {
+        /// <summary>
+        /// Setting options for Chrome
+        /// </summary>
+        /// <param name="config">Contains configuration for creating a WebDriver instance</param>
+        /// <returns>Returns chrome options</returns>
+
         public static ChromeOptions ChromeOptions(WebDriverConfiguration config)
         {
             ChromeOptions options = new ChromeOptions();
@@ -29,6 +38,12 @@ namespace Automation_Framework.Helpers
 
             return options;
         }
+
+        /// <summary>
+        /// Setting options for Firefox
+        /// </summary>
+        /// <param name="config">Contains configuration for creating a WebDriver instance</param>
+        /// <returns>Returns firefox options</returns>
         public static FirefoxOptions FirefoxOptions(WebDriverConfiguration config)
         {
             FirefoxOptions options = new FirefoxOptions { AcceptInsecureCertificates = true };
@@ -38,6 +53,10 @@ namespace Automation_Framework.Helpers
             return options;
         }
 
+        /// <summary>
+        /// Setting options for IE
+        /// </summary>
+        /// <returns>Returns IE options</returns>
         public static InternetExplorerOptions InternetExplorerOptions()
         {
 
@@ -48,13 +67,21 @@ namespace Automation_Framework.Helpers
 
             };
         }
-        public static SafariOptions SafariOptions(WebDriverConfiguration config)
+        /// <summary>
+        /// Setting options for Safari
+        /// </summary>
+        /// <returns>Returns safari options</returns>
+        public static SafariOptions SafariOptions()
         {
             SafariOptions options = new SafariOptions();
 
 
             return options;
         }
+        /// <summary>
+        /// Setting options for Edge
+        /// </summary>
+        /// <returns>Returns edge options</returns>
         public static EdgeOptions EdgeOptions()
         {
             EdgeOptions options = new EdgeOptions();
@@ -65,6 +92,10 @@ namespace Automation_Framework.Helpers
 
             return options;
         }
+        /// <summary>
+        /// Setting options for Opera
+        /// </summary>
+        /// <returns>Returns opera options</returns>
         public static OperaOptions OperaOptions()
         {
             OperaOptions options = new OperaOptions();
@@ -76,7 +107,11 @@ namespace Automation_Framework.Helpers
             return options;
         }
 
-
+        /// <summary>
+        /// Setting options for mobile
+        /// </summary>
+        /// <param name="config">Contains model for native mobile driver configuration</param>
+        /// <returns>Returns appium options for native mobile</returns>
         public static AppiumOptions NativeMobileOptions(NativeMobileDriverConfiguration config)
         {
             AppiumOptions options = new AppiumOptions();
@@ -85,10 +120,14 @@ namespace Automation_Framework.Helpers
             options.AddAdditionalCapability(MobileCapabilityType.AutomationName, config.AutomationName);
             options.AddAdditionalCapability(MobileCapabilityType.DeviceName, config.DeviceName);
             options.AddAdditionalCapability(MobileCapabilityType.App, config.App);
-            //options.AddAdditionalCapability(MobileCapabilityType.NoReset, true);
             return options;
         }
 
+        /// <summary>
+        /// Setting options for mobile
+        /// </summary>
+        /// <param name="config">Contains model for web mobile driver configuration</param>
+        /// <returns>Returns appium options for web mobile</returns>
         public static AppiumOptions WebMobileOptions(WebMobileDriverConfiguration config)
         {
             AppiumOptions options = new AppiumOptions();

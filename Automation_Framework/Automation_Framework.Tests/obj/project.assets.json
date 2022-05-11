@@ -1472,7 +1472,7 @@
           "lib/netstandard2.1/WebDriverManager.dll": {}
         }
       },
-      "Automation_Framework/1.2.0": {
+      "Automation_Framework/1.2.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -5521,7 +5521,7 @@
         "webdrivermanager.nuspec"
       ]
     },
-    "Automation_Framework/1.2.0": {
+    "Automation_Framework/1.2.1": {
       "type": "project",
       "path": "../Automation_Framework/Automation_Framework.csproj",
       "msbuildProject": "../Automation_Framework/Automation_Framework.csproj"
@@ -5530,7 +5530,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Appium.WebDriver >= 4.3.1",
-      "Automation_Framework >= 1.2.0",
+      "Automation_Framework >= 1.2.1",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.0.0",

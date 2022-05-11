@@ -22,7 +22,7 @@
 
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
   </PropertyGroup>
 
 
@@ -37,6 +37,10 @@
 			</PackagePath>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
+		<Compile Remove="Template\Pages\HomePage.cs" />
+		<Compile Remove="Template\Pages\LoginPage.cs" />
+		<Compile Remove="Template\Pages\Navigation.cs" />
+		<Compile Remove="Template\Tests\TestKeyboardShortcuts.cs" />
 		<Content Include="Template\appSettings.json">
 			<Pack>
 				true

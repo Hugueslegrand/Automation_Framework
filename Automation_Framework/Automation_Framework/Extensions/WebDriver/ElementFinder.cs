@@ -3,7 +3,7 @@ using System.Linq;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 
 namespace Automation_Framework.Extensions.WebDriver
 {

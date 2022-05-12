@@ -7,7 +7,7 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-    [TestFixture]
+  
     [Property("runname", "TestOrderScreen")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
@@ -27,15 +27,15 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             NavigationScreen navigationScreen = new NavigationScreen(builder);
             MyMoviesScreen myMoviesScreen = new MyMoviesScreen(builder);
 
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
+            homeScreen.WaitSeconds(50);
+          
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-
+            homeScreen.WaitSeconds(4);
             navigationScreen.MyMoviesTab.Should();
             navigationScreen.ClickMyMoviesTab();
-
+            homeScreen.WaitSeconds(4);
             myMoviesScreen.MovieCard.Should();
             myMoviesScreen.MovieCardImage.Should();
             myMoviesScreen.MovieCardTitle.Should();
@@ -55,15 +55,15 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             NavigationScreen navigationScreen = new NavigationScreen(builder);
             MyMoviesScreen myMoviesScreen = new MyMoviesScreen(builder);
 
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
+            homeScreen.WaitSeconds(50);
+          
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-
+            homeScreen.WaitSeconds(4);
             navigationScreen.MyMoviesTab.Should();
             navigationScreen.ClickMyMoviesTab();
-
+            homeScreen.WaitSeconds(4);
             // myMoviesScreen.MovieCard.Should();
             // myMoviesScreen.MovieCardImage.Should();
             // myMoviesScreen.MovieCardTitle.Should();
@@ -72,7 +72,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
             myMoviesScreen.GoBackButton.Should();
             myMoviesScreen.ClickGoBackButton();
-
+            homeScreen.WaitSeconds(1);
 
 
         }

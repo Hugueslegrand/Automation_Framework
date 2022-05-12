@@ -7,7 +7,7 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-    [TestFixture]
+
     [Property("runname", "TestNavigationScreen")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
@@ -23,7 +23,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             HomeScreen homeScreen = new HomeScreen(builder);
             NavigationScreen navigationScreen = new NavigationScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.Logo.Should();
             homeScreen.SignInButton.Should();
 
@@ -40,12 +40,12 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             NavigationScreen navigationScreen = new NavigationScreen(builder);
             LoginScreen loginScreen = new LoginScreen(builder);
 
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
+            homeScreen.WaitSeconds(50);
+           
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(userLoginExist.email, userLoginExist.password);
-
+            homeScreen.WaitSeconds(4);
             homeScreen.Logo.Should();
             homeScreen.SignOutButton.Should();
 
@@ -64,12 +64,12 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             NavigationScreen navigationScreen = new NavigationScreen(builder);
             LoginScreen loginScreen = new LoginScreen(builder);
 
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
+            homeScreen.WaitSeconds(50);
+           
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-
+            homeScreen.WaitSeconds(4);
 
             homeScreen.Logo.Should();
             homeScreen.SignOutButton.Should();

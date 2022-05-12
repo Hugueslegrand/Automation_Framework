@@ -7,7 +7,7 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-    [TestFixture]
+
     [Property("runname", "TestLoginScreen")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
@@ -32,12 +32,13 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         public void Test_Login_As_Existing_User()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
+            homeScreen.WaitSeconds(50);
+        
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             LoginScreen loginScreen = new LoginScreen(builder);
             loginScreen.AndroidLogin(userLoginExist.email, userLoginExist.password);
+            homeScreen.WaitSeconds(4);
             NavigationScreen navigationScreen = new NavigationScreen(builder);
 
             homeScreen.SignOutButton.Should();
@@ -51,13 +52,14 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         public void Test_Login_As_Existing_UserAdmin()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
-            homeScreen.ClickSignInButton();
+            homeScreen.WaitSeconds(50);
 
+         
+            homeScreen.ClickSignInButton();
+            homeScreen.WaitSeconds(4);
             LoginScreen loginScreen = new LoginScreen(builder);
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-
+            homeScreen.WaitSeconds(4);
             NavigationScreen navigationScreen = new NavigationScreen(builder);
             homeScreen.SignOutButton.Should();
             homeScreen.SettingsButton.Should();
@@ -71,12 +73,13 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         public void Test_Login_As_Not_Existing_User()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.SignInButton.Should();
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             LoginScreen loginScreen = new LoginScreen(builder);
             loginScreen.AndroidLogin(userNonExist.email, userNonExist.password);
+            homeScreen.WaitSeconds(4);
             loginScreen.GetInnerText_Warning().Should().Be("This email has not been registered.");
 
         }
@@ -87,12 +90,13 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         public void Test_Login_With_An_Incorrect_EmailAdress()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
+            homeScreen.WaitSeconds(50);
+           
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             LoginScreen loginScreen = new LoginScreen(builder);
             loginScreen.AndroidLogin(userIncorrectEmail.email, userIncorrectEmail.password);
+            homeScreen.WaitSeconds(4);
             loginScreen.GetInnerText_Warning().Should().Be("Please fill in a correct email-adress.");
         }
 
@@ -101,12 +105,13 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         public void Test_Login_With_An_Incorrect_Email_Or_Password()
         {
             HomeScreen homeScreen = new HomeScreen(builder);
-            homeScreen.WaitSeconds(20);
-            homeScreen.SignInButton.Should();
+            homeScreen.WaitSeconds(50);
+           
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             LoginScreen loginScreen = new LoginScreen(builder);
             loginScreen.AndroidLogin(userIncorrectPassword.email, userIncorrectPassword.password);
+            homeScreen.WaitSeconds(4);
             loginScreen.GetInnerText_Warning().Should().Be("Email or password incorrect.");
         }
     }

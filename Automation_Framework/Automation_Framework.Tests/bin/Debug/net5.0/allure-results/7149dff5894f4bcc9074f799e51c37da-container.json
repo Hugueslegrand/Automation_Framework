@@ -1,0 +1,91 @@
+{
+  "uuid": "d5adc4d9-8ea4-4b29-83fe-9c2f76c244ef-tc-0-1088",
+  "name": "Automation_Framework.Tests.Tests.TestMobile.TestWatchScreen.Test_Necessary_Element_Are_Present_And_Work",
+  "children": [
+    "910e8ca5-c489-4c3d-b46c-80a74788a0a3-tr-0-1089"
+  ],
+  "befores": [
+    {
+      "name": "FixtureSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652380463066,
+      "stop": 1652380463066
+    },
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652380463066,
+      "stop": 1652380463066
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cleanup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652380463066,
+      "stop": 1652380463066
+    },
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652380463066,
+      "stop": 1652380463066
+    },
+    {
+      "name": "FixtureTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652380463066,
+      "stop": 1652380463066
+    }
+  ],
+  "links": [],
+  "start": 1652380378732,
+  "stop": 1652380463070
+}

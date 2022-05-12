@@ -1,0 +1,65 @@
+{
+  "uuid": "8023cdd9-edcc-4531-a143-1d344f58df74-tr-0-1085",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestRentMovies.Test",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestRentMovies.Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovies"
+    }
+  ],
+  "links": [],
+  "name": "Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test"
+  },
+  "stage": "finished",
+  "description": "\n",
+  "steps": [
+    {
+      "name": "Test",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2deca93901f84efa838035ed12a0198f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652380254420,
+      "stop": 1652380360356
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652380254420,
+  "stop": 1652380360356
+}

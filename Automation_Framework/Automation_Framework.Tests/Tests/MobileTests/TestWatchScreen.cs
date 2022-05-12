@@ -28,28 +28,32 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             RegisterScreen registerScreen = new RegisterScreen(builder);
             ProfileScreen profileScreen = new ProfileScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(movieWatcher.firstName,
                                            movieWatcher.lastName,
                                            movieWatcher.email,
                                            movieWatcher.password,
                                            movieWatcher.rePassword);
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(movieWatcher.email, movieWatcher.password);
 
-
+            homeScreen.WaitSeconds(4);
 
             navigationScreen.ProfileTab.AndroidClick();
+            homeScreen.WaitSeconds(4);
             profileScreen.AndroidAddCreditsButton.AndroidClick();
+            homeScreen.WaitSeconds(4);
             profileScreen.AndroidFillAmountOfCredits("5");
+            homeScreen.WaitSeconds(4);
             profileScreen.ClickBuyCreditsButton();
 
+            homeScreen.WaitSeconds(4);
             navigationScreen.SearchbarTab.AndroidClick();
-            ///// Nog te vervolledigen
+            ///// Nog te vervolledigen homeScreen.WaitSeconds(4);
 
             myMoviesScreen.MovieCardTitle.AndroidText.Should().Be("The New Mutants");
 
@@ -58,6 +62,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             myMoviesScreen.WatchMovieButton.Should();
 
             myMoviesScreen.ClickWatchMovieButton();
+            homeScreen.WaitSeconds(4);
 
             myMoviesScreen.GoBackButton.AndroidClick();
 

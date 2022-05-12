@@ -1,0 +1,65 @@
+{
+  "uuid": "ae10d5b9-7948-4c6f-bd01-ba142a2069c8-tr-0-1061",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Unlogged_Navigation_Layout",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Unlogged_Navigation_Layout",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Unlogged_Navigation_Layout"
+    },
+    {
+      "name": "testClass",
+      "value": "TestNavigationScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Unlogged_Navigation_Layout",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Unlogged_Navigation_Layout"
+  },
+  "stage": "finished",
+  "description": "Navigation screen Top and Bottom ( unlogged end user ) \n",
+  "steps": [
+    {
+      "name": "Test_Unlogged_Navigation_Layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1f40aa19f3b94d1580f2229e4289f6b0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652377771701,
+      "stop": 1652377841525
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652377771701,
+  "stop": 1652377841525
+}

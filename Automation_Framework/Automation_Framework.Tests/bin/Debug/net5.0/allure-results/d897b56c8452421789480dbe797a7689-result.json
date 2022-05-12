@@ -1,0 +1,68 @@
+{
+  "uuid": "f6cb9184-4411-444a-8a69-79a2d103f3b1-tr-0-1076",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_A_Used_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_A_Used_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Register_A_Used_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "Test_Register_A_Used_User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 72\r\n   at Automation_Framework.Tests.Screens.RegisterScreen.get_ErrorMessage() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Screens\\RegisterScreen.cs:line 22\r\n   at Automation_Framework.Tests.Screens.RegisterScreen.GetInnerText_ErrorMessage() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Screens\\RegisterScreen.cs:line 28\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_A_Used_User() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestRegisterScreen.cs:line 81"
+  },
+  "stage": "finished",
+  "description": "Register a used user \n",
+  "steps": [
+    {
+      "name": "Test_Register_A_Used_User",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 72\r\n   at Automation_Framework.Tests.Screens.RegisterScreen.get_ErrorMessage() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Screens\\RegisterScreen.cs:line 22\r\n   at Automation_Framework.Tests.Screens.RegisterScreen.GetInnerText_ErrorMessage() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Screens\\RegisterScreen.cs:line 28\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_A_Used_User() in C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestRegisterScreen.cs:line 81"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bedc7c22d049472597d30e5c625a3b9a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652379470393,
+      "stop": 1652379604097
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652379470393,
+  "stop": 1652379604097
+}

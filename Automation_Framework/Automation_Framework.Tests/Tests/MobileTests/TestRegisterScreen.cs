@@ -9,7 +9,6 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-    [TestFixture]
     [Property("runname", "TestRegistration")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
@@ -39,19 +38,19 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             HomeScreen homeScreen = new HomeScreen(builder);
             NavigationScreen navigationScreen = new NavigationScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(registerNewUser.firstName,
                                            registerNewUser.lastName,
                                            registerNewUser.email,
                                            registerNewUser.password,
                                            registerNewUser.rePassword);
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(registerNewUser.email, registerNewUser.password);
-
+            homeScreen.WaitSeconds(4);
             homeScreen.SignOutButton.Should();
             navigationScreen.HomeTab.Should();
             navigationScreen.MyMoviesTab.Should();
@@ -68,17 +67,17 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             LoginScreen loginScreen = new LoginScreen(builder);
             HomeScreen homeScreen = new HomeScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(registerUsedUser.firstName,
                                            registerUsedUser.lastName,
                                            registerUsedUser.email,
                                            registerUsedUser.password,
                                            registerUsedUser.rePassword);
-
+            homeScreen.WaitSeconds(4);
             registerScreen.GetInnerText_ErrorMessage().Should().Be("Account is already registered.");
 
 
@@ -93,19 +92,19 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             HomeScreen homeScreen = new HomeScreen(builder);
             NavigationScreen navigationScreen = new NavigationScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(registerNewUserUpperCase.firstName,
                                            registerNewUserUpperCase.lastName,
                                            registerNewUserUpperCase.email,
                                            registerNewUserUpperCase.password,
                                            registerNewUserUpperCase.rePassword);
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(registerNewUserUpperCase.email, registerNewUserUpperCase.password);
-
+            homeScreen.WaitSeconds(4);
             homeScreen.SignOutButton.Should();
             navigationScreen.HomeTab.Should();
             navigationScreen.MyMoviesTab.Should();
@@ -122,19 +121,19 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             HomeScreen homeScreen = new HomeScreen(builder);
             NavigationScreen navigationScreen = new NavigationScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(registerNewUserLowerCase.firstName,
                                            registerNewUserLowerCase.lastName,
                                            registerNewUserLowerCase.email,
                                            registerNewUserLowerCase.password,
                                            registerNewUserLowerCase.rePassword);
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(registerNewUserLowerCase.email, registerNewUserLowerCase.password);
-
+            homeScreen.WaitSeconds(4);
             homeScreen.SignOutButton.Should();
             navigationScreen.HomeTab.Should();
             navigationScreen.MyMoviesTab.Should();
@@ -150,17 +149,17 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             LoginScreen loginScreen = new LoginScreen(builder);
             HomeScreen homeScreen = new HomeScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(registerNewUserUnmatchingPasswords.firstName,
                                              registerNewUserUnmatchingPasswords.lastName,
                                              registerNewUserUnmatchingPasswords.email,
                                              registerNewUserUnmatchingPasswords.password,
                                              registerNewUserUnmatchingPasswords.rePassword);
-
+            homeScreen.WaitSeconds(4);
             registerScreen.GetInnerText_ErrorMessage().Should().Be("Passwords don't match.");
         }
 
@@ -174,18 +173,18 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
             //AllScreens allScreens = new AllScreens(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
             // loginScreen.GoToRegisterScreen.AndroidClick();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(registerNewUserNumbers.firstName,
                                            registerNewUserNumbers.lastName,
                                            registerNewUserNumbers.email,
                                            registerNewUserNumbers.password,
                                            registerNewUserNumbers.rePassword);
-
+            homeScreen.WaitSeconds(4);
             registerScreen.GetInnerText_ErrorMessage().Should().Be("Please fill in a correct email-adress.");
 
 
@@ -200,19 +199,19 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             HomeScreen homeScreen = new HomeScreen(builder);
             NavigationScreen navigationScreen = new NavigationScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(registerNewUserLeadingSpacebar.firstName,
                                              registerNewUserLeadingSpacebar.lastName,
                                              registerNewUserLeadingSpacebar.email,
                                              registerNewUserLeadingSpacebar.password,
                                              registerNewUserLeadingSpacebar.rePassword);
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(registerNewUserLeadingSpacebar.email, registerNewUserLeadingSpacebar.password);
-
+            homeScreen.WaitSeconds(4);
             homeScreen.SignOutButton.Should();
             navigationScreen.HomeTab.Should();
             navigationScreen.MyMoviesTab.Should();
@@ -229,19 +228,19 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             HomeScreen homeScreen = new HomeScreen(builder);
             NavigationScreen navigationScreen = new NavigationScreen(builder);
 
-            homeScreen.WaitSeconds(20);
+            homeScreen.WaitSeconds(50);
             homeScreen.ClickSignInButton();
-
+            homeScreen.WaitSeconds(4);
             loginScreen.ClickGoToRegisterScreen();
-
+            homeScreen.WaitSeconds(4);
             registerScreen.AndroidRegister(registerNewUserSpecialCharacters.firstName,
                                              registerNewUserSpecialCharacters.lastName,
                                              registerNewUserSpecialCharacters.email,
                                              registerNewUserSpecialCharacters.password,
                                              registerNewUserSpecialCharacters.rePassword);
-
+            homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(registerNewUserSpecialCharacters.email, registerNewUserSpecialCharacters.password);
-
+            homeScreen.WaitSeconds(4);
             try
             {
             homeScreen.SignOutButton.Should();
@@ -362,7 +361,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(userAdminExist.email, userAdminExist.password);
 
-            navigation.SettingsButton.Should();
+     
             navigation.SettingsButton.ClickOnElement();
 
             AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
@@ -372,6 +371,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             adminPanelPage.RemoveUserByEmail("nami@brightest.be");
             adminPanelPage.RemoveUserByEmail(registerNewUserLowerCase.email);
             adminPanelPage.RemoveUserByEmail(registerNewUserUpperCase.email);
+            adminPanelPage.RemoveUserByEmail(registerNewUserSpecialCharacters.email);
             adminPanelPage.WaitSeconds(1);
             builder.CloseDriver(PlatformType.Desktop);
         }

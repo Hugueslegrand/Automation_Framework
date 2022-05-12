@@ -1,4 +1,5 @@
 ﻿using Automation_Framework.Tests.Screens;
+using Automation_Framework.Tests.Tests.MobileTests;
 using FluentAssertions;
 using NUnit.Framework;
 
@@ -9,7 +10,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
-    public class TestHomeScreen : BaseTest
+    public class TestHomeScreen : MobileBaseTest
     {
         [Test, Property("caseid", "7325")]
         [Description("HomeScreen functionalities (Press a movie banner)")]

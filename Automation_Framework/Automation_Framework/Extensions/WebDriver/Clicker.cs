@@ -3,6 +3,8 @@ using Automation_Framework.Utilities;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using Automation_Framework.Enums;
+
+
 namespace Automation_Framework.Extensions.WebDriver
 {
     /// <summary>
@@ -47,14 +49,12 @@ namespace Automation_Framework.Extensions.WebDriver
         }
 
         /// <summary>
-        /// Keyboard key gets pressed on driver (page) as a whole instead on a WebElement
+        /// Tab key gets pressed on driver (page) as a whole instead on a WebElement
         /// </summary>
         /// <param name="driver">The web driver.</param>
-        /// <param name="key">The Key from keyboard</param>
-        public static void PressKey(this IWebDriver driver,string key)
+        public static void PressTab(this IWebDriver driver)
         {
-            new Actions(driver).SendKeys(key).Perform();
-            Log.Info($"Pressed the {key} key");
+            new Actions(driver).SendKeys(OpenQA.Selenium.Keys.Tab).Perform();
 
         }
 
@@ -62,11 +62,11 @@ namespace Automation_Framework.Extensions.WebDriver
         /// Enter key gets pressed on driver (page) as a whole instead on a WebElement
         /// </summary>
         /// <param name="driver">The web driver.</param>
-       /* public static void PressEnter(this IWebDriver driver)
+        public static void PressEnter(this IWebDriver driver)
         {
-            new Actions(driver).SendKeys(Keys.Enter).Perform();
-            Log.Info("Pressed the Enter key");
+            new Actions(driver).SendKeys(OpenQA.Selenium.Keys.Enter).Perform();
 
-        }*/
+        }
+
     }
 }

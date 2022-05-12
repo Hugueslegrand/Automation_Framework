@@ -1,16 +1,17 @@
 ﻿using Automation_Framework.Tests.Models;
 using Automation_Framework.Tests.Screens;
+using Automation_Framework.Tests.Tests.MobileTests;
 using FluentAssertions;
 using NUnit.Framework;
 
 
-namespace Automation_Framework.Tests.Tests.MobileTests
+namespace Automation_Framework.Tests.Tests.TestMobile
 {
     [TestFixture]
 
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
-    public class TestWatchScreen:BaseTest
+    public class TestWatchScreen : MobileBaseTest
     {
         User userLoginExist = new User("Pirate@King.com", "onepiece111");
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
@@ -50,9 +51,9 @@ namespace Automation_Framework.Tests.Tests.MobileTests
             navigationScreen.SearchbarTab.AndroidClick();
             ///// Nog te vervolledigen
 
-            myMoviesScreen.MovieCardTitle.Text.Should().Be("The New Mutants");
+            myMoviesScreen.MovieCardTitle.AndroidText.Should().Be("The New Mutants");
 
-            myMoviesScreen.MovieCardDate.Text.Should().Be("Available until: 03/05/2022");
+            myMoviesScreen.MovieCardDate.AndroidText.Should().Be("Available until: 03/05/2022");
 
             myMoviesScreen.WatchMovieButton.Should();
 

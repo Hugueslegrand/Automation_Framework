@@ -275,3 +275,4 @@ C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framewo
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Pages\LoginPage.cs
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Pages\Navigation.cs
 C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Tests\TestKeyboardShortcuts.cs
+C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\bin\Debug\net5.0\Template\Screens\HomeScreen.cs

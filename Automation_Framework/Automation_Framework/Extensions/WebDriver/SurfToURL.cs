@@ -37,7 +37,7 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <param name="element">The element containing the link</param>
         public static void OpenLinkInNewTab(this IWebDriver driver, IWebElement element)
         {
-            new Actions(driver).KeyDown(Utilities.Keys.Control).MoveToElement(element).Click().Perform();
+            new Actions(driver).KeyDown(Keys.Control).MoveToElement(element).Click().Perform();
             Log.Info("Opened link in a new tab");
         }
     }

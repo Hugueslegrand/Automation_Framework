@@ -1,5 +1,7 @@
 ﻿using Automation_Framework.Tests.Models;
+using Automation_Framework.Tests.Pages;
 using Automation_Framework.Tests.Screens;
+using Automation_Framework.Tests.Tests.MobileTests;
 using FluentAssertions;
 using NUnit.Framework;
 
@@ -10,7 +12,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
-    public class TestRegistration : BaseTest
+    public class TestRegistration : MobileBaseTest
     {
         User registerNewUser = new User("luffy", "monkey", "luffy@monkey.ap.be", "strawhat", "strawhat");
         User registerUsedUser = new User(" Zoro", " Rononoa", "luffy@monkey.ap.be", " hunter", " hunter");

@@ -25,7 +25,7 @@ namespace Automation_Framework.Tests.Screens
 
         public string GetInnerText_ErrorMessage()
         {
-            return ErrorMessage.Text;
+            return ErrorMessage.AndroidText;
         }
 
         //Android Functions

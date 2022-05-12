@@ -32,44 +32,44 @@ namespace Automation_Framework.Tests.Screens
 
         public string GetInnerText_AndroidProfileFullScreen()
         {
-            return AndroidProfileFullScreen.Text;
+            return AndroidProfileFullScreen.AndroidText;
         }
 
         public string GetInnerText_AndroidLabelTitle()
         {
-            return AndroidLabelTitle.Text;
+            return AndroidLabelTitle.AndroidText;
         }
         public string GetInnerText_AndroidLabelFirstName()
         {
-            return AndroidLabelFirstName.Text;
+            return AndroidLabelFirstName.AndroidText;
         }
         public string GetInnerText_AndroidLabelLastName()
         {
-            return AndroidLabelLastName.Text;
+            return AndroidLabelLastName.AndroidText;
         }
         public string GetInnerText_AndroidLabelEmail()
         {
-            return AndroidLabelEmail.Text;
+            return AndroidLabelEmail.AndroidText;
         }
         public string GetInnerText_AndroidLabelCredits()
         {
-            return AndroidLabelCredits.Text;
+            return AndroidLabelCredits.AndroidText;
         }
         public string GetInnerText_AndroidFirstName()
         {
-            return AndroidFirstName.Text;
+            return AndroidFirstName.AndroidText;
         }
         public string GetInnerText_AndroidLastName()
         {
-            return AndroidLastName.Text;
+            return AndroidLastName.AndroidText;
         }
         public string GetInnerText_AndroidEmail()
         {
-            return AndroidEmail.Text;
+            return AndroidEmail.AndroidText;
         }
         public string GetInnerText_AndroidCredits()
         {
-            return AndroidCredits.Text;
+            return AndroidCredits.AndroidText;
         }
 
 

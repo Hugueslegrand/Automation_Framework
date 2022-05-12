@@ -1,6 +1,9 @@
-﻿using Automation_Framework.Tests.Models;
+﻿using Automation_Framework.Builders;
+using Automation_Framework.Enums;
+using Automation_Framework.Tests.Models;
 using Automation_Framework.Tests.Pages;
 using Automation_Framework.Tests.Screens;
+using Automation_Framework.Utilities;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
@@ -15,8 +18,23 @@ namespace Automation_Framework.Tests.Tests
 
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
-    public class TestSequentiel : BaseTest
+    public class TestSequentiel 
     {
+        public DriverBuilder builder = new DriverBuilder();
+
+        [SetUp]
+        public void Setup()
+        {
+
+
+            builder.BuildDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Android);
+            Log.StartTestCase((string)TestContext.CurrentContext.Test.Properties.Get("Description"));
+            
+        }
+
+       
+
         User NewBrightestUser = new User("Brightest", "TestJuniors", "Testers@brightest.com", "Test123", "Test123");
         User userAdminExist = new User("Stage", "Admin", "stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
@@ -87,13 +105,20 @@ namespace Automation_Framework.Tests.Tests
             detailsScreen.AndroidRentMovieButton.Should();
             detailsScreen.ClickRentMovieButton();
             navigationScreen.ClickMyMoviesTab();
-            myMoviesScreen.MovieCardTitle.Text.Should().Contain("American Pie");
+            myMoviesScreen.MovieCardTitle.AndroidText.Should().Contain("American Pie");
 
             adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.WaitSeconds(1);
             adminPanelPage.RemoveUserByEmail(NewBrightestUser.email);
         }
 
+        [TearDown]
+        public void TearDown()
+        {
 
+            builder.CloseDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Android);
+            Log.EndTestCase(TestContext.CurrentContext.Result.Message);
+        }
     }
 }

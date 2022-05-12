@@ -1,15 +1,15 @@
 ﻿
 using Automation_Framework.Tests.Screens;
-
+using Automation_Framework.Tests.Tests.MobileTests;
 using NUnit.Framework;
 
-namespace Automation_Framework.Tests.Tests.MobileTests
+namespace Automation_Framework.Tests.Tests.TestMobile
 {
     [TestFixture]
 
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
-    public class TestSearchBarScreen : BaseTest
+    public class TestSearchBarScreen : MobileBaseTest
     {
 
         [Test, Property("caseid", "7352")]

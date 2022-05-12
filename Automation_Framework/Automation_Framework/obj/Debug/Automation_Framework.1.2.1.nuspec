@@ -45,6 +45,7 @@
     <file src="C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\Template\Pages\HomePage.cs" target="\contentFiles\any\net5.0\Template\Pages\HomePage.cs" />
     <file src="C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\Template\Pages\LoginPage.cs" target="\contentFiles\any\net5.0\Template\Pages\LoginPage.cs" />
     <file src="C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\Template\Pages\Navigation.cs" target="\contentFiles\any\net5.0\Template\Pages\Navigation.cs" />
+    <file src="C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\Template\Screens\HomeScreen.cs" target="\contentFiles\any\net5.0\Template\Screens\HomeScreen.cs" />
     <file src="C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\Template\Tests\BaseTest.cs" target="\contentFiles\any\net5.0\Template\Tests\BaseTest.cs" />
     <file src="C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\Template\Tests\TestKeyboardShortcuts.cs" target="\contentFiles\any\net5.0\Template\Tests\TestKeyboardShortcuts.cs" />
     <file src="C:\Users\hugue\hogeschool_AP\IT_stage\Brightest\Hugues-github\Automation_Framework\Automation_Framework\Template\appSettings.json" target="\contentFiles\any\net5.0\Template\appSettings.json" />

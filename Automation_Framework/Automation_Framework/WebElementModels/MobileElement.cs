@@ -12,10 +12,12 @@ namespace Automation_Framework.WebElementModels
 {
     public class MobileElement :Log, IAndroidElement, IIOSElement
     {
+
         private AppiumDriver<AndroidElement>? _androidDriver;
         private AndroidElement? _androidElement;
         private AppiumDriver<IOSElement>? _iosDriver;
         private IOSElement? _iosElement;
+
 
         public string AndroidTagName => _androidElement.TagName;
        
@@ -160,10 +162,6 @@ namespace Automation_Framework.WebElementModels
         {
             _androidDriver.Swipe(startX, startY, endX, endY, duration);
         }
-
-
-
-
 
     }
 }

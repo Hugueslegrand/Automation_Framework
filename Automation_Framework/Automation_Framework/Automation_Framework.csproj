@@ -40,6 +40,7 @@
 		<Compile Remove="Template\Pages\HomePage.cs" />
 		<Compile Remove="Template\Pages\LoginPage.cs" />
 		<Compile Remove="Template\Pages\Navigation.cs" />
+		<Compile Remove="Template\Screens\HomeScreen.cs" />
 		<Compile Remove="Template\Tests\TestKeyboardShortcuts.cs" />
 		<Content Include="Template\appSettings.json">
 			<Pack>

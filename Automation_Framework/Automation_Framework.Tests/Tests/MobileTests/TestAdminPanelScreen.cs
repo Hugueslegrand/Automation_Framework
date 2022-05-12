@@ -1,16 +1,17 @@
 ﻿
 using Automation_Framework.Tests.Models;
 using Automation_Framework.Tests.Screens;
+using Automation_Framework.Tests.Tests.MobileTests;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Automation_Framework.Tests.Tests.MobileTests
+namespace Automation_Framework.Tests.Tests.TestMobile
 {
     [TestFixture]
 
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
-    public class TestAdminPanelScreen : BaseTest
+    public class TestAdminPanelScreen : MobileBaseTest
     {
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
@@ -84,13 +85,13 @@ namespace Automation_Framework.Tests.Tests.MobileTests
             AdminPanelScreen adminPanelScreen = new AdminPanelScreen(builder);
             adminPanelScreen.BugsButton.AndroidClick();
             adminPanelScreen.AllBugsOn.AndroidClick();
-            adminPanelScreen.FirstBugToggleBug.Text.Should().Be("ON");
+            adminPanelScreen.FirstBugToggleBug.AndroidText.Should().Be("ON");
             adminPanelScreen.AllBugsOff.AndroidClick();
-            adminPanelScreen.FirstBugToggleBug.Text.Should().Be("OFF");
+            adminPanelScreen.FirstBugToggleBug.AndroidText.Should().Be("OFF");
             adminPanelScreen.FirstBugToggleBug.AndroidClick();
-            adminPanelScreen.FirstBugToggleBug.Text.Should().Be("ON");
+            adminPanelScreen.FirstBugToggleBug.AndroidText.Should().Be("ON");
             adminPanelScreen.FirstBugToggleBug.AndroidClick();
-            adminPanelScreen.FirstBugToggleBug.Text.Should().Be("OFF");
+            adminPanelScreen.FirstBugToggleBug.AndroidText.Should().Be("OFF");
             adminPanelScreen.AllBugsOff.AndroidClick();
         }
 
@@ -154,7 +155,7 @@ namespace Automation_Framework.Tests.Tests.MobileTests
             adminPanelScreen.EditCreditsField.AndroidClear();
             adminPanelScreen.EditCreditsField.AndroidSendKeys("200");
             adminPanelScreen.SubmitButton.AndroidClick();
-            adminPanelScreen.FirstUserCredits.Text.Should().Be("Credits: 200");
+            adminPanelScreen.FirstUserCredits.AndroidText.Should().Be("Credits: 200");
 
         }
     }

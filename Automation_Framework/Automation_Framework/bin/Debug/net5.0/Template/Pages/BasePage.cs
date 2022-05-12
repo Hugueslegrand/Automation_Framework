@@ -1,5 +1,5 @@
 ﻿using Automation_Framework.Builders;
-using Automation_Framework.Enums;
+using Automation_Framework.Utilities;
 using Automation_Framework.Extensions.WebDriver;
 using System.Collections.ObjectModel;
 
@@ -38,12 +38,8 @@ namespace Automation_Framework.Tests.Pages
             SendKeys(keys);
         }
 
-        public void PressTab() => Driver.PressKey(Keys.Tab);
-
-        public void PressEnter()
-        {
-            Driver.PressKey(Keys.Enter);
-        }
+        public void PressTab() => Driver.PressTab();
+        public void PressEnter() => Driver.PressEnter();
 
         public void SwitchToASpecificTab(int tabIndex)
         {

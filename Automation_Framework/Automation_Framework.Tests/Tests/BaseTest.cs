@@ -49,6 +49,7 @@ namespace Automation_Framework.Tests.Tests
             
           
             builder.BuildDriver(PlatformType.Desktop);
+      
             Log.StartTestCase((string)TestContext.CurrentContext.Test.Properties.Get("Description"));
             // initPages();
         }
@@ -58,6 +59,7 @@ namespace Automation_Framework.Tests.Tests
         {
            
             builder.CloseDriver(PlatformType.Desktop);
+           
             Log.EndTestCase(TestContext.CurrentContext.Result.Message);
         }
 

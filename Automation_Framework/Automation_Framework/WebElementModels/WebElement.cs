@@ -88,7 +88,6 @@ namespace Automation_Framework.WebElementModels
                        null);
                     break;
             }
-
         }
 
 
@@ -101,12 +100,13 @@ namespace Automation_Framework.WebElementModels
         {
             return _webElement;
         }
+
         public void ClickOnElement()
         {
             try
             {
                 //Maybe put the scroll in screenshot extension
-                _webDriver.ExecuteJsObject("arguments[0].scrollIntoView(true);", _webElement);
+               // _webDriver.ExecuteJsObject("arguments[0].scrollIntoView(true);", _webElement);
                 _webDriver.ClickOnElement(_webElement);
                
             }

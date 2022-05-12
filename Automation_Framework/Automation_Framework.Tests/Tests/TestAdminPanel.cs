@@ -9,7 +9,7 @@ namespace Automation_Framework.Tests.Tests
 {
 
     
-    [Property("runname","TestAdminPanel")]
+   [Property("runname","TestAdminPanel")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestAdminPanel : BaseTest

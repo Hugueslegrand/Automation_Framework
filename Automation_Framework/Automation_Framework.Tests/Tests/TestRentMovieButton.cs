@@ -34,15 +34,21 @@ namespace Automation_Framework.Tests.Tests
             navigation.WaitSeconds(4);
             navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
+            navigation.WaitSeconds(1);
             profilePage.AddCreditsButton.ClickOnElement();
+            navigation.WaitSeconds(1);
             profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("5");
             profilePage.BuyCreditsButton.ClickOnElement();
             navigation.WaitSeconds(4);
             navigation.Logo.ClickOnElement();
             HomePage homePage = new HomePage(builder);
+            navigation.WaitSeconds(2);
             homePage.Movie1.ClickOnElement();
+            navigation.WaitSeconds(2);
             homePage.RentThisMovieButton.ClickOnElement();
+            homePage.ScrollElementIntoView(homePage.RentPopUp.GetElement());
+            navigation.WaitSeconds(1);
             homePage.RentPopUp.Text.Should().Contain("added to My Movies!");
         }
 
@@ -58,8 +64,12 @@ namespace Automation_Framework.Tests.Tests
             loginPage.Login(Renter.email, Renter.password);
 
             HomePage homePage = new HomePage(builder);
+            homePage.WaitSeconds(2);
             homePage.Movie1.ClickOnElement();
+            homePage.WaitSeconds(1);
             homePage.RentThisMovieButton.ClickOnElement();
+            homePage.ScrollElementIntoView(homePage.RentPopUp.GetElement());
+            homePage.WaitSeconds(1);
             homePage.RentPopUp.Text.Should().Contain("You already rented this movie");
         }
 
@@ -75,8 +85,12 @@ namespace Automation_Framework.Tests.Tests
             loginPage.Login(Renter.email, Renter.password);
 
             HomePage homePage = new HomePage(builder);
+            navigation.WaitSeconds(2);
             homePage.Movie2.ClickOnElement();
+            navigation.WaitSeconds(1);
             homePage.RentThisMovieButton.ClickOnElement();
+            homePage.ScrollElementIntoView(homePage.RentPopUp.GetElement());
+            homePage.WaitSeconds(1);
             homePage.RentPopUp.Text.Should().Contain("Insufficient credits.");
         }
 
@@ -88,12 +102,14 @@ namespace Automation_Framework.Tests.Tests
             HomePage homePage = new HomePage(builder);
             homePage.WaitSeconds(6);
             homePage.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            homePage.WaitSeconds(1);
             homePage.Movie1.ClickOnElement();
+            homePage.WaitSeconds(1);
             homePage.RentThisMovieButton.ClickOnElement();
             homePage.WaitSeconds(4);
             LoginPage loginPage = new LoginPage(builder);
             loginPage.SignInPage.Should();
-            loginPage.WaitSeconds(3);
+           
         }
 
         [Test, Order(5), Property("caseid", "7307")]

@@ -34,6 +34,7 @@ namespace Automation_Framework.Tests.Tests
             navigation.ProfileButton.ClickOnElement();
 
             // profilePage.GetInnerText_ProfileAvatar().Should().Be("");
+            navigation.WaitSeconds(2);
             profilePage.FirstName.Text.Should().Be(UserAdminLogin_Exist.firstName);
             profilePage.LastName.Text.Should().Be(UserAdminLogin_Exist.lastName);
             profilePage.Email.Text.Should().Be(UserAdminLogin_Exist.email);
@@ -66,9 +67,12 @@ namespace Automation_Framework.Tests.Tests
             //loginPage.ScreenShot();
             navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
+            navigation.WaitSeconds(1);
             profilePage.AddCreditsButton.ClickOnElement();
+            navigation.WaitSeconds(1);
             profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("30");
+            navigation.WaitSeconds(1);
             profilePage.BuyCreditsButton.ClickOnElement();
             profilePage.WaitSeconds(2);
 

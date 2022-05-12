@@ -14,7 +14,7 @@ namespace Automation_Framework.Tests.Tests
         User Watcher = new User("Test", "Watcher", "watchmovie@button.test", "watchmovie", "watchmovie");
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test, Order(1)]
+        [Test, Order(1), Property("caseid", "7356")]
         [Description("Test: WatchMovie Setup Loop - register and buy 5 credits, then rent movie not yet rented")]
         public void Test_RentMovieButton_NotYetRented()
         {
@@ -107,7 +107,7 @@ namespace Automation_Framework.Tests.Tests
             watchMovie.CloseModalButton.ClickOnElement();
         }
 
-        [Test, Order(4)]
+        [Test, Order(4), Property("caseid", "7357")]
         [Description("Test: WatchMovie - remove watcher for continious testing")]
         public void Test_RemoveRenter()
         {

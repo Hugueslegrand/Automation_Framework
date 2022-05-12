@@ -29,7 +29,7 @@ namespace Automation_Framework.Extensions.WebDriver
         /// <param name="by">Locator of the select element where the option is expected to reside</param>
         /// <param name="columnIndex">Index of the column of which the values should be extracted</param>
         /// <returns>Returns a List of text containing the values from the specified column</returns>
-        public static List<string> GetAllRowValuesForColumn(this IList<IWebElement> elementList, int columnIndex, By by)
+        public static List<string> GetAllRowValuesFromColumn(this IList<IWebElement> elementList, int columnIndex, By by)
         {
             List<string> allRowsText = elementList
                                        .Select(x => x.FindElements(by)

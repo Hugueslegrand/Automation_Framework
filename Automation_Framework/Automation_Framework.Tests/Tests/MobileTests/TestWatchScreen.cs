@@ -7,7 +7,7 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-    [TestFixture]
+
     [Property("runname", "TestWatchScreen")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]

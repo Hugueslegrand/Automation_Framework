@@ -20,13 +20,12 @@ using System.Collections.Generic;
 
 namespace Automation_Framework.TestRail.Service
 {
-   
     public class TestRailBaseTest
     {
 
         private TestContext _fixtureContext;
         private TestRailApi _testRailApi;
-        private string _suiteid, _projectid,_runName;
+        private string _suiteid, _projectid;
         
         private int _projectIdInt, _suiteIdInt, _caseId;
         private List<Result> _resultsForCases;
@@ -60,7 +59,7 @@ namespace Automation_Framework.TestRail.Service
             {
                 if (_resultsForCases.Count > 0)
                 {
-                    var runId = _testRailApi.CreateRun(new Run { project_id = _projectIdInt, suite_id = _suiteIdInt, name=_runName, include_all = false });
+                    var runId = _testRailApi.CreateRun(new Run { project_id = _projectIdInt, suite_id = _suiteIdInt, include_all = false });
                     if (runId > 0) _testRailApi.AddResultsForCases(runId, _resultsForCases);
                 }
             }
@@ -106,7 +105,6 @@ namespace Automation_Framework.TestRail.Service
         {
             _suiteid = _fixtureContext.Test.Properties.Get("suiteid")?.ToString();
             _projectid = _fixtureContext.Test.Properties.Get("projectid")?.ToString();
-            _runName = _fixtureContext.Test.Properties.Get("runname")?.ToString();
 
             if (string.IsNullOrEmpty(_suiteid)) throw new Exception("Invalid suite id");
             if (string.IsNullOrEmpty(_projectid)) throw new Exception("Invalid project id");

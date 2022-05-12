@@ -10,6 +10,8 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.MobileTests
 {
+    [TestFixture]
+    [AllureNUnit]
     public class MobileBaseTest : TestRailBaseTest
     {
 
@@ -28,7 +30,7 @@ namespace Automation_Framework.Tests.Tests.MobileTests
         public void TearDown()
         {
 
-            builder.BuildDriver(PlatformType.Android);
+            builder.CloseDriver(PlatformType.Android);
             Log.EndTestCase(TestContext.CurrentContext.Result.Message);
         }
     }

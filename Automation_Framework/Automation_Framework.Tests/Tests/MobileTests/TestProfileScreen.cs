@@ -158,6 +158,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
         }
 
+        //MOET ALTIJD FALEN
         [Test, Property("caseid", "7341")]
         [Description("Add credits to profile (decimal numbers) ")]
         public void Test_Add_Credits_To_Profile_DecimalNumbers()
@@ -230,59 +231,96 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             navigationScreen.ProfileTab.Should();
             navigationScreen.ClickProfileTab();
 
-            // profileScreen.GetInnerText_AndroidLabelTitle().Should().Be(profileScreenLabels.profileTitleLabel);
-            // profileScreen.AndroidAvatar.Should();
-            // profileScreen.GetInnerText_AndroidLabelFirstName().Should().Be(profileScreenLabels.firstNameLabel);
-            // profileScreen.GetInnerText_AndroidFirstName().Should().Be(userAdminExist.firstName);
-            // profileScreen.GetInnerText_AndroidLabelLastName().Should().Be(profileScreenLabels.lastNameLabel);
-            // profileScreen.GetInnerText_AndroidLastName().Should().Be(userAdminExist.lastName);
-            // profileScreen.GetInnerText_AndroidLabelEmail().Should().Be(profileScreenLabels.emailLabel);
-            // profileScreen.GetInnerText_AndroidEmail().Should().Be(userAdminExist.email);
-            // profileScreen.GetInnerText_AndroidLabelCredits().Should().Be(profileScreenLabels.creditsLabel);
-            // profileScreen.AndroidCredits.Should();      //Juiste Aantal credits gaan halen
 
             profileScreen.AndroidAddCreditsButton.Should();
 
+            bool result;
+            try
+            {
+                profileScreen.ClickAddCreditsButton();
+                profileScreen.AndroidFillAmountOfCredits("-1");
+                profileScreen.ClickBuyCreditsButton();
+                profileScreen.ClickCancelPaymentButton();
+                result = true;
 
-            profileScreen.ClickAddCreditsButton();
-            profileScreen.AndroidFillAmountOfCredits("-1");
-            profileScreen.ClickBuyCreditsButton();
-            profileScreen.ClickCancelPaymentButton();
+            }
+            catch (System.Exception)
+            {
+                result = false;
 
-            profileScreen.ClickAddCreditsButton();
-            profileScreen.AndroidFillAmountOfCredits("0");
-            profileScreen.ClickBuyCreditsButton();
-            profileScreen.ClickCancelPaymentButton();
+            }
+            if (result)
+                Assert.Pass();
+            Assert.Fail();
 
-            profileScreen.ClickAddCreditsButton();
-            profileScreen.AndroidFillAmountOfCredits("-123321");
-            profileScreen.ClickBuyCreditsButton();
-            profileScreen.ClickCancelPaymentButton();
+            //Andere test zetten`
 
-            profileScreen.ClickAddCreditsButton();
-            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999");
-            profileScreen.ClickBuyCreditsButton();
-            profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton();
-            profileScreen.AndroidFillAmountOfCredits("0.99999999999999999");
-            profileScreen.ClickBuyCreditsButton();
-            profileScreen.ClickCancelPaymentButton();
+            //profileScreen.ClickAddCreditsButton();
+            //profileScreen.AndroidFillAmountOfCredits("0");
+            //profileScreen.ClickBuyCreditsButton();
+            //profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton();
-            profileScreen.AndroidFillAmountOfCredits("0.999999999999999944479999999");
-            profileScreen.ClickBuyCreditsButton();
-            profileScreen.ClickCancelPaymentButton();
+            //try
+            //{
+            //    profileScreen.ClickAddCreditsButton();
+            //    profileScreen.AndroidFillAmountOfCredits("-123321");
+            //    profileScreen.ClickBuyCreditsButton();
+            //    profileScreen.ClickCancelPaymentButton();
+            //    Assert.Pass();
+            //}
+            //catch (System.Exception)
+            //{
 
-            profileScreen.ClickAddCreditsButton();
-            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999444888487687421729788184165954");
-            profileScreen.ClickBuyCreditsButton();
-            profileScreen.ClickCancelPaymentButton();
+            //    Assert.Fail();
+            //}
 
-            profileScreen.ClickAddCreditsButton();
-            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999444888487687421729788184165955");
-            profileScreen.ClickBuyCreditsButton();
-            profileScreen.ClickCancelPaymentButton();
+
+            //try
+            //{
+            //    profileScreen.ClickAddCreditsButton();
+            //    profileScreen.AndroidFillAmountOfCredits("0.9999999999999999");
+            //    profileScreen.ClickBuyCreditsButton();
+            //    profileScreen.ClickCancelPaymentButton();
+            //    Assert.Pass();
+            //}
+            //catch (System.Exception)
+            //{
+
+            //    Assert.Fail();
+            //}
+
+
+            //try
+            //{
+            //    profileScreen.ClickAddCreditsButton();
+            //    profileScreen.AndroidFillAmountOfCredits("0.99999999999999999");
+            //    profileScreen.ClickBuyCreditsButton();
+            //    profileScreen.ClickCancelPaymentButton();
+            //    Assert.Pass();
+            //}
+            //catch (System.Exception)
+            //{
+
+            //    Assert.Fail();
+            //}
+
+
+
+            //profileScreen.ClickAddCreditsButton();
+            //profileScreen.AndroidFillAmountOfCredits("0.999999999999999944479999999");
+            //profileScreen.ClickBuyCreditsButton();
+            //profileScreen.ClickCancelPaymentButton();
+
+            //profileScreen.ClickAddCreditsButton();
+            //profileScreen.AndroidFillAmountOfCredits("0.9999999999999999444888487687421729788184165954");
+            //profileScreen.ClickBuyCreditsButton();
+            //profileScreen.ClickCancelPaymentButton();
+
+            //profileScreen.ClickAddCreditsButton();
+            //profileScreen.AndroidFillAmountOfCredits("0.9999999999999999444888487687421729788184165955");
+            //profileScreen.ClickBuyCreditsButton();
+            //profileScreen.ClickCancelPaymentButton();
 
 
         }

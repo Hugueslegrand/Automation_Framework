@@ -28,15 +28,15 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             ProfileScreen profileScreen = new ProfileScreen(builder);
 
             homeScreen.WaitSeconds(50);
-       
+        
             homeScreen.ClickSignInButton();
-            homeScreen.WaitSeconds(4);
+
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-            homeScreen.WaitSeconds(4);
+            
 
             navigationScreen.ProfileTab.Should();
             navigationScreen.ClickProfileTab();
-            homeScreen.WaitSeconds(4);
+
             profileScreen.GetInnerText_AndroidLabelTitle().Should().Be(profileScreenLabels.profileTitleLabel);
             profileScreen.AndroidAvatar.Should();
 
@@ -63,14 +63,14 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             ProfileScreen profileScreen = new ProfileScreen(builder);
 
             homeScreen.WaitSeconds(50);
-           
+
             homeScreen.ClickSignInButton();
-            homeScreen.WaitSeconds(4);
+
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-            homeScreen.WaitSeconds(4);
+
             navigationScreen.ProfileTab.Should();
             navigationScreen.ClickProfileTab();
-            homeScreen.WaitSeconds(4);
+
 
             // profileScreen.GetInnerText_AndroidLabelTitle().Should().Be(profileScreenLabels.profileTitleLabel);
             // profileScreen.AndroidAvatar.Should();
@@ -86,12 +86,10 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             string creditsBefore = profileScreen.GetInnerText_AndroidCredits();
             profileScreen.AndroidAddCreditsButton.Should();
             profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
+
 
             profileScreen.AndroidFillAmountOfCredits("500");
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
             string creditsAfter = profileScreen.GetInnerText_AndroidCredits();
 
             creditsBefore.Should().NotBe(creditsAfter);
@@ -111,14 +109,14 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             ProfileScreen profileScreen = new ProfileScreen(builder);
 
             homeScreen.WaitSeconds(50);
-         
+           
             homeScreen.ClickSignInButton();
-            homeScreen.WaitSeconds(4);
+
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-            homeScreen.WaitSeconds(4);
+
             navigationScreen.ProfileTab.Should();
             navigationScreen.ClickProfileTab();
-            homeScreen.WaitSeconds(4);
+
             // profileScreen.GetInnerText_AndroidLabelTitle().Should().Be(profileScreenLabels.profileTitleLabel);
             // profileScreen.AndroidAvatar.Should();
             // profileScreen.GetInnerText_AndroidLabelFirstName().Should().Be(profileScreenLabels.firstNameLabel);
@@ -133,40 +131,27 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             string creditsBefore = profileScreen.GetInnerText_AndroidCredits();
             profileScreen.AndroidAddCreditsButton.Should();
             profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
+
 
             profileScreen.AndroidFillAmountOfCredits("$^é");
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickCancelPaymentButton();
-            homeScreen.WaitSeconds(4);
+
 
             profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.AndroidFillAmountOfCredits("lololol");
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickCancelPaymentButton();
-            homeScreen.WaitSeconds(4);
-            profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("920oO");
-            homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton();
-            homeScreen.WaitSeconds(4);
 
             profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("");
-            homeScreen.WaitSeconds(4);
+            profileScreen.AndroidFillAmountOfCredits("920oO");
             profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickCancelPaymentButton();
-            homeScreen.WaitSeconds(4);
+
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
             string creditsAfter = profileScreen.GetInnerText_AndroidCredits();
             creditsBefore.Should().Be(creditsAfter);
@@ -185,12 +170,12 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             homeScreen.WaitSeconds(50);
            
             homeScreen.ClickSignInButton();
-            homeScreen.WaitSeconds(4);
+
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-            homeScreen.WaitSeconds(4);
+
             navigationScreen.ProfileTab.Should();
             navigationScreen.ClickProfileTab();
-            homeScreen.WaitSeconds(4);
+
             // profileScreen.GetInnerText_AndroidLabelTitle().Should().Be(profileScreenLabels.profileTitleLabel);
             // profileScreen.AndroidAvatar.Should();
             // profileScreen.GetInnerText_AndroidLabelFirstName().Should().Be(profileScreenLabels.firstNameLabel);
@@ -206,38 +191,23 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
 
             profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.AndroidFillAmountOfCredits("4.2");
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickCancelPaymentButton();
-            homeScreen.WaitSeconds(4);
 
             profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.AndroidFillAmountOfCredits("4,2");
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickCancelPaymentButton();
-            homeScreen.WaitSeconds(4);
 
             profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.AndroidFillAmountOfCredits("3.00723456789");
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickCancelPaymentButton();
-            homeScreen.WaitSeconds(4);
 
             profileScreen.ClickAddCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.AndroidFillAmountOfCredits("7.123456789123456789123456789");
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickBuyCreditsButton();
-            homeScreen.WaitSeconds(4);
             profileScreen.ClickCancelPaymentButton();
             
 
@@ -252,14 +222,14 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             ProfileScreen profileScreen = new ProfileScreen(builder);
 
             homeScreen.WaitSeconds(50);
-         
+        
             homeScreen.ClickSignInButton();
-            homeScreen.WaitSeconds(4);
+
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-            homeScreen.WaitSeconds(4);
+
             navigationScreen.ProfileTab.Should();
             navigationScreen.ClickProfileTab();
-            homeScreen.WaitSeconds(4);
+
             // profileScreen.GetInnerText_AndroidLabelTitle().Should().Be(profileScreenLabels.profileTitleLabel);
             // profileScreen.AndroidAvatar.Should();
             // profileScreen.GetInnerText_AndroidLabelFirstName().Should().Be(profileScreenLabels.firstNameLabel);
@@ -274,45 +244,45 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             profileScreen.AndroidAddCreditsButton.Should();
 
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("-1"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("-1");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("0"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("0");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("-123321"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("-123321");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("0.99999999999999999"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("0.99999999999999999");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("0.999999999999999944479999999"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("0.999999999999999944479999999");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999444888487687421729788184165954"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999444888487687421729788184165954");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999444888487687421729788184165955"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickBuyCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("0.9999999999999999444888487687421729788184165955");
+            profileScreen.ClickBuyCreditsButton();
+            profileScreen.ClickCancelPaymentButton();
 
 
         }
@@ -328,14 +298,14 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             ProfileScreen profileScreen = new ProfileScreen(builder);
 
             homeScreen.WaitSeconds(50);
-   
+        
             homeScreen.ClickSignInButton();
-            homeScreen.WaitSeconds(4);
+
             loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-            homeScreen.WaitSeconds(4);
+
             navigationScreen.ProfileTab.Should();
             navigationScreen.ClickProfileTab();
-            homeScreen.WaitSeconds(4);
+
             // profileScreen.GetInnerText_AndroidLabelTitle().Should().Be(profileScreenLabels.profileTitleLabel);
             // profileScreen.AndroidAvatar.Should();
             // profileScreen.GetInnerText_AndroidLabelFirstName().Should().Be(profileScreenLabels.firstNameLabel);
@@ -349,9 +319,9 @@ namespace Automation_Framework.Tests.Tests.TestMobile
 
             profileScreen.AndroidAddCreditsButton.Should();
 
-            profileScreen.ClickAddCreditsButton(); homeScreen.WaitSeconds(4);
-            profileScreen.AndroidFillAmountOfCredits("500"); homeScreen.WaitSeconds(4);
-            profileScreen.ClickCancelPaymentButton(); homeScreen.WaitSeconds(4);
+            profileScreen.ClickAddCreditsButton();
+            profileScreen.AndroidFillAmountOfCredits("500");
+            profileScreen.ClickCancelPaymentButton();
 
         }
 

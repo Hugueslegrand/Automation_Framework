@@ -69,7 +69,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             adminPanelScreen.FirstUserLastName.Should();
             adminPanelScreen.FirstUserRole.Should();
             adminPanelScreen.FirstUserCredits.Should();
-            adminPanelScreen.EditRoleField.Should();
+           adminPanelScreen.FirstUserEditButton.Should();
             adminPanelScreen.FirstUserDeleteButton.Should();
 
         }
@@ -180,6 +180,7 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             adminPanelScreen.EditCreditsField.AndroidClear();
             homeScreen.WaitSeconds(4);
             adminPanelScreen.EditCreditsField.AndroidSendKeys("200");
+            adminPanelScreen.SubmitButton.AndroidClick();
             adminPanelScreen.SubmitButton.AndroidClick();
             homeScreen.WaitSeconds(4);
             adminPanelScreen.FirstUserCredits.AndroidText.Should().Be("Credits: 200");

@@ -1,0 +1,65 @@
+{
+  "uuid": "1dbf8711-fe41-4ac3-aaec-517707dad986-tr-0-1037",
+  "historyId": "Automation_Framework.Tests.Tests.TestSearchBar.Test_SearchBar_Available",
+  "fullName": "Automation_Framework.Tests.Tests.TestSearchBar.Test_SearchBar_Available",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_SearchBar_Available"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSearchBar"
+    }
+  ],
+  "links": [],
+  "name": "Test_SearchBar_Available",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_SearchBar_Available"
+  },
+  "stage": "finished",
+  "description": "Check if searchbar is active and available for all types of users\n",
+  "steps": [
+    {
+      "name": "Test_SearchBar_Available",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ea8616b66d414c9d87ddea1d3f29bca2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652333877654,
+      "stop": 1652333888600
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652333877654,
+  "stop": 1652333888600
+}

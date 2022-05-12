@@ -1,0 +1,65 @@
+{
+  "uuid": "90e2c782-af51-4a4b-90e1-f076f9515829-tr-0-1028",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUpperCaseAndLogIn",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterUpperCaseAndLogIn",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterUpperCaseAndLogIn"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterUpperCaseAndLogIn",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRegisterUpperCaseAndLogIn"
+  },
+  "stage": "finished",
+  "description": "Register an user only uppercase and log in to verify registration\n",
+  "steps": [
+    {
+      "name": "TestRegisterUpperCaseAndLogIn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cc2b02d2ce3b47a59793634b6229df82-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652333773105,
+      "stop": 1652333783970
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652333773105,
+  "stop": 1652333783970
+}

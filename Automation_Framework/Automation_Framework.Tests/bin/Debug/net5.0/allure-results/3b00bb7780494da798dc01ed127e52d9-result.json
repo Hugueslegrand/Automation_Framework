@@ -1,0 +1,65 @@
+{
+  "uuid": "b80356f7-8193-4296-b9f5-7a9dce92a8a9-tr-0-1008",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Unlogged_Layout",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Unlogged_Layout",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Unlogged_Layout"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Unlogged_Layout",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Unlogged_Layout"
+  },
+  "stage": "finished",
+  "description": "Layout of unlogged user\n",
+  "steps": [
+    {
+      "name": "Test_Unlogged_Layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f74e2a8f1b25449d92c69a5dc548d47a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652333578885,
+      "stop": 1652333587977
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652333578885,
+  "stop": 1652333587978
+}

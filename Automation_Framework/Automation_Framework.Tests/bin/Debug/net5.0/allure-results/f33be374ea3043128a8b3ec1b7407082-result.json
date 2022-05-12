@@ -1,0 +1,65 @@
+{
+  "uuid": "15724806-60bb-4f92-9794-261a6f13a54e-tr-0-1035",
+  "historyId": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter",
+  "fullName": "Automation_Framework.Tests.Tests.TestRentMovieButton.Test_RemoveRenter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RemoveRenter"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRentMovieButton"
+    }
+  ],
+  "links": [],
+  "name": "Test_RemoveRenter",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RemoveRenter"
+  },
+  "stage": "finished",
+  "description": "Test: RentMovieButton - remove renter for continious testing\n",
+  "steps": [
+    {
+      "name": "Test_RemoveRenter",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0f709a863b494641ad621eeb9d1194d1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652333866210,
+      "stop": 1652333877645
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652333866210,
+  "stop": 1652333877645
+}

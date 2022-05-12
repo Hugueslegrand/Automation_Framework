@@ -64,7 +64,7 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.TableHeadBugsComponent.Should();
             adminPanelPage.TableHeadBugsDifficulty.Should();
             adminPanelPage.TableHeadBugsToggle.Should();
-            adminPanelPage.WaitSeconds(2);
+            adminPanelPage.WaitSeconds(4);
 
             adminPanelPage.HamburgerMenu.Should();
             adminPanelPage.HamburgerMenu.ClickOnElement();
@@ -75,7 +75,7 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.TableHeadLogsMessage.Should();
             adminPanelPage.TableHeadLogsPath.Should();
             adminPanelPage.TableHeadLogsDate.Should();
-            adminPanelPage.WaitSeconds(2);
+            adminPanelPage.WaitSeconds(4);
 
             adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.TableHeadUsersID.Should();

@@ -34,6 +34,21 @@ namespace Automation_Framework.Extensions.WebDriver
                 TimeSpan.FromSeconds(Configuration.WebDriver.DefaultTimeout));
         }
 
+        public static void Exists(this IWebDriver  driver, By by) {
+
+            if (driver is null) Log.Warn("The driver has not been build");
+            WebDriverWait waitFunc = new WebDriverWait(driver, TimeSpan.FromSeconds(Configuration.WebDriver.DefaultTimeout));
+            try
+            {
+                waitFunc.Until(ExpectedConditions.ElementExists(by));
+            }
+            catch (Exception)
+            {
+                Log.Warn($"failed to locate {by} within {Configuration.WebDriver.DefaultTimeout} seconds");
+                throw;
+            }
+
+        }
         /// <summary>
         /// Waits until an element is clickable
         /// </summary>

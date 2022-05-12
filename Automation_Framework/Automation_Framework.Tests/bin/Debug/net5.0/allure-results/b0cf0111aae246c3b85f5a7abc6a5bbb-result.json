@@ -1,0 +1,65 @@
+{
+  "uuid": "98742f0a-db4b-4ca7-b4ed-6ec1a338fe98-tr-0-1023",
+  "historyId": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterAnUser",
+  "fullName": "Automation_Framework.Tests.Tests.TestRegistration.TestRegisterAnUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestRegisterAnUser"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "TestRegisterAnUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestRegisterAnUser"
+  },
+  "stage": "finished",
+  "description": "Register an user and log in to verify\n",
+  "steps": [
+    {
+      "name": "TestRegisterAnUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "eb2400dba6954f4b9e45a879bc14c7d4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652335247111,
+      "stop": 1652335260732
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652335247111,
+  "stop": 1652335260732
+}

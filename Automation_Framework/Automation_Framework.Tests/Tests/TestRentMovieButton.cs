@@ -32,14 +32,14 @@ namespace Automation_Framework.Tests.Tests
             navigation.SignInButton.ClickOnElement();
             LoginPage loginPage = new LoginPage(builder);
             loginPage.Login(Renter.email, Renter.password);
-
+            navigation.WaitSeconds(4);
             navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
             profilePage.AddCreditsButton.ClickOnElement();
             profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("5");
             profilePage.BuyCreditsButton.ClickOnElement();
-
+            navigation.WaitSeconds(4);
             navigation.Logo.ClickOnElement();
             HomePage homePage = new HomePage(builder);
             homePage.Movie1.ClickOnElement();
@@ -91,7 +91,7 @@ namespace Automation_Framework.Tests.Tests
             homePage.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
             homePage.Movie1.ClickOnElement();
             homePage.RentThisMovieButton.ClickOnElement();
-
+            homePage.WaitSeconds(4);
             LoginPage loginPage = new LoginPage(builder);
             loginPage.SignInPage.Should();
             loginPage.WaitSeconds(3);

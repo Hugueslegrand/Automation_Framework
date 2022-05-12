@@ -1,0 +1,65 @@
+{
+  "uuid": "4c4b7c6e-fff2-47ca-a414-34d7ebfa0a8b-tr-0-1014",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_FooterElements",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_FooterElements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "HUGUES-LE-G"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_FooterElements"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_FooterElements",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_FooterElements"
+  },
+  "stage": "finished",
+  "description": "All the neccesary elements are available in the footer and work accordingly\n",
+  "steps": [
+    {
+      "name": "Test_FooterElements",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f85c0bdc51dc4223ba0735b107b920bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652333518025,
+      "stop": 1652333526968
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652333518025,
+  "stop": 1652333526968
+}

@@ -5,7 +5,7 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests
 {
-    [TestFixture]
+    [Property("runname", "TestWatchMovie")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestWatchMovie : BaseTest

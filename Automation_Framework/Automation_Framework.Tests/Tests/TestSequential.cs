@@ -14,8 +14,7 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.Tests.Tests
 {
-    [TestFixture]
-
+    [Property("runname", "TestSequentiel")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestSequentiel 

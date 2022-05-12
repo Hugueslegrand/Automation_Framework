@@ -7,8 +7,8 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests
 {
-    [TestFixture]
 
+    [Property("runname", "TestProfile")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestProfile : BaseTest

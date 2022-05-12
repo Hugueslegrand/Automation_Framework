@@ -106,7 +106,7 @@ namespace Automation_Framework.WebElementModels
             try
             {
                 //Maybe put the scroll in screenshot extension
-                _webDriver.ExecuteJsObject("arguments[0].scrollIntoView(true);", _webElement);
+                //_webDriver.ExecuteJsObject("arguments[0].scrollIntoView(true);", _webElement);
                 _webDriver.ClickOnElement(_webElement);
                
             }

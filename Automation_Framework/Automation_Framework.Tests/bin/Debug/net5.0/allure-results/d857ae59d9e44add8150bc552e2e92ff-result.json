@@ -1,0 +1,68 @@
+{
+  "uuid": "cfa00116-00e7-497c-b628-c4e67d59dc5e-tr-0-1070",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_PositiveNumber",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_PositiveNumber",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_PositiveNumber"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfileScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_PositiveNumber",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 70 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.MobileDriver.MobileWaitExtension.WaitForClickableAndroid(AppiumDriver`1 driver, AndroidElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\MobileDriver\\MobileWaitExtension.cs:line 64\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 57\r\n   at Automation_Framework.Tests.Screens.LoginScreen.get_AndroidSignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 17\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_PositiveNumber() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestProfileScreen.cs:line 66"
+  },
+  "stage": "finished",
+  "description": "Add credits to profile (positive integer) \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_PositiveNumber",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 70 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.MobileDriver.MobileWaitExtension.WaitForClickableAndroid(AppiumDriver`1 driver, AndroidElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\MobileDriver\\MobileWaitExtension.cs:line 64\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 57\r\n   at Automation_Framework.Tests.Screens.LoginScreen.get_AndroidSignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 17\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_PositiveNumber() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestProfileScreen.cs:line 66"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2fe4952cfd154d4182a9024689fa1545-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652336618081,
+      "stop": 1652336760493
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652336618081,
+  "stop": 1652336760493
+}

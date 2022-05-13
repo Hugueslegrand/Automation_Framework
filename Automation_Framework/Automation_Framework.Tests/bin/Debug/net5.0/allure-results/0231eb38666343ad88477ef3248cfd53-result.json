@@ -1,0 +1,68 @@
+{
+  "uuid": "635c4f8b-0842-4f60-bf8d-a53648d4bfb9-tr-0-1062",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Unlogged_Navigation_Layout",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Unlogged_Navigation_Layout",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Unlogged_Navigation_Layout"
+    },
+    {
+      "name": "testClass",
+      "value": "TestNavigationScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Unlogged_Navigation_Layout",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 52\r\n   at Automation_Framework.Tests.Screens.NavigationScreen.get_SearchbarTab() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\NavigationScreen.cs:line 13\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Unlogged_Navigation_Layout() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestNavigationScreen.cs:line 26"
+  },
+  "stage": "finished",
+  "description": "Navigation screen Top and Bottom ( unlogged end user ) \n",
+  "steps": [
+    {
+      "name": "Test_Unlogged_Navigation_Layout",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 52\r\n   at Automation_Framework.Tests.Screens.NavigationScreen.get_SearchbarTab() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\NavigationScreen.cs:line 13\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Unlogged_Navigation_Layout() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestNavigationScreen.cs:line 26"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "516c28786c0e4ee794cc05897ee13f1a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652297515633,
+      "stop": 1652297589795
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652297515633,
+  "stop": 1652297589795
+}

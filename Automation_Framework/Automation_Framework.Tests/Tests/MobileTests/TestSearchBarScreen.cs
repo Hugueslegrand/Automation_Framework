@@ -3,7 +3,7 @@ using Automation_Framework.Tests.Screens;
 
 using NUnit.Framework;
 
-namespace Automation_Framework.Tests.Tests.MobileTests
+namespace Automation_Framework.Tests.Tests.TestMobile
 {
     public class TestSearchBarScreen : BaseTest
     {

@@ -47,9 +47,10 @@ namespace Automation_Framework.Tests.Tests
         [SetUp]
         public void Setup()
         {
-            
-          
-            builder.BuildDriver(PlatformType.Desktop);
+
+
+            //builder.BuildDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Android);
             Log.StartTestCase((string)TestContext.CurrentContext.Test.Properties.Get("Description"));
             // initPages();
         }
@@ -57,8 +58,9 @@ namespace Automation_Framework.Tests.Tests
         [TearDown]
         public void TearDown()
         {
-           
-            builder.CloseDriver(PlatformType.Desktop);
+
+            //builder.CloseDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Android);
             Log.EndTestCase(TestContext.CurrentContext.Result.Message);
         }
 

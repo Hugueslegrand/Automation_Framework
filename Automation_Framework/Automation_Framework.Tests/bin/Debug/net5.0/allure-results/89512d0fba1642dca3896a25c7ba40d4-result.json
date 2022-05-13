@@ -1,0 +1,68 @@
+{
+  "uuid": "3baab41d-4f55-49d1-92ad-aa57da81ba4c-tr-0-1078",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_Unmatching_Passwords",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_Unmatching_Passwords",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Register_Unmatching_Passwords"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "Test_Register_Unmatching_Passwords",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 70 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.MobileDriver.MobileWaitExtension.WaitForClickableAndroid(AppiumDriver`1 driver, AndroidElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\MobileDriver\\MobileWaitExtension.cs:line 64\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 52\r\n   at Automation_Framework.Tests.Screens.RegisterScreen.get_AndroidRegisterFirstName() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\RegisterScreen.cs:line 14\r\n   at Automation_Framework.Tests.Screens.RegisterScreen.AndroidRegister(String firstName, String lastName, String email, String passwoord, String rePasswoord) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\RegisterScreen.cs:line 46\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_Unmatching_Passwords() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestRegisterScreen.cs:line 95"
+  },
+  "stage": "finished",
+  "description": "Register a new user with unmatching passwords \n",
+  "steps": [
+    {
+      "name": "Test_Register_Unmatching_Passwords",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 70 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.MobileDriver.MobileWaitExtension.WaitForClickableAndroid(AppiumDriver`1 driver, AndroidElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\MobileDriver\\MobileWaitExtension.cs:line 64\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 52\r\n   at Automation_Framework.Tests.Screens.RegisterScreen.get_AndroidRegisterFirstName() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\RegisterScreen.cs:line 14\r\n   at Automation_Framework.Tests.Screens.RegisterScreen.AndroidRegister(String firstName, String lastName, String email, String passwoord, String rePasswoord) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\RegisterScreen.cs:line 46\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_Unmatching_Passwords() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestRegisterScreen.cs:line 95"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3c31d0bc9ed64ebfbb271fbcf8a45c72-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652337330261,
+      "stop": 1652337473952
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652337330261,
+  "stop": 1652337473952
+}

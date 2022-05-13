@@ -1,0 +1,68 @@
+{
+  "uuid": "8d37461a-c6c5-45c1-aed8-142d3573e391-tr-0-1072",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_DecimalNumbers",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_DecimalNumbers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_DecimalNumbers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfileScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_DecimalNumbers",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 58\r\n   at Automation_Framework.Tests.Screens.LoginScreen.get_AndroidSignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 17\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_DecimalNumbers() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestProfileScreen.cs:line 171"
+  },
+  "stage": "finished",
+  "description": "Add credits to profile (decimal numbers) \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_DecimalNumbers",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 58\r\n   at Automation_Framework.Tests.Screens.LoginScreen.get_AndroidSignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 17\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_DecimalNumbers() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestProfileScreen.cs:line 171"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "508057f57ee740828014b35ca4064de0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652297737591,
+      "stop": 1652297811584
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652297737591,
+  "stop": 1652297811584
+}

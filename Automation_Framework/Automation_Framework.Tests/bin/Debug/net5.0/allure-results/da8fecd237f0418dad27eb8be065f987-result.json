@@ -1,0 +1,68 @@
+{
+  "uuid": "3e4770d7-564b-4b2a-8ee8-a48173fe38f3-tr-0-1010",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Existing_User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:4444/session. The status of the exception was UnknownError, and the message was: Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)\r\n  ----> System.Net.WebException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)\r\n  ----> System.Net.Http.HttpRequestException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)\r\n  ----> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444",
+    "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout)\r\n   at Automation_Framework.Helpers.DriverFactory.GetRemoteDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 79\r\n   at Automation_Framework.Helpers.DriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 30\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 40\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 52\r\n--WebException\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n--HttpRequestException\r\n   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\r\n--- End of stack trace from previous location ---\r\n   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClientHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.HttpWebRequest.SendRequest(Boolean async)\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n--ExtendedSocketException\r\n   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)\r\n   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)\r\n--- End of stack trace from previous location ---\r\n   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)\r\n   at System.Net.Sockets.Socket.Connect(String host, Int32 port)\r\n   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)\r\n   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\nLogin as an existing user\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Existing_User skipped because of FixtureSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:4444/session. The status of the exception was UnknownError, and the message was: Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)\r\n  ----> System.Net.WebException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)\r\n  ----> System.Net.Http.HttpRequestException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444 (localhost:4444)\r\n  ----> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException : Kan geen verbinding maken omdat de doelcomputer de verbinding actief heeft geweigerd. [::ffff:127.0.0.1]:4444",
+        "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout)\r\n   at Automation_Framework.Helpers.DriverFactory.GetRemoteDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 79\r\n   at Automation_Framework.Helpers.DriverFactory.GetWebDriver(WebDriverConfiguration driverConfig, L logger) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Helpers\\DriverFactory.cs:line 30\r\n   at Automation_Framework.Builders.DriverBuilder.BuildDriver(PlatformType platformType) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Builders\\DriverBuilder.cs:line 40\r\n   at Automation_Framework.Tests.Tests.BaseTest.Setup() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\BaseTest.cs:line 52\r\n--WebException\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n--HttpRequestException\r\n   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\r\n--- End of stack trace from previous location ---\r\n   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClientHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.HttpWebRequest.SendRequest(Boolean async)\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n--ExtendedSocketException\r\n   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)\r\n   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)\r\n--- End of stack trace from previous location ---\r\n   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)\r\n   at System.Net.Sockets.Socket.Connect(String host, Int32 port)\r\n   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)\r\n   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "341d23d84abb427ea7038ad35c84ee8e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652295418703,
+      "stop": 1652295432863
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652295418703,
+  "stop": 1652295432867
+}

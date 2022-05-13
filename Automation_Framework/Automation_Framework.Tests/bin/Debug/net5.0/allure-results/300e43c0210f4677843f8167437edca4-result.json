@@ -1,0 +1,68 @@
+{
+  "uuid": "600f2934-1ef7-41de-9fe6-449c106a31ed-tr-0-1059",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_With_An_Incorrect_EmailAdress",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_With_An_Incorrect_EmailAdress",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_With_An_Incorrect_EmailAdress"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLoginScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_With_An_Incorrect_EmailAdress",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 58\r\n   at Automation_Framework.Tests.Screens.LoginScreen.get_AndroidSignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 17\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_With_An_Incorrect_EmailAdress() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestLoginScreen.cs:line 127"
+  },
+  "stage": "finished",
+  "description": "Login with an Incorrect Email adress \n",
+  "steps": [
+    {
+      "name": "Test_Login_With_An_Incorrect_EmailAdress",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElement(String by, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByAccessibilityId(String selector)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 58\r\n   at Automation_Framework.Tests.Screens.LoginScreen.get_AndroidSignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 17\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_With_An_Incorrect_EmailAdress() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestLoginScreen.cs:line 127"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0335d1bea73349edacca80a5057eb7f3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652297188616,
+      "stop": 1652297262275
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652297188616,
+  "stop": 1652297262275
+}

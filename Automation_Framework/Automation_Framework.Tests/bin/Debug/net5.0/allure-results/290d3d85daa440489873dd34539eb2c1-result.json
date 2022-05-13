@@ -1,0 +1,68 @@
+{
+  "uuid": "84a88729-e9a8-4540-b68e-9ea046328461-tr-0-1059",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_With_An_Incorrect_EmailAdress",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_With_An_Incorrect_EmailAdress",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_With_An_Incorrect_EmailAdress"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLoginScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_With_An_Incorrect_EmailAdress",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 70 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.MobileDriver.MobileWaitExtension.WaitForClickableAndroid(AppiumDriver`1 driver, AndroidElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\MobileDriver\\MobileWaitExtension.cs:line 64\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 57\r\n   at Automation_Framework.Tests.Screens.LoginScreen.get_AndroidSignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 17\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_With_An_Incorrect_EmailAdress() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestLoginScreen.cs:line 127"
+  },
+  "stage": "finished",
+  "description": "Login with an Incorrect Email adress \n",
+  "steps": [
+    {
+      "name": "Test_Login_With_An_Incorrect_EmailAdress",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 70 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.MobileDriver.MobileWaitExtension.WaitForClickableAndroid(AppiumDriver`1 driver, AndroidElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\MobileDriver\\MobileWaitExtension.cs:line 64\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 57\r\n   at Automation_Framework.Tests.Screens.LoginScreen.get_AndroidSignInEmail() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 17\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_With_An_Incorrect_EmailAdress() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestLoginScreen.cs:line 127"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "977e07593bf845fcb0ebd44a803e666a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652335486183,
+      "stop": 1652335629111
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652335486183,
+  "stop": 1652335629111
+}

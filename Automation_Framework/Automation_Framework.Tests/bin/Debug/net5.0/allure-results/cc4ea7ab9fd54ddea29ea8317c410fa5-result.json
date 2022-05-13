@@ -1,0 +1,68 @@
+{
+  "uuid": "5f4896b8-172f-41a2-81c4-d9a58333526d-tr-0-1047",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestAdminPanelScreen.Test_AdminPanel_elements_are_present",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestAdminPanelScreen.Test_AdminPanel_elements_are_present",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AdminPanel_elements_are_present"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAdminPanelScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_AdminPanel_elements_are_present",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : The element 'By.accessibilityId: emailTxt' does not exist in DOM anymore",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at Automation_Framework.WebElementModels.MobileElement.AndroidSendKeys(String text) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 112\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestAdminPanelScreen.Test_AdminPanel_elements_are_present() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestAdminPanelScreen.cs:line 23"
+  },
+  "stage": "finished",
+  "description": "Admin is able to navigate to admin panel and the necessary elements are present.\n",
+  "steps": [
+    {
+      "name": "Test_AdminPanel_elements_are_present",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : The element 'By.accessibilityId: emailTxt' does not exist in DOM anymore",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at Automation_Framework.WebElementModels.MobileElement.AndroidSendKeys(String text) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 112\r\n   at Automation_Framework.Tests.Screens.LoginScreen.AndroidLogin(String userName, String password) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\LoginScreen.cs:line 39\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestAdminPanelScreen.Test_AdminPanel_elements_are_present() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestAdminPanelScreen.cs:line 23"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "28825d5fbc5044b282da645031358572-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652296472044,
+      "stop": 1652296542985
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652296472044,
+  "stop": 1652296542985
+}

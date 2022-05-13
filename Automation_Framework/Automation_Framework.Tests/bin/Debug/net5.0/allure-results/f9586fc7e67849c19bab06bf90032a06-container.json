@@ -1,0 +1,91 @@
+{
+  "uuid": "980a07b4-44a0-4bed-8eb6-624b44f48fc5-tc-0-1075",
+  "name": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_A_New_User",
+  "children": [
+    "dbec9c5f-1fcb-4727-840a-2a60a68cf25d-tr-0-1076"
+  ],
+  "befores": [
+    {
+      "name": "FixtureSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652298319071,
+      "stop": 1652298319071
+    },
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652298319071,
+      "stop": 1652298319071
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cleanup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652298319071,
+      "stop": 1652298319071
+    },
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652298319071,
+      "stop": 1652298319071
+    },
+    {
+      "name": "FixtureTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1652298319071,
+      "stop": 1652298319071
+    }
+  ],
+  "links": [],
+  "start": 1652298177447,
+  "stop": 1652298319073
+}

@@ -1,0 +1,68 @@
+{
+  "uuid": "0e8fa0b7-edda-4262-a6eb-7d32f6a1d736-tr-0-1010",
+  "historyId": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLogin"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Existing_User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"SignInButton\" class=\"css-ixez3h\">...</button> is not clickable at point (1683, 27). Other element would receive the click: <div class=\"css-1yo793j\">...</div>\n  (Session info: chrome=101.0.4951.54)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()\r\n   at Automation_Framework.Extensions.WebDriver.Clicker.ClickOnElement(IWebDriver driver, IWebElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\Clicker.cs:line 33\r\n   at Automation_Framework.WebElementModels.WebElement.ClickOnElement() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 111\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 77"
+  },
+  "stage": "finished",
+  "description": "Login as an existing user\n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Existing_User",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"SignInButton\" class=\"css-ixez3h\">...</button> is not clickable at point (1683, 27). Other element would receive the click: <div class=\"css-1yo793j\">...</div>\n  (Session info: chrome=101.0.4951.54)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()\r\n   at Automation_Framework.Extensions.WebDriver.Clicker.ClickOnElement(IWebDriver driver, IWebElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\WebDriver\\Clicker.cs:line 33\r\n   at Automation_Framework.WebElementModels.WebElement.ClickOnElement() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\WebElement.cs:line 111\r\n   at Automation_Framework.Tests.Tests.TestLogin.Test_Login_As_Existing_User() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\TestLogin.cs:line 77"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4117f71ae08241cbb0c65d858eef17b4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652295922419,
+      "stop": 1652295970531
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652295922418,
+  "stop": 1652295970535
+}

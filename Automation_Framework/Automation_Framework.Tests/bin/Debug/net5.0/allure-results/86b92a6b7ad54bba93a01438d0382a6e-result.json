@@ -1,0 +1,68 @@
+{
+  "uuid": "7726b805-2092-4cb1-91c1-4d80a4d24a0b-tr-0-1053",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestHomeScreen.Test_Swipe_Horizontal_And_Vertical",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestHomeScreen.Test_Swipe_Horizontal_And_Vertical",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Swipe_Horizontal_And_Vertical"
+    },
+    {
+      "name": "testClass",
+      "value": "TestHomeScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Swipe_Horizontal_And_Vertical",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 70 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.MobileDriver.MobileWaitExtension.WaitForClickableAndroid(AppiumDriver`1 driver, AndroidElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\MobileDriver\\MobileWaitExtension.cs:line 64\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 52\r\n   at Automation_Framework.Tests.Screens.HomeScreen.get_MovieBanner() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\HomeScreen.cs:line 20\r\n   at Automation_Framework.Tests.Screens.HomeScreen.Swipe(Int32 startX, Int32 startY, Int32 endX, Int32 endY, Int32 duration) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\HomeScreen.cs:line 30\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestHomeScreen.Test_Swipe_Horizontal_And_Vertical() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestHomeScreen.cs:line 43"
+  },
+  "stage": "finished",
+  "description": "HomeScreen functionalities Horizontal and Vertical Swipe \n",
+  "steps": [
+    {
+      "name": "Test_Swipe_Horizontal_And_Vertical",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 70 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Automation_Framework.Extensions.MobileDriver.MobileWaitExtension.WaitForClickableAndroid(AppiumDriver`1 driver, AndroidElement element) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Extensions\\MobileDriver\\MobileWaitExtension.cs:line 64\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 52\r\n   at Automation_Framework.Tests.Screens.HomeScreen.get_MovieBanner() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\HomeScreen.cs:line 20\r\n   at Automation_Framework.Tests.Screens.HomeScreen.Swipe(Int32 startX, Int32 startY, Int32 endX, Int32 endY, Int32 duration) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\HomeScreen.cs:line 30\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestHomeScreen.Test_Swipe_Horizontal_And_Vertical() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestHomeScreen.cs:line 43"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "49fe9007d2df4c65b91d1cc21a1ae59f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652296762749,
+      "stop": 1652296899999
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652296762749,
+  "stop": 1652296899999
+}

@@ -4,7 +4,7 @@ using FluentAssertions;
 using NUnit.Framework;
 
 
-namespace Automation_Framework.Tests.Tests.MobileTests
+namespace Automation_Framework.Tests.Tests.TestMobile
 {
     public class TestWatchScreen:BaseTest
     {

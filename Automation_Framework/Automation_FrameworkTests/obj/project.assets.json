@@ -5938,9 +5938,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj",
-      "projectName": "Automation_FrameworkTests",
-      "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj",
+      "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\UnitTests.csproj",
+      "projectName": "UnitTests",
+      "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\hugue\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\obj\\",
       "projectStyle": "PackageReference",

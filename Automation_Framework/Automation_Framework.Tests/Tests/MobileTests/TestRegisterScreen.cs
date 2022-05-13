@@ -241,21 +241,27 @@ namespace Automation_Framework.Tests.Tests.TestMobile
             homeScreen.WaitSeconds(4);
             loginScreen.AndroidLogin(registerNewUserSpecialCharacters.email, registerNewUserSpecialCharacters.password);
             homeScreen.WaitSeconds(4);
+          
+            bool result;
             try
             {
-            homeScreen.SignOutButton.Should();
-            navigationScreen.HomeTab.Should();
-            navigationScreen.MyMoviesTab.Should();
-            navigationScreen.ProfileTab.Should();
-            navigationScreen.SearchbarTab.Should();
-                Assert.Fail();
+                homeScreen.SignOutButton.Should();
+                navigationScreen.HomeTab.Should();
+                navigationScreen.MyMoviesTab.Should();
+                navigationScreen.ProfileTab.Should();
+                navigationScreen.SearchbarTab.Should();
+                result = false;
+
             }
             catch (System.Exception)
             {
+                result = true;
 
-                Assert.Pass();
             }
-           
+            if (result)
+                Assert.Pass();
+            Assert.Fail();
+
         }
 
         //Error message element changes based on view, can't run this test

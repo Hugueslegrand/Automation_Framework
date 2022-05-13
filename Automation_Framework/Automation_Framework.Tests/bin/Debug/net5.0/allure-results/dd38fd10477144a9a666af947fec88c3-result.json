@@ -1,0 +1,65 @@
+{
+  "uuid": "1d916a4a-de5d-4fc9-80a6-eb6fdbd70910-tr-0-1053",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestHomeScreen.Test_Swipe_Horizontal_And_Vertical",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestHomeScreen.Test_Swipe_Horizontal_And_Vertical",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Swipe_Horizontal_And_Vertical"
+    },
+    {
+      "name": "testClass",
+      "value": "TestHomeScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Swipe_Horizontal_And_Vertical",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Swipe_Horizontal_And_Vertical"
+  },
+  "stage": "finished",
+  "description": "HomeScreen functionalities Horizontal and Vertical Swipe \n",
+  "steps": [
+    {
+      "name": "Test_Swipe_Horizontal_And_Vertical",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "19b0dc1b82474eca8be70390025ae9b6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652449674734,
+      "stop": 1652449944349
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652449674734,
+  "stop": 1652449944349
+}

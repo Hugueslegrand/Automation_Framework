@@ -1,0 +1,68 @@
+{
+  "uuid": "40249945-d9e2-4ada-8328-6b8a6d4f588c-tr-0-1077",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_UpperCase_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_UpperCase_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Register_UpperCase_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "Test_Register_UpperCase_User",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 72\r\n   at Automation_Framework.Tests.Screens.HomeScreen.get_SignOutButton() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\HomeScreen.cs:line 15\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_UpperCase_User() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestRegisterScreen.cs:line 108"
+  },
+  "stage": "finished",
+  "description": "Register uppercase user and log in to verify \n",
+  "steps": [
+    {
+      "name": "Test_Register_UpperCase_User",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 72\r\n   at Automation_Framework.Tests.Screens.HomeScreen.get_SignOutButton() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\HomeScreen.cs:line 15\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_UpperCase_User() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestRegisterScreen.cs:line 108"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "41d6aa104fd7439b838e4e00c76c0a77-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652452987284,
+      "stop": 1652453193509
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652452987284,
+  "stop": 1652453193509
+}

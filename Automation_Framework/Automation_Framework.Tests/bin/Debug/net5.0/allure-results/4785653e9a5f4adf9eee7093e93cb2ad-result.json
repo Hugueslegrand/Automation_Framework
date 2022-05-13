@@ -1,0 +1,68 @@
+{
+  "uuid": "a41b3606-2ad8-4aae-985f-dfb5764fd671-tr-0-1066",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestOrderScreen.Test_Watchability_Of_Available_And_Expired_Rented_Movies",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestOrderScreen.Test_Watchability_Of_Available_And_Expired_Rented_Movies",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Watchability_Of_Available_And_Expired_Rented_Movies"
+    },
+    {
+      "name": "testClass",
+      "value": "TestOrderScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Watchability_Of_Available_And_Expired_Rented_Movies",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 72\r\n   at Automation_Framework.Tests.Screens.MyMoviesScreen.get_GoBackButton() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\MyMoviesScreen.cs:line 18\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestOrderScreen.Test_Watchability_Of_Available_And_Expired_Rented_Movies() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestOrderScreen.cs:line 73"
+  },
+  "stage": "finished",
+  "description": "Watchability of available and expired rented movies\n",
+  "steps": [
+    {
+      "name": "Test_Watchability_Of_Available_And_Expired_Rented_Movies",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : An element could not be located on the page using the given search parameters.",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Appium.AppiumDriver`1.FindElementByXPath(String xpath)\r\n   at Automation_Framework.WebElementModels.MobileElement..ctor(AndroidDriver`1 driver, String element, MobileSelector selector) in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\WebElementModels\\MobileElement.cs:line 72\r\n   at Automation_Framework.Tests.Screens.MyMoviesScreen.get_GoBackButton() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Screens\\MyMoviesScreen.cs:line 18\r\n   at Automation_Framework.Tests.Tests.TestMobile.TestOrderScreen.Test_Watchability_Of_Available_And_Expired_Rented_Movies() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestOrderScreen.cs:line 73"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "39486ceadc724aa099fb10785ec5130d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652451197614,
+      "stop": 1652451341586
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652451197614,
+  "stop": 1652451341586
+}

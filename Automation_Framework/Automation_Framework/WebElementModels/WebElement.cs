@@ -1,7 +1,7 @@
 ﻿
 using Automation_Framework.Builders;
 using Automation_Framework.Enums;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using Automation_Framework.Extensions.WebDriver;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
@@ -23,9 +23,7 @@ namespace Automation_Framework.WebElementModels
 
         private AppiumDriver<AndroidElement> _androidDriver;
 
-        public SelectElement SearchBarSelect => new SelectElement(_webElement);
-
-
+     
 
         public string TagName => _webElement.TagName;
 
@@ -47,40 +45,40 @@ namespace Automation_Framework.WebElementModels
             switch (selector)
             {
                 case Selector.Name:
-                    _webDriver.WaitForClickable(By.Name(element));
+                    _webDriver.Exists(By.Name(element));
                     _webElement = _webDriver.FindElement(By.Name(element));
                     _webElements = _webDriver.FindElementAboveZero(By.Name(element));
                     break;
                 case Selector.Id:
-                    _webDriver.WaitForClickable(By.Id(element));
+                    _webDriver.Exists(By.Id(element));
                     _webElement = _webDriver.FindElement(By.Id(element));
                     _webElements = _webDriver.FindElementAboveZero(By.Id(element));
                     break;
                 case Selector.Css:
-                    _webDriver.WaitForClickable(By.CssSelector(element));
+                    _webDriver.Exists(By.CssSelector(element));
                     _webElement = _webDriver.FindElement(By.CssSelector(element));
                     _webElements = _webDriver.FindElementAboveZero(By.CssSelector(element));
                     break;
 
                 case Selector.Xpath:
-                    _webDriver.WaitForClickable(By.XPath(element));
+                    _webDriver.Exists(By.XPath(element));
                     _webElement = _webDriver.FindElement(By.XPath(element));
                     _webElements = _webDriver.FindElementAboveZero(By.XPath(element));
                     break;
 
                 case Selector.LinkText:
-                    _webDriver.WaitForClickable(By.LinkText(element));
+                    _webDriver.Exists(By.LinkText(element));
                     _webElement = _webDriver.FindElement(By.LinkText(element));
                     _webElements = _webDriver.FindElementAboveZero(By.LinkText(element));
                     break;
 
                 case Selector.ClassName:
-                    _webDriver.WaitForClickable(By.ClassName(element));
+                    _webDriver.Exists(By.ClassName(element));
                     _webElement = _webDriver.FindElement(By.ClassName(element));
                     _webElements = _webDriver.FindElementAboveZero(By.ClassName(element));
                     break;
                 case Selector.TagName:
-                    _webDriver.WaitForClickable(By.TagName(element));
+                    _webDriver.Exists(By.TagName(element));
                     _webElement = _webDriver.FindElement(By.TagName(element));
                     _webElements = _webDriver.FindElementAboveZero(By.TagName(element));
                     break;
@@ -90,7 +88,6 @@ namespace Automation_Framework.WebElementModels
                        null);
                     break;
             }
-
         }
 
 
@@ -99,14 +96,16 @@ namespace Automation_Framework.WebElementModels
             _webDriver.OpenLinkInNewTab(_webElement);
         }
 
-        public IWebElement getElement()
+        public IWebElement GetElement()
         {
             return _webElement;
         }
+
         public void ClickOnElement()
         {
             try
             {
+                //Maybe put the scroll in screenshot extension
                 _webDriver.ExecuteJsObject("arguments[0].scrollIntoView(true);", _webElement);
                 _webDriver.ClickOnElement(_webElement);
                
@@ -122,7 +121,7 @@ namespace Automation_Framework.WebElementModels
         }
 
 
-        public IList<IWebElement> getElements()
+        public IList<IWebElement> GetElements()
         {
             return _webElements;
         }
@@ -173,10 +172,6 @@ namespace Automation_Framework.WebElementModels
             
         }
 
-        public bool ElementIsVisible()
-        {
-            Log.Info($"Controlling the visibility of the {_webElement.TagName} `{_webElement.Text}`");
-            return _webElement.Displayed;
-        }
+       
     }
 }

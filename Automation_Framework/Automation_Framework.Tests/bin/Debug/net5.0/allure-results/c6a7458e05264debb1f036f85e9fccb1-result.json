@@ -1,0 +1,65 @@
+{
+  "uuid": "9c394e4a-945b-4624-810b-75e5af82ca71-tr-0-1070",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_NonNumberInput",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_NonNumberInput",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_NonNumberInput"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfileScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_NonNumberInput",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Add_Credits_To_Profile_NonNumberInput"
+  },
+  "stage": "finished",
+  "description": "Add credits to profile (non-number input)\n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_NonNumberInput",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "46527f55d3434a97a97fb44dd0df46ad-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652451676624,
+      "stop": 1652451990813
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652451676624,
+  "stop": 1652451990813
+}

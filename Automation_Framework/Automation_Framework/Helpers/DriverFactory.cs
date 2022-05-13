@@ -77,7 +77,7 @@ namespace Automation_Framework.Helpers
                     return new DriverListener(operaDriver, logger);
                 case BrowserName.Safari:
                     RemoteWebDriver safariDriver = new RemoteWebDriver(new Uri(driverConfig.GridUrl),
-                      DriverSettings.SafariOptions(driverConfig).ToCapabilities(), TimeSpan.FromMinutes(2));
+                      DriverSettings.SafariOptions().ToCapabilities(), TimeSpan.FromMinutes(2));
 
                     safariDriver.Manage().Timeouts().PageLoad.Add(TimeSpan.FromSeconds(20));
                     Thread.Sleep(TimeSpan.FromSeconds(2));
@@ -121,7 +121,7 @@ namespace Automation_Framework.Helpers
                     return new DriverListener(operaDriver, logger);
                 case BrowserName.Safari:
                     new DriverManager().SetUpDriver(new OperaConfig());
-                    SafariDriver safariDriver = new SafariDriver(DriverSettings.SafariOptions(driverConfig));
+                    SafariDriver safariDriver = new SafariDriver(DriverSettings.SafariOptions());
                     return new DriverListener(safariDriver, logger);
                 default:
                     throw new ArgumentOutOfRangeException(nameof(Configuration.WebDriver.BrowserName),
@@ -142,7 +142,7 @@ namespace Automation_Framework.Helpers
         public AndroidDriver<AndroidElement> GetNativeAndroidDriver(NativeMobileDriverConfiguration driverConfig)
         {
 
-            AndroidDriver<AndroidElement> androidDriver = new AndroidDriver<AndroidElement>(new Uri("http://localhost:4723/wd/hub"), DriverSettings.NativeMobileOptions(driverConfig));
+            AndroidDriver<AndroidElement> androidDriver = new AndroidDriver<AndroidElement>(new Uri("http://localhost:4723/wd/hub"), DriverSettings.NativeMobileOptions(driverConfig), TimeSpan.FromMinutes(2));
             return androidDriver;
         }
 
@@ -153,7 +153,7 @@ namespace Automation_Framework.Helpers
         /// <returns>Returns a new IOSDriver with native options</returns>
         public IOSDriver<IOSElement> GetNativeIOSDriver(NativeMobileDriverConfiguration driverConfig)
         {
-            IOSDriver<IOSElement> iosDriver = new IOSDriver<IOSElement>(new Uri("http://localhost:4723/wd/hub"), DriverSettings.NativeMobileOptions(driverConfig));
+            IOSDriver<IOSElement> iosDriver = new IOSDriver<IOSElement>(new Uri("http://localhost:4723/wd/hub"), DriverSettings.NativeMobileOptions(driverConfig), TimeSpan.FromMinutes(2));
             return iosDriver;
         }
 
@@ -165,7 +165,7 @@ namespace Automation_Framework.Helpers
         public AndroidDriver<AndroidElement> GetWebAndroidDriver(WebMobileDriverConfiguration driverConfig)
         {
 
-            AndroidDriver<AndroidElement> androidDriver = new AndroidDriver<AndroidElement>(new Uri("http://localhost:4723/wd/hub"), DriverSettings.WebMobileOptions(driverConfig));
+            AndroidDriver<AndroidElement> androidDriver = new AndroidDriver<AndroidElement>(new Uri("http://localhost:4723/wd/hub"), DriverSettings.WebMobileOptions(driverConfig), TimeSpan.FromMinutes(2));
             return androidDriver;
         }
 
@@ -176,7 +176,7 @@ namespace Automation_Framework.Helpers
         /// <returns>Returns a new IOSDriver with web browser options</returns>
         public IOSDriver<IOSElement> GetWebIOSDriver(WebMobileDriverConfiguration driverConfig)
         {
-            IOSDriver<IOSElement> iosDriver = new IOSDriver<IOSElement>(new Uri("http://localhost:4723/wd/hub"), DriverSettings.WebMobileOptions(driverConfig));
+            IOSDriver<IOSElement> iosDriver = new IOSDriver<IOSElement>(new Uri("http://localhost:4723/wd/hub"), DriverSettings.WebMobileOptions(driverConfig), TimeSpan.FromMinutes(2));
             return iosDriver;
         }
 

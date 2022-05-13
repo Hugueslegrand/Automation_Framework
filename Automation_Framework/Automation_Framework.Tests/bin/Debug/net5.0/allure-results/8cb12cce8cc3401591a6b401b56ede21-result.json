@@ -1,0 +1,65 @@
+{
+  "uuid": "c1e33ea4-c848-4c9b-801b-8c1444c48e30-tr-0-1079",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_Unmatching_Passwords",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_Unmatching_Passwords",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Register_Unmatching_Passwords"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "Test_Register_Unmatching_Passwords",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Register_Unmatching_Passwords"
+  },
+  "stage": "finished",
+  "description": "Register a new user with unmatching passwords \n",
+  "steps": [
+    {
+      "name": "Test_Register_Unmatching_Passwords",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9763adfd32d24721b4f4cc6a3a35390d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652453438543,
+      "stop": 1652453618137
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652453438543,
+  "stop": 1652453618137
+}

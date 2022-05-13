@@ -1,0 +1,65 @@
+{
+  "uuid": "e7cd4c9a-ab06-44ea-8dde-6d429641d6fb-tr-0-1083",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_RemoveRegisteredUsers",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_RemoveRegisteredUsers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_RemoveRegisteredUsers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "Test_RemoveRegisteredUsers",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_RemoveRegisteredUsers"
+  },
+  "stage": "finished",
+  "description": "Delete registered Users for continious testing\n",
+  "steps": [
+    {
+      "name": "Test_RemoveRegisteredUsers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "815eea3d20424605aa2690608ae4168c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652454286369,
+      "stop": 1652454335963
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652454286369,
+  "stop": 1652454335963
+}

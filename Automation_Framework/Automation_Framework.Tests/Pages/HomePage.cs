@@ -36,7 +36,7 @@ namespace Automation_Framework.Tests.Pages
         public object getElements()
         {
 
-            return allLITags.getElements().First(x => x.Text == "FATMAN");
+            return allLITags.GetElements().First(x => x.Text == "FATMAN");
 
         }
 

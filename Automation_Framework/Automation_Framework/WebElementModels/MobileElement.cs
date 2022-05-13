@@ -1,33 +1,53 @@
 ﻿using Automation_Framework.Enums;
 using Automation_Framework.Extensions.MobileDriver;
 using Automation_Framework.Extensions.WebDriver;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
 using System;
-
+using System.Drawing;
 
 namespace Automation_Framework.WebElementModels
 {
     public class MobileElement :Log, IAndroidElement, IIOSElement
     {
+
         private AppiumDriver<AndroidElement>? _androidDriver;
         private AndroidElement? _androidElement;
         private AppiumDriver<IOSElement>? _iosDriver;
         private IOSElement? _iosElement;
 
-        public string TagName => _androidElement.TagName;
 
-        public string Text => _androidElement.Text;
+        public string AndroidTagName => _androidElement.TagName;
+       
+        public string AndroidText => _androidElement.Text;
 
-        public bool Enabled => _androidElement.Enabled;
+        public bool AndroidEnabled => _androidElement.Enabled;
 
-        public bool Selected => _androidElement.Selected;
+        public bool AndroidSelected => _androidElement.Selected;
 
-        public bool Displayed => _androidElement.Displayed;
+        public bool AndroidDisplayed => _androidElement.Displayed;
 
+        public Size AndroidSize => _androidElement.Size;
 
+        public Point AndroidLocation => _androidElement.Location;
+
+        public string IOSTagName => _iosElement.TagName;
+
+        public string IOSText => _iosElement.Text;
+
+        public bool IOSEnabled => _iosElement.Enabled;
+
+        public bool IOSSelected => _iosElement.Selected;
+
+        public bool IOSDisplayed => _iosElement.Displayed;
+
+        public Size IOSSize => _iosElement.Size;
+
+        public Point IOSLocation => _iosElement.Location;
+
+        
 
         public MobileElement(AndroidDriver<AndroidElement> driver, string element, MobileSelector selector)
         {
@@ -142,10 +162,6 @@ namespace Automation_Framework.WebElementModels
         {
             _androidDriver.Swipe(startX, startY, endX, endY, duration);
         }
-
-
-
-
 
     }
 }

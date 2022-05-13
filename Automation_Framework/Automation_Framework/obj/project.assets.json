@@ -5486,7 +5486,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.2.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
       "projectName": "Automation_Framework",

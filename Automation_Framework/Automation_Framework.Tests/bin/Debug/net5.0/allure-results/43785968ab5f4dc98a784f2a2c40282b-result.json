@@ -1,0 +1,65 @@
+{
+  "uuid": "da448277-b785-4f0a-a93b-9988744ae0ee-tr-0-1047",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestAdminPanelScreen.Test_AdminPanel_elements_are_present",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestAdminPanelScreen.Test_AdminPanel_elements_are_present",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_AdminPanel_elements_are_present"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAdminPanelScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_AdminPanel_elements_are_present",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_AdminPanel_elements_are_present"
+  },
+  "stage": "finished",
+  "description": "Admin is able to navigate to admin panel and the necessary elements are present.\n",
+  "steps": [
+    {
+      "name": "Test_AdminPanel_elements_are_present",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "018185bab55d441e94804bf9cee9a706-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652448523688,
+      "stop": 1652448935324
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652448523688,
+  "stop": 1652448935324
+}

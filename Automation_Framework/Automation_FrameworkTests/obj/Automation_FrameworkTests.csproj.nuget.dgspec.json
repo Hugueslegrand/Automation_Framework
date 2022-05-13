@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj": {}
+    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj": {
+    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj",
+        "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj",
         "projectName": "Automation_FrameworkTests",
-        "projectPath": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj",
-        "packagesPath": "C:\\Users\\Khalid EM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\obj\\",
+        "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj",
+        "packagesPath": "C:\\Users\\hugue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Khalid EM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hugue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -31,8 +34,8 @@
           "net5.0": {
             "targetAlias": ".NETCoreApp,Version=v5.0",
             "projectReferences": {
-              "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
-                "projectPath": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj"
+              "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
+                "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj"
               }
             }
           }
@@ -85,25 +88,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
+      "version": "1.2.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
         "projectName": "Automation_Framework",
-        "projectPath": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
-        "packagesPath": "C:\\Users\\Khalid EM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\obj\\",
+        "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
+        "packagesPath": "C:\\Users\\hugue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Khalid EM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hugue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -204,7 +210,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

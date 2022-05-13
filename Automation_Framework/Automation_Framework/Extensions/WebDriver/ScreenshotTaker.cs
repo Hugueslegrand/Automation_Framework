@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using Allure.Commons;
 using Automation_Framework.Helpers;
-using Automation_Framework.Utility;
+using Automation_Framework.Utilities;
 using OpenQA.Selenium;
 
 

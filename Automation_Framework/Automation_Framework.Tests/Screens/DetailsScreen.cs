@@ -28,15 +28,15 @@ namespace Automation_Framework.Tests.Screens
 
         public string GetInnerText_AndroidNotificationCloseIcon()
         {
-            return AndroidNotificationCloseIcon.Text;
+            return AndroidNotificationCloseIcon.AndroidText;
         }
         public string GetInnerText_AndroidNotificationTitle()
         {
-            return AndroidNotificationTitle.Text;
+            return AndroidNotificationTitle.AndroidText;
         }
         public string GetInnerText_AndroidNotificationMessage()
         {
-            return AndroidNotificationMessage.Text;
+            return AndroidNotificationMessage.AndroidText;
         }
 
         //Android Functions

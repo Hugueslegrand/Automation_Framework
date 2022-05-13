@@ -38,53 +38,6 @@ namespace Automation_Framework.Extensions.MobileDriver
             touchAction.Perform();
         }
 
-        /*public static void Swipe(this AppiumDriver<AndroidElement> driver, Direction dir)
-        {
-            int windowWidth = driver.Manage().Window.Size.Width;
-            int windowHeight = driver.Manage().Window.Size.Height;
-            int startX, endX, startY, endY;
-           
-
-            switch (dir)
-            {
-                case Direction.DOWN: // center of footer
-                    startX = endX = windowWidth / 2;
-                    startY = (int)(windowHeight * 0.8);
-                    endY = (int)(windowHeight * 0.2);
-                    break;
-                case Direction.UP: // center of header
-                    startX = endX = windowWidth / 2;
-                    startY = (int)(windowHeight * 0.2);
-                    endY = (int)(windowHeight * 0.8);
-                    break;
-                case Direction.LEFT: // center of left side
-                    startY = endY = windowHeight / 2;
-                    startX = (int)(windowHeight * 0.8);
-                    endX = (int)(windowHeight * 0.2);
-                    break;
-                case Direction.RIGHT: // center of right side
-                    startY = endY = windowHeight / 2;
-                    startX = (int)(windowHeight * 0.2);
-                    endX = (int)(windowHeight * 0.8);
-                    break;
-                default:
-                    throw new Exception("swipeScreen(): dir: '" + dir + "' NOT supported");
-            }
-
-            try
-            {
-                new TouchAction(driver)
-                            .Press(startX, startY)
-                            .Wait(300)
-                            .MoveTo(endX, endY)
-                            .Release()
-                            .Perform();
-            }
-            catch (Exception e)
-            {
-                
-            }
-            
-        }*/
+       
     }
 }

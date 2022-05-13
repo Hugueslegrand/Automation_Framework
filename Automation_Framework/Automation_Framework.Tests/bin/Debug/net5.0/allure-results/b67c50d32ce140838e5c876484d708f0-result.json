@@ -1,0 +1,68 @@
+{
+  "uuid": "7ac19eee-9c21-49b0-9b98-d536ef26eb59-tr-0-1082",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_User_With_Special_Characters",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_User_With_Special_Characters",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Register_User_With_Special_Characters"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRegistration"
+    }
+  ],
+  "links": [],
+  "name": "Test_Register_User_With_Special_Characters",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Register_User_With_Special_Characters",
+    "trace": "   at Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_User_With_Special_Characters() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestRegisterScreen.cs:line 263\r\n"
+  },
+  "stage": "finished",
+  "description": "Register user with special characters\n",
+  "steps": [
+    {
+      "name": "Test_Register_User_With_Special_Characters",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "",
+        "trace": "   at Automation_Framework.Tests.Tests.TestMobile.TestRegistration.Test_Register_User_With_Special_Characters() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestRegisterScreen.cs:line 263\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0f91fd72f71a40d98afd076b24fb9d18-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652454042010,
+      "stop": 1652454286361
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652454042010,
+  "stop": 1652454286361
+}

@@ -37,7 +37,7 @@ namespace Automation_Framework.Tests.Pages
         public IList<IWebElement> getElements()
         {
 
-            return AllMyMovies.getElements();
+            return AllMyMovies.GetElements();
 
         }
 

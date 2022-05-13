@@ -1,15 +1,18 @@
 ﻿
 using Automation_Framework.Tests.Screens;
-
+using Automation_Framework.Tests.Tests.MobileTests;
 using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-    public class TestSearchBarScreen : BaseTest
+    [Property("runname", "TestSearchBarScreen")]
+    [Property("suiteid", "344")]
+    [Property("projectid", "174")]
+    public class TestSearchBarScreen : MobileBaseTest
     {
 
-        [Test]
-        [Description("")]
+        [Test, Property("caseid", "7352")]
+        [Description("Searchbar filters movies accordingly")]
         public void Test()
         {
             HomeScreen homeScreen = new HomeScreen(builder);

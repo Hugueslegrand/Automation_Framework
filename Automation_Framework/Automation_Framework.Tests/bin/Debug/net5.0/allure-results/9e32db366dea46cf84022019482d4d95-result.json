@@ -1,0 +1,65 @@
+{
+  "uuid": "0bd86172-c796-4bbc-b159-de04f54a1350-tr-0-1062",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Logged_Navigation_Layout",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Logged_Navigation_Layout",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Logged_Navigation_Layout"
+    },
+    {
+      "name": "testClass",
+      "value": "TestNavigationScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Logged_Navigation_Layout",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Logged_Navigation_Layout"
+  },
+  "stage": "finished",
+  "description": "Navigation screen Top and Bottom ( Logged end user )\n",
+  "steps": [
+    {
+      "name": "Test_Logged_Navigation_Layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "888eb9b31d0c4b85a476d066a66444f4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652450767745,
+      "stop": 1652450928711
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652450767745,
+  "stop": 1652450928711
+}

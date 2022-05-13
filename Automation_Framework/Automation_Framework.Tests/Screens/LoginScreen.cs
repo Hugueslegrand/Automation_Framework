@@ -25,7 +25,7 @@ namespace Automation_Framework.Tests.Screens
 
         public string GetInnerText_Warning()
         {
-            return LoginWarning.Text;
+            return LoginWarning.AndroidText;
         }
 
         public void ClickBackButton() => BackButton.AndroidClick();

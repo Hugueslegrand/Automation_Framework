@@ -43,7 +43,7 @@ namespace Automation_Framework.TestRail.Service.Base.Concrete
                 var data = new Dictionary<string, object>
                 {
                     { "suite_id", run.suite_id },
-                    { "name", string.IsNullOrEmpty(run.name) ? GetDefaultTestRunName() :  run.name },
+                    { "name", string.IsNullOrEmpty(run.name) ? GetDefaultTestRunName() :  run.name+" "+GetDefaultTestRunName() },
                     { "description", run.description },
                     { "include_all", run.include_all }
                 };

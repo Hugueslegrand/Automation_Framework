@@ -1,0 +1,65 @@
+{
+  "uuid": "be1cebf6-76be-442e-979d-81dddc1ffe79-tr-0-1065",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestOrderScreen.Test_Visual_Layout_Of_MyMoviesScreen",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestOrderScreen.Test_Visual_Layout_Of_MyMoviesScreen",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Visual_Layout_Of_MyMoviesScreen"
+    },
+    {
+      "name": "testClass",
+      "value": "TestOrderScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Visual_Layout_Of_MyMoviesScreen",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Visual_Layout_Of_MyMoviesScreen"
+  },
+  "stage": "finished",
+  "description": "Visual layout of order screen \n",
+  "steps": [
+    {
+      "name": "Test_Visual_Layout_Of_MyMoviesScreen",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ef426c3e9b60490898a7c22768ca7727-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652451023378,
+      "stop": 1652451197610
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652451023378,
+  "stop": 1652451197610
+}

@@ -1,0 +1,65 @@
+{
+  "uuid": "5c92bc78-902a-48c8-912f-2855c48b90a9-tr-0-1068",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Visual_Layout_Of_ProfileScreen",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Visual_Layout_Of_ProfileScreen",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Visual_Layout_Of_ProfileScreen"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfileScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Visual_Layout_Of_ProfileScreen",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Visual_Layout_Of_ProfileScreen"
+  },
+  "stage": "finished",
+  "description": "Visual layout of profile screen \n",
+  "steps": [
+    {
+      "name": "Test_Visual_Layout_Of_ProfileScreen",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9ff1b105a1ee45c0989fd1ec28637276-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652452334102,
+      "stop": 1652452563121
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652452334102,
+  "stop": 1652452563121
+}

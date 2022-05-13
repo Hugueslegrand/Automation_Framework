@@ -1,0 +1,68 @@
+{
+  "uuid": "d21f4860-6c17-4ca8-acb5-78f6cc8ac97a-tr-0-1072",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_NegativeNumbers",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_NegativeNumbers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Add_Credits_To_Profile_NegativeNumbers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProfileScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Add_Credits_To_Profile_NegativeNumbers",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Add_Credits_To_Profile_NegativeNumbers",
+    "trace": "   at Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_NegativeNumbers() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestProfileScreen.cs:line 253\r\n"
+  },
+  "stage": "finished",
+  "description": "Add credits to profile (negative integer) \n",
+  "steps": [
+    {
+      "name": "Test_Add_Credits_To_Profile_NegativeNumbers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "",
+        "trace": "   at Automation_Framework.Tests.Tests.TestMobile.TestProfileScreen.Test_Add_Credits_To_Profile_NegativeNumbers() in C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework.Tests\\Tests\\MobileTests\\TestProfileScreen.cs:line 253\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f362b85bbae64461a4314e73829506e8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652451505463,
+      "stop": 1652451676621
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652451505463,
+  "stop": 1652451676622
+}

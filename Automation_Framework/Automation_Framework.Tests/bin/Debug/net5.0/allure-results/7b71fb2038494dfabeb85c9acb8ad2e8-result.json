@@ -1,0 +1,65 @@
+{
+  "uuid": "96ce4548-5187-454c-b1d1-dca5038a9f65-tr-0-1063",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Administration_Navigation_Layout",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestNavigationScreen.Test_Administration_Navigation_Layout",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Administration_Navigation_Layout"
+    },
+    {
+      "name": "testClass",
+      "value": "TestNavigationScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Administration_Navigation_Layout",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Administration_Navigation_Layout"
+  },
+  "stage": "finished",
+  "description": "Navigation screen Top and Bottom ( Administrator )\n",
+  "steps": [
+    {
+      "name": "Test_Administration_Navigation_Layout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "df4c7c25160f42ce9250881ca6e99c02-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652450600058,
+      "stop": 1652450767743
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652450600058,
+  "stop": 1652450767743
+}

@@ -2,6 +2,9 @@
 
 namespace Automation_Framework.Enums
 {
+    /// <summary>
+    /// Emuration of platform types used to build the desired driver instance
+    /// </summary>
     public enum PlatformType
     {
         /// <summary>

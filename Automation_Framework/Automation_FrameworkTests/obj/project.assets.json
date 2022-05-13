@@ -1522,7 +1522,7 @@
           "lib/netstandard2.1/WebDriverManager.dll": {}
         }
       },
-      "Automation_Framework/1.0.0": {
+      "Automation_Framework/1.2.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -5882,7 +5882,7 @@
         "webdrivermanager.nuspec"
       ]
     },
-    "Automation_Framework/1.0.0": {
+    "Automation_Framework/1.2.1": {
       "type": "project",
       "path": "../Automation_Framework/Automation_Framework.csproj",
       "msbuildProject": "../Automation_Framework/Automation_Framework.csproj"
@@ -5890,7 +5890,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Automation_Framework >= 1.0.0",
+      "Automation_Framework >= 1.2.1",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
@@ -5905,9 +5905,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj",
-      "projectName": "Automation_FrameworkTests",
-      "projectPath": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\Automation_FrameworkTests.csproj",
+      "projectUniqueName": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\UnitTests.csproj",
+      "projectName": "UnitTests",
+      "projectPath": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\Khalid EM\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Khalid EM\\Desktop\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_Framework\\Automation_FrameworkTests\\obj\\",
       "projectStyle": "PackageReference",

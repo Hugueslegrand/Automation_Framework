@@ -1,0 +1,65 @@
+{
+  "uuid": "68201d02-d29b-44fe-bfa1-deb0036aa120-tr-0-1057",
+  "historyId": "Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_As_Not_Existing_User",
+  "fullName": "Automation_Framework.Tests.Tests.TestMobile.TestLoginScreen.Test_Login_As_Not_Existing_User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSI"
+    },
+    {
+      "name": "package",
+      "value": "Automation_Framework.Tests.Tests.TestMobile"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test_Login_As_Not_Existing_User"
+    },
+    {
+      "name": "testClass",
+      "value": "TestLoginScreen"
+    }
+  ],
+  "links": [],
+  "name": "Test_Login_As_Not_Existing_User",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test_Login_As_Not_Existing_User"
+  },
+  "stage": "finished",
+  "description": "Login as an NOT existing user \n",
+  "steps": [
+    {
+      "name": "Test_Login_As_Not_Existing_User",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6ab130a330ea4a5aa1ea876ce169a6d6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1652450226614,
+      "stop": 1652450356598
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1652450226614,
+  "stop": 1652450356598
+}

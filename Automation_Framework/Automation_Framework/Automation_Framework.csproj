@@ -4,10 +4,63 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
 
-    <IsPackable>false</IsPackable>
+    <IsPackable>true</IsPackable>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <PackageId>Automation_Framework</PackageId>
+
+    <Authors>Automation_Framework</Authors>
+
+    <Company>Automation_Framework</Company>
+
+    <Product>Automation_Framework</Product>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <Description></Description>
+
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <Version>1.2.1</Version>
   </PropertyGroup>
 
-  <ItemGroup>
+
+
+	<ItemGroup>
+		<Content Include="Template\*\*">
+			<Pack>
+				true
+			</Pack>
+			<PackagePath>
+				/contentFiles/any/net5.0/Template
+			</PackagePath>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Compile Remove="Template\Pages\HomePage.cs" />
+		<Compile Remove="Template\Pages\LoginPage.cs" />
+		<Compile Remove="Template\Pages\Navigation.cs" />
+		<Compile Remove="Template\Screens\HomeScreen.cs" />
+		<Compile Remove="Template\Tests\TestKeyboardShortcuts.cs" />
+		<Content Include="Template\appSettings.json">
+			<Pack>
+				true
+			</Pack>
+			<PackagePath>
+				/contentFiles/any/net5.0/Template
+			</PackagePath>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+
+
+	
+
+
+
+
+	<ItemGroup>
     <PackageReference Include="Appium.WebDriver" Version="4.3.1" />
     <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="FluentAssertions" Version="6.5.1" />
@@ -23,6 +76,11 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="WebDriverManager" Version="2.12.3" />
+
+
   </ItemGroup>
+
+
+
 
 </Project>

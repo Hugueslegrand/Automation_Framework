@@ -12,7 +12,7 @@ using Automation_Framework.Enums;
 namespace Automation_Framework.Tests.Tests
 {
 
-    [Property("runname", "TestLogin")]
+  
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     // [Parallelizable(scope: ParallelScope.All)]

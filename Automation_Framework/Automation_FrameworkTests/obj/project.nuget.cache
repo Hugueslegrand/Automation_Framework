@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wBW/mwLvzYMXReLduNCPMCRPDYxt8MoWmqG3pCzdUBq+8STM/HsrI5UoDMdiR49FUNVPoLu8LjWgD4ZgOpi9Ng==",
+  "dgSpecHash": "y06ytUNKVgwH6uYoyZGjgIkQ/C6MXrg/ZfwTwG+8Bh9xMuPwg2+hfbSu08+98OlXSHUvBofwkZ4LpzAUSNTwmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_FrameworkTests\\UnitTests.csproj",
   "expectedPackageFiles": [
@@ -94,8 +94,7 @@
     "C:\\Users\\hugue\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\hugue\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\hugue\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\hugue\\.nuget\\packages\\webdrivermanager\\2.12.3\\webdrivermanager.2.12.3.nupkg.sha512",
-    "C:\\Users\\hugue\\.nuget\\packages\\automation_framework\\1.2.1\\automation_framework.1.2.1.nupkg.sha512"
+    "C:\\Users\\hugue\\.nuget\\packages\\webdrivermanager\\2.12.3\\webdrivermanager.2.12.3.nupkg.sha512"
   ],
   "logs": []
 }

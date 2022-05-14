@@ -8,7 +8,7 @@ using Automation_Framework.Tests.Models;
 
 namespace Automation_Framework.Tests.Tests
 {
-    [Property("runname", "TestRentMovieButton")]
+   
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestRentMovieButton : BaseTest

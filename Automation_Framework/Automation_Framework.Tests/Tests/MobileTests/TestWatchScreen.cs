@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
 
-    [Property("runname", "TestWatchScreen")]
+   
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestWatchScreen : MobileBaseTest

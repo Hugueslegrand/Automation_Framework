@@ -7,8 +7,7 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-  
-    [Property("runname", "TestOrderScreen")]
+
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestOrderScreen : MobileBaseTest
@@ -45,36 +44,6 @@ namespace Automation_Framework.Tests.Tests.TestMobile
         }
 
 
-        //Nakijken
-        [Test, Property("caseid", "7336")]
-        [Description("Watchability of available and expired rented movies")]
-        public void Test_Watchability_Of_Available_And_Expired_Rented_Movies()
-        {
-            HomeScreen homeScreen = new HomeScreen(builder);
-            LoginScreen loginScreen = new LoginScreen(builder);
-            NavigationScreen navigationScreen = new NavigationScreen(builder);
-            MyMoviesScreen myMoviesScreen = new MyMoviesScreen(builder);
-
-            homeScreen.WaitSeconds(50);
-          
-            homeScreen.ClickSignInButton();
-            homeScreen.WaitSeconds(4);
-            loginScreen.AndroidLogin(userAdminExist.email, userAdminExist.password);
-            homeScreen.WaitSeconds(4);
-            navigationScreen.MyMoviesTab.Should();
-            navigationScreen.ClickMyMoviesTab();
-            homeScreen.WaitSeconds(4);
-            // myMoviesScreen.MovieCard.Should();
-            // myMoviesScreen.MovieCardImage.Should();
-            // myMoviesScreen.MovieCardTitle.Should();
-            // myMoviesScreen.MovieCardDate.Should();
-            myMoviesScreen.WatchMovieButton.Should();
-
-            myMoviesScreen.GoBackButton.Should();
-            myMoviesScreen.ClickGoBackButton();
-            homeScreen.WaitSeconds(1);
-
-
-        }
+      
     }
 }

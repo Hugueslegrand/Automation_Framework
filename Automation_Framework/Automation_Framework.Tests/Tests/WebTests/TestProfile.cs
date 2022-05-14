@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace Automation_Framework.Tests.Tests
 {
 
-    [Property("runname", "TestProfile")]
+    
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestProfile : BaseTest
@@ -97,6 +97,7 @@ namespace Automation_Framework.Tests.Tests
             ProfilePage profilePage = new ProfilePage(builder);
 
             profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.WaitSeconds(1);
             profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("notNumberInput");
             profilePage.BuyCreditsButton.ClickOnElement();
@@ -163,6 +164,7 @@ namespace Automation_Framework.Tests.Tests
 
 
             profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.WaitSeconds(1);
             profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("-1");
             profilePage.BuyCreditsButton.ClickOnElement();
@@ -193,7 +195,9 @@ namespace Automation_Framework.Tests.Tests
 
             navigation.ProfileButton.ClickOnElement();
             ProfilePage profilePage = new ProfilePage(builder);
+            profilePage.WaitSeconds(1);
             profilePage.AddCreditsButton.ClickOnElement();
+            profilePage.WaitSeconds(1);
             profilePage.AmountOfCredits.ClickOnElement();
             profilePage.FillAmountOfCredits("30");
             profilePage.CancelPaymentButton.ClickOnElement();

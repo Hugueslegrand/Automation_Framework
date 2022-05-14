@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Automation_Framework.Tests.Tests
 {
-    [Property("runname", "TestSequentiel")]
+
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestSequentiel 
@@ -116,7 +116,7 @@ namespace Automation_Framework.Tests.Tests
         {
 
             builder.CloseDriver(PlatformType.Desktop);
-            builder.BuildDriver(PlatformType.Android);
+            builder.CloseDriver(PlatformType.Android);
             Log.EndTestCase(TestContext.CurrentContext.Result.Message);
         }
     }

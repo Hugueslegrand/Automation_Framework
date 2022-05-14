@@ -8,7 +8,7 @@ using Automation_Framework.Tests.Models;
 namespace Automation_Framework.Tests.Tests
 {
 
-    [Property("runname", "TestSearchBar")]
+   
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestSearchBar : BaseTest

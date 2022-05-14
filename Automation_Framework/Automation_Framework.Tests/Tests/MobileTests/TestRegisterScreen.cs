@@ -9,7 +9,7 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-    [Property("runname", "TestRegistration")]
+
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestRegistration : MobileBaseTest
@@ -239,12 +239,12 @@ namespace Automation_Framework.Tests.Tests.TestMobile
                                              registerNewUserSpecialCharacters.password,
                                              registerNewUserSpecialCharacters.rePassword);
             homeScreen.WaitSeconds(4);
-            loginScreen.AndroidLogin(registerNewUserSpecialCharacters.email, registerNewUserSpecialCharacters.password);
-            homeScreen.WaitSeconds(4);
+           
           
             bool result;
             try
-            {
+            { loginScreen.AndroidLogin(registerNewUserSpecialCharacters.email, registerNewUserSpecialCharacters.password);
+            homeScreen.WaitSeconds(4);
                 homeScreen.SignOutButton.Should();
                 navigationScreen.HomeTab.Should();
                 navigationScreen.MyMoviesTab.Should();

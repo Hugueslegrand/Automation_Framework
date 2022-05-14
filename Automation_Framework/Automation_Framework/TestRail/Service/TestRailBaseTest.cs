@@ -25,14 +25,15 @@ namespace Automation_Framework.TestRail.Service
 
         private TestContext _fixtureContext;
         private TestRailApi _testRailApi;
-        private string _suiteid, _projectid;
+        private string _suiteid, _projectid, _runName;
         
         private int _projectIdInt, _suiteIdInt, _caseId;
         private List<Result> _resultsForCases;
 
         private TestRailConfiguration testRailConfig = Configuration.TestRail;
         private bool IgnoreAddResults;
-
+        private static int runToSave = 0;
+        private static int runId;
         [OneTimeSetUp]
         public void FixtureSetup()
         {
@@ -43,6 +44,12 @@ namespace Automation_Framework.TestRail.Service
                 InitTestRailConfig();
                 ValidateSuiteIdAndProjectId();
                 _resultsForCases = new List<Result>();
+                
+                if (runToSave == 0 )
+                {
+                    runId = _testRailApi.CreateRun(new Run { project_id = _projectIdInt, name = _runName, suite_id = _suiteIdInt,  include_all = true });
+                    runToSave = runId;
+                }
             }
             catch (Exception ex)
             {
@@ -59,7 +66,7 @@ namespace Automation_Framework.TestRail.Service
             {
                 if (_resultsForCases.Count > 0)
                 {
-                    var runId = _testRailApi.CreateRun(new Run { project_id = _projectIdInt, suite_id = _suiteIdInt, include_all = false });
+                  
                     if (runId > 0) _testRailApi.AddResultsForCases(runId, _resultsForCases);
                 }
             }
@@ -75,7 +82,7 @@ namespace Automation_Framework.TestRail.Service
                 var caseid = TestContext.CurrentContext.Test.Properties.Get("caseid")?.ToString();
                 if (Int32.TryParse(caseid, out _caseId))
                 {
-                    var result = new Result { case_id = _caseId, comment = TestContext.CurrentContext.Result.Message };
+                    var result = new Result { case_id = _caseId, comment = TestContext.CurrentContext.Result.Message};
                     var resultState = TestContext.CurrentContext.Result.Outcome;
 
                     if (resultState == ResultState.Success) result.status_id = 1;
@@ -105,6 +112,7 @@ namespace Automation_Framework.TestRail.Service
         {
             _suiteid = _fixtureContext.Test.Properties.Get("suiteid")?.ToString();
             _projectid = _fixtureContext.Test.Properties.Get("projectid")?.ToString();
+            _runName = _fixtureContext.Test.Properties.Get("runName")?.ToString();
 
             if (string.IsNullOrEmpty(_suiteid)) throw new Exception("Invalid suite id");
             if (string.IsNullOrEmpty(_projectid)) throw new Exception("Invalid project id");

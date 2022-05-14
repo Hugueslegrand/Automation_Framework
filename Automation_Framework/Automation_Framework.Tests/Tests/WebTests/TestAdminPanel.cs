@@ -8,8 +8,7 @@ using Automation_Framework.Tests.Models;
 namespace Automation_Framework.Tests.Tests
 {
 
-    
-   [Property("runname","TestAdminPanel")]
+    [Property("runName", "All bugs on")]
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestAdminPanel : BaseTest
@@ -17,26 +16,50 @@ namespace Automation_Framework.Tests.Tests
 
         User userAdminExist = new User("stageadmin@stageadmin.stageadmin", "StageAdmin0221!");
 
-        [Test, Order(1), Property("caseid", "7287")]
-        [Description("Test: Set-Up for Testing by setting of all Bugs")]
-        public void Test_AdminPanel_BugsOFf()
-        {
-            Navigation navigation = new Navigation(builder);
-            navigation.WaitSeconds(6);
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
-            navigation.SignInButton.ClickOnElement();
 
-            LoginPage loginPage = new LoginPage(builder);
-            loginPage.Login(userAdminExist.email, userAdminExist.password);
+       
+        //[Test, Order(1), Property("caseid", "7361")]
+        //[Description("Test: Set-Up for Testing by setting on all Bugs")]
+        //public void Test_AdminPanel_BugsON()
+        //{
+        //    Navigation navigation = new Navigation(builder);
+        //    navigation.WaitSeconds(7);
+        //    navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+        //    navigation.SignInButton.ClickOnElement();
 
-            navigation.SettingsButton.Should();
-            navigation.SettingsButton.ClickOnElement();
-            navigation.WaitSeconds(6);
+        //    LoginPage loginPage = new LoginPage(builder);
+        //    loginPage.Login(userAdminExist.email, userAdminExist.password);
+
+        //    navigation.SettingsButton.Should();
+        //    navigation.SettingsButton.ClickOnElement();
+        //    navigation.WaitSeconds(6);
 
 
-            AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
-            adminPanelPage.AllBugsOff.ClickOnElement();
-        }
+        //    AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
+        //    adminPanelPage.AllBugsOn.ClickOnElement();
+        //}
+
+
+        //[Test, Order(1), Property("caseid", "7287")]
+        //[Description("Test: Set-Up for Testing by setting of all Bugs")]
+        //public void Test_AdminPanel_BugsOFf()
+        //{
+        //    Navigation navigation = new Navigation(builder);
+        //    navigation.WaitSeconds(7);
+        //    navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+        //    navigation.SignInButton.ClickOnElement();
+
+        //    LoginPage loginPage = new LoginPage(builder);
+        //    loginPage.Login(userAdminExist.email, userAdminExist.password);
+
+        //    navigation.SettingsButton.Should();
+        //    navigation.SettingsButton.ClickOnElement();
+        //    navigation.WaitSeconds(6);
+
+
+        //    AdminPanelPage adminPanelPage = new AdminPanelPage(builder);
+        //    adminPanelPage.AllBugsOff.ClickOnElement();
+        //}
 
         [Test, Property("caseid", "7289")]
         [Description("Asserting presence of all neccesary elements in the AdminPanelPage")]

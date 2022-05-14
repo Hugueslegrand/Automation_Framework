@@ -5,7 +5,7 @@ using NUnit.Framework;
 
 namespace Automation_Framework.Tests.Tests.TestMobile
 {
-    [Property("runname", "TestSearchBarScreen")]
+
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestSearchBarScreen : MobileBaseTest

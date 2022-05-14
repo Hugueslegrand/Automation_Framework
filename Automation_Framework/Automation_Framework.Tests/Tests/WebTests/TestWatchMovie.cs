@@ -6,7 +6,7 @@ using System;
 
 namespace Automation_Framework.Tests.Tests
 {
-    [Property("runname", "TestWatchMovie")]
+   
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
     public class TestWatchMovie : BaseTest
@@ -45,6 +45,7 @@ namespace Automation_Framework.Tests.Tests
             homePage.Movie1.ClickOnElement();
             navigation.WaitSeconds(2);
             homePage.RentThisMovieButton.ClickOnElement();
+
             homePage.ScrollElementIntoView(homePage.RentPopUp.GetElement());
             navigation.WaitSeconds(1);
             homePage.RentPopUp.Text.Should().Contain("added to My Movies!");
@@ -98,7 +99,7 @@ namespace Automation_Framework.Tests.Tests
             watchMovie.WaitSeconds(3);
             watchMovie.MovieTitle.Text.Should().Be("FATMAN");
 
-            string date = DateTime.UtcNow.AddDays(7).ToString("dd-MM-yyyy").Replace('-', '/');
+            string date = DateTime.Today.AddDays(7).ToString("dd-MM-yyyy").Replace('-', '/');
           
             watchMovie.MovieAvailableDate.Text.Should().Be($"AVAILABLE UNTIL: {date}");
             watchMovie.WatchNowButton.ClickOnElement();

@@ -17,21 +17,8 @@ namespace Automation_Framework.Tests.Tests
 
     [Property("suiteid", "344")]
     [Property("projectid", "174")]
-    public class TestSequentiel 
+    public class TestSequentiel :BaseTest
     {
-        public DriverBuilder builder = new DriverBuilder();
-
-        [SetUp]
-        public void Setup()
-        {
-
-
-            builder.BuildDriver(PlatformType.Desktop);
-            builder.BuildDriver(PlatformType.Android);
-            Log.StartTestCase((string)TestContext.CurrentContext.Test.Properties.Get("Description"));
-            
-        }
-
        
 
         User NewBrightestUser = new User("Brightest", "TestJuniors", "Testers@brightest.com", "Test123", "Test123");
@@ -42,6 +29,7 @@ namespace Automation_Framework.Tests.Tests
         [Description("Renting a movie on mobile and adding credits on web []")]
         public void Test_RentMovie_Mobile_AddCredits_Web()
         {
+            builder.BuildDriver(PlatformType.Android);
             //Web Register an user
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
@@ -109,15 +97,9 @@ namespace Automation_Framework.Tests.Tests
             adminPanelPage.UsersMenu.ClickOnElement();
             adminPanelPage.WaitSeconds(1);
             adminPanelPage.RemoveUserByEmail(NewBrightestUser.email);
-        }
-
-        [TearDown]
-        public void TearDown()
-        {
-
-            builder.CloseDriver(PlatformType.Desktop);
             builder.CloseDriver(PlatformType.Android);
-            Log.EndTestCase(TestContext.CurrentContext.Result.Message);
         }
+
+  
     }
 }

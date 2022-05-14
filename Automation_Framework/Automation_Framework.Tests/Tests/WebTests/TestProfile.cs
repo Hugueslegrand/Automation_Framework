@@ -134,14 +134,28 @@ namespace Automation_Framework.Tests.Tests
             profilePage.AddCreditsButton.ClickOnElement();
             // profilePage.ScrollElementIntoView(profilePage.AmountOfCredits.getElement());
            
+            
+           
+            bool result;
+            try
+            {
+                profilePage.AmountOfCredits.ClickOnElement();
+                profilePage.FillAmountOfCredits("7.566");
+                profilePage.BuyCreditsButton.ClickOnElement();
+                profilePage.WaitSeconds(2);
+                result = true;
 
-            profilePage.AmountOfCredits.ClickOnElement();
-            profilePage.FillAmountOfCredits("7.566");
-            profilePage.BuyCreditsButton.ClickOnElement();
+            }
+            catch (System.Exception)
+            {
+                result = false;
 
-            //ASSERT
+            }
+            if (result)
+                Assert.Pass();
+            Assert.Fail();
 
-            profilePage.WaitSeconds(2);
+         
         }
 
         [Test, Property("caseid", "7312")]

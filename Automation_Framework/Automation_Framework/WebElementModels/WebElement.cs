@@ -42,50 +42,50 @@ namespace Automation_Framework.WebElementModels
         /// Creates web elements 
         /// </summary>
         /// <param name="driver">The running driver instance</param>
-        /// <param name="element">Id, css selector, xpath, etc.. of the element</param>
+        /// <param name="expression">Id, css selector, xpath, etc.. of the element</param>
         /// <param name="selector">Selector to use for element in test, example: find element by CSS, XPath, Id, ...</param>
-        public WebElement(IWebDriver driver, string element, Selector selector)
+        public WebElement(IWebDriver driver, string expression, Selector selector)
         {
             _webDriver = driver;
             switch (selector)
             {
                 case Selector.Name:
-                    _webDriver.Exists(By.Name(element));
-                    _webElement = _webDriver.FindElement(By.Name(element));
-                    _webElements = _webDriver.FindElementAboveZero(By.Name(element));
+                    _webDriver.Exists(By.Name(expression));
+                    _webElement = _webDriver.FindElement(By.Name(expression));
+                    _webElements = _webDriver.FindElementAboveZero(By.Name(expression));
                     break;
                 case Selector.Id:
-                    _webDriver.Exists(By.Id(element));
-                    _webElement = _webDriver.FindElement(By.Id(element));
-                    _webElements = _webDriver.FindElementAboveZero(By.Id(element));
+                    _webDriver.Exists(By.Id(expression));
+                    _webElement = _webDriver.FindElement(By.Id(expression));
+                    _webElements = _webDriver.FindElementAboveZero(By.Id(expression));
                     break;
                 case Selector.Css:
-                    _webDriver.Exists(By.CssSelector(element));
-                    _webElement = _webDriver.FindElement(By.CssSelector(element));
-                    _webElements = _webDriver.FindElementAboveZero(By.CssSelector(element));
+                    _webDriver.Exists(By.CssSelector(expression));
+                    _webElement = _webDriver.FindElement(By.CssSelector(expression));
+                    _webElements = _webDriver.FindElementAboveZero(By.CssSelector(expression));
                     break;
 
                 case Selector.Xpath:
-                    _webDriver.Exists(By.XPath(element));
-                    _webElement = _webDriver.FindElement(By.XPath(element));
-                    _webElements = _webDriver.FindElementAboveZero(By.XPath(element));
+                    _webDriver.Exists(By.XPath(expression));
+                    _webElement = _webDriver.FindElement(By.XPath(expression));
+                    _webElements = _webDriver.FindElementAboveZero(By.XPath(expression));
                     break;
 
                 case Selector.LinkText:
-                    _webDriver.Exists(By.LinkText(element));
-                    _webElement = _webDriver.FindElement(By.LinkText(element));
-                    _webElements = _webDriver.FindElementAboveZero(By.LinkText(element));
+                    _webDriver.Exists(By.LinkText(expression));
+                    _webElement = _webDriver.FindElement(By.LinkText(expression));
+                    _webElements = _webDriver.FindElementAboveZero(By.LinkText(expression));
                     break;
 
                 case Selector.ClassName:
-                    _webDriver.Exists(By.ClassName(element));
-                    _webElement = _webDriver.FindElement(By.ClassName(element));
-                    _webElements = _webDriver.FindElementAboveZero(By.ClassName(element));
+                    _webDriver.Exists(By.ClassName(expression));
+                    _webElement = _webDriver.FindElement(By.ClassName(expression));
+                    _webElements = _webDriver.FindElementAboveZero(By.ClassName(expression));
                     break;
                 case Selector.TagName:
-                    _webDriver.Exists(By.TagName(element));
-                    _webElement = _webDriver.FindElement(By.TagName(element));
-                    _webElements = _webDriver.FindElementAboveZero(By.TagName(element));
+                    _webDriver.Exists(By.TagName(expression));
+                    _webElement = _webDriver.FindElement(By.TagName(expression));
+                    _webElements = _webDriver.FindElementAboveZero(By.TagName(expression));
                     break;
                 default:
                     new ArgumentOutOfRangeException(nameof(Selector),

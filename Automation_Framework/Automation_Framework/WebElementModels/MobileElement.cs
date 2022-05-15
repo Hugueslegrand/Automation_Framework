@@ -56,39 +56,40 @@ namespace Automation_Framework.WebElementModels
         /// Creates android mobile elements 
         /// </summary>
         /// <param name="driver">The running Android driver instance</param>
-        /// <param name="element">Id, css selector, xpath, etc.. of the element</param>
+        /// <param name="expression">Id, css selector, xpath, etc.. of the element</param>
+        /// <param name="expression">Id, css selector, xpath, etc.. of the element</param>
         /// <param name="selector">Selector to use for element in test, example: find element by CSS, XPath, Id, ...</param>
-        public MobileElement(AndroidDriver<AndroidElement> driver, string element, MobileSelector selector)
+        public MobileElement(AndroidDriver<AndroidElement> driver, string expression, MobileSelector selector)
         {
 
             _androidDriver = driver;
             switch (selector)
             {
                 case MobileSelector.Name:
-                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByName(element));
-                    _androidElement = _androidDriver.FindElementByName(element);
+                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByName(expression));
+                    _androidElement = _androidDriver.FindElementByName(expression);
                     break;
                 case MobileSelector.Id:
-                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementById(element));
-                    _androidElement = _androidDriver.FindElementById(element);
+                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementById(expression));
+                    _androidElement = _androidDriver.FindElementById(expression);
                     break;
                 case MobileSelector.Css:
-                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByCssSelector(element));
-                    _androidElement = _androidDriver.FindElementByCssSelector(element);
+                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByCssSelector(expression));
+                    _androidElement = _androidDriver.FindElementByCssSelector(expression);
                     break;
 
                 case MobileSelector.Xpath:
-                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByXPath(element));
-                    _androidElement = _androidDriver.FindElementByXPath(element);
+                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByXPath(expression));
+                    _androidElement = _androidDriver.FindElementByXPath(expression);
                     break;
 
                 case MobileSelector.AccessibilityID:
-                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByAccessibilityId(element));
-                    _androidElement = _androidDriver.FindElementByAccessibilityId(element);
+                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByAccessibilityId(expression));
+                    _androidElement = _androidDriver.FindElementByAccessibilityId(expression);
                     break;
                 case MobileSelector.ClassName:
-                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByClassName(element));
-                    _androidElement = _androidDriver.FindElementByClassName(element);
+                    _androidDriver.WaitForClickableAndroid(_androidDriver.FindElementByClassName(expression));
+                    _androidElement = _androidDriver.FindElementByClassName(expression);
                     break;
                 default:
                     break;
@@ -100,39 +101,39 @@ namespace Automation_Framework.WebElementModels
         /// Creates IOS mobile elements 
         /// </summary>
         /// <param name="driver">The running IOS driver instance</param>
-        /// <param name="element">Id, css selector, xpath, etc.. of the element</param>
+        /// <param name="expression">Id, css selector, xpath, etc.. of the element</param>
         /// <param name="selector">Selector to use for element in test, example: find element by CSS, XPath, Id, ...</param>
-        public MobileElement(AppiumDriver<IOSElement> driver, string element, MobileSelector selector)
+        public MobileElement(AppiumDriver<IOSElement> driver, string expression, MobileSelector selector)
         {
             _iosDriver = driver;
-            Log.Info($"Finding element `{element}` by {selector} ");
+            Log.Info($"Finding element `{expression}` by {selector} ");
             switch (selector)
             {
                 case MobileSelector.Name:
-                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByName(element));
-                    _iosElement = _iosDriver.FindElementByName(element);
+                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByName(expression));
+                    _iosElement = _iosDriver.FindElementByName(expression);
                     break;
                 case MobileSelector.Id:
-                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementById(element));
-                    _iosElement = _iosDriver.FindElementById(element);
+                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementById(expression));
+                    _iosElement = _iosDriver.FindElementById(expression);
                     break;
                 case MobileSelector.Css:
-                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByCssSelector(element));
-                    _iosElement = _iosDriver.FindElementByCssSelector(element);
+                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByCssSelector(expression));
+                    _iosElement = _iosDriver.FindElementByCssSelector(expression);
                     break;
 
                 case MobileSelector.Xpath:
-                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByXPath(element));
-                    _iosElement = _iosDriver.FindElementByXPath(element);
+                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByXPath(expression));
+                    _iosElement = _iosDriver.FindElementByXPath(expression);
                     break;
 
                 case MobileSelector.AccessibilityID:
-                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByAccessibilityId(element));
-                    _iosElement = _iosDriver.FindElementByAccessibilityId(element);
+                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByAccessibilityId(expression));
+                    _iosElement = _iosDriver.FindElementByAccessibilityId(expression);
                     break;
                 case MobileSelector.ClassName:
-                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByClassName(element));
-                    _iosElement = _iosDriver.FindElementByClassName(element);
+                    _iosDriver.WaitForClickableIOS(_iosDriver.FindElementByClassName(expression));
+                    _iosElement = _iosDriver.FindElementByClassName(expression);
                     break;
                 default:
                     new ArgumentOutOfRangeException(nameof(MobileSelector),

@@ -7,7 +7,7 @@ using Automation_Framework.Tests.Models;
 namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
-    [Property("runname", "TestKeyboardShortcuts")] //RUN NAME for TestRail
+    [Property("runName", "TestKeyboardShortcuts")] //RUN NAME for TestRail
     [Property("suiteid", "1")] //ID for TestRail
     [Property("projectid", "1")]// ID for TestRail
     public class TestKeyboardShortcuts : BaseTest

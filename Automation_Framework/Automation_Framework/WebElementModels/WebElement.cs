@@ -13,17 +13,16 @@ using System.Drawing;
 
 namespace Automation_Framework.WebElementModels
 {
-
+    /// <summary>
+    /// WebElement class to create web elements
+    /// </summary>
     public class WebElement : IButton, IInputField, ITable, ILink, Ilabel, IParagraph
     {
-        private readonly DriverBuilder _driverBuilder;
+       
         private IWebElement _webElement;
         private IList<IWebElement> _webElements;
         private IWebDriver _webDriver;
 
-        private AppiumDriver<AndroidElement> _androidDriver;
-
-     
 
         public string TagName => _webElement.TagName;
 
@@ -39,6 +38,12 @@ namespace Automation_Framework.WebElementModels
 
         public Point Location => _webElement.Location;
 
+        /// <summary>
+        /// Creates web elements 
+        /// </summary>
+        /// <param name="driver">The running driver instance</param>
+        /// <param name="element">Id, css selector, xpath, etc.. of the element</param>
+        /// <param name="selector">Selector to use for element in test, example: find element by CSS, XPath, Id, ...</param>
         public WebElement(IWebDriver driver, string element, Selector selector)
         {
             _webDriver = driver;

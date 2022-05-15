@@ -10,7 +10,10 @@ using System.Drawing;
 
 namespace Automation_Framework.WebElementModels
 {
-    public class MobileElement :Log, IAndroidElement, IIOSElement
+    /// <summary>
+    /// MobileElement class to create android and Ios elements
+    /// </summary>
+    public class MobileElement : IAndroidElement, IIOSElement
     {
 
         private AppiumDriver<AndroidElement>? _androidDriver;
@@ -47,8 +50,14 @@ namespace Automation_Framework.WebElementModels
 
         public Point IOSLocation => _iosElement.Location;
 
-        
 
+
+        /// <summary>
+        /// Creates android mobile elements 
+        /// </summary>
+        /// <param name="driver">The running Android driver instance</param>
+        /// <param name="element">Id, css selector, xpath, etc.. of the element</param>
+        /// <param name="selector">Selector to use for element in test, example: find element by CSS, XPath, Id, ...</param>
         public MobileElement(AndroidDriver<AndroidElement> driver, string element, MobileSelector selector)
         {
 
@@ -86,6 +95,13 @@ namespace Automation_Framework.WebElementModels
             }
 
         }
+
+        /// <summary>
+        /// Creates IOS mobile elements 
+        /// </summary>
+        /// <param name="driver">The running IOS driver instance</param>
+        /// <param name="element">Id, css selector, xpath, etc.. of the element</param>
+        /// <param name="selector">Selector to use for element in test, example: find element by CSS, XPath, Id, ...</param>
         public MobileElement(AppiumDriver<IOSElement> driver, string element, MobileSelector selector)
         {
             _iosDriver = driver;

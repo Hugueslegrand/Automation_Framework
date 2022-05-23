@@ -6,15 +6,15 @@
 
     <IsPackable>true</IsPackable>
 
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 
-    <PackageId>Automation_Framework</PackageId>
+    <PackageId>HKI_Automation_Framework</PackageId>
 
-    <Authors>Automation_Framework</Authors>
+    <Authors>Ibragim Ismailov, Kiendrebeogo Hugues Legrand, Khalid El Moussaoui</Authors>
 
-    <Company>Automation_Framework</Company>
+    <Company>HKI_Automation_Framework</Company>
 
-    <Product>Automation_Framework</Product>
+    <Product>HKI_Automation_Framework</Product>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
@@ -22,7 +22,11 @@
 
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 
-    <Version>1.2.3</Version>
+    <Version>1.2.4</Version>
+
+    <PackageIcon>logo.png</PackageIcon>
+
+    <PackageIconUrl />
   </PropertyGroup>
 
 
@@ -79,6 +83,20 @@
 
 
   </ItemGroup>
+
+
+
+	
+
+
+
+
+	<ItemGroup>
+	  <None Include="..\..\..\Documentation\Technical-docs\logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
 
 
 

@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 
 namespace Automation_Framework.Tests.Pages
 {
-    public class BasePage : Base.BasePage
+    public class BasePage : Base.BasePage //Implement base page of framework to access the running drivers
     {
 
         public string Url => Driver.Url;
@@ -22,6 +22,7 @@ namespace Automation_Framework.Tests.Pages
         public BasePage(DriverBuilder driver) : base(driver) { }
 
 
+        //Some methods examples
         public void gotoUrl(string url)
         {
             Driver.OpenLink(url);
@@ -50,11 +51,13 @@ namespace Automation_Framework.Tests.Pages
         {
             Driver.ExecuteJs(script);
         }
+
         public void ScrollElementIntoView(object element)
         {
 
             Driver.ExecuteJsObject("arguments[0].scrollIntoView(true);", element);
         }
+
         public void CloseCurrentTab()
         {
             Driver.Close();

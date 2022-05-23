@@ -25,7 +25,6 @@ namespace Automation_Framework.Tests.Pages
         public IButton CloseModalButton => new WebElement(Driver, "//div[@class='css-ce9ngx']//button[@id='CloseModal']", Selector.Xpath);
         public IButton CopyrightElement => new WebElement(Driver, ".css-6kebaf", Selector.Css);
 
-        public IButton allLITags => new WebElement(Driver, "div", Selector.TagName);
 
 
         public IButton Movie1 => new WebElement(Driver, "602211", Selector.Id);
@@ -33,15 +32,7 @@ namespace Automation_Framework.Tests.Pages
 
         public string ComedyHorizontalScrollBars = "'div[class=\"css-nlgfro\"]'";
 
-        public object getElements()
-        {
-
-            return allLITags.GetElements().First(x => x.Text == "FATMAN");
-
-        }
-
  
-
         public IButton RentPopUp => new WebElement(Driver, "//div[@class='notification-container--top-center']", Selector.Xpath);
 
         public void ScrollComedyBar()
@@ -49,7 +40,6 @@ namespace Automation_Framework.Tests.Pages
             Driver.GetElementAndScrollHorizontally(ComedyHorizontalScrollBars, 500);
 
         }
-
 
        
     }

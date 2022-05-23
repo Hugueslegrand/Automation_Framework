@@ -16,7 +16,7 @@ namespace Automation_Framework.WebElementModels
     /// <summary>
     /// WebElement class to create web elements
     /// </summary>
-    public class WebElement : IButton, IInputField, ITable, ILink, Ilabel, IParagraph
+    public class WebElement : IButton, IInputField, ITable, ILink, ILabel, IParagraph
     {
        
         private IWebElement _webElement;

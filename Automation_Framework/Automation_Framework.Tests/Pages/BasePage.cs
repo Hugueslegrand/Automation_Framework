@@ -47,7 +47,7 @@ namespace Automation_Framework.Tests.Pages
             Driver.SwitchToASpecificTab(tabIndex);
         }
 
-        public void JavascriptExecutor(string script)
+        public void ScaleScreen(string script)
         {
             Driver.ExecuteJs(script);
         }

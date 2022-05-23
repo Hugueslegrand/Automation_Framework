@@ -93,10 +93,10 @@
       }
     },
     "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "restore": {
         "projectUniqueName": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
-        "projectName": "Automation_Framework",
+        "projectName": "HKI_Automation_Framework",
         "projectPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\Automation_Framework.csproj",
         "packagesPath": "C:\\Users\\hugue\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hugue\\hogeschool_AP\\IT_stage\\Brightest\\Hugues-github\\Automation_Framework\\Automation_Framework\\obj\\",

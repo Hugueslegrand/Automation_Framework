@@ -12,51 +12,32 @@ namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
     [AllureNUnit]
-    public class BaseTest : TestRailBaseTest
+    [Property("runName", "Template run")] //RUN NAME for TestRail
+    [Property("suiteid", "1")] //Suite ID in TestRail
+    [Property("projectid", "1")]//Project ID in TestRail
+    public class BaseTest : TestRailBaseTest //Implement testRail in case you want to send reports to testRail
     {
 
         public DriverBuilder builder = new DriverBuilder();
 
 
-
-        /*
-        protected AdminPanelPage adminPanelPage;
-        protected HomePage homePage;
-        protected MyMoviesPage myMoviesPage;
-        protected Navigation navigation;
-        protected LoginPage loginPage;
-        protected ProfilePage profilePage;
-        protected RegistrationPage registrationPage;
-       
-
-        private void initPages()
-        {
-            navigation = new Navigation(builder);
-            loginPage = new LoginPage(builder);
-            adminPanelPage = new AdminPanelPage(builder);
-            homePage = new HomePage(builder);
-            myMoviesPage = new MyMoviesPage(builder);
-            profilePage = new ProfilePage(builder);
-            registrationPage = new RegistrationPage(builder);
-        }
-        */
-
-
         [SetUp]
         public void Setup()
         {
-
-
-            builder.BuildDriver(PlatformType.Desktop);
+            builder.BuildDriver(PlatformType.Desktop);// Build a driver of choice
+            //builder.BuildDriver(PlatformType.Android);
+            //builder.BuildDriver(PlatformType.IOS);
+            //builder.BuildDriver(PlatformType.WebAndroid);
+            //builder.BuildDriver(PlatformType.WebIOS);;
             Log.StartTestCase((string)TestContext.CurrentContext.Test.Properties.Get("Description"));
-            // initPages();
+  
         }
 
         [TearDown]
         public void TearDown()
         {
 
-            builder.CloseDriver(PlatformType.Desktop);
+            builder.CloseDriver(PlatformType.Desktop);// Close a driver of choice
             Log.EndTestCase(TestContext.CurrentContext.Result.Message);
         }
 

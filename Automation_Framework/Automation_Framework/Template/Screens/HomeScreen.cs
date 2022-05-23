@@ -16,8 +16,8 @@ namespace Automation_Framework.Tests.Screens
         public IAndroidElement SettingsButton => new MobileElement(AndroidDriver, "//android.view.ViewGroup[@content-desc=\"settingsIcon\"]/android.widget.TextView", MobileSelector.Xpath);
 
 
-        public IAndroidElement MovieTitle => new MobileElement(AndroidDriver, "(//android.view.ViewGroup[@content-desc=\"moviesRow\"])[1]/android.widget.TextView", MobileSelector.Xpath);
-        public IAndroidElement MovieBanner => new MobileElement(AndroidDriver, "(//android.view.ViewGroup[@content-desc=\"moviePoster\"])[1]/android.widget.ImageView", MobileSelector.Xpath);
+        public IAndroidElement MovieTitle => new MobileElement(AndroidDriver, "movieTitle", MobileSelector.ID);
+        public IAndroidElement MovieBanner => new MobileElement(AndroidDriver, "MovieBanne", MobileSelector.Name);
 
 
         //Android functions

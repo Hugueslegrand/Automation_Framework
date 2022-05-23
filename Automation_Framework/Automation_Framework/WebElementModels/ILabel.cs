@@ -11,7 +11,7 @@ namespace Automation_Framework.WebElementModels
     /// <summary>
     /// Structural interface for a label
     /// </summary>
-    public interface Ilabel
+    public interface ILabel
     {
         /// <summary>
         /// Gets the tag name of this element

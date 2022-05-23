@@ -16,13 +16,9 @@ namespace Automation_Framework.Tests.Pages
         public IInputField RegisterPassword => new WebElement(Driver, "//input[@id='RegisterPassword']", Selector.Xpath);
         public IInputField RegisterRePassword => new WebElement(Driver, "//input[@id='RegisterRePassword']", Selector.Xpath);
         public IButton RegisterButtonComplete => new WebElement(Driver, "//button[@id='RegisterButtonComplete']", Selector.Xpath);
-        //public IButton IncorrectEmail => new WebElement(Driver, "//code[normalize-space()='Please fill in a correct email-adress.']", Selector.Xpath);
-        //public IButton AlreadyRegistered => new WebElement(Driver, "//code[normalize-space()='Account is already registered.']", Selector.Xpath);
-
-        //public IButton UnmatchingPasswords1 => new WebElement(Driver, "//code[normalize-space()=\"Passwords don't match.\"]", Selector.Xpath);
-
-        public IButton FailedRegisterMessage => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
-        public IButton RegistrationWarning => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
+     
+        public ILabel FailedRegisterMessage => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
+        public ILabel RegistrationWarning => new WebElement(Driver, "div[class='css-1y9e552'] code", Selector.Css);
 
      
 
@@ -34,7 +30,7 @@ namespace Automation_Framework.Tests.Pages
             RegisterEmail.SendKeys(email);
             RegisterPassword.SendKeys(passwoord);
             RegisterRePassword.SendKeys(rePasswoord);
-            RegisterButtonComplete.ClickOnElement(); // Or ClickRegister();
+            RegisterButtonComplete.ClickOnElement(); 
         }
 
 

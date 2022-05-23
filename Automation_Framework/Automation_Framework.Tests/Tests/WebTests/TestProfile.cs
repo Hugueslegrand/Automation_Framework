@@ -24,7 +24,7 @@ namespace Automation_Framework.Tests.Tests
             Navigation navigation = new Navigation(builder);
             ProfilePage profilePage = new ProfilePage(builder);
             navigation.WaitSeconds(6);
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.ScaleScreen("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -35,6 +35,7 @@ namespace Automation_Framework.Tests.Tests
 
             // profilePage.GetInnerText_ProfileAvatar().Should().Be("");
             navigation.WaitSeconds(2);
+            profilePage.ProfileAvatar.Should();
             profilePage.FirstName.Text.Should().Be(UserAdminLogin_Exist.firstName);
             profilePage.LastName.Text.Should().Be(UserAdminLogin_Exist.lastName);
             profilePage.Email.Text.Should().Be(UserAdminLogin_Exist.email);
@@ -58,7 +59,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.ScaleScreen("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -85,7 +86,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.ScaleScreen("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -119,7 +120,7 @@ namespace Automation_Framework.Tests.Tests
 
             navigation.WaitSeconds(6);
 
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.ScaleScreen("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -165,7 +166,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.ScaleScreen("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);
@@ -199,7 +200,7 @@ namespace Automation_Framework.Tests.Tests
             
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
-            navigation.JavascriptExecutor("document.body.style.transform='scale(0.99, 0.99)'");
+            navigation.ScaleScreen("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.SignInButton.ClickOnElement();
 
             LoginPage loginPage = new LoginPage(builder);

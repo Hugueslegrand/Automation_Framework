@@ -7,14 +7,12 @@ using Automation_Framework.Tests.Models;
 namespace Automation_Framework.Tests.Tests
 {
     [TestFixture]
-    [Property("runName", "TestKeyboardShortcuts")] //RUN NAME for TestRail
-    [Property("suiteid", "1")] //ID for TestRail
-    [Property("projectid", "1")]// ID for TestRail
+ 
     public class TestKeyboardShortcuts : BaseTest
     {
         User userAdminExist = new("John.Doe@example.be", "johnDoe123");
 
-        [Test, Property("caseid", "1")]// ID for TestRail
+        [Test, Property("caseid", "1")]// Case ID in TestRail
         [Description("Login as an existing user only using keyboard")]
         public void Test_KeyboardShortcuts()
         {

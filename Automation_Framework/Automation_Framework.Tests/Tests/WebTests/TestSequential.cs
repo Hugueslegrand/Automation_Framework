@@ -33,6 +33,7 @@ namespace Automation_Framework.Tests.Tests
             //Web Register an user
             Navigation navigation = new Navigation(builder);
             navigation.WaitSeconds(6);
+            navigation.ScaleScreen("document.body.style.transform='scale(0.99, 0.99)'");
             navigation.RegisterButton.ClickOnElement();
 
             RegistrationPage registrationPage = new RegistrationPage(builder);
